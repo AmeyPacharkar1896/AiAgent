@@ -5,7 +5,7 @@ import simpleaudio as sa
 # Load a pre-trained TTS model (ensuring CPU mode)
 tts = TTS(model_name="tts_models/en/ljspeech/tacotron2-DDC", progress_bar=True, gpu=False)
 
-def synthesize_speech(text, output_path="output/response.wav"):
+def synthesize_speech(text, output_path="./output/response.wav"):
     """Convert text to speech and save the output as a WAV file."""
     output_dir = os.path.dirname(output_path)
     if not os.path.exists(output_dir):
@@ -19,7 +19,7 @@ def synthesize_speech(text, output_path="output/response.wav"):
     else:
         print("Error: Audio file was not saved.")
 
-def play_audio(file_path="output/response.wav"):
+def play_audio(file_path="./output/response.wav"):
     """Play the audio from a given file path."""
     if not os.path.exists(file_path):
         print("Audio file does not exist:", file_path)
