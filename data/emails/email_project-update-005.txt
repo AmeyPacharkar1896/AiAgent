@@ -1,0 +1,12 @@
+Subject: Project Update
+Date: 18-3-2025
+
+Dear Investors,
+
+Our e-commerce platform has made significant progress. The core functionalities, including product listings, payment gateway integration, and order tracking, have been successfully developed.
+
+The final testing phase is currently underway to optimize performance and security. We anticipate launching the beta version by the 5th of April. Our team remains committed to delivering a seamless shopping experience.
+
+We look forward to your feedback and support.
+
+Best,

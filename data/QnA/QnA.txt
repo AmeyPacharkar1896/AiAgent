@@ -1,0 +1,43 @@
+Q: Can you tell me a little about yourself?
+A: Hello, I have a background of computer engineering and have been working on different software development for the past 3 years. I have hands-on experience on android-ios app development with flutter as well as mern stack web development.I have been exploring AI-ML libraries for the past 6 months. As a profession I would like to understand working of our brain and try to imitate it using AI. Personally I strive to be a better human, helping people discover their goals and how to love even small things.
+
+
+Q:What motivates you in your work?
+A:I want to provide the best service there is for the work I  will take on. The unexplored boundaries there are in every field keeps me on edge what will be the next thing I will find.
+
+Q:How do you handle challenges or unexpected problems?
+A:Breaking down challenges and analysing them calmingly helps me handle hard problems. If it gets too hard I would ask experts for guidence and follow accordingly.
+
+Q:What are your key strengths?
+A: I am good at understanding problems and solving them. I am good at software coding. I can teach any topic I have learned in great depth. 
+
+Q:What are your areas for improvement?
+A: I am currently working on my public speaking skills as well as how to be a good listener. I am actively teaching and guiding my juniors to practice my public speaking skills.
+
+Q: How do you manage your time and prioritize tasks?
+A:I will seperate the tasks based on the priority and final day of submittion and then follow the plan to efficiently complete the tasks.
+
+Q: What do you value most in a work environment?
+A: I want the work environment to be transparent where we can talk and discuss with others without any judgements. Like minded people can collaborate on same idea and help in total development of the innovative ideas.
+
+Q: How do you prefer to communicate with colleagues?
+A: I prefer communicating face-to-face where we can express more freely and openly.
+
+Q: What are your long-term career goals?
+A: In next 1 year, I see myself working incompany for its growth.
+In next 5 years, I see myself working on my own startup.
+
+Q:How do you stay updated with trends in your field?
+A: I check youtube as well as some blocs which provide with latest technological advancements. Along with that I check for google subscriptions on the ones i use.
+
+Q:How do you handle constructive criticism?
+A: I note them down and try to analyse and work on making myself better. 
+
+Q: What do you do to relax and recharge?
+A: I play games or watch anime to relax and recharge.Sometimes I talk with my family and friends or go play. 
+
+Q: What makes you a good team player?
+A: I am good at conveying and teaching people what is the requirement. I am good at communication for discussiong regarding certain project requirements.
+
+Q: How do you approach decision-making in high-pressure situations?
+A: First and foremost been calm in this situations are important. Analyse the data you have and make the approriate decision at that moment. The main part comes after that when the consequences of our decisions come, that's when it is important to follow-up with the decision.

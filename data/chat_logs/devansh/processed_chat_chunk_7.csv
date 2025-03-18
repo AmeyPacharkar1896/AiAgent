@@ -1,0 +1,1001 @@
+timestamp,sender,message
+2024-01-30T15:05:00,Amey Pacharkar,Boring things
+2024-01-30T15:05:00,Dovansh,Ohkk
+2024-01-30T15:06:00,Amey Pacharkar,Na they can't tell that before result
+2024-01-30T15:06:00,Dovansh,See if the results are out
+2024-01-30T15:06:00,Amey Pacharkar,Yaa I will
+2024-01-30T15:06:00,Dovansh,Yaa
+2024-01-30T15:06:00,Amey Pacharkar,Of they are will get pictures
+2024-01-30T15:06:00,Amey Pacharkar,*if
+2024-01-30T15:06:00,Dovansh,Yaa
+2024-01-30T15:06:00,Amey Pacharkar,Then everyone are shocked
+2024-01-30T15:06:00,Dovansh,They might get before us
+2024-01-30T15:06:00,Dovansh,Yaa
+2024-01-30T15:06:00,Dovansh,Kt kt kt
+2024-01-30T15:07:00,Amey Pacharkar,Woah you sure are confident
+2024-01-30T15:07:00,Dovansh,I'll get 3 kts
+2024-01-30T15:07:00,Dovansh,Dlca cg dsgt
+2024-01-30T15:07:00,Dovansh,Don't tell anyone
+2024-01-30T15:07:00,Amey Pacharkar,Yaa then om is not gonna leave you alone
+2024-01-30T15:07:00,Dovansh,Ya i know
+2024-01-30T15:07:00,Amey Pacharkar,Badla for last 2 sem
+2024-01-30T15:08:00,Dovansh,Haaa
+2024-01-30T15:08:00,Dovansh,I'm just kidding
+2024-01-30T15:08:00,Dovansh,I won't get any
+2024-01-30T18:01:00,Amey Pacharkar,Ofc I know
+2024-01-30T20:21:00,Dovansh,Yaa
+2024-01-30T20:21:00,Dovansh,Is the lecture for everyone or just for the absentees ?
+2024-01-30T20:22:00,Amey Pacharkar,Most probably for everyone
+2024-01-30T20:22:00,Dovansh,Okk
+2024-01-31T05:34:00,Dovansh,"import java.util.Scanner; class converter{ double out1; public double america(double amt){ out1 = amt*83.11182212; return (out1); } public double swiss(double amt){ out1 = amt*96.36; System.out.println(out1); return (out1); } public double euro(double amt){ out1 = amt*90.13; return (out1); } public double britishpound(double amt){ out1 = amt*105.55; return (out1); } public double cdollar(double amt){ out1 = amt*62.01; return (out1); } public double adollar(double amt){ out1 = amt*54.86; return (out1); } public double sdollar(double amt){ out1 = amt*62.04; return (out1); } public double ndollar(double amt){ out1 = amt*50.99 ; return (out1); } public double kdinar(double amt){ out1 = amt*270.13; return (out1); } public double uae(double amt){ out1 = amt*22.63; return (out1); } } class reversecon extends converter{ double out; public double choice(double mon , int opt ){ switch (opt){ case 1: out=super.america(mon); return(out); case 2: out=super.swiss(mon); return(out); case 3: out=super.euro(mon); return(out); case 4: out=super.britishpound(mon); return(out); case 5: out=super.cdollar(mon); return(out); case 6: out=super.adollar(mon); return(out); case 7: out=super.sdollar(mon); return(out); case 8: out=super.ndollar(mon); return(out); case 9: out=super.kdinar(mon); return(out); case 10: out=super.uae(mon); return(out); } return 0; } public double america(double amt , int opt){ out = amt*0.012032; out = choice(out,opt); return (out); } public double swiss(double amt,int opt){ out = amt*0.010; out = choice(out,opt); return (out); } public double euro(double amt,int opt){ out = amt*0.011; out = choice(out,opt); return (out); } public double britishpound(double amt,int opt){ out = amt*0.0095; out = choice(out,opt); return (out); } public double cdollar(double amt,int opt){ out = amt*0.016; return (out); } public double adollar(double amt,int opt){ out = amt*0.018; out = choice(out,opt); return (out); } public double sdollar(double amt,int opt){ out = amt*0.016; out = choice(out,opt); return (out); } public double ndollar(double amt,int opt){ out = amt*0.020; out = choice(out,opt); return (out); } public double kdinar(double amt,int opt){ out = amt*0.0037; out = choice(out,opt); return (out); } public double uae(double amt,int opt){ out = amt*0.044; out = choice(out,opt); return (out); } } class CC{ public static void main(String[] args){ int opt,opt1; double output,money=0; Scanner sc = new Scanner(System.in); System.out.println(""Enter the amount you want to convert:""); money = sc.nextDouble(); System.out.println(""From:""); System.out.println(""1.)American dollars \n 2.)Swiss Franc \n 3.)Euro \n 4.) British Pound \n 5.)Canadian dollar \n 6.)Australian dollar \n 7.)Singapore dollar \n 8.)New Zealand dollar \n 9.)Kuwaiti Dinar \n 10.)UAE Dinar""); opt1 = sc.nextInt(); System.out.println(""Enter the option:""); System.out.println(""1.)American dollars \n 2.)Swiss Franc \n 3.)Euro \n 4.) British Pound \n 5.)Canadian dollar \n 6.)Australian dollar \n 7.)Singapore dollar \n 8.)New Zealand dollar \n 9.)Kuwaiti Dinar \n 10.)UAE Dinar""); opt = sc.nextInt(); reversecon con = new reversecon(); switch (opt) { case 1: output=con.america(money,opt1); System.out.println(""The converted value is in Dollars.""); System.out.println(output); break; case 2: output=con.swiss(money,opt1); System.out.println(""The converted value is in Swiss Franc.""); System.out.println(output); break; case 3: output=con.euro(money,opt1); System.out.println(""The converted value is in Euros.""); System.out.println(output); break; case 4: output=con.britishpound(money,opt1); System.out.println(""The converted value is in British Pound.""); System.out.println(output); break; case 5: output=con.cdollar(money,opt1); System.out.println(""The converted value is in Canadian Dollars.""); System.out.println(output); break; case 6: output=con.adollar(money,opt1); System.out.println(""The converted value is in Australlian Dollars.""); System.out.println(output); break; case 7: output=con.sdollar(money,opt1); System.out.println(""The converted value is in Singapore Dollars.""); System.out.println(output); break; case 8: output=con.ndollar(money,opt1); System.out.println(""The converted value is in New Zealand Dollars.""); System.out.println(output); break; case 9: output=con.kdinar(money,opt1); System.out.println(""The converted value is in Kuwaiti dinar.""); System.out.println(output); break; case 10: output=con.uae(money,opt1); System.out.println(""The converted value is in UAE Dinar.""); System.out.println(output); break; } } }"
+2024-01-31T05:34:00,Dovansh,chwck is theres anything wrong
+2024-01-31T05:34:00,Dovansh,or the conversions are getting wrong
+2024-01-31T05:41:00,Dovansh,and I also want to add conversion from and to Indian currencie
+2024-01-31T08:16:00,Amey Pacharkar,Why do you have 3 classes?
+2024-01-31T08:16:00,Amey Pacharkar,Won't it be enough to have 2 classes?
+2024-01-31T08:17:00,Dovansh,Ya i know
+2024-01-31T08:17:00,Dovansh,But I wanted to use inheritance
+2024-01-31T08:19:00,Amey Pacharkar,Ahh I see
+2024-01-31T08:50:00,Dovansh,Yeah
+2024-01-31T22:18:00,Dovansh,Join nahi karna kya ?
+2024-01-31T22:18:00,Dovansh,Koi aur hi lecture chalu hai
+2024-01-31T22:18:00,Amey Pacharkar,Ashmit is sending link
+2024-01-31T22:19:00,Dovansh,Ok
+2024-01-31T22:59:00,Amey Pacharkar,kya bol rahe he ye dono?
+2024-01-31T23:02:00,Dovansh,Kon dono ?
+2024-01-31T23:02:00,Amey Pacharkar,Shivam aur ashmit
+2024-01-31T23:11:00,Amey Pacharkar,bohot jyada fast bola na?
+2024-01-31T23:11:00,Dovansh,Haaa
+2024-01-31T23:11:00,Dovansh,Thikke abhi
+2024-01-31T23:13:00,Amey Pacharkar,lagahi mujhe
+2024-01-31T23:13:00,Amey Pacharkar,last me jara slow hua
+2024-01-31T23:13:00,Amey Pacharkar,jabhi mujhe realise hua tabhi
+2024-01-31T23:14:00,Dovansh,Haaa
+2024-01-31T23:14:00,Amey Pacharkar,shikna padega how to not be so excited during teaching
+2024-01-31T23:16:00,Dovansh,Ha 😂
+2024-01-31T23:34:00,Amey Pacharkar,Ye wala theka kya?
+2024-01-31T23:35:00,Dovansh,😂😂😂
+2024-01-31T23:35:00,Dovansh,Abhi dekha
+2024-01-31T23:35:00,Amey Pacharkar,bohot acha banaya ye wala
+2024-01-31T23:35:00,Dovansh,Haa 😂
+2024-01-31T23:36:00,Amey Pacharkar,aur vo bohot achese justified he
+2024-01-31T23:36:00,Dovansh,Haaaa
+2024-01-31T23:36:00,Amey Pacharkar,like not out of character
+2024-01-31T23:36:00,Dovansh,Ek ki kitli
+2024-01-31T23:36:00,Dovansh,Haaa
+2024-01-31T23:36:00,Dovansh,Ek ki fan
+2024-01-31T23:36:00,Amey Pacharkar,please continue
+2024-01-31T23:36:00,Dovansh,.
+2024-01-31T23:36:00,Amey Pacharkar,gaya sab panime
+2024-01-31T23:36:00,Dovansh,Kyu ?
+2024-01-31T23:37:00,Amey Pacharkar,ek ki fan? atleast make it ek ka fan
+2024-01-31T23:37:00,Dovansh,Ha i guess
+2024-01-31T23:37:00,Amey Pacharkar,start bohot acha tha
+2024-01-31T23:37:00,Dovansh,Ek ki kitli
+2024-01-31T23:37:00,Dovansh,Ek ka fan
+2024-01-31T23:38:00,Amey Pacharkar,lekin donoko nahi mila jo tha vunka
+2024-01-31T23:39:00,Dovansh,Haaa
+2024-01-31T23:39:00,Amey Pacharkar,lekin phirbhi nahida ka image bohot acha banaya he
+2024-01-31T23:40:00,Dovansh,Haaa
+2024-01-31T23:42:00,Amey Pacharkar,photwa liya ka presentis ka?
+2024-01-31T23:43:00,Dovansh,Nahi
+2024-01-31T23:43:00,Amey Pacharkar,ye photwa chalega?
+2024-01-31T23:43:00,Amey Pacharkar,You deleted this message
+2024-01-31T23:45:00,Dovansh,Haa
+2024-02-01T18:11:00,Dovansh,Sunn
+2024-02-01T18:12:00,Dovansh,Meko python ka dictionary wala send karna
+2024-02-01T18:24:00,Amey Pacharkar,Kisko bhejta tha mene?
+2024-02-01T18:24:00,Dovansh,Khudo ya om
+2024-02-01T18:38:00,Dovansh,Do hi part the ?
+2024-02-01T18:39:00,Amey Pacharkar,+91 99309 35886 whose number is this?
+2024-02-01T18:46:00,Dovansh,I don't know
+2024-02-01T18:46:00,Amey Pacharkar,😨
+2024-02-01T18:47:00,Dovansh,Kyu kya hua ?
+2024-02-01T18:47:00,Amey Pacharkar,Sir ne message tala hena
+2024-02-01T18:47:00,Amey Pacharkar,Tag the absentees
+2024-02-01T18:47:00,Amey Pacharkar,Idk who that is
+2024-02-01T18:47:00,Dovansh,Kon hai wo ?
+2024-02-01T18:48:00,Amey Pacharkar,Kya pata
+2024-02-01T18:48:00,Dovansh,I haven't saved the number
+2024-02-01T18:50:00,Amey Pacharkar,Yaa atleast they could have had first name
+2024-02-01T18:50:00,Dovansh,Yaaa
+2024-02-01T20:09:00,Dovansh,"import java.util.Scanner; class OperatorOVERDDN{ void operator(String str1, String str2){ String s = str1+str2; System.out.println(""Concatenated string""+s); } void operated(int a, int b){ int c = a+b; System.out.println(""addition = ""+c); } } class overload{ public static void main(String[] args){ int x,y; String first,second; Scanner dd = new Scanner(System.in); System.out.println(""Enter two numbers""); x = dd.nextInt(); y = dd.nextInt(); System.out.println(""Enter two String""); first = dd.nextLine(); second = dd.nextLine(); OperatorOVERDDN OB = new OperatorOVERDDN(); OB.operator(x,y); OB.operator(first,second); } }"
+2024-02-01T20:09:00,Dovansh,this is giving error
+2024-02-01T20:13:00,Dovansh,Why is that giving error ?
+2024-02-01T20:17:00,Amey Pacharkar,you have names of both  the methods different in OperatorOVERDDN class
+2024-02-01T20:18:00,Amey Pacharkar,you can change the name and everything will run properly
+2024-02-01T20:18:00,Dovansh,Are haaaa
+2024-02-01T20:18:00,Dovansh,Noted
+2024-02-02T05:01:00,Amey Pacharkar,Likha python?
+2024-02-02T05:01:00,Dovansh,Nahi
+2024-02-02T05:01:00,Dovansh,"Kya likhna hai ,?"
+2024-02-02T05:02:00,Amey Pacharkar,Lab manual?
+2024-02-02T05:02:00,Dovansh,Diya hai sir ne ?
+2024-02-02T05:04:00,Amey Pacharkar,Nahi pata
+2024-02-02T05:05:00,Amey Pacharkar,I think we still have to write something.
+2024-02-02T05:05:00,Amey Pacharkar,Let's write definitions and stuff atleast
+2024-02-02T05:05:00,Amey Pacharkar,If we did had to write something
+2024-02-02T05:12:00,Amey Pacharkar,Mila kya likhna he?
+2024-02-02T05:12:00,Dovansh,Sabke definition aur syntax likhte hai
+2024-02-02T05:12:00,Dovansh,Single side ya double side M
+2024-02-02T05:12:00,Dovansh,?
+2024-02-02T05:12:00,Amey Pacharkar,Single
+2024-02-02T05:12:00,Dovansh,Ok
+2024-02-02T05:18:00,Amey Pacharkar,Aim kya he?
+2024-02-02T05:19:00,Dovansh,Pata nhi
+2024-02-02T05:19:00,Amey Pacharkar,Acha
+2024-02-02T05:43:00,Amey Pacharkar,Likha kya?
+2024-02-02T05:43:00,Amey Pacharkar,Mene basic defination aur example likhe
+2024-02-02T06:30:00,Dovansh,Mere pass single side pages hi nahi hai
+2024-02-02T08:23:00,Amey Pacharkar,Late huga shayad mujhe
+2024-02-02T08:23:00,Amey Pacharkar,Bus hi nahi he
+2024-02-02T08:23:00,Dovansh,Acha okk
+2024-02-02T08:24:00,Amey Pacharkar,Shayad sir ajj writeup thenge
+2024-02-02T08:28:00,Dovansh,Haa
+2024-02-02T08:28:00,Dovansh,Maybe
+2024-02-02T10:44:00,Dovansh,"# print(""****if-else statement****\n"") # print(""**************\n1.Even and Odd\n"") # a = int(input(""Enter the number:"")) # if a % 2 == 0: #     print(""The number is even \n"") # else: #     print(""The number is odd \n"") # print(""**************\n\n2.Eligible Voters\n"") # b = int(input(""Enter your age: "")) # if b >= 18: #     print(""Congratulations!! You are eligible for voting\n"") # else: #     print(""You are not eligible for voting\n"") # print(""**************\n3.Grade\n"") # c = int(input(""Enter your marks: "")) # if c < 40: #     print(""You failed\n"") # elif c < 60: #     print(""Third class"") # elif c <80: #     print(""Second class"") # elif c < 90: #     print(""First class"") # else: #     print(""Distinction"") print(""****while loop****\n"") print(""**************\n1.Palindrome\n"") def isPalindrome(str): for i in range(0, int(len(str)/2)): if str[i] != str[len(str)-i-1]: return False return True s = input(""Enter your String: "") ans = isPalindrome(s) if (ans): print(""The String is Palindrome"") else: print(""The String is not Palindrome"") print(""**************\n2.Fibonacci\n"") n = int(input(""Enter number of integers needed to be printed : "")) i = 1 a = 0 b = 1 c = 0 print(a) print(b) while(i != n): c = a + b print(c) a = b b = c i = i + 1 print(""**************\n3.Arstrong\n"")"
+2024-02-02T10:47:00,Dovansh,For loop Take numbers in list and add them Pattern Multiplication table
+2024-02-02T14:01:00,Amey Pacharkar,Kitne pages the?
+2024-02-02T14:01:00,Amey Pacharkar,Kam the kya?
+2024-02-02T14:01:00,Dovansh,2 single
+2024-02-02T14:01:00,Amey Pacharkar,Sach me?
+2024-02-02T14:01:00,Dovansh,5 double
+2024-02-02T14:01:00,Amey Pacharkar,🤦‍♂️🤦‍♂️
+2024-02-02T14:02:00,Amey Pacharkar,null
+2024-02-02T14:12:00,Amey Pacharkar,You deleted this message
+2024-02-02T14:13:00,Amey Pacharkar,Mafhi
+2024-02-02T14:36:00,Dovansh,Maafi
+2024-02-02T14:36:00,Amey Pacharkar,Ahh maafi
+2024-02-02T14:37:00,Dovansh,Haa maafi
+2024-02-03T20:35:00,Dovansh,bolde usko jo bolna hai ha ya na
+2024-02-03T20:35:00,Dovansh,meko nahi magajmari karna uske saath
+2024-02-03T20:51:00,Amey Pacharkar,Ah yaa for now I am think of going with the project. Since we dont have to work alot and focus on python and other things
+2024-02-03T20:51:00,Dovansh,yaaa
+2024-02-03T20:51:00,Amey Pacharkar,Robotics/python/c++ and all
+2024-02-03T20:51:00,Amey Pacharkar,The program is ready made and no real idea of future features he talk of
+2024-02-03T20:52:00,Dovansh,This message was deleted
+2024-02-03T20:52:00,Amey Pacharkar,So basically sir and copy that's fine for this sem as we have alot more to do
+2024-02-03T20:52:00,Dovansh,yaaa
+2024-02-03T20:52:00,Amey Pacharkar,*sit
+2024-02-03T20:52:00,Dovansh,haaaa
+2024-02-03T20:52:00,Amey Pacharkar,Add UIUX as well
+2024-02-03T20:53:00,Dovansh,i still haven't downloaded the illustrator
+2024-02-03T20:53:00,Amey Pacharkar,Tho we will have to compensate our lack of interest in this sem mp by doing this things
+2024-02-03T20:53:00,Amey Pacharkar,ie. practice for real this programming languages
+2024-02-03T20:53:00,Dovansh,haaa
+2024-02-03T20:53:00,Dovansh,yaaa
+2024-02-03T20:54:00,Dovansh,do we have to extract the downloaded file ?
+2024-02-03T20:54:00,Amey Pacharkar,Yaa
+2024-02-03T20:54:00,Dovansh,okk
+2024-02-03T20:54:00,Amey Pacharkar,I would be doing this programming languages for real what about you?
+2024-02-03T20:55:00,Dovansh,ya me too
+2024-02-03T20:55:00,Amey Pacharkar,If you are in then let's go along his plan
+2024-02-03T20:55:00,Dovansh,i started c++
+2024-02-03T20:55:00,Dovansh,y
+2024-02-03T20:55:00,Amey Pacharkar,y?
+2024-02-03T20:55:00,Dovansh,then after java python
+2024-02-03T20:55:00,Dovansh,ya
+2024-02-03T20:55:00,Amey Pacharkar,Ahh yaa alright
+2024-02-03T20:55:00,Dovansh,and uiux along with that
+2024-02-03T20:56:00,Amey Pacharkar,🫡
+2024-02-03T20:56:00,Dovansh,yaaa
+2024-02-03T20:56:00,Amey Pacharkar,Then let's go along after listening to om's response
+2024-02-03T20:56:00,Amey Pacharkar,He got a take too in this
+2024-02-03T20:57:00,Dovansh,Haaa
+2024-02-03T20:57:00,Dovansh,This message was deleted
+2024-02-03T20:57:00,Amey Pacharkar,You deleted this message
+2024-02-03T20:58:00,Dovansh,Haa
+2024-02-03T20:58:00,Amey Pacharkar,Since you are too open with it
+2024-02-03T20:58:00,Dovansh,Okk
+2024-02-03T20:58:00,Amey Pacharkar,😂😂
+2024-02-03T20:58:00,Dovansh,Ha re
+2024-02-03T20:58:00,Amey Pacharkar,Woah that just changes the mood
+2024-02-03T20:58:00,Dovansh,How ?
+2024-02-03T20:59:00,Amey Pacharkar,It made the talk lighter
+2024-02-03T20:59:00,Dovansh,Ohhhkk
+2024-02-03T20:59:00,Dovansh,We'll talk tomorrow
+2024-02-03T21:00:00,Dovansh,This message was deleted
+2024-02-03T21:00:00,Dovansh,This message was deleted
+2024-02-03T21:00:00,Dovansh,This message was deleted
+2024-02-03T21:00:00,Dovansh,This message was deleted
+2024-02-03T21:00:00,Amey Pacharkar,Sure I don't mind
+2024-02-03T21:01:00,Dovansh,Yepp
+2024-02-03T21:01:00,Amey Pacharkar,That sounds like you are making contract to kill someone
+2024-02-03T21:01:00,Dovansh,😂😂😂
+2024-02-03T21:02:00,Amey Pacharkar,😂
+2024-02-03T21:03:00,Dovansh,Ya😂
+2024-02-03T21:27:00,Dovansh,It's supposed to be like this only na
+2024-02-03T21:55:00,Amey Pacharkar,ha
+2024-02-03T21:55:00,Amey Pacharkar,congrats !!!
+2024-02-03T21:55:00,Amey Pacharkar,you atlast have it
+2024-02-03T21:55:00,Dovansh,Haaaa
+2024-02-03T21:55:00,Dovansh,You don't ?
+2024-02-03T21:55:00,Amey Pacharkar,I have it as well
+2024-02-03T21:56:00,Dovansh,ohkk
+2024-02-03T23:37:00,Amey Pacharkar,Call kyu Kiya tha? Mera phone charging par tha
+2024-02-03T23:37:00,Dovansh,Iske liye hi
+2024-02-03T23:37:00,Amey Pacharkar,Acha
+2024-02-03T23:40:00,Dovansh,Ha
+2024-02-04T09:20:00,Amey Pacharkar,Ajj tha kya tu follow up ko?
+2024-02-04T09:27:00,Dovansh,Abhi utha
+2024-02-04T09:27:00,Dovansh,Study session le rahe hai sir ?
+2024-02-04T09:28:00,Amey Pacharkar,Pata nahi sir kuch bole nahi
+2024-02-04T09:28:00,Dovansh,Acha ok
+2024-02-05T07:53:00,Dovansh,OS ka kya likha?
+2024-02-05T08:11:00,Amey Pacharkar,Kuch nahi
+2024-02-05T08:11:00,Amey Pacharkar,Ma'am ko puchte he
+2024-02-05T08:11:00,Amey Pacharkar,Do you have print out of AOA or OS?
+2024-02-05T08:11:00,Dovansh,Nope
+2024-02-05T08:11:00,Dovansh,Aoa ka lab me nikalenge
+2024-02-05T08:11:00,Dovansh,Program hai waha pe
+2024-02-05T08:18:00,Amey Pacharkar,Chalega
+2024-02-05T08:18:00,Amey Pacharkar,OS?
+2024-02-05T08:19:00,Dovansh,And os ka we'll tell mam that we didn't take SS that day when we executed the commands and the program
+2024-02-05T08:40:00,Dovansh,.
+2024-02-05T08:40:00,Amey Pacharkar,I will be late
+2024-02-05T08:40:00,Dovansh,Okk
+2024-02-05T08:40:00,Amey Pacharkar,Yaa
+2024-02-05T08:40:00,Amey Pacharkar,Too much traffic Unexpected traffic
+2024-02-05T08:40:00,Dovansh,Yaa
+2024-02-05T08:41:00,Dovansh,Mam will shout at you
+2024-02-05T08:41:00,Amey Pacharkar,Yaa nothing I can do
+2024-02-05T08:42:00,Dovansh,Yaaa
+2024-02-05T09:48:00,Dovansh,"#include <stdio.h> int main(){ int i,j,n,index,min,flag = 0; printf(""Enter the number of elements in the array:""); scanf(""%d"",&n); int array[n]; printf(""Enter the elements of array\n""); for(i = 0; i < n; i ++){ printf(""Enter the element: ""); scanf(""%d"",&array[i]); } printf(""The given array is:\n""); for(i = 0;i < n; i ++){ printf(""%d\t "",array[i]); } min = array[0]; for(i = 0;i < n;i ++){ for(j = i + 1;j < n;j ++){ if(min > array[j]){ flag = 1; min = array[j]; index = j; }else{ continue; } } if(flag == 1){ array[index] = array[i]; array[i] = min; min = array[i + 1]; }else{ min = array[i + 1]; } } printf(""The sorted array is:\n""); for(i = 0;i < n; i ++){ printf(""%d\t "",array[i]); } return 0; }"
+2024-02-05T15:41:00,Dovansh,"Q.Write a shell script to display current logged in user and current log name. $ vi loginfo.sh echo ""$(users)"" echo ""$(logname)"" $ sudo chmod a+x loginfo.sh [sudo] password for lab-317: ./loginfo.sh lab-317 lab-317"
+2024-02-05T16:49:00,Amey Pacharkar,Tera bhi print layu kya?
+2024-02-05T16:49:00,Amey Pacharkar,null
+2024-02-06T09:45:00,Dovansh,https://wutheringwaves.kurogame.com/m/en/cbt?inviterCode=a3zBQ6Kr&adtag=ownlink
+2024-02-06T20:03:00,Dovansh,We can make 2 ppts
+2024-02-06T20:03:00,Dovansh,That's it
+2024-02-06T20:03:00,Dovansh,Nothing after that
+2024-02-06T20:04:00,Amey Pacharkar,So what about topics to put in ppt?
+2024-02-06T20:04:00,Dovansh,Don't we have it from last sem
+2024-02-06T20:05:00,Dovansh,Just check the last projects ppt
+2024-02-06T20:05:00,Dovansh,We'll have the points
+2024-02-06T20:07:00,Amey Pacharkar,"Introduction, literature survey, aim, problem statement?"
+2024-02-06T20:07:00,Dovansh,Yeah
+2024-02-06T20:09:00,Amey Pacharkar,Karega kya?
+2024-02-06T20:09:00,Dovansh,Haaa
+2024-02-06T20:09:00,Dovansh,Send me some points
+2024-02-06T20:09:00,Dovansh,SS or text
+2024-02-06T20:09:00,Amey Pacharkar,Thank you
+2024-02-06T20:09:00,Amey Pacharkar,Bhejta hu
+2024-02-06T20:10:00,Dovansh,Haa
+2024-02-06T20:12:00,Amey Pacharkar,Sahi mil gaya
+2024-02-06T20:12:00,Amey Pacharkar,Itna common he ye
+2024-02-06T20:12:00,Dovansh,Ha kya ?
+2024-02-06T20:12:00,Dovansh,Ppt me copy paste karta hu
+2024-02-06T20:12:00,Amey Pacharkar,Pura he almost
+2024-02-06T20:12:00,Dovansh,Aur video ke kuch ss lagata hu
+2024-02-06T20:13:00,Amey Pacharkar,Mat
+2024-02-06T20:13:00,Dovansh,Nahi ?
+2024-02-06T20:13:00,Dovansh,Ok
+2024-02-06T20:13:00,Amey Pacharkar,You have not made anything so don't put any ss
+2024-02-06T20:13:00,Dovansh,Okk
+2024-02-06T20:30:00,Dovansh,type and send me Prajakta mams nam
+2024-02-06T20:30:00,Dovansh,with designation
+2024-02-06T20:32:00,Amey Pacharkar,😂😂
+2024-02-06T20:33:00,Amey Pacharkar,Leave it blank
+2024-02-07T18:48:00,Amey Pacharkar,Me sir ko result bhejke rak Raha hu
+2024-02-07T18:48:00,Dovansh,Okk
+2024-02-07T18:49:00,Dovansh,Mai bhi bhejta hu fir
+2024-02-07T18:55:00,Amey Pacharkar,Devansh did you said you ONLY got 10pointer in 2 subjects?
+2024-02-07T18:55:00,Amey Pacharkar,Tu call kar devansh. Message badme dal
+2024-02-07T18:55:00,Amey Pacharkar,null
+2024-02-07T18:58:00,Dovansh,null
+2024-02-07T18:59:00,Dovansh,Yaa
+2024-02-07T19:01:00,Amey Pacharkar,Result Maths 3 - 67/80 DSGT - 55/80 DS - 65/80 DLCA - 55/80 CG - 65/80 Total Pointer - 9.48
+2024-02-07T19:04:00,Dovansh,Result Maths 3 - 61/80 DSGT - 53/80 DS - 68/80 DLCA - 54/80 CG - 59/80 Total Pointer - 9.22 <This message was edited>
+2024-02-07T20:02:00,Amey Pacharkar,Woah devansh 61/80 maths! Great work!!! DS me age chale Gaya 🤟
+2024-02-07T20:02:00,Dovansh,yesss😎
+2024-02-07T20:02:00,Dovansh,mera ds acha hai
+2024-02-07T20:39:00,Amey Pacharkar,Ye sem me thektehe 😎
+2024-02-07T20:40:00,Amey Pacharkar,Maage kar abhi.🎉🎉🎊🎊🥳
+2024-02-07T22:40:00,Dovansh,Haaaa
+2024-02-07T23:06:00,Amey Pacharkar,*maja
+2024-02-08T04:53:00,Dovansh,Ha
+2024-02-08T06:18:00,Dovansh,OS ki book leke aa
+2024-02-08T06:18:00,Dovansh,Practical ki
+2024-02-08T07:13:00,Amey Pacharkar,Ahh haa pakka
+2024-02-08T08:36:00,Dovansh,Haa
+2024-02-08T19:38:00,Dovansh,.
+2024-02-08T19:49:00,Dovansh,"print(""\n3.Arstrong\n"") num = input(""Enter a number"") order = len(str(num)) sum = 0 temp = num while temp > 0: digit = temp % 10 sum += digit ** order temp //= 10 if num == sum: print(num,""is an Armstrong number"") else: print(num,""is not an Armstrong number"")"
+2024-02-08T19:55:00,Dovansh,just add int before the input
+2024-02-08T20:03:00,Dovansh,you know how big is the diamond pattern code in python ?
+2024-02-08T20:13:00,Amey Pacharkar,No I don't
+2024-02-08T20:29:00,Dovansh,its 5 lines
+2024-02-08T20:31:00,Amey Pacharkar,Nice
+2024-02-09T09:19:00,Amey Pacharkar,You deleted this message
+2024-02-09T12:34:00,Dovansh,cesa-level2.netlify.app
+2024-02-09T16:00:00,Dovansh,"dell@dell-OptiPlex-5090:~$ sudo mysql [sudo] password for dell: Welcome to the MySQL monitor.  Commands end with ; or \g. Your MySQL connection id is 8 Server version: 8.0.32-0ubuntu0.20.04.2 (Ubuntu) Copyright (c) 2000, 2023, Oracle and/or its affiliates. Oracle is a registered trademark of Oracle Corporation and/or its affiliates. Other names may be trademarks of their respective owners. Type 'help;' or '\h' for help. Type '\c' to clear the current input statement. mysql> create database; ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 mysql> create database devansh; Query OK, 1 row affected (0.20 sec) mysql> show databases; +--------------------+ | Database           | +--------------------+ | ADARSH             | | AKSHARA            | | Aksh               | | Arfeen             | | BUSINESS           | | Bank               | | COLLEGE            | | Chetan             | | College            | | College1           | | Company            | | E1                 | | ESHWARI            | | Employee           | | ExpThree           | | Expthree           | | INSTITUTE          | | NAH                | | Promotion          | | Restaurant         | | STUDENT            | | SURAJ              | | Sales              | | School             | | Store              | | Time               | | UNIVERSITY         | | WIPRO              | | aftab              | | ankit              | | atharva            | | batch3             | | classicmodels      | | college            | | customer           | | database_rahul     | | dept               | | devansh            | | emp                | | exam               | | exp2               | | hamfa              | | information_schema | | mysql              | | performance_schema | | pranay             | | products           | | purva              | | railway_system     | | sales              | | sandesh            | | sani               | | schoole            | | shop               | | student            | | subiya             | | swaleha            | | sys                | | vedh               | +--------------------+ 59 rows in set (0.00 sec) mysql> use devansh; Database changed mysql> create table marks; ERROR 4028 (HY000): A table must have at least one visible column. mysql> create table marks(subject(5),marks(5)) -> maths -> ; ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(5),marks(5)) maths' at line 1 mysql> desc devansh; ERROR 1146 (42S02): Table 'devansh.devansh' doesn't exist mysql> create table Class(VID varchar(20),name varchar(30),course varchar(20), marks varchar(20)); Query OK, 0 rows affected (0.62 sec) mysql> desc Class; +--------+-------------+------+-----+---------+-------+ | Field  | Type        | Null | Key | Default | Extra | +--------+-------------+------+-----+---------+-------+ | VID    | varchar(20) | YES  |     | NULL    |       | | name   | varchar(30) | YES  |     | NULL    |       | | course | varchar(20) | YES  |     | NULL    |       | | marks  | varchar(20) | YES  |     | NULL    |       | +--------+-------------+------+-----+---------+-------+ 4 rows in set (0.01 sec)"
+2024-02-10T16:22:00,Dovansh,AMEYYY!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2024-02-10T16:22:00,Amey Pacharkar,Ha?
+2024-02-10T16:27:00,Dovansh,OS
+2024-02-10T16:27:00,Amey Pacharkar,Ha?
+2024-02-10T16:27:00,Dovansh,Bahi bhejega
+2024-02-10T16:27:00,Amey Pacharkar,Kya?
+2024-02-10T16:28:00,Dovansh,Kabhi.
+2024-02-10T16:28:00,Dovansh,Thanks
+2024-02-10T16:28:00,Amey Pacharkar,Ha
+2024-02-10T16:29:00,Amey Pacharkar,No problem
+2024-02-10T16:29:00,Dovansh,Yepp
+2024-02-10T16:34:00,Amey Pacharkar,Agar ham abhi samne hote to tu ek do to marhi detana mujhe? 😂😂
+2024-02-10T16:34:00,Amey Pacharkar,Kushe me
+2024-02-10T16:34:00,Dovansh,Kyu?
+2024-02-10T16:34:00,Amey Pacharkar,Bheja nahi isleye
+2024-02-10T16:34:00,Dovansh,Haa to
+2024-02-10T16:35:00,Amey Pacharkar,Thektahu me tujhe kal
+2024-02-10T16:35:00,Dovansh,Haaa mai bhi dekhta hu
+2024-02-10T16:36:00,Amey Pacharkar,Dhekhe. Abhe ke liye likle. Ho jayga 10-15 minute me
+2024-02-10T16:36:00,Dovansh,Haaa
+2024-02-11T08:56:00,Amey Pacharkar,Jandu. Lab manual bhej raha he par follow up ko nahi araha
+2024-02-11T08:57:00,Dovansh,Mujhe os ke 1st esp ka writeup bhejna
+2024-02-11T08:57:00,Dovansh,Offline hai aaj ?
+2024-02-11T08:58:00,Amey Pacharkar,Ahh ignore kar diya message
+2024-02-11T08:58:00,Amey Pacharkar,Nahi pata
+2024-02-11T08:58:00,Dovansh,Chupp re
+2024-02-11T08:58:00,Dovansh,Dekha maine
+2024-02-11T08:58:00,Dovansh,Aoa aur DBMS likh raha tha
+2024-02-11T08:58:00,Dovansh,Join karna padega ?
+2024-02-11T08:59:00,Amey Pacharkar,Ofc compulsory
+2024-02-11T09:00:00,Amey Pacharkar,That's not more important than follow up. You can do that anytime.
+2024-02-11T09:00:00,Amey Pacharkar,Kya yar devansh
+2024-02-11T09:01:00,Dovansh,Haa re
+2024-02-11T09:01:00,Dovansh,Meeting link bhejna
+2024-02-11T09:03:00,Amey Pacharkar,SKY ke group par he
+2024-02-11T09:04:00,Dovansh,OS ka first bhej
+2024-02-11T09:23:00,Dovansh,okk
+2024-02-11T09:23:00,Dovansh,thanks
+2024-02-11T09:31:00,Amey Pacharkar,You deleted this message
+2024-02-11T09:31:00,Amey Pacharkar,kiska ok?
+2024-02-11T09:31:00,Dovansh,iska
+2024-02-11T09:31:00,Amey Pacharkar,aur ye?
+2024-02-11T09:32:00,Amey Pacharkar,😂😂
+2024-02-11T09:32:00,Dovansh,iska
+2024-02-11T09:34:00,Amey Pacharkar,acha
+2024-02-11T09:35:00,Dovansh,haa
+2024-02-11T23:53:00,Dovansh,javapoint ?
+2024-02-11T23:57:00,Amey Pacharkar,Geek wala. Badme khudse program bana dunga.
+2024-02-11T23:57:00,Dovansh,acha okk
+2024-02-11T23:57:00,Dovansh,I made the program
+2024-02-11T23:57:00,Dovansh,par sorted array print hi nahi ho raha
+2024-02-11T23:57:00,Amey Pacharkar,You put ss?
+2024-02-11T23:58:00,Dovansh,haa
+2024-02-11T23:58:00,Dovansh,new one
+2024-02-11T23:59:00,Amey Pacharkar,Sabka program same hoga
+2024-02-11T23:59:00,Amey Pacharkar,Maybe parameter send karneme gadbad ho Raha hoga?
+2024-02-12T00:00:00,Dovansh,Ha shayad
+2024-02-12T00:00:00,Dovansh,Dekhte hai kal
+2024-02-12T00:00:00,Dovansh,Mai subah merge sort karunga
+2024-02-12T06:47:00,Dovansh,"#include <stdio.h> //function prototype int merge(); void mergeSort(); int main() { int n,i; printf(""Enter number of elements in array : ""); scanf(""%d"",&n); int arr[n]; for(i = 0;i < n;i ++){ printf(""Enter the element : ""); scanf(""%d"",&arr[i]); } printf(""Original array: ""); for (int i = 0; i < n; i++) { printf(""%d "", arr[i]); } mergeSort(arr, 0, n - 1); printf(""\nSorted array: ""); for (int i = 0; i < n; i++) { printf(""%d "", arr[i]); } return 0; } int merge(int a[], int lb, int mid, int ub) { int i=lb; int j=mid+1; int k=lb; int b[ub+1]; while(i<=mid && j<=ub){ if(a[i]<=a[j]){ b[k]=a[i]; i++; } else { b[k]=a[j]; j++; } k++; } if(i>mid){ while(j<=ub){ b[k]=a[j]; k++; j++; } } else{ while(i<=mid) { b[k]=a[i]; i++; k++; } } for(k=lb;k<=ub;k++){ a[k]=b[k]; } } void mergeSort(int a[], int lb, int ub) { if(lb<ub){ int mid =(lb+ub)/2; mergeSort(a,lb,mid); mergeSort(a,mid+1,ub); merge(a,lb,mid,ub); } }"
+2024-02-12T10:22:00,Dovansh,"dsp-01@dsp-01:~$ pwd /home/dsp-01 dsp-01@dsp-01:~$ ls anaconda3     Desktop     hadoop-3.2.3          lq.c    Pictures   rstudio-2022.07.2-576-amd64.deb   tasm   TURBOC3 anaconda.sh   Documents  'kali linux'           masm    Pranav     selection.C                       TASM  'VirtualBox VMs' as            Downloads  'lineAR queue ADT.C'   Music   Public     snap                              TC dsp-01@dsp-01:~$ cd Desktop dsp-01@dsp-01:~/Desktop$ mkdir Amey132 dsp-01@dsp-01:~/Desktop$ cd Amey132 dsp-01@dsp-01:~/Desktop/Amey132$ cat >amey1 Hello! How are you? ^Z [1]+  Stopped                 cat > amey1 dsp-01@dsp-01:~/Desktop/Amey132$ cat >amey2 My name is Amey.What is your name? ^Z [2]+  Stopped                 cat > amey2 dsp-01@dsp-01:~/Desktop/Amey132$ cat >amey3 Hello WOrld! ^Z [3]+  Stopped                 cat > amey3 dsp-01@dsp-01:~/Desktop/Amey132$ cat >amey4 Welcome! ^Z [4]+  Stopped                 cat > amey4 dsp-01@dsp-01:~/Desktop/Amey132$ ls amey1  amey2  amey3  amey4 dsp-01@dsp-01:~/Desktop/Amey132$ rm amey4 dsp-01@dsp-01:~/Desktop/Amey132$ rm amey 1 rm: cannot remove 'amey': No such file or directory rm: cannot remove '1': No such file or directory dsp-01@dsp-01:~/Desktop/Amey132$ rm amey1 dsp-01@dsp-01:~/Desktop/Amey132$ ls amey2  amey3 dsp-01@dsp-01:~/Desktop/Amey132$ cd ../ dsp-01@dsp-01:~/Desktop$ ls 'Aaryan AOA'   Amey132   AOAprac4om.odt   Janhavi   Pranav   pranavAOA.odg   Quicksort.odt dsp-01@dsp-01:~/Desktop$ rm -r Amey132 dsp-01@dsp-01:~/Desktop$ ls 'Aaryan AOA'   AOAprac4om.odt   Janhavi   Pranav   pranavAOA.odg   Quicksort.odt dsp-01@dsp-01:~/Desktop$ cd ../ dsp-01@dsp-01:~$ cd Download bash: cd: Download: No such file or directory dsp-01@dsp-01:~$ cd Downloads dsp-01@dsp-01:~/Downloads$ dat Command 'dat' not found, but can be installed with: sudo apt install liballegro4-dev dsp-01@dsp-01:~/Downloads$ date Monday 12 February 2024 10:09:07 AM IST dsp-01@dsp-01:~/Downloads$ cal Command 'cal' not found, but can be installed with: sudo apt install ncal dsp-01@dsp-01:~/Downloads$ cat >Amey132 Hello!Bye! ^Z [5]+  Stopped                 cat > Amey132 dsp-01@dsp-01:~/Downloads$ ls Amey132                                         ekata1.c                                    LinearS.pdf                  'Updated_CG 1.docx' 'aoa ekata'                                     'EVALUATION OF POSTFIX THROUGH STACK.docx'   LOST.DIR                     'Updated_CG 2.docx' Autorun.inf                                    'Implement Binary Search Tree.docx'          OmAOA-Prac3.pdf              'Updated_CG 3.docx' binaryS                                        'Implement Circular Linked list.docx'        selectionS                   'Updated_CG 4.docx' 'BINARY SEARCH.docx'                            'Implement Linear Queue using array.docx'    selectionS.c                 'Updated_CG 5.1.docx' 'BREADTH FIRST SEARCH.docx'                     'Implement singly linked list.docx'         'stack adt using array.docx'  'Updated_CG 5.2.docx' 'Circular Queue by using array.docx'             lecture_note_420507181042070.pdf           'System Volume Information'   'Updated_CG 6.docx' 'convert infix to postfix using stackADT.docx'  'Linear Queue using Linked List.docx'       'Updated_CG 10.docx'          'Updated_CG 7.docx' 'DEPTH FIRST SEARCH.docx'                        LINEARs                                    'Updated_CG 11.docx'          'Updated_CG 9.docx' dsp-01@dsp-01:~/Downloads$ ls -l total 3104 -rw-rw-r-- 1 dsp-01 dsp-01      11 Feb 12 10:10  Amey132 drwxrwxr-x 2 dsp-01 dsp-01    4096 Feb  5 12:25 'aoa ekata' drwxr-xr-x 2 dsp-01 dsp-01    4096 Aug 19  2019  Autorun.inf -rw-rw-r-- 1 dsp-01 dsp-01     907 Feb  7 15:22  binaryS -rw-r--r-- 1 dsp-01 dsp-01       0 Jan 10 15:33 'BINARY SEARCH.docx' -rw-r--r-- 1 dsp-01 dsp-01   11739 Nov  6 00:38 'BREADTH FIRST SEARCH.docx' -rw-r--r-- 1 dsp-01 dsp-01   12556 Nov  6 00:01 'Circular Queue by using array.docx' -rw-r--r-- 1 dsp-01 dsp-01   11811 Nov  5 23:54 'convert infix to postfix using stackADT.docx' -rw-r--r-- 1 dsp-01 dsp-01   11697 Nov  6 00:35 'DEPTH FIRST SEARCH.docx' -rw-rw-r-- 1 dsp-01 dsp-01     438 Feb  5 12:20  ekata1.c -rw-r--r-- 1 dsp-01 dsp-01   12472 Nov  5 23:56 'EVALUATION OF POSTFIX THROUGH STACK.docx' -rw-r--r-- 1 dsp-01 dsp-01   17268 Nov  6 00:18 'Implement Binary Search Tree.docx' -rw-r--r-- 1 dsp-01 dsp-01   14903 Nov  6 00:08 'Implement Circular Linked list.docx' -rw-r--r-- 1 dsp-01 dsp-01       0 Feb  5 12:08 'Implement Linear Queue using array.docx' -rw-r--r-- 1 dsp-01 dsp-01   17176 Nov  6 00:05 'Implement singly linked list.docx' -rw-rw-r-- 1 dsp-01 dsp-01 2547250 Jan 10 15:08  lecture_note_420507181042070.pdf -rw-r--r-- 1 dsp-01 dsp-01   13405 Nov  6 00:12 'Linear Queue using Linked List.docx' -rw-rw-r-- 1 dsp-01 dsp-01     654 Feb  7 15:22  LINEARs -rw-rw-r-- 1 dsp-01 dsp-01  112135 Feb  7 14:32  LinearS.pdf drwxr-xr-x 2 dsp-01 dsp-01    4096 Jul  8  2023  LOST.DIR -rw-rw-r-- 1 dsp-01 dsp-01   77237 Feb 12 09:48  OmAOA-Prac3.pdf -rw-rw-r-- 1 dsp-01 dsp-01     729 Feb  7 15:22  selectionS -rw-rw-r-- 1 dsp-01 dsp-01     729 Feb  7 15:16  selectionS.c -rw-r--r-- 1 dsp-01 dsp-01   11935 Nov  5 23:51 'stack adt using array.docx' drwxr-xr-x 2 dsp-01 dsp-01    4096 Oct  7  2018 'System Volume Information' -rw-r--r-- 1 dsp-01 dsp-01   30803 Nov  3 18:08 'Updated_CG 10.docx' -rw-r--r-- 1 dsp-01 dsp-01   18727 Nov  3 18:08 'Updated_CG 11.docx' -rw-r--r-- 1 dsp-01 dsp-01   17028 Nov  3 18:09 'Updated_CG 1.docx' -rw-r--r-- 1 dsp-01 dsp-01   13325 Nov  3 18:09 'Updated_CG 2.docx' -rw-r--r-- 1 dsp-01 dsp-01   15499 Nov  3 18:09 'Updated_CG 3.docx' -rw-r--r-- 1 dsp-01 dsp-01   17756 Nov  3 18:09 'Updated_CG 4.docx' -rw-r--r-- 1 dsp-01 dsp-01   13587 Nov  3 18:09 'Updated_CG 5.1.docx' -rw-r--r-- 1 dsp-01 dsp-01   18875 Nov  3 18:09 'Updated_CG 5.2.docx' -rw-r--r-- 1 dsp-01 dsp-01   37401 Nov  3 18:09 'Updated_CG 6.docx' -rw-r--r-- 1 dsp-01 dsp-01   14047 Nov  3 18:09 'Updated_CG 7.docx' -rw-r--r-- 1 dsp-01 dsp-01   18335 Nov  3 18:08 'Updated_CG 9.docx' dsp-01@dsp-01:~/Downloads$ sudo chmod u=rwx Amey132 [sudo] password for dsp-01: dsp-01@dsp-01:~/Downloads$ ls -l total 3104 -rwxrw-r-- 1 dsp-01 dsp-01      11 Feb 12 10:10  Amey132 drwxrwxr-x 2 dsp-01 dsp-01    4096 Feb  5 12:25 'aoa ekata' drwxr-xr-x 2 dsp-01 dsp-01    4096 Aug 19  2019  Autorun.inf -rw-rw-r-- 1 dsp-01 dsp-01     907 Feb  7 15:22  binaryS -rw-r--r-- 1 dsp-01 dsp-01       0 Jan 10 15:33 'BINARY SEARCH.docx' -rw-r--r-- 1 dsp-01 dsp-01   11739 Nov  6 00:38 'BREADTH FIRST SEARCH.docx' -rw-r--r-- 1 dsp-01 dsp-01   12556 Nov  6 00:01 'Circular Queue by using array.docx' -rw-r--r-- 1 dsp-01 dsp-01   11811 Nov  5 23:54 'convert infix to postfix using stackADT.docx' -rw-r--r-- 1 dsp-01 dsp-01   11697 Nov  6 00:35 'DEPTH FIRST SEARCH.docx' -rw-rw-r-- 1 dsp-01 dsp-01     438 Feb  5 12:20  ekata1.c -rw-r--r-- 1 dsp-01 dsp-01   12472 Nov  5 23:56 'EVALUATION OF POSTFIX THROUGH STACK.docx' -rw-r--r-- 1 dsp-01 dsp-01   17268 Nov  6 00:18 'Implement Binary Search Tree.docx' -rw-r--r-- 1 dsp-01 dsp-01   14903 Nov  6 00:08 'Implement Circular Linked list.docx' -rw-r--r-- 1 dsp-01 dsp-01       0 Feb  5 12:08 'Implement Linear Queue using array.docx' -rw-r--r-- 1 dsp-01 dsp-01   17176 Nov  6 00:05 'Implement singly linked list.docx' -rw-rw-r-- 1 dsp-01 dsp-01 2547250 Jan 10 15:08  lecture_note_420507181042070.pdf -rw-r--r-- 1 dsp-01 dsp-01   13405 Nov  6 00:12 'Linear Queue using Linked List.docx' -rw-rw-r-- 1 dsp-01 dsp-01     654 Feb  7 15:22  LINEARs -rw-rw-r-- 1 dsp-01 dsp-01  112135 Feb  7 14:32  LinearS.pdf drwxr-xr-x 2 dsp-01 dsp-01    4096 Jul  8  2023  LOST.DIR -rw-rw-r-- 1 dsp-01 dsp-01   77237 Feb 12 09:48  OmAOA-Prac3.pdf -rw-rw-r-- 1 dsp-01 dsp-01     729 Feb  7 15:22  selectionS -rw-rw-r-- 1 dsp-01 dsp-01     729 Feb  7 15:16  selectionS.c -rw-r--r-- 1 dsp-01 dsp-01   11935 Nov  5 23:51 'stack adt using array.docx' drwxr-xr-x 2 dsp-01 dsp-01    4096 Oct  7  2018 'System Volume Information' -rw-r--r-- 1 dsp-01 dsp-01   30803 Nov  3 18:08 'Updated_CG 10.docx' -rw-r--r-- 1 dsp-01 dsp-01   18727 Nov  3 18:08 'Updated_CG 11.docx' -rw-r--r-- 1 dsp-01 dsp-01   17028 Nov  3 18:09 'Updated_CG 1.docx' -rw-r--r-- 1 dsp-01 dsp-01   13325 Nov  3 18:09 'Updated_CG 2.docx' -rw-r--r-- 1 dsp-01 dsp-01   15499 Nov  3 18:09 'Updated_CG 3.docx' -rw-r--r-- 1 dsp-01 dsp-01   17756 Nov  3 18:09 'Updated_CG 4.docx' -rw-r--r-- 1 dsp-01 dsp-01   13587 Nov  3 18:09 'Updated_CG 5.1.docx' -rw-r--r-- 1 dsp-01 dsp-01   18875 Nov  3 18:09 'Updated_CG 5.2.docx' -rw-r--r-- 1 dsp-01 dsp-01   37401 Nov  3 18:09 'Updated_CG 6.docx' -rw-r--r-- 1 dsp-01 dsp-01   14047 Nov  3 18:09 'Updated_CG 7.docx' -rw-r--r-- 1 dsp-01 dsp-01   18335 Nov  3 18:08 'Updated_CG 9.docx' dsp-01@dsp-01:~/Downloads$ whoami dsp-01 dsp-01@dsp-01:~/Downloads$ who dsp-01   tty2         2024-02-12 09:21 (tty2) dsp-01@dsp-01:~/Downloads$ uname -o GNU/Linux dsp-01@dsp-01:~/Downloads$ touch Amey dsp-01@dsp-01:~/Downloads$ ls A* Amey  Amey132 Autorun.inf: dsp-01@dsp-01:~/Downloads$ cat >amey.txt 32 45 76 12 93 ^Z [6]+  Stopped                 cat > amey.txt dsp-01@dsp-01:~/Downloads$ sort -r amey.txt 32 45 76 12 93 dsp-01@dsp-01:~/Downloads$ rm amey.txt dsp-01@dsp-01:~/Downloads$ cat >amey.txt 12 34 56 78 90 ^Z [7]+  Stopped                 cat > amey.txt dsp-01@dsp-01:~/Downloads$ rm amey.txt dsp-01@dsp-01:~/Downloads$ cat >amey.txt 12 34 56 78 90 ^Z [8]+  Stopped                 cat > amey.txt dsp-01@dsp-01:~/Downloads$ sort -r amey sort: cannot read: amey: No such file or directory dsp-01@dsp-01:~/Downloads$ sort -r amey.txt 90 78 56 34 12 dsp-01@dsp-01:~/Downloads$ head -3 amey.txt 12 34 56 dsp-01@dsp-01:~/Downloads$ tail -3 amey.txt 56 78 90 dsp-01@dsp-01:~/Downloads$"
+2024-02-12T10:25:00,Dovansh,Monday 12 February 2024 10:09:05 AM IST dsp-3@dsp-02:~/Downloads$ cal February 2024 Su Mo Tu We Th Fr Sa 1  2  3 4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
+2024-02-12T10:25:00,Dovansh,This message was deleted
+2024-02-12T15:17:00,Dovansh,This message was deleted
+2024-02-12T15:44:00,Dovansh,This message was deleted
+2024-02-12T15:53:00,Dovansh,"#include <stdio.h> struct process_table{ int AT,BT,FT,TAT,WT; }; struct process_table process[10]; //function prototype int next_process(); int scheduling(); int main(){ int n,i,j = 0,total_time = 0,avg_tat = 0,avg_wt = 0; printf(""Enter the number of processes : ""); scanf(""%d"",&n); printf(""Enter the Arrival Time and Burst Time of processes\n""); for(i = 0;i < n;i ++){ printf(""Details of process %d\n"",i+1); printf(""Arrival Time : ""); scanf(""%d"",&process[i].AT); printf(""Burst Time : ""); scanf(""%d"",&process[i].BT); } for(j = 0;j < n;j ++){ i = next_process(n); total_time += process[j].BT; process[j].FT =  total_time; } j = 0; //tat and WT for(j = 0;j < n;j ++){ process[j].TAT = process[j].FT - process[j].AT; process[j].WT = process[j].TAT - process[j].BT; } //avg tat and WT for(j = 0;j < n;j ++){ avg_wt += process[j].WT; avg_tat += process[j].TAT; } //printing result printf(""Process\tBurst\tFinish\tTAT\tWT\n""); for(i = 0;i < n;i ++){ printf(""%d\t%d\t%d\t%d\t%d\n"",(i+1),process[i].BT,process[i].FT,process[i].TAT,process[i].WT); } avg_wt = avg_wt/n; avg_tat = avg_tat/n; printf(""Avarage WT : %d\nAvarage TAT : %d"",avg_wt,avg_tat); return 0; } int next_process(int n){ int temp; for(int i = 0;i < n;i ++){ for(int j = i + 1;j < n; j ++){ if(process[i].BT > process[j].BT){ temp = j; } else if(process[i].BT == process[j].BT){ if(process[i].AT > process[j].AT){ temp = j; } else{ temp = i; } } else temp = i; } } return temp; } int scheduling(){ }"
+2024-02-12T15:54:00,Dovansh,wrong ahe program
+2024-02-12T19:12:00,Dovansh,Khatarnak*
+2024-02-12T19:16:00,Amey Pacharkar,Are yar 🤦‍♂️
+2024-02-12T19:16:00,Dovansh,2 hai 100/100 maths
+2024-02-12T19:32:00,Amey Pacharkar,Rushikesh a Raha he bola
+2024-02-12T19:32:00,Amey Pacharkar,Aur kon? Ayush aya?
+2024-02-12T19:32:00,Dovansh,Okk
+2024-02-12T19:32:00,Dovansh,Busy bata raha hai
+2024-02-12T19:33:00,Amey Pacharkar,Acha message dal se
+2024-02-12T19:33:00,Amey Pacharkar,*de
+2024-02-12T19:33:00,Dovansh,Network issue bol raha hai wo
+2024-02-12T19:33:00,Amey Pacharkar,Acha
+2024-02-12T19:33:00,Amey Pacharkar,Group PE dalde
+2024-02-12T19:33:00,Dovansh,Thoda late join karega wo bola
+2024-02-12T19:34:00,Dovansh,Haa
+2024-02-12T19:35:00,Dovansh,Bhej
+2024-02-12T19:35:00,Amey Pacharkar,Ayush?
+2024-02-12T19:35:00,Dovansh,Kya
+2024-02-12T19:35:00,Amey Pacharkar,Ayush will join late?
+2024-02-12T19:35:00,Dovansh,Haa
+2024-02-12T19:35:00,Dovansh,He said
+2024-02-12T19:36:00,Amey Pacharkar,Dala to tune
+2024-02-12T19:36:00,Dovansh,Haa
+2024-02-12T19:36:00,Dovansh,Porgaram bhej
+2024-02-12T19:36:00,Amey Pacharkar,Sir ka?
+2024-02-12T19:36:00,Amey Pacharkar,"import java.util.Scanner; public class BankApplication { public static void main(String[] args) { Scanner sc = new Scanner(System.in); System.out.println(""Enter your 'Name' and 'CustomerId' to access your Bank account:""); String name=sc.nextLine(); String customerId=sc.nextLine(); BankAccount obj1 = new BankAccount(name,customerId); obj1.menu(); } } class BankAccount{ double bal; double prevTrans; String customerName; String customerId; BankAccount(String customerName,String customerId){ this.customerName=customerName; this.customerId=customerId; } void deposit(double amount){ if(amount!=0){ bal+=amount; prevTrans=amount; } } void withdraw(double amt){ if(amt!=0 && bal>=amt){ bal-=amt; prevTrans = -amt; } else if(bal<amt){ System.out.println(""Bank balance insufficient""); } } void getPreviousTrans(){ if(prevTrans>0){ System.out.println(""Deposited: ""+prevTrans); } else if(prevTrans<0){ System.out.println(""Withdrawn: ""+Math.abs(prevTrans)); } else{ System.out.println(""No transaction occurred""); } } void menu(){ char option; Scanner sc =new Scanner(System.in); System.out.println(""Welcome ""+customerName); System.out.println(""Your ID:""+customerId); System.out.println(""\n""); System.out.println(""a) Check Balance""); System.out.println(""b) Deposit Amount""); System.out.println(""c) Withdraw Amount""); System.out.println(""d) Previous Transaction""); System.out.println(""e) Exit""); do{ System.out.println(""********************************************""); System.out.println(""Choose an option""); option = sc.next().charAt(0); System.out.println(""\n""); switch (option){ case 'a': System.out.println(""......................""); System.out.println(""Balance =""+bal); System.out.println(""......................""); System.out.println(""\n""); break; case 'b': System.out.println(""......................""); System.out.println(""Enter an amount to deposit :""); System.out.println(""......................""); double amt=sc.nextDouble(); deposit(amt); System.out.println(""\n""); break; case 'c': System.out.println(""......................""); System.out.println(""Enter an amount to Withdraw :""); System.out.println(""......................""); double amtW=sc.nextDouble(); withdraw(amtW); System.out.println(""\n""); break; case 'd': System.out.println(""......................""); System.out.println(""Previous Transaction:""); getPreviousTrans(); System.out.println(""......................""); System.out.println(""\n""); break; case 'e': System.out.println(""......................""); break; default: System.out.println(""Choose a correct option to proceed""); break; } }while(option!='e'); System.out.println(""Thank you for using our banking services""); } }"
+2024-02-12T19:36:00,Dovansh,Yes
+2024-02-12T22:18:00,Dovansh,Kya message karna hai
+2024-02-12T22:18:00,Dovansh,Team Jkb ko ?
+2024-02-12T22:19:00,Amey Pacharkar,Ha Kiya
+2024-02-12T22:19:00,Dovansh,Are kya par
+2024-02-12T22:19:00,Amey Pacharkar,I am interested and sir has shortlisted me for L3PP. Ye kiya he
+2024-02-12T22:19:00,Dovansh,Okk
+2024-02-12T22:20:00,Dovansh,Ye number ko na
+2024-02-12T22:20:00,Amey Pacharkar,Ha
+2024-02-12T22:20:00,Dovansh,Okk
+2024-02-12T22:36:00,Amey Pacharkar,Kal jara jaldi ana
+2024-02-12T22:36:00,Amey Pacharkar,Batt kartehe group of 4 ke bareme.
+2024-02-12T22:36:00,Dovansh,Ha chalega
+2024-02-12T22:36:00,Amey Pacharkar,9.30 tak ya 9.15 tak
+2024-02-12T22:37:00,Dovansh,haaaa
+2024-02-13T17:52:00,Dovansh,Haaaa
+2024-02-13T17:52:00,Dovansh,Aa gaya
+2024-02-13T17:53:00,Amey Pacharkar,👍
+2024-02-14T13:21:00,Dovansh,"import java.util.Scanner; class converter{ double out1; public double america(double amt){ out1 = amt*83.11182212; return (out1); } public double swiss(double amt){ out1 = amt*96.36; System.out.println(out1); return (out1); } public double euro(double amt){ out1 = amt*90.13; return (out1); } public double britishpound(double amt){ out1 = amt*105.55; return (out1); } public double cdollar(double amt){ out1 = amt*62.01; return (out1); } public double adollar(double amt){ out1 = amt*54.86; return (out1); } public double sdollar(double amt){ out1 = amt*62.04; return (out1); } public double ndollar(double amt){ out1 = amt*50.99 ; return (out1); } public double kdinar(double amt){ out1 = amt*270.13; return (out1); } public double uae(double amt){ out1 = amt*22.63; return (out1); } } class reversecon extends converter{ double out; public double choice(double mon , int opt ){ switch (opt){ case 1: out=super.america(mon); return(out); case 2: out=super.swiss(mon); return(out); case 3: out=super.euro(mon); return(out); case 4: out=super.britishpound(mon); return(out); case 5: out=super.cdollar(mon); return(out); case 6: out=super.adollar(mon); return(out); case 7: out=super.sdollar(mon); return(out); case 8: out=super.ndollar(mon); return(out); case 9: out=super.kdinar(mon); return(out); case 10: out=super.uae(mon); return(out); } return 0; } public double america(double amt , int opt){ out = amt*0.012032; out = choice(out,opt); return (out); } public double swiss(double amt,int opt){ out = amt*0.010; out = choice(out,opt); return (out); } public double euro(double amt,int opt){ out = amt*0.011; out = choice(out,opt); return (out); } public double britishpound(double amt,int opt){ out = amt*0.0095; out = choice(out,opt); return (out); } public double cdollar(double amt,int opt){ out = amt*0.016; return (out); } public double adollar(double amt,int opt){ out = amt*0.018; out = choice(out,opt); return (out); } public double sdollar(double amt,int opt){ out = amt*0.016; out = choice(out,opt); return (out); } public double ndollar(double amt,int opt){ out = amt*0.020; out = choice(out,opt); return (out); } public double kdinar(double amt,int opt){ out = amt*0.0037; out = choice(out,opt); return (out); } public double uae(double amt,int opt){ out = amt*0.044; out = choice(out,opt); return (out); } } class CC{ public static void main(String[] args){ int opt,opt1; double output,money=0; Scanner sc = new Scanner(System.in); System.out.println(""Enter the amount you want to convert:""); money = sc.nextDouble(); System.out.println(""From:""); System.out.println(""1.)American dollars \n 2.)Swiss Franc \n 3.)Euro \n 4.) British Pound \n 5.)Canadian dollar \n 6.)Australian dollar \n 7.)Singapore dollar \n 8.)New Zealand dollar \n 9.)Kuwaiti Dinar \n 10.)UAE Dinar""); opt1 = sc.nextInt(); System.out.println(""Enter the option:""); System.out.println(""1.)American dollars \n 2.)Swiss Franc \n 3.)Euro \n 4.) British Pound \n 5.)Canadian dollar \n 6.)Australian dollar \n 7.)Singapore dollar \n 8.)New Zealand dollar \n 9.)Kuwaiti Dinar \n 10.)UAE Dinar""); opt = sc.nextInt(); reversecon con = new reversecon(); switch (opt) { case 1: output=con.america(money,opt1); System.out.println(""The converted value is in Dollars.""); System.out.println(output); break; case 2: output=con.swiss(money,opt1); System.out.println(""The converted value is in Swiss Franc.""); System.out.println(output); break; case 3: output=con.euro(money,opt1); System.out.println(""The converted value is in Euros.""); System.out.println(output); break; case 4: output=con.britishpound(money,opt1); System.out.println(""The converted value is in British Pound.""); System.out.println(output); break; case 5: output=con.cdollar(money,opt1); System.out.println(""The converted value is in Canadian Dollars.""); System.out.println(output); break; case 6: output=con.adollar(money,opt1); System.out.println(""The converted value is in Australlian Dollars.""); System.out.println(output); break; case 7: output=con.sdollar(money,opt1); System.out.println(""The converted value is in Singapore Dollars.""); System.out.println(output); break; case 8: output=con.ndollar(money,opt1); System.out.println(""The converted value is in New Zealand Dollars.""); System.out.println(output); break; case 9: output=con.kdinar(money,opt1); System.out.println(""The converted value is in Kuwaiti dinar.""); System.out.println(output); break; case 10: output=con.uae(money,opt1); System.out.println(""The converted value is in UAE Dinar.""); System.out.println(output); break; } } }"
+2024-02-14T17:03:00,Amey Pacharkar,Honeke bad call karna
+2024-02-14T17:03:00,Amey Pacharkar,Paper honeke badd
+2024-02-14T17:04:00,Dovansh,Ho gaya
+2024-02-14T19:59:00,Amey Pacharkar,os ka kahase likhana he?
+2024-02-14T20:01:00,Dovansh,Kartikey ko pucho
+2024-02-14T20:51:00,Amey Pacharkar,You deleted this message
+2024-02-14T20:56:00,Amey Pacharkar,What about output?
+2024-02-14T21:06:00,Dovansh,https://www.ducumon.click/2016/01/pokemon-omega-ruby.html
+2024-02-14T21:06:00,Dovansh,We'll have output for 1 and 3
+2024-02-14T21:06:00,Dovansh,2 and 4 we'll have to take from someone
+2024-02-14T21:06:00,Dovansh,This should run on your phone
+2024-02-14T21:36:00,Amey Pacharkar,Ok
+2024-02-15T14:27:00,Dovansh,OS
+2024-02-15T14:53:00,Amey Pacharkar,Sir attendance le rahe he
+2024-02-15T15:12:00,Amey Pacharkar,Danyavad
+2024-02-15T17:42:00,Amey Pacharkar,dbms ka commands ka ss bhej na
+2024-02-15T17:43:00,Dovansh,Exp 3
+2024-02-15T17:43:00,Dovansh,Exp 4
+2024-02-15T17:43:00,Dovansh,Exp 5
+2024-02-15T17:44:00,Amey Pacharkar,sir ko mene pucha. he said to run on command prompt
+2024-02-15T17:44:00,Dovansh,Ha to wo kal hi karna padega
+2024-02-15T17:44:00,Amey Pacharkar,danyavad
+2024-02-15T17:44:00,Dovansh,Practical me
+2024-02-15T17:44:00,Amey Pacharkar,chalega
+2024-02-15T17:44:00,Dovansh,Haa
+2024-02-15T17:44:00,Amey Pacharkar,me run karke aajayunga
+2024-02-15T17:44:00,Dovansh,Kahape ?
+2024-02-15T17:44:00,Dovansh,Command prompt ?
+2024-02-15T17:45:00,Amey Pacharkar,ha I downloaded sql
+2024-02-15T17:45:00,Dovansh,Kiya ?
+2024-02-15T17:45:00,Amey Pacharkar,ha
+2024-02-15T17:45:00,Dovansh,Okk
+2024-02-15T17:45:00,Dovansh,Mai bhi karta hu
+2024-02-15T17:45:00,Amey Pacharkar,yt par search kar
+2024-02-15T17:45:00,Dovansh,Haaa
+2024-02-15T17:45:00,Amey Pacharkar,ruck me bhejtahu
+2024-02-15T17:45:00,Dovansh,Haa
+2024-02-15T17:46:00,Amey Pacharkar,https://youtu.be/qBBXBZXKi0w?si=eY_F5ycV1jINIPcn
+2024-02-15T17:46:00,Dovansh,Thanks
+2024-02-15T17:47:00,Amey Pacharkar,lekin yehe sab commands execute karne he na?
+2024-02-15T17:47:00,Dovansh,Ha
+2024-02-15T17:47:00,Dovansh,Lab manual me bhi dekh le
+2024-02-15T17:47:00,Dovansh,Koi missing rahega to bata mujhe
+2024-02-15T17:49:00,Amey Pacharkar,chalega
+2024-02-15T17:49:00,Amey Pacharkar,os ka writeup bhada he kya?
+2024-02-15T17:51:00,Dovansh,Nahi
+2024-02-15T17:55:00,Amey Pacharkar,do we have to make same table or different?
+2024-02-15T17:55:00,Amey Pacharkar,same as your student>
+2024-02-15T17:55:00,Dovansh,Anything will do
+2024-02-15T18:11:00,Amey Pacharkar,i made a table
+2024-02-15T18:11:00,Amey Pacharkar,now how do i add values in it?
+2024-02-15T18:12:00,Amey Pacharkar,i think it was there too
+2024-02-15T18:13:00,Dovansh,Insertion of values is in 4th
+2024-02-15T18:14:00,Amey Pacharkar,so you have not done integrity constriants and modifying existing columns
+2024-02-15T18:15:00,Dovansh,I did na
+2024-02-15T18:15:00,Dovansh,See in the second ss
+2024-02-15T18:15:00,Dovansh,Alter wala
+2024-02-15T18:15:00,Amey Pacharkar,there was primary key is integrity constraint?
+2024-02-15T18:15:00,Amey Pacharkar,you didn't modify
+2024-02-15T18:15:00,Dovansh,Yaa
+2024-02-15T18:15:00,Amey Pacharkar,you altered
+2024-02-15T18:15:00,Dovansh,I see
+2024-02-15T18:15:00,Dovansh,Okk
+2024-02-15T19:28:00,Amey Pacharkar,python ka likke bhej dena
+2024-02-15T19:47:00,Dovansh,Saare programs ho gaye ?
+2024-02-15T19:47:00,Dovansh,Inheritance bhejna
+2024-02-15T19:57:00,Dovansh,"class employee: def __init__(self): self.name = input(""Enter name:"") self.id = int(input(""Enter your id:"")) self.basic_sal = int(input(""Enter your basic salary:"")) def logic(self): self.ta = (10*self.basic_sal)/100 self.da = (30*self.basic_sal)/100 self.hra = (15*self.basic_sal)/100 self.gross = self.basic_sal + self.ta + self.da + self.hra def display(self): print(""name of employee"",self.name) print(""id of empoyee"",self.id) print(""Gross salary"",self.gross) e=employee() e.logic() e.display()"
+2024-02-15T19:57:00,Dovansh,"class functions: a = int(input(""Enter first number"")) b = int(input(""Enter second number"")) def sum(self): self.c = self.a + self.b print(""Addition of the two numbers is "",self.c) def mul(self): self.d = self.a*self.b print(""Multiplication of the two numbers is "", self.d) def sub(self): self.e = self.a - self.b print(""Subtraction of the two numbers is "", self.e) def div(self): self.f = float(self.a/self.b) print(""Division of the two numbers is "", self.f) s=functions(); ch = 1 while (ch!=5): print(""1.)ADD\n2.)MULTIPLICATION\n3.)SUBTRACTION\n4.)DIVISION\n5.)EXIT"") ch = int(input(""Enter your choice:"")) if ch==1: s.sum() elif ch==2: s.mul() elif ch==3: s.sub() elif ch==4: s.div()"
+2024-02-15T19:57:00,Dovansh,"i = 1 while i<=5: n = int(input(""Please enter nubers between 1 to 5:"")) if n==1: try: a = int(input(""Please enter a number a"")) b = int(input(""Please enter a number b"")) c = a/b except ZeroDivisionError: print(""OOPS!Number divisible by zero exception occurs"") else: print(""Division is "",c) elif n==2: try: a = int(input(""Please enter a number a"")) b = int(input(""Please enter a number b"")) c = a/b except ValueError: print(""OOPS!Value Error exception occurs"") else: print(""Division is "",c) elif n==3: try: a = int(input(""Please enter a number a"")) b = int(input(""Please enter a number b"")) c = a/b except NameError: print(""OOPS!Name Error exception occurs"") else: print(""Division is "",c) elif n==4: try: n == '2'+2 except TypeError: print(""OOPS!Type error exception occurs"") else: print(""Division is "",c) elif n==5: try: n = int(input(""PLease enter nos betweem 2 and 3"")) assert n>=2 and n<=3 print(""The number enterd is "",n) except AssertionError: print(""OOPS!Assertion Error exception occurs"") else: print(""Division is "",c)"
+2024-02-15T20:02:00,Dovansh,thanks
+2024-02-15T20:50:00,Amey Pacharkar,"class Person(): def Person(self, name, age): self.name = name self.age = age def display(self): print(self.name, self.age) class Student(Person): def Student(self, name, age): self.sName = name self.sAge = age super().Person(""Soohamm"",20) def displayInfo(self): print(self.sName, self.sAge) obj = Student(""Amey"", 19) obj.display() obj.displayInfo() deva ooo deva error yeto ahe bhug jara"
+2024-02-15T21:05:00,Dovansh,Kya dekhu
+2024-02-15T21:07:00,Dovansh,isme inheritance kahape hai
+2024-02-15T21:12:00,Amey Pacharkar,ye he inheritance
+2024-02-15T21:12:00,Dovansh,par isme inheritance kahape hai
+2024-02-15T21:13:00,Amey Pacharkar,class Student(Person): most probably this
+2024-02-15T21:13:00,Amey Pacharkar,yar phir mene galat kiya he
+2024-02-15T21:13:00,Dovansh,aayien ?
+2024-02-15T21:22:00,Amey Pacharkar,"print(""______Class and object______"") class employee: def _init_(self): self.name = input(""Enter name:"") self.id = int(input(""Enter your id:"")) self.basic_sal = float(input(""Enter your basic salary:"")) def logic(self): self.ta = 0.1*self.basic_sal self.da = 0.3*self.basic_sal self.hra = 0.15*self.basic_sal self.gross = self.basic_sal + self.ta + self.da + self.hra def display(self): print(""name of employee"",self.name) print(""id of empoyee"",self.id) print(""Gross salary"",self.gross) e=employee() e.logic() e.display()"
+2024-02-15T21:22:00,Amey Pacharkar,run karke thek ye
+2024-02-15T21:23:00,Dovansh,inheritance chai peene gaya hai
+2024-02-15T21:23:00,Dovansh,thodi der baad aayega
+2024-02-15T21:23:00,Amey Pacharkar,ha
+2024-02-15T21:24:00,Amey Pacharkar,class and object ka program he
+2024-02-15T21:24:00,Dovansh,haa
+2024-02-15T21:24:00,Dovansh,wo bhi error de raha hai
+2024-02-15T21:24:00,Amey Pacharkar,kyu?
+2024-02-15T21:24:00,Amey Pacharkar,sir ka program he na
+2024-02-15T21:24:00,Amey Pacharkar,phir bhi?
+2024-02-15T21:24:00,Dovansh,haaa
+2024-02-15T21:28:00,Amey Pacharkar,varna gfg se uthavu kya?
+2024-02-15T21:28:00,Dovansh,haaa
+2024-02-15T21:41:00,Amey Pacharkar,"print(""______Functions______"") class functions: a = int(input(""Enter first number"")) b = int(input(""Enter second number"")) def sum(self): self.c = self.a + self.b print(""Addition of the two numbers is "",self.c) def mul(self): self.d = self.a*self.b print(""Multiplication of the two numbers is "", self.d) def sub(self): self.e = self.a - self.b print(""Subtraction of the two numbers is "", self.e) def div(self): self.f = float(self.a/self.b) print(""Division of the two numbers is "", self.f) s=functions() ch = 1 while (ch!=5): print(""1.)ADD\n2.)MULTIPLICATION\n3.)SUBTRACTION\n4.)DIVISION\n5.)EXIT"") ch = int(input(""Enter your choice:"")) if ch==1: s.sum() elif ch==2: s.mul() elif ch==3: s.sub() elif ch==4: s.div() else : print(""Thank you"") print(""______Class and object______"") class employee: def __init__(self,name,id,basic_sal): self.name = name self.id = id self.basic_sal = basic_sal def logic(self): self.ta = 0.1*self.basic_sal self.da = 0.3*self.basic_sal self.hra = 0.15*self.basic_sal self.gross = self.basic_sal + self.ta + self.da + self.hra def display(self): print(""name of employee"",self.name) print(""id of empoyee"",self.id) print(""Gross salary"",self.gross) name = input(""Enter name:"") id = int(input(""Enter your id:"")) basic_sal = float(input(""Enter your basic salary:"")) e=employee(name,id,basic_sal) e.logic() e.display() print(""______Inheritance______"") class Person(object): def __init__(self, name, idnumber): self.name = name self.idnumber = idnumber def display(self): print(self.name) print(self.idnumber) class Employee(Person): def __init__(self, name, idnumber, salary, post): self.salary = salary self.post = post Person.__init__(self, name, idnumber) a = Employee('Rahul', 886012, 200000, ""Intern"") a.display() print(""______Exception Handling______"") i = 1 while i<=5: n = int(input(""Please enter nubers between 1 to 5:"")) if n==1: try: a = int(input(""Please enter a number a"")) b = int(input(""Please enter a number b"")) c = a/b except ZeroDivisionError: print(""OOPS!Number divisible by zero exception occurs"") else: print(""Division is "",c) elif n==2: try: a = int(input(""Please enter a number a"")) b = int(input(""Please enter a number b"")) c = a/b except ValueError: print(""OOPS!Value Error exception occurs"") else: print(""Division is "",c) elif n==3: try: a = int(input(""Please enter a number a"")) b = int(input(""Please enter a number b"")) c = a/b except NameError: print(""OOPS!Name Error exception occurs"") else: print(""Division is "",c) elif n==4: try: n == '2'+2 except TypeError: print(""OOPS!Type error exception occurs"") else: print(""Division is "",c) elif n==5: try: n = int(input(""PLease enter nos betweem 2 and 3"")) assert n>=2 and n<=3 print(""The number enterd is "",n) except AssertionError: print(""OOPS!Assertion Error exception occurs"") else: print(""Division is "",c)"
+2024-02-15T21:41:00,Amey Pacharkar,hua run
+2024-02-15T21:57:00,Dovansh,class and object wala error de raha hai
+2024-02-15T22:16:00,Amey Pacharkar,exception handling bekar che. thamto nathi
+2024-02-15T22:35:00,Dovansh,output nikalke bhej na
+2024-02-15T22:35:00,Dovansh,nahi ho raha mere se
+2024-02-15T22:40:00,Amey Pacharkar,"print(""______Functions______"") class functions: a = int(input(""Enter first number"")) b = int(input(""Enter second number"")) def sum(self): self.c = self.a + self.b print(""Addition of the two numbers is "",self.c) def mul(self): self.d = self.a*self.b print(""Multiplication of the two numbers is "", self.d) def sub(self): self.e = self.a - self.b print(""Subtraction of the two numbers is "", self.e) def div(self): self.f = float(self.a/self.b) print(""Division of the two numbers is "", self.f) s=functions() ch = 1 while (ch!=5): print(""1.)ADD\n2.)MULTIPLICATION\n3.)SUBTRACTION\n4.)DIVISION\n5.)EXIT"") ch = int(input(""Enter your choice:"")) if ch==1: s.sum() elif ch==2: s.mul() elif ch==3: s.sub() elif ch==4: s.div() else : print(""Thank you"") print(""______Class and object______"") class employee: def __init__(self,name,id,basic_sal): self.name = name self.id = id self.basic_sal = basic_sal def logic(self): self.ta = 0.1*self.basic_sal self.da = 0.3*self.basic_sal self.hra = 0.15*self.basic_sal self.gross = self.basic_sal + self.ta + self.da + self.hra def display(self): print(""name of employee"",self.name) print(""id of empoyee"",self.id) print(""Gross salary"",self.gross) name = input(""Enter name:"") id = int(input(""Enter your id:"")) basic_sal = float(input(""Enter your basic salary:"")) e=employee(name,id,basic_sal) e.logic() e.display() print(""______Inheritance______"") class Person(object): def __init__(self, name, idnumber): self.name = name self.idnumber = idnumber def display(self): print(self.name) print(self.idnumber) class Employee(Person): def __init__(self, name, idnumber, salary, post): self.salary = salary self.post = post Person.__init__(self, name, idnumber) a = Employee('Rahul', 886012, 200000, ""Intern"") a.display() print(""______Exception Handling______"") i = 1 while i<=5: n = int(input(""Please enter nubers between 1 to 5:"")) if n==1: try: a = int(input(""Please enter a number a"")) b = int(input(""Please enter a number b"")) c = a/b except ZeroDivisionError: print(""OOPS!Number divisible by zero exception occurs"") else: print(""Division is "",c) elif n==2: try: a = int(input(""Please enter a number a"")) b = int(input(""Please enter a number b"")) c = a/b except ValueError: print(""OOPS!Value Error exception occurs"") else: print(""Division is "",c) elif n==3: try: a = int(input(""Please enter a number a"")) b = int(input(""Please enter a number b"")) c = a/b except NameError: print(""OOPS!Name Error exception occurs"") else: print(""Division is "",c) elif n==4: try: n == '2'+2 except TypeError: print(""OOPS!Type error exception occurs"") else: print(""Division is "",c) elif n==5: try: n = int(input(""PLease enter nos betweem 2 and 3"")) assert n>=2 and n<=3 print(""The number enterd is "",n) except AssertionError: print(""OOPS!Assertion Error exception occurs"") else: print(""Division is "",c)"
+2024-02-15T22:51:00,Amey Pacharkar,______Functions______ Enter first number1 Enter second number2 1.)ADD 2.)MULTIPLICATION 3.)SUBTRACTION 4.)DIVISION 5.)EXIT Enter your choice:5 Thank you ______Class and object______ Enter name:amey Enter your id:132 Enter your basic salary:1200000 name of employee amey id of empoyee 132 Gross salary 1860000.0 ______Inheritance______ Rahul 886012 ______Exception Handling______ Please enter nubers between 1 to 5:1 Please enter a number a12 Please enter a number b0 OOPS!Number divisible by zero exception occurs Please enter nubers between 1 to 5:2 Please enter a number a-1i OOPS!Value Error exception occurs
+2024-02-15T22:52:00,Amey Pacharkar,practical 3 na?
+2024-02-15T22:52:00,Dovansh,Haaa
+2024-02-15T23:06:00,Dovansh,thanks
+2024-02-15T23:08:00,Dovansh,kal bohot sare pages leke aana
+2024-02-15T23:08:00,Dovansh,blank
+2024-02-15T23:08:00,Dovansh,print bohot hai kal
+2024-02-15T23:24:00,Dovansh,Ameeeeeeyyyyyyyyy
+2024-02-15T23:24:00,Dovansh,Sblc
+2024-02-15T23:24:00,Dovansh,W
+2024-02-15T23:24:00,Dovansh,R
+2024-02-15T23:24:00,Dovansh,I
+2024-02-15T23:24:00,Dovansh,T
+2024-02-15T23:24:00,Dovansh,E
+2024-02-15T23:24:00,Dovansh,U
+2024-02-15T23:24:00,Dovansh,P
+2024-02-15T23:30:00,Amey Pacharkar,I don't have them
+2024-02-15T23:31:00,Dovansh,We'll have to buy tomorrow
+2024-02-15T23:31:00,Amey Pacharkar,Yaa
+2024-02-15T23:31:00,Amey Pacharkar,I will write OS experiment 4 tomorrow...
+2024-02-15T23:31:00,Amey Pacharkar,Will go sleep.
+2024-02-15T23:31:00,Dovansh,Alright
+2024-02-15T23:31:00,Amey Pacharkar,Later
+2024-02-15T23:31:00,Dovansh,Yepp
+2024-02-16T10:10:00,Dovansh,https://www.ducumon.click/2016/01/pokemon-y.html
+2024-02-16T12:19:00,Amey Pacharkar,First page bhejde
+2024-02-16T12:20:00,Amey Pacharkar,12copy na?
+2024-02-16T12:20:00,Amey Pacharkar,4 for each of us
+2024-02-16T12:25:00,Dovansh,Haa
+2024-02-16T12:26:00,Amey Pacharkar,Invert?
+2024-02-16T12:26:00,Dovansh,Nahi hua
+2024-02-16T12:26:00,Dovansh,Kaam hi kar rahe hai
+2024-02-16T12:27:00,Amey Pacharkar,To DBMS?
+2024-02-16T12:27:00,Amey Pacharkar,Practical ke time pe le lete he
+2024-02-16T12:28:00,Amey Pacharkar,Agar sir bole without invert chalega to likal thenke
+2024-02-16T18:26:00,Dovansh,https://hexrom.com/pokemon-y/download/
+2024-02-16T18:26:00,Dovansh,Pokemon y
+2024-02-16T19:05:00,Amey Pacharkar,Konsa karna he?
+2024-02-16T19:05:00,Amey Pacharkar,null
+2024-02-16T19:14:00,Amey Pacharkar,Mewtwo bhi he?
+2024-02-16T19:14:00,Dovansh,Ye mat kar
+2024-02-16T19:14:00,Dovansh,Maine dusra link dhundha hai
+2024-02-16T19:14:00,Dovansh,Usme fast ho raha hai
+2024-02-16T19:14:00,Dovansh,Link ka kuch problem tha
+2024-02-16T19:14:00,Dovansh,Run karke batata hu
+2024-02-16T19:14:00,Amey Pacharkar,Tu download karke run karke mujhe bata
+2024-02-16T19:14:00,Amey Pacharkar,Ha
+2024-02-16T19:14:00,Dovansh,Haa
+2024-02-16T19:14:00,Amey Pacharkar,Ha
+2024-02-16T19:14:00,Dovansh,Haa
+2024-02-16T19:15:00,Amey Pacharkar,Ha re
+2024-02-16T19:15:00,Dovansh,Haaqq
+2024-02-16T19:15:00,Amey Pacharkar,Haee
+2024-02-16T19:15:00,Amey Pacharkar,Nahi it's most probably website error
+2024-02-16T19:16:00,Dovansh,Ha wohi re
+2024-02-16T19:41:00,Dovansh,This message was deleted
+2024-02-16T19:42:00,Dovansh,This message was deleted
+2024-02-16T19:42:00,Dovansh,This message was deleted
+2024-02-16T19:42:00,Dovansh,This message was deleted
+2024-02-16T20:39:00,Dovansh,https://happyroms.com/download/mod/pokemon-y-33191-691/
+2024-02-16T20:39:00,Dovansh,This one is good
+2024-02-16T21:18:00,Amey Pacharkar,Chalega
+2024-02-16T21:18:00,Amey Pacharkar,Karta hu
+2024-02-16T21:18:00,Amey Pacharkar,Phir batata hu
+2024-02-16T21:18:00,Dovansh,Haa
+2024-02-16T22:45:00,Dovansh,Are?
+2024-02-16T22:45:00,Dovansh,Extract kiya ?
+2024-02-16T22:45:00,Amey Pacharkar,🤦‍♂️
+2024-02-16T22:45:00,Amey Pacharkar,🤟
+2024-02-16T22:46:00,Dovansh,Wo kar
+2024-02-16T22:47:00,Amey Pacharkar,Same araha he
+2024-02-16T22:48:00,Dovansh,Aisa aayega
+2024-02-16T22:48:00,Dovansh,Jo folder me extract kiya wo folder khol
+2024-02-16T22:48:00,Amey Pacharkar,Konsa directory select Kiya?
+2024-02-16T22:48:00,Dovansh,Maine alag directory banaya hai
+2024-02-16T22:48:00,Dovansh,Jisme dono games hai
+2024-02-16T22:48:00,Amey Pacharkar,Acha
+2024-02-16T22:49:00,Amey Pacharkar,Kese?
+2024-02-16T22:49:00,Dovansh,Haa
+2024-02-16T22:49:00,Dovansh,Files me jaake create kar
+2024-02-16T22:49:00,Dovansh,Fir copy paste kar de
+2024-02-16T22:53:00,Dovansh,Aise we file copy paste kar
+2024-02-16T22:53:00,Dovansh,Rar ya zip wala nahi
+2024-02-16T22:56:00,Amey Pacharkar,Ye alag wala he na?
+2024-02-16T22:57:00,Amey Pacharkar,Isn't it different files?
+2024-02-16T22:57:00,Dovansh,Haa
+2024-02-16T22:57:00,Amey Pacharkar,My extention is 3d and yours cita
+2024-02-16T22:57:00,Dovansh,Extract karne ke baad ek alag file banta hai
+2024-02-16T22:57:00,Dovansh,Wo dhundh
+2024-02-16T22:57:00,Amey Pacharkar,Yee??
+2024-02-16T22:58:00,Dovansh,Haa
+2024-02-16T22:58:00,Dovansh,Ha ye
+2024-02-16T22:58:00,Amey Pacharkar,Age?
+2024-02-16T22:58:00,Amey Pacharkar,*aage?
+2024-02-16T22:58:00,Dovansh,Copy paste Kiya ?
+2024-02-16T22:59:00,Dovansh,Ya to ye directory yaad rakh
+2024-02-16T22:59:00,Amey Pacharkar,Ah he alag folder me he hee
+2024-02-16T22:59:00,Dovansh,Aur yahipe Citra ka path set kar
+2024-02-16T22:59:00,Amey Pacharkar,It says my room is encrypted. How do I decrypt it?
+2024-02-16T23:00:00,Amey Pacharkar,*rom
+2024-02-16T23:00:00,Dovansh,Where does it say that ?
+2024-02-16T23:01:00,Dovansh,Tujhe Aisa icon dikh raha hai ?
+2024-02-16T23:01:00,Amey Pacharkar,Nahi na
+2024-02-16T23:01:00,Dovansh,Aise icons hi khulte hai
+2024-02-16T23:01:00,Dovansh,Tu file barabar open nahi kar raha
+2024-02-16T23:02:00,Amey Pacharkar,How do you open it then?
+2024-02-16T23:05:00,Amey Pacharkar,I will have to decrypt the file first
+2024-02-16T23:05:00,Dovansh,That's not needed re
+2024-02-16T23:06:00,Dovansh,I extracted the file then moved the new file created
+2024-02-16T23:06:00,Dovansh,And it opened
+2024-02-16T23:06:00,Amey Pacharkar,Where did you moved it in citra folder?
+2024-02-16T23:06:00,Dovansh,Noo
+2024-02-16T23:25:00,Amey Pacharkar,Citraka download link bhej
+2024-02-16T23:26:00,Dovansh,Wo playstore se kiya
+2024-02-16T23:30:00,Amey Pacharkar,Nahi chal Raha he
+2024-02-16T23:31:00,Amey Pacharkar,It needs to be decrypted
+2024-02-16T23:31:00,Dovansh,I'll see it on sunday
+2024-02-16T23:33:00,Amey Pacharkar,I think you send me decryped file by mistake
+2024-02-16T23:34:00,Dovansh,No re
+2024-02-16T23:34:00,Amey Pacharkar,Thekta hu me
+2024-02-16T23:34:00,Dovansh,I sent you the same link i used
+2024-02-16T23:34:00,Dovansh,Haa
+2024-02-17T01:52:00,Dovansh,Ohhh nice
+2024-02-17T01:53:00,Dovansh,Expense tracker
+2024-02-17T01:53:00,Amey Pacharkar,Are waa
+2024-02-17T01:53:00,Dovansh,I'll send you the code when I'm done
+2024-02-17T02:58:00,Dovansh,"import java.util.*; class setexpense{ String cat[] = new String[100]; int cash[] = new int[100]; int i=0,sum=0,rembud=0,k=1,n=0; int BUDGET=0; public void setbudget(int budget){ BUDGET += budget; rembud += budget; System.out.println(""YOUR BUDGET IS :""+BUDGET); } public void LIST(){ int out; String in; Scanner sc = new Scanner(System.in); while(k==1){ System.out.println(""Enter Category""); in=sc.next(); System.out.println(""Enter expense amount""); out= sc.nextInt(); if(rembud>out){ cash[i]=out; cat[i]=in; } else if(rembud!=0 && rembud<out){ System.out.println(""INSUFFICIENT BUDGET""); cash[i]=out; cat[i]=in; } System.out.println(""Enter 0 to exit""); i++; n++; rembud -=out; sum +=out; k = sc.nextInt(); if(k==0) break; } System.out.println(""ORIGINAL BUDGET :""+BUDGET); System.out.println(""REMAINING BUDGET:""+rembud); System.out.println(""TOTAL EXPENDITURE:""+sum); } } class checkexpense extends setexpense{ void display(){ System.out.println(""  CATEGORY     EXPENSE""); for(i=0;i<n;i++){ System.out.println(i+1+"" ""+cat[i]+""              ""+cash[i]); } } void sortlist(){ int b[]= cash.clone(); String a[]=cat.clone(); String temp; int tem; for(i = 0;i<n;i++){ for(int j=0;j<n;j++){ if(b[j]>b[j+1]){ tem = b[j]; temp = a[j]; b[j] = b[j+1]; a[j] = a[j+1]; b[j+1]= tem; a[j+1]= temp; } } } for(i=1;i<n+1;i++){ System.out.println(b[i]+""  ""+a[i]); } } } public class Main { public static void main(String[] args) { int ch=6,bud; Scanner sc = new Scanner(System.in); System.out.println(""WELCOME TO EXPENSE TRCKER""); checkexpense budget = new checkexpense(); do{ System.out.println(""MAIN MENU""); System.out.println(""1.)SET/UPDATE BUDGET""); System.out.println(""2.)ENTER EXPENSE""); System.out.println(""3.)CHECK EXPENSE HISTORY""); System.out.println(""4.)CHECK REMAINING BUDGET""); System.out.println(""5.)CHECK TOTAL EXPENSE""); System.out.println(""6.)SORT EXPENSES IN ASCENDING ORDER: ""); System.out.println(""7.)EXIT""); ch = sc.nextInt(); System.out.println(""\n\n""); switch(ch){ case 1: System.out.println(""Enter your budget:""); bud = sc.nextInt(); budget.setbudget(bud); break; case 2: budget.LIST(); break; case 3: budget.display(); break; case 4: System.out.println(""ORIGINAL BUDGET:""+budget.BUDGET); System.out.println(""REMAINING BUDGET:""+budget.rembud); case 5: System.out.println(""TOTAL EXPENDITURE:""+budget.sum); break; case 6: budget.sortlist(); break; } }while(ch!=6); } }"
+2024-02-17T02:58:00,Dovansh,its smoll
+2024-02-17T02:59:00,Dovansh,aur kuch daal sakte hai kya ?
+2024-02-17T10:05:00,Amey Pacharkar,Make it look good
+2024-02-17T10:11:00,Dovansh,Like ?
+2024-02-17T10:16:00,Amey Pacharkar,Use /n /t add ------- or ****** to seperate
+2024-02-17T10:16:00,Amey Pacharkar,Like that
+2024-02-17T10:30:00,Dovansh,ohokk
+2024-02-17T10:30:00,Dovansh,any new features ?
+2024-02-17T10:57:00,Amey Pacharkar,if you want add dates
+2024-02-17T10:58:00,Amey Pacharkar,not a lot you can add tho
+2024-02-17T10:59:00,Amey Pacharkar,"you  can separate things like necessities, entertainment. then allocate certain budget for it"
+2024-02-17T11:15:00,Dovansh,Yaa I'm adding that
+2024-02-17T11:15:00,Dovansh,Yaaa
+2024-02-17T11:15:00,Dovansh,Should I show it to sir ?
+2024-02-17T11:46:00,Amey Pacharkar,sure show it to sir
+2024-02-17T11:47:00,Dovansh,Isn't it too simple
+2024-02-17T11:48:00,Amey Pacharkar,Yaa it is mostly a condition then addition or substraction
+2024-02-17T11:51:00,Dovansh,so should I or not
+2024-02-17T11:52:00,Amey Pacharkar,Don't contemplate so much
+2024-02-17T11:52:00,Amey Pacharkar,Go with what you want
+2024-02-17T11:53:00,Amey Pacharkar,If it's simple sir will say it's simple. What's the big deal with it?
+2024-02-17T11:53:00,Amey Pacharkar,It's not like we are selling it
+2024-02-17T11:56:00,Dovansh,alright let me getb the date done then ill tell sir
+2024-02-17T12:11:00,Dovansh,"import java.util.Scanner; import java.util.Date; import java.text.SimpleDateFormat; class setexpense{ String cat[] = new String[100]; int cash[] = new int[100]; String dat[] = new String[100]; int i=0,sum=0,rembud=0,k=1,n=0; int BUDGET=0; public void setbudget(int budget){ BUDGET += budget; rembud += budget; System.out.println(""YOUR BUDGET IS :""+BUDGET); } public void LIST(){ int out; String in,d=null; Scanner sc = new Scanner(System.in); while(k==1){ System.out.println(""Enter Category""); in=sc.next(); System.out.println(""Enter expense amount""); out= sc.nextInt(); System.out.println(""Enter date(Press 1 for current date):""); d = sc.next(); Date date = new Date(); SimpleDateFormat formatter = new SimpleDateFormat(""dd/MM/yyyy""); dat[i] = formatter.format(date); System.out.println(dat[i]); if(rembud>out){ cash[i]=out; cat[i]=in; if(d==null) System.out.println(""\n""); else dat[i]=d; } else if(rembud==0 || rembud<out){ System.out.println(""INSUFFICIENT BUDGET""); cash[i]=out; cat[i]=in; if(d==null) System.out.println(""\n""); else dat[i]=d; } System.out.println(""Enter 1 to continue""); i++; n++; rembud -=out; sum +=out; k = sc.nextInt(); if(k==0) break; } System.out.println(""ORIGINAL BUDGET :""+BUDGET); System.out.println(""REMAINING BUDGET:""+rembud); System.out.println(""TOTAL EXPENDITURE:""+sum); } } class checkexpense extends setexpense{ void display(){ System.out.println(""  CATEGORY     EXPENSE      DATE""); for(i=0;i<n;i++){ System.out.println(i+1+"" ""+cat[i]+""              ""+cash[i]+""    ""+dat[i]); } } void sortlist(){ int b[]= cash.clone(); String a[]=cat.clone(); String temp; int tem; for(i = 0;i<n;i++){ for(int j=0;j<n;j++){ if(b[j]>b[j+1]){ tem = b[j]; temp = a[j]; b[j] = b[j+1]; a[j] = a[j+1]; b[j+1]= tem; a[j+1]= temp; } } } for(i=1;i<n+1;i++){ System.out.println(b[i]+""  ""+a[i]); } } } public class Main { public static void main(String[] args) { int ch=6,bud; Scanner sc = new Scanner(System.in); System.out.println(""WELCOME TO EXPENSE TRCKER""); checkexpense budget = new checkexpense(); do{ System.out.println(""MAIN MENU""); System.out.println(""1.)SET/UPDATE BUDGET""); System.out.println(""2.)ENTER EXPENSE""); System.out.println(""3.)CHECK EXPENSE HISTORY""); System.out.println(""4.)CHECK REMAINING BUDGET""); System.out.println(""5.)CHECK TOTAL EXPENSE""); System.out.println(""6.)SORT EXPENSES IN ASCENDING ORDER: ""); System.out.println(""7.)EXIT""); ch = sc.nextInt(); System.out.println(""\n\n""); switch(ch){ case 1: System.out.println(""Enter your budget:""); bud = sc.nextInt(); budget.setbudget(bud); break; case 2: budget.LIST(); break; case 3: budget.display(); break; case 4: System.out.println(""ORIGINAL BUDGET:""+budget.BUDGET); System.out.println(""REMAINING BUDGET:""+budget.rembud); case 5: System.out.println(""TOTAL EXPENDITURE:""+budget.sum); break; case 6: budget.sortlist(); break; } }while(ch!=6); } }"
+2024-02-18T07:35:00,Amey Pacharkar,join kar follow up
+2024-02-19T11:51:00,Dovansh,https://www.instagram.com/reel/C3P1wzjI7Oi/?igsh=M25sNGZ4aWFnbjR1
+2024-02-19T19:59:00,Dovansh,aoa
+2024-02-19T20:00:00,Dovansh,assignment 1 bhej na
+2024-02-19T20:04:00,Dovansh,thanku
+2024-02-19T20:04:00,Amey Pacharkar,Don't send to anyone
+2024-02-19T20:04:00,Dovansh,program nahi chahiye tgha
+2024-02-19T20:04:00,Amey Pacharkar,Even in our group
+2024-02-19T20:04:00,Dovansh,haaa
+2024-02-19T20:05:00,Dovansh,im just checking the answers
+2024-02-19T20:05:00,Amey Pacharkar,It was WAP. Which is write a program
+2024-02-19T20:05:00,Dovansh,haa I know
+2024-02-19T20:05:00,Dovansh,i meant i didn't want it
+2024-02-19T20:05:00,Amey Pacharkar,Ahh acha samjha
+2024-02-19T20:05:00,Amey Pacharkar,Haa
+2024-02-19T20:05:00,Dovansh,haa
+2024-02-19T20:05:00,Amey Pacharkar,Ha
+2024-02-19T20:05:00,Dovansh,ha
+2024-02-19T20:05:00,Dovansh,thanku
+2024-02-19T20:06:00,Amey Pacharkar,🧐
+2024-02-19T20:06:00,Amey Pacharkar,Welcomu
+2024-02-19T20:07:00,Dovansh,Haq
+2024-02-19T21:10:00,Dovansh,yepp
+2024-02-19T21:28:00,Dovansh,"#include <stdio.h> void display(int a[],int n){ int i; for(i=0;i<n;i++) { printf(""%d "",a[i]); } } int partition(int a[],int lb,int ub){ int pivot = a[lb]; int start = lb; int end = ub; int temp; while(start<end){ while(a[start]<=pivot) start++; while(a[start]>pivot) end--; if(start < end){ temp = a[start]; a[start] = a[end]; a[end] = temp; } } temp =a[lb]; a[lb]=a[end]; a[end] = temp; return end; } int quicksort(int a[], int lb, int ub){ int loc,i,n; if(lb<ub){ loc = partition(a,lb,ub); quicksort(a,lb,loc-1); quicksort(a,loc+1,ub); } } int main() { int i,j,n,temp,flag; int a[100]; printf(""Enter the number of elementsin the array:""); scanf(""%d"",&n); a[n]; for(i=0;i<n;i++) { printf(""Enter the elements of the array:""); scanf(""%d"",&a[i]); } quicksort(a,0,n-1); display(a,n); }"
+2024-02-19T21:28:00,Dovansh,can you run this program and see
+2024-02-19T21:52:00,Amey Pacharkar,you can declare a variable two times
+2024-02-19T21:52:00,Amey Pacharkar,You deleted this message
+2024-02-19T21:56:00,Amey Pacharkar,nahi pata kya error he
+2024-02-19T22:28:00,Dovansh,Amey
+2024-02-19T22:37:00,Amey Pacharkar,Devansh
+2024-02-20T11:17:00,Dovansh,This message was deleted
+2024-02-20T11:17:00,Dovansh,This message was deleted
+2024-02-20T11:17:00,Dovansh,This message was deleted
+2024-02-20T11:17:00,Dovansh,This message was deleted
+2024-02-20T11:17:00,Dovansh,This message was deleted
+2024-02-20T11:17:00,Dovansh,This message was deleted
+2024-02-20T12:35:00,Dovansh,Amey
+2024-02-20T12:53:00,Dovansh,This message was deleted
+2024-02-20T19:15:00,Amey Pacharkar,Send ss of maths4
+2024-02-20T19:15:00,Amey Pacharkar,Syllabus
+2024-02-20T19:15:00,Amey Pacharkar,Not the whole thing
+2024-02-20T19:15:00,Amey Pacharkar,null
+2024-02-20T19:16:00,Dovansh,Bheja
+2024-02-20T19:16:00,Dovansh,Dekh
+2024-02-20T19:17:00,Amey Pacharkar,null
+2024-02-20T19:20:00,Dovansh,Tyani file mam la dili aahe
+2024-02-20T19:20:00,Dovansh,Tyachya kade nahi aahe
+2024-02-20T19:20:00,Amey Pacharkar,Mug Kay karacha ahe?
+2024-02-20T19:20:00,Dovansh,Haa re mila
+2024-02-20T19:20:00,Dovansh,Udya lihu
+2024-02-20T19:21:00,Dovansh,Mam la vicharun
+2024-02-20T19:21:00,Amey Pacharkar,Chalel
+2024-02-20T19:21:00,Dovansh,Hoo
+2024-02-20T19:21:00,Amey Pacharkar,Chalel
+2024-02-20T19:21:00,Dovansh,Hooo
+2024-02-20T20:01:00,Dovansh,Amyyeyeyeyeyyeyeyeey
+2024-02-20T20:01:00,Amey Pacharkar,Su che?
+2024-02-20T20:02:00,Dovansh,Mane papars mokal ne <This message was edited>
+2024-02-20T20:02:00,Dovansh,Badha
+2024-02-20T20:02:00,Amey Pacharkar,Mene lagyu tame modak Jav che
+2024-02-20T20:03:00,Dovansh,🤦🏼
+2024-02-20T20:03:00,Dovansh,Question papers mokal
+2024-02-20T20:03:00,Dovansh,Mane
+2024-02-20T20:03:00,Dovansh,Print leva
+2024-02-20T20:04:00,Amey Pacharkar,Mokalu chu
+2024-02-20T20:04:00,Dovansh,Haa
+2024-02-20T20:05:00,Amey Pacharkar,Me tane Gmail bhi Karu sake chu
+2024-02-20T20:06:00,Dovansh,Atlaj che ?
+2024-02-20T20:06:00,Dovansh,Nai bass Thai gayu
+2024-02-20T20:36:00,Amey Pacharkar,Edit kese karte he group PE?
+2024-02-20T20:36:00,Dovansh,Msg ?
+2024-02-20T20:36:00,Amey Pacharkar,Haa
+2024-02-20T20:36:00,Dovansh,Hold karke rakh
+2024-02-20T20:36:00,Dovansh,For uper ke 3 dots pe click kar
+2024-02-20T20:37:00,Amey Pacharkar,Maybe not available in group
+2024-02-20T20:37:00,Dovansh,It should be
+2024-02-20T20:38:00,Dovansh,Ha it ain't
+2024-02-20T20:38:00,Amey Pacharkar,MurJAVA
+2024-02-20T20:38:00,Dovansh,😭
+2024-02-21T22:50:00,Amey Pacharkar,We have to do DBMS exp5
+2024-02-21T22:57:00,Dovansh,yaa
+2024-02-21T23:30:00,Dovansh,Thanku
+2024-02-22T09:40:00,Amey Pacharkar,You deleted this message
+2024-02-22T09:41:00,Amey Pacharkar,You deleted this message
+2024-02-22T09:49:00,Dovansh,hello
+2024-02-22T09:50:00,Dovansh,tera kaam karna
+2024-02-22T09:51:00,Amey Pacharkar,".model small .data array1 db 02H,07H,04H,09H,01H array2 db 00H .code mov ax,@data mov ds,ax mov es,ax lea si,array1 lea di,array2 mov cx,05H cld rep movsb int 03H ends end"
+2024-02-22T09:52:00,Amey Pacharkar,You deleted this message
+2024-02-22T09:53:00,Amey Pacharkar,You deleted this message
+2024-02-22T09:54:00,Amey Pacharkar,You deleted this message
+2024-02-22T13:31:00,Amey Pacharkar,DBMS ka hone wala he kya lecture?
+2024-02-22T13:39:00,Dovansh,Nahi
+2024-02-22T22:29:00,Amey Pacharkar,sblc ka file handling aur exp5 bhej na
+2024-02-22T22:30:00,Amey Pacharkar,mujhe chapna he
+2024-02-22T22:31:00,Amey Pacharkar,write up and program?
+2024-02-22T22:31:00,Dovansh,here
+2024-02-22T22:31:00,Amey Pacharkar,thank  yoou
+2024-02-22T22:35:00,Dovansh,yepp
+2024-02-23T06:59:00,Amey Pacharkar,Tune kiya kya python?
+2024-02-23T07:34:00,Dovansh,Nahi
+2024-02-23T11:06:00,Dovansh,"from tkinter import * root = Tk() root.geometry('500x500') root.title(""Registration Form"") l0 = Label(root, text=""Registration form"", width=20, font=(""bold"", 20)) l0.place(x=90, y=20) l1 = Label(root, text=""First Name"", width=15, font=(""bold"", 12)) l1.place(x=50, y=65) e1 = Entry(root) e1.place(x=240, y=65) l2 = Label(root, text=""Last Name"", width=15, font=(""bold"", 12)) l2.place(x=50, y=105) e2 = Entry(root) e2.place(x=240, y=105) l3 = Label(root, text=""Email Address"", width=15, font=(""bold"", 12)) l3.place(x=50, y=145) e3 = Entry(root) e3.place(x=240, y=145) l4 = Label(root, text=""Gender"", width=15, font=(""bold"", 12)) l4.place(x=50, y=185) var_gender = IntVar() Radiobutton(root, text=""Male"", padx=5, variable=var_gender, value=1).place(x=225, y=185) Radiobutton(root, text=""Female"", padx=20, variable=var_gender, value=2).place(x=290, y=185) l5 = Label(root, text=""Age"", width=15, font=(""bold"", 12)) l5.place(x=50, y=225) e5 = Entry(root) e5.place(x=240, y=225) l6 = Label(root, text=""Courses:"", width=15, font=(""bold"", 12)) l6.place(x=50, y=265) var_courses_python = IntVar() Checkbutton(root, text=""Python"", variable=var_courses_python).place(x=230, y=265) var_courses_java = IntVar() Checkbutton(root, text=""Java"", variable=var_courses_java).place(x=300, y=265) var_courses_cpp = IntVar() Checkbutton(root, text=""C++"", variable=var_courses_cpp).place(x=360, y=265) l7 = Label(root, text=""Country : "", width=15, font=(""bold"", 12)) l7.place(x=50, y=305) countries = [""India"", ""America"", ""England"", ""South Africa""] var_country = StringVar() var_country.set(countries[0]) country_dropdown = OptionMenu(root, var_country, *countries) country_dropdown.place(x=240, y=305) def display(): print(""Registration Complete"") FN = e1.get() LN = e2.get() EA = e3.get() G = var_gender.get() A = e5.get() PY = var_courses_python.get() JAVA = var_courses_java.get() CPP = var_courses_cpp.get() C = var_country.get() print(FN) print(LN) print(EA) print(G) print(A) print(PY) print(JAVA) print(CPP) print(C) Button(root, text='Submit', width=15, bg='brown', fg='white', command = lambda : display()).place(x=150, y=370) root.mainloop()"
+2024-02-23T19:20:00,Dovansh,Ohh
+2024-02-23T19:20:00,Dovansh,Konsa gamua hai
+2024-02-23T19:21:00,Dovansh,?
+2024-02-23T19:35:00,Amey Pacharkar,Ruby
+2024-02-23T19:37:00,Dovansh,It isn't working?
+2024-02-23T19:37:00,Amey Pacharkar,Yaait shows that message
+2024-02-23T19:37:00,Dovansh,It did show me that too
+2024-02-23T19:38:00,Dovansh,But then it went away after some time
+2024-02-23T19:38:00,Amey Pacharkar,You kept it open?
+2024-02-23T19:38:00,Dovansh,Naa
+2024-02-23T19:38:00,Dovansh,I opened after some time
+2024-02-23T19:39:00,Amey Pacharkar,Will do that then
+2024-02-23T19:41:00,Dovansh,Yaa
+2024-02-25T07:33:00,Dovansh,Join the follow up
+2024-02-25T07:38:00,Amey Pacharkar,Hu me...
+2024-02-25T07:39:00,Amey Pacharkar,Are wa devansh ajj join Kiya he
+2024-02-25T07:40:00,Amey Pacharkar,Nahake aya?
+2024-02-25T07:40:00,Dovansh,Naa
+2024-02-25T07:40:00,Dovansh,5.30 ko utha lekin nahaya nahi
+2024-02-25T07:43:00,Amey Pacharkar,🤟😂
+2024-02-25T09:03:00,Dovansh,Do you like dialga palkia and giratina ?
+2024-02-25T09:04:00,Amey Pacharkar,I like giratina
+2024-02-25T09:04:00,Dovansh,Then download Pokemon platinum
+2024-02-25T09:04:00,Dovansh,I'm also doing
+2024-02-25T09:29:00,Amey Pacharkar,Naa tune ekbar dokha Diya abhi thekenge
+2024-02-25T09:29:00,Dovansh,Are Maine download Kiya
+2024-02-25T09:29:00,Dovansh,Chal raha hai
+2024-02-25T09:29:00,Dovansh,Smooth
+2024-02-25T09:46:00,Amey Pacharkar,Thekenge
+2024-02-25T11:15:00,Dovansh,ha
+2024-02-25T11:28:00,Dovansh,I deleted it and downloaded white 2
+2024-02-25T12:47:00,Amey Pacharkar,...
+2024-02-25T12:48:00,Dovansh,chal raha hai
+2024-02-25T22:15:00,Dovansh,Ameya
+2024-02-25T22:15:00,Dovansh,Sun
+2024-02-25T22:16:00,Dovansh,Left shift right shift ka mam ne kuch bola tha na
+2024-02-25T22:16:00,Dovansh,Mup ke
+2024-02-25T22:17:00,Amey Pacharkar,Ha
+2024-02-25T22:18:00,Dovansh,Wo bhejna
+2024-02-25T22:19:00,Amey Pacharkar,Khake bhejta hu
+2024-02-25T22:20:00,Dovansh,Ha chalse
+2024-02-25T22:52:00,Dovansh,Thanku
+2024-02-25T22:52:00,Amey Pacharkar,10 rupees for each word
+2024-02-25T22:52:00,Dovansh,Vasuli baba
+2024-02-25T22:52:00,Amey Pacharkar,*word and number
+2024-02-25T22:52:00,Amey Pacharkar,Naa extortion
+2024-02-25T22:53:00,Dovansh,You're the one who's extorting now
+2024-02-25T22:55:00,Amey Pacharkar,Nahi I am putting value. It's business
+2024-02-26T00:01:00,Amey Pacharkar,Hamara balance katam ho gaya 😂😂
+2024-02-26T00:01:00,Dovansh,Balance khatam ho Gaya ?
+2024-02-26T00:01:00,Amey Pacharkar,Exactly 1 hr and at 12 AM
+2024-02-26T00:02:00,Amey Pacharkar,Yesterday was my last day of balance  😂😂
+2024-02-26T00:02:00,Dovansh,Haaa 😂
+2024-02-26T00:02:00,Amey Pacharkar,So at 1hr mark it was 12AM
+2024-02-26T00:02:00,Amey Pacharkar,Such timing
+2024-02-26T00:02:00,Dovansh,Wow
+2024-02-26T00:02:00,Amey Pacharkar,1min difference
+2024-02-26T00:03:00,Dovansh,1 hour 1 min 0 seconds
+2024-02-26T00:03:00,Amey Pacharkar,Mujhe phirbhe bhedana padega. 13% charging
+2024-02-26T00:03:00,Amey Pacharkar,Timing 🤟🔥
+2024-02-26T00:03:00,Dovansh,Yeaah
+2024-02-26T00:03:00,Dovansh,Chal
+2024-02-26T00:04:00,Amey Pacharkar,Chal good night
+2024-02-26T00:04:00,Amey Pacharkar,Agar tu soraha hoga to
+2024-02-26T00:04:00,Dovansh,Haa
+2024-02-26T00:04:00,Dovansh,Good night
+2024-02-26T00:04:00,Amey Pacharkar,Haa
+2024-02-26T00:04:00,Dovansh,Haa
+2024-02-26T17:43:00,Amey Pacharkar,We should stop studying engineering. It's not worth
+2024-02-26T17:56:00,Dovansh,Yeah probably
+2024-02-26T18:41:00,Dovansh,😂😂😂
+2024-02-26T18:42:00,Dovansh,Eat like a chapati bhaji now
+2024-02-26T18:42:00,Amey Pacharkar,😂😂
+2024-02-26T18:42:00,Amey Pacharkar,Ab tere bari
+2024-02-26T18:44:00,Dovansh,https://www.instagram.com/reel/C3vGYdDygUQ/?igsh=djZqODhlc3phaWFo
+2024-02-26T18:44:00,Amey Pacharkar,Link bhejraha he ye banda
+2024-02-26T18:44:00,Dovansh,Are it's something interesting
+2024-02-26T18:45:00,Dovansh,Search about the rabit r1
+2024-02-26T18:45:00,Dovansh,I had the same Idea a while back
+2024-02-26T18:49:00,Amey Pacharkar,Their website is pretty bad
+2024-02-26T18:49:00,Amey Pacharkar,What does rabit r1 do?
+2024-02-26T18:49:00,Dovansh,Search it up
+2024-02-26T18:49:00,Dovansh,It's cool
+2024-02-26T18:50:00,Amey Pacharkar,I searched it still didn't got it
+2024-02-26T18:50:00,Amey Pacharkar,Is it sth that helps in running out app?
+2024-02-26T18:50:00,Dovansh,https://youtu.be/uJnhh7YSr5Q?si=QHSRLGspYR1tKdgh
+2024-02-26T21:37:00,Dovansh,naya shabd mil gaya
+2024-02-26T21:37:00,Dovansh,😎
+2024-02-26T22:40:00,Dovansh,Yehi haina list
+2024-02-26T22:43:00,Amey Pacharkar,Full Stack :- Kshitij Vyas Jai Parmar Devansh Mayatra Varad Naik Sahil Kamble Atharva Rajpurkar Khush Godani Android IOS :- Shivam Pachpute Sairaj Sawant Aum Patel Manav Shah Amey Pacharkar Ashmit Shelke Kaustubh Gondkar Parth Amberkar
+2024-02-26T22:46:00,Dovansh,Yes 👍🏼
+2024-02-26T22:46:00,Dovansh,Mai bhi yehi bhejta hu
+2024-02-26T22:46:00,Amey Pacharkar,Are photova bhej de
+2024-02-26T22:46:00,Dovansh,Photo bheju ?
+2024-02-26T22:46:00,Dovansh,Thikk
+2024-02-26T22:47:00,Dovansh,Excel sheet ?
+2024-02-26T22:48:00,Amey Pacharkar,Ye bhejde
+2024-02-26T22:48:00,Amey Pacharkar,Varna photo bhej
+2024-02-26T22:48:00,Amey Pacharkar,Mat itna soch
+2024-02-26T22:50:00,Dovansh,Acha thikke
+2024-02-26T22:50:00,Dovansh,Photva bhejta hu
+2024-02-26T23:25:00,Amey Pacharkar,null
+2024-02-27T06:05:00,Dovansh,call kiya tha ?
+2024-02-27T08:04:00,Amey Pacharkar,Rath ko
+2024-02-27T08:04:00,Amey Pacharkar,Ajj araha he kya isleye
+2024-02-27T08:12:00,Dovansh,Okk
+2024-02-27T09:49:00,Dovansh,Module 1 Q1 . Define OS Q2. State advantages and disadvantages of OS Q3. Explain functions of OS Q4.Explain evolution of OS Module 2. Q1. Preemptive vs Non Preemptive Sheduking algorithms Q2. FCFS Q3 SJF Q4 SRTF Q5 Round Robin Q6.Priority preemptive n non preemptive Q7. Process Control block Module 3 Q1 interprocess communication Q2. producer consumrr problem Q3 define deadlock
+2024-02-27T12:08:00,Amey Pacharkar,https://sb-auth.skillsbuild.org/signup?ngo-id=0120
+2024-02-27T12:59:00,Amey Pacharkar,She yar. Kitna Ganda photova nikala
+2024-02-27T15:13:00,Dovansh,acha to hai
+2024-02-27T19:06:00,Amey Pacharkar,Kahi wrong ahet Ani kahi complete nahi
+2024-02-27T19:09:00,Dovansh,thanku
+2024-02-27T20:31:00,Dovansh,https://www.instagram.com/reel/C2P8842S6xV/?igsh=MTB0OGZvd2U2eGt6Mg==
+2024-02-27T21:51:00,Dovansh,Your 11th is wrong
+2024-02-27T21:52:00,Dovansh,Linear algebra
+2024-02-27T22:00:00,Amey Pacharkar,Acha
+2024-02-27T22:01:00,Amey Pacharkar,Kal bata de
+2024-02-27T22:01:00,Amey Pacharkar,Kuch bhi mat bhej
+2024-02-28T06:31:00,Amey Pacharkar,11.30 ko hena exam?
+2024-02-28T07:15:00,Dovansh,11
+2024-02-28T07:18:00,Amey Pacharkar,Time table bhej
+2024-02-28T07:19:00,Dovansh,This message was deleted
+2024-02-28T07:20:00,Amey Pacharkar,10 ko he
+2024-02-28T07:49:00,Dovansh,10 ko paper hai ?
+2024-02-28T08:03:00,Amey Pacharkar,Ha yhek
+2024-02-28T08:03:00,Amey Pacharkar,*tthek
+2024-02-28T08:06:00,Dovansh,Ha
+2024-02-28T19:47:00,Amey Pacharkar,samjo abhi kya tha jo sir ne bheja tha
+2024-02-28T21:44:00,Dovansh,Haa
+2024-02-28T21:44:00,Dovansh,Sir ne kuch lecture liya ?
+2024-02-28T21:44:00,Dovansh,Kuch padha ya likha tune ?
+2024-02-28T21:53:00,Amey Pacharkar,Padha sirf
+2024-02-28T21:53:00,Amey Pacharkar,What were questions ma'am gave for OS?
+2024-02-28T22:02:00,Dovansh,.
+2024-02-28T22:02:00,Amey Pacharkar,What were the topics ma'am said when we asked
+2024-02-28T22:03:00,Dovansh,Fcfc vs sjf
+2024-02-28T22:03:00,Dovansh,Pcb
+2024-02-28T22:51:00,Amey Pacharkar,Got it
+2024-02-28T23:03:00,Dovansh,send me the dbms ka answer na
+2024-02-28T23:03:00,Dovansh,of that relational schema
+2024-02-28T23:04:00,Dovansh,bank management
+2024-02-28T23:05:00,Dovansh,thanku
+2024-02-28T23:06:00,Amey Pacharkar,Welcomeva
+2024-02-29T00:21:00,Dovansh,Is this correct?
+2024-02-29T06:31:00,Amey Pacharkar,Er have to connect the tables to
+2024-02-29T07:24:00,Dovansh,Ok
+2024-02-29T07:26:00,Amey Pacharkar,Do you have kartikey's solution?
+2024-02-29T07:45:00,Dovansh,Na
+2024-02-29T19:58:00,Amey Pacharkar,PC (P*3) RAMEL
+2024-02-29T20:45:00,Dovansh,PC (P*3) RAMEL
+2024-02-29T20:45:00,Dovansh,Mup internal kt
+2024-02-29T20:48:00,Amey Pacharkar,marJAVA
+2024-02-29T21:10:00,Dovansh,Margaya
+2024-02-29T22:42:00,Dovansh,Ameya
+2024-02-29T22:42:00,Dovansh,Bhejna
+2024-02-29T22:42:00,Dovansh,Tu Jo bhi karega
+2024-02-29T22:42:00,Dovansh,Photwa
+2024-03-01T06:47:00,Amey Pacharkar,I only did from ma'am IA notes and techknowledge
+2024-03-01T06:47:00,Dovansh,Alright
+2024-03-01T06:48:00,Amey Pacharkar,Will have to do pin diagram in college along with exp program and notebook notes
+2024-03-01T06:48:00,Dovansh,I also did some topics
+2024-03-01T06:48:00,Dovansh,Teach me too
+2024-03-01T06:48:00,Dovansh,I did programs
+2024-03-01T06:48:00,Amey Pacharkar,Time nahi hoga. Rath le abhi
+2024-03-01T06:48:00,Amey Pacharkar,Anything else?
+2024-03-01T06:48:00,Dovansh,Interrupt service routine
+2024-03-01T06:48:00,Dovansh,Shift operators
+2024-03-01T06:48:00,Dovansh,Daa
+2024-03-01T06:49:00,Dovansh,8085 vs 8086
+2024-03-01T06:49:00,Amey Pacharkar,Chalega
+2024-03-01T06:49:00,Dovansh,Haa
+2024-03-01T16:45:00,Dovansh,Call me when you start your doubt session
+2024-03-01T16:49:00,Amey Pacharkar,Chalega
+2024-03-01T18:22:00,Amey Pacharkar,join kar
+2024-03-01T18:46:00,Dovansh,You didn't call
+2024-03-01T18:46:00,Amey Pacharkar,ha did you had doubt?
+2024-03-01T18:46:00,Dovansh,Na
+2024-03-01T20:54:00,Dovansh,Sir ko puch
+2024-03-01T20:54:00,Dovansh,Ki agar abhi nahi kiya robotics to baadme kar sakte haina
+2024-03-01T21:21:00,Amey Pacharkar,Pranav ka lecture chalu he kya?
+2024-03-01T21:24:00,Dovansh,Pata nhi
+2024-03-01T21:43:00,Amey Pacharkar,Pranav underground ho gaya kya?
+2024-03-01T21:46:00,Dovansh,Mera bhi nahi utha Raha hai
+2024-03-01T21:48:00,Amey Pacharkar,Chalega
+2024-03-01T21:49:00,Dovansh,Haa
+2024-03-02T16:06:00,Dovansh,https://www.instagram.com/reel/C31wNKrrSRq/?igsh=eWFlcWlhNzlkejN5
+2024-03-02T18:32:00,Amey Pacharkar,"ARRAYLIST:- 1)   .add() import java.util.*; public class Main { public static void main(String[] args) { ArrayList<String> a1 = new ArrayList<>(); a1.add(""Welcome""); a1.add(""JKB""); a1.add(1,""To""); System.out.println(a1); } } Output: [Welcome, To, JKB] 2)   .set() import java.util.*; public class Main { public static void main(String[] args) { ArrayList<String> a1 = new ArrayList<>(); a1.add(""Hello""); a1.add(""World""); a1.add(1,""Hello""); System.out.println(""Initial arraylist : ""+a1); a1.set(1,""World""); a1.set(2,""!""); System.out.println(""Final arraylist : ""+a1); } } Output: Initial arraylist : [Hello, Hello, World] Final arraylist : [Hello, World, !] 3)  .indexOf() , .remove(), .size() import java.util.ArrayList; public class Main { public static void main(String[] args) { ArrayList<String> planets = new ArrayList<>(); planets.add(""Mercury""); planets.add(""Earth""); planets.add(""Jupiter""); planets.add(""Saturn""); System.out.println(planets); int index = planets.indexOf(""Earth""); planets.remove(index); planets.add(index,""Venus""); System.out.println(""Size is : ""+planets.size()); for(String str : planets){ System.out.println(str); } } } Output: [Mercury, Earth, Jupiter, Saturn] Size is : 4 Mercury Venus Jupiter Saturn 4) .get() import java.util.ArrayList; public class Main { public static void main(String[] args) { ArrayList<String> al = new ArrayList<>(); al.add(""C++""); al.add(""Python""); al.add(""JAVA""); for(int i = 0;i < al.size(); i++){ System.out.print(al.get(i)+"" \t""); } System.out.println(); for(String str : al){ System.out.print(str + "" \t""); } } } Output: C++     Python  JAVA C++     Python  JAVA 5) .toArray() import java.util.ArrayList; public class Main { public static void main(String[] args) { ArrayList<String> language = new ArrayList<>(); language.add(""Idle""); language.add(""Vada""); language.add(""Dosa""); System.out.println(""ArrayList : ""+language); String[] arr = new String[language.size()]; language.toArray(arr); System.out.println(""Array : ""); for(String item : arr){ System.out.print(item + "" \t""); } } } Output: ArrayList : [Idle, Vada, Dosa] Array : Idle    Vada    Dosa 6) ArrayList of ArrayList import java.util.ArrayList; public class Main { public static void main(String[] args) { int n = 3; ArrayList<ArrayList <Integer>> aList = new ArrayList<ArrayList <Integer>>(n); ArrayList<Integer> a1 = new ArrayList<Integer>(); a1.add(1); a1.add(2); aList.add(a1); System.out.println(""ArrayList a1 : ""+a1); ArrayList<Integer> a2 = new ArrayList<Integer>(); a2.add(5); aList.add(a2); System.out.println(""ArrayList a2 : ""+a2); ArrayList<Integer> a3 = new ArrayList<Integer>(); a3.add(10); a3.add(20); a3.add(30); aList.add(a3); System.out.println(""ArrayList a3 : ""+a3); ArrayList<Integer> a4 = new ArrayList<Integer>(); a3.add(11); a3.add(22); System.out.println(""ArrayList a4 : ""+a3); System.out.println(""ArrayList of ArrayList is :""+aList); } } Output: ArrayList a2 : [5] ArrayList a2 : [10, 20, 30] ArrayList a2 : [10, 20, 30, 11, 22] ArrayList of ArrayList is :[[1, 2], [5], [10, 20, 30, 11, 22]]"
+2024-03-02T18:33:00,Dovansh,Kiya tha save maine
+2024-03-02T22:36:00,Amey Pacharkar,sir was gonna take l3pp meeting na?
+2024-03-02T22:38:00,Dovansh,Tell sir
+2024-03-04T10:54:00,Dovansh,"#include <stdio.h> struct jobs{ int weight; int profit; float pi; }; int main() { struct jobs work[100],copy[100],temp[100]; int i,n,w,j,sum,flag,profit; printf(""Enter the number of jobs""); scanf(""%d"",&n); work[n],copy[n]; int soln[n]; printf(""Enter the jobs weight and profit""); for(i=0;i<n;i++){ printf(""Enter details of job %d"",i+1); printf(""\nWEIGHT""); scanf(""%d"",&work[i].weight); printf(""\nPROFIT\n""); scanf(""%d"",&work[i].profit); work[i].pi = (float)work[i].profit/work[i].weight; copy[i] = work[i]; } printf(""Enter the weight constraint ""); scanf(""%d"",&w); printf("" Weight      Profit      Ratio\n""); for(i=0;i<n;i++){ printf(""%d       %d        %f\n"",copy[i].weight,copy[i].profit,copy[i].pi); } for(i=0;i<n;i++){ for(j= 0;j<n-1-i;j++){ if(copy[j].pi<copy[j+1].pi){ temp[j]=copy[j]; copy[j]=copy[j+1]; copy[j+1]=temp[j]; } } } printf(""\n\n Weight      Profit      Ratio\n""); for(i=0;i<n;i++){ printf(""%d       %d        %f\n"",copy[i].weight,copy[i].profit,copy[i].pi); } for(i=0;i<n;i++){ if(sum+copy[i].weight<=w){ soln[i]=1; w -=copy[i].weight; sum +=copy[i].weight; profit +=copy[i].profit; } else if(copy[i].weight>w) sum += (float) w/copy[i].weight; else soln[i]=0; } printf(""%d "",profit); return 0; }"
+2024-03-04T14:07:00,Dovansh,https://www.indiabix.com/logical-reasoning/questions-and-answers/
+2024-03-04T14:54:00,Amey Pacharkar,"#include <stdio.h> struct bag { int weight,profit; float profit_per_weight; }; struct bag things[10]; // void swap1(float *a, float *b) { //     float temp = *a; //     *a = *b; //     *b = temp; // } // void swap2(int *a, int *b) { //     int temp = *a; //     *a = *b; //     *b = temp; // } int main() { int i,j,total_weight_constraint,n,remaining_weight = 0,b; float solution_set[10],total_profit,a; printf(""Enter total number of elements in problem : ""); scanf(""%d"",&n); printf(""Enter the weight and profit of the items\n""); //take input for(i = 0;i < n;i ++) { printf(""Enter weight : ""); scanf(""%d"",&things[i].weight); printf(""Enter profit : ""); scanf(""%d"",&things[i].profit); things[i].profit_per_weight = (float)things[i].profit / things[i].weight; } printf(""Enter the total weight constraint for the problem : ""); scanf(""%d"",&total_weight_constraint); remaining_weight = total_weight_constraint; //print given Knapsack printf(""\n\nThe given Knapsack problem is : \n""); for(i = 0;i < n;i ++) { printf(""%d\t%d\n"",things[i].weight,things[i].profit); } //sort in decending order for(i = 0;i < n;i ++) { for(j = i + 1;j < n;j ++) { if(things[i].profit_per_weight < things[j].profit_per_weight) { a = things[i].profit_per_weight; things[i].profit_per_weight = things[j].profit_per_weight; things[j].profit_per_weight = a; b = things[i].weight; things[i].weight = things[j].weight; things[j].weight = b; b = things[i].profit; things[i].profit = things[j].profit; things[j].profit = b; } } } printf(""\n\nThe given Knapsack problem is : \n""); for(i = 0;i < n;i ++) { printf(""%d\t%d\t%f\n"",things[i].weight,things[i].profit,things[i].profit_per_weight); } //solution set for(i = 0;i < n;i ++) { if(things[i].weight < remaining_weight) { solution_set[i] = 1; remaining_weight -= things[i].weight; total_profit += things[i].profit; } else if(things[i].weight > remaining_weight) { solution_set[i] = (float)remaining_weight / things[i].weight; total_profit += (float)remaining_weight * things[i].profit_per_weight; break; } else { solution_set[i] = 0; } } //print solution set printf(""\n\n\nThe solution set is : ""); for(i = 0;i < n;i ++) { printf(""%f\n"",solution_set[i]); } printf("":Total profit is : %f"",total_profit); return 0; }"
+2024-03-04T14:57:00,Dovansh,This message was deleted
+2024-03-04T15:06:00,Dovansh,This message was deleted
+2024-03-04T15:28:00,Dovansh,This message was deleted
+2024-03-04T15:47:00,Dovansh,"#include <stdio.h> struct jobs{ int weight; int profit; float pi; }; int main() { struct jobs work[100],copy[100],temp[100]; int i,n,w,j,flag,sum; float profit; printf(""Enter the number of jobs""); scanf(""%d"",&n); work[n],copy[n]; float soln[n]; //Enther the jab details printf(""Enter the jobs weight and profit""); for(i=0;i<n;i++){ printf(""Enter details of job %d"",i+1); printf(""\nWEIGHT\n""); scanf(""%d"",&work[i].weight); printf(""PROFIT\n""); scanf(""%d"",&work[i].profit); work[i].pi = (float)work[i].profit/work[i].weight; copy[i] = work[i]; } //Enther the jab constraint printf(""Enter the weight constraint ""); scanf(""%d"",&w); // to print the jab list printf(""Weight\tProfit\tRatio\n""); for(i=0;i<n;i++){ printf(""%d\t%d\t%f\n"",copy[i].weight,copy[i].profit,copy[i].pi); } //sort the jab list for(i=0;i<n;i++){ for(j= 0;j<n-1-i;j++){ if(copy[j].pi<copy[j+1].pi){ temp[j]=copy[j]; copy[j]=copy[j+1]; copy[j+1]=temp[j]; } } } //to print the sorted jab list printf(""\n\nWeight\tProfit\tRatio\n""); for(i=0;i<n;i++){ printf(""%d\t%d\t%f\n"",copy[i].weight,copy[i].profit,copy[i].pi); } // to find the maximum profit for(i=0;i<n;i++){ //if jab weight is greater than the limit weight if(copy[i].weight<w && w!= 0){ soln[i]=1; w -=copy[i].weight; sum +=copy[i].weight; profit +=copy[i].profit; } // if the jab weight is less than the required limit jab weight else if(copy[i].weight>w && w!= 0){ sum += (float) copy[i].weight/copy[i].profit; profit += (float) w*copy[i].pi; soln[i]=(float) w/copy[i].weight; w =0; } //When the Constraint is foul put aal the the remaaing jobs as ""shunya"" in the selusion set else{ soln[i]=0; printf(""\n%d"",w); } } //PROFIT printf(""\nProfit = %.3f "",profit); //SOLUTION printf(""\n Solution Set = ""); for(i=0;i<n;i++){ printf(""|%.3f"",soln[i]); } return 0; }"
+2024-03-04T15:48:00,Dovansh,Brain nasty combing fire breathing knapsack program
+2024-03-04T15:48:00,Dovansh,"#include <stdio.h> struct jobs{ int weight; int profit; float pi; }; int main() { struct jobs work[100],copy[100],temp[100]; int i,n,w,j,flag,sum; float profit; printf(""Enter the number of jobs""); scanf(""%d"",&n); work[n],copy[n]; float soln[n]; printf(""Enter the jobs weight and profit""); for(i=0;i<n;i++){ printf(""Enter details of job %d"",i+1); printf(""\nWEIGHT\n""); scanf(""%d"",&work[i].weight); printf(""PROFIT\n""); scanf(""%d"",&work[i].profit); work[i].pi = (float)work[i].profit/work[i].weight; copy[i] = work[i]; } printf(""Enter the weight constraint ""); scanf(""%d"",&w); printf(""Weight\tProfit\tRatio\n""); for(i=0;i<n;i++){ printf(""%d\t%d\t%f\n"",copy[i].weight,copy[i].profit,copy[i].pi); } for(i=0;i<n;i++){ for(j= 0;j<n-1-i;j++){ if(copy[j].pi<copy[j+1].pi){ temp[j]=copy[j]; copy[j]=copy[j+1]; copy[j+1]=temp[j]; } } } printf(""\n\nWeight\tProfit\tRatio\n""); for(i=0;i<n;i++){ printf(""%d\t%d\t%f\n"",copy[i].weight,copy[i].profit,copy[i].pi); } for(i=0;i<n;i++){ if(copy[i].weight<w && w!= 0){ soln[i]=1; w -=copy[i].weight; sum +=copy[i].weight; profit +=copy[i].profit; } else if(copy[i].weight>w && w!= 0){ sum += (float) copy[i].weight/copy[i].profit; profit += (float) w*copy[i].pi; soln[i]=(float) w/copy[i].weight; w =0; } else{ soln[i]=0; printf(""\n%d"",w); } } printf(""\nProfit = %.3f "",profit); printf(""\n Solution Set = ""); for(i=0;i<n;i++){ printf(""|%.3f"",soln[i]); } return 0; }"
+2024-03-04T15:49:00,Dovansh,NORMAL KNAPSACK PROGRAM
+2024-03-04T18:15:00,Amey Pacharkar,Ajj lecture hoga na?
+2024-03-04T18:16:00,Dovansh,haaa timetable me to hai
+2024-03-04T18:54:00,Dovansh,"#include <stdio.h> struct jobs{ int weight; int profit; float pi; float soln; }; int main() { struct jobs work[100],copy[100],temp[100]; int i,n,w,j,flag,sum; float profit; printf(""Enter the number of jobs:""); scanf(""%d"",&n); work[n],copy[n]; float soln[n]; printf(""Enter the jobs weight and profit:""); for(i=0;i<n;i++){ printf(""Enter details of job %d"",i+1); printf(""\nWEIGHT:""); scanf(""%d"",&work[i].weight); printf(""PROFIT:""); scanf(""%d"",&work[i].profit); work[i].pi = (float)work[i].profit/work[i].weight; copy[i] = work[i]; } printf(""Enter the weight constraint: ""); scanf(""%d"",&w); printf(""\nJob table:""); printf(""\nWeight\tProfit\tRatio\n""); for(i=0;i<n;i++){ printf(""%d\t%d\t%f\n"",copy[i].weight,copy[i].profit,copy[i].pi); } for(i=0;i<n;i++){ for(j= 0;j<n-1-i;j++){ if(copy[j].pi<copy[j+1].pi){ temp[j]=copy[j]; copy[j]=copy[j+1]; copy[j+1]=temp[j]; } } } printf(""\nTable after Sorting the jobs""); printf(""\nWeight\tProfit\tRatio\n""); for(i=0;i<n;i++){ printf(""%d\t%d\t%f\n"",copy[i].weight,copy[i].profit,copy[i].pi); } for(i=0;i<n;i++){ if(copy[i].weight<w && w!= 0){ soln[i]=1; w -=copy[i].weight; sum +=copy[i].weight; profit +=copy[i].profit; } else if(copy[i].weight>w && w!= 0){ sum += (float) copy[i].weight/copy[i].profit; profit += (float) w*copy[i].pi; soln[i]=(float) w/copy[i].weight; w =0; } else{ soln[i]=0; printf(""\n%d"",w); } } for(i=0;i<n;i++){ for(j=0;j<n;j++){ if(work[i].profit==copy[j].profit){ work[i].soln=soln[j]; } } } printf(""\nFinal solutution table:""); printf(""\nWeight\tProfit\tRatio\t\tSoln\n""); for(i=0;i<n;i++){ printf(""%d\t%d\t%f\t%f\n"",work[i].weight,work[i].profit,work[i].pi,work[i].soln); } printf(""\nProfit = %.3f "",profit); printf(""\n Solution Set = ""); for(i=0;i<n;i++){ printf(""|%.3f"",work[i].soln); } return 0; }"
+2024-03-04T18:54:00,Dovansh,try this program
+2024-03-04T19:19:00,Amey Pacharkar,kiske barebe sir baat kar rahe the?
+2024-03-04T19:19:00,Amey Pacharkar,500-1000?
+2024-03-04T19:19:00,Dovansh,Nptel
+2024-03-04T19:20:00,Amey Pacharkar,acha
+2024-03-04T19:20:00,Dovansh,Haaa
+2024-03-04T19:20:00,Amey Pacharkar,jane de phir
+2024-03-04T19:20:00,Dovansh,Aur Mai gdsc ka puch raha tha
+2024-03-04T19:20:00,Amey Pacharkar,ha tu bol raha da na
+2024-03-04T19:20:00,Dovansh,Haaaa
+2024-03-04T20:05:00,Amey Pacharkar,Maths tutorial 2 ka solution bhej na
+2024-03-04T20:05:00,Dovansh,2 ka kyu ?
+2024-03-04T20:05:00,Amey Pacharkar,He kya tere pas pdf?
+2024-03-04T20:06:00,Dovansh,Nikalna padega
+2024-03-04T20:06:00,Amey Pacharkar,Rehene de phir
+2024-03-04T20:08:00,Dovansh,Oki
+2024-03-05T06:47:00,Amey Pacharkar,Python ka assignment likha kya?
+2024-03-05T06:57:00,Dovansh,Nahi
+2024-03-05T06:58:00,Dovansh,Pages nahi hai
+2024-03-05T06:58:00,Dovansh,9 baje aaa
+2024-03-05T07:10:00,Amey Pacharkar,Ha koshish karta hu
+2024-03-05T20:22:00,Dovansh,Hua kya sum ?
+2024-03-05T20:23:00,Amey Pacharkar,nahi kiya mene sum
+2024-03-05T20:23:00,Amey Pacharkar,python kar raha hu
+2024-03-05T20:23:00,Dovansh,assignment ?
+2024-03-05T20:23:00,Amey Pacharkar,ha

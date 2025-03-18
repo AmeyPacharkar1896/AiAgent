@@ -1,0 +1,739 @@
+timestamp,sender,message
+2024-09-26T10:10:00,Amey Pacharkar,"Hello Swaraj Bhaiya, me Amey"
+2024-09-26T10:11:00,Amey Pacharkar,I had a doubt in selecting a div in my HTML
+2024-09-26T10:11:00,Amey Pacharkar,"<div id=""lane-container""> <div id=""lane-1""> </div> <div id=""lane-2""> <div id=""lane-car""></div> </div> <div id=""lane-3""> </div> </div> In this format how can I access #lane-car from #lane-3 div?"
+2024-09-26T10:19:00,Swaraj Dada (Web Dada) JKB,What exactly do you want to do
+2024-09-26T10:19:00,Swaraj Dada (Web Dada) JKB,If styling then you can directly target lane-car
+2024-09-26T10:52:00,Amey Pacharkar,I want to make it so that when I hover over lane-3 it should trigger a animation on lane-car to translate on lane-3
+2024-09-26T10:52:00,Amey Pacharkar,I have done it for lane-1 with lane-1+lane-2>lane-car. Tho it won't work on lane-3
+2024-09-26T10:57:00,Amey Pacharkar,#lane-2:has(+ #lane-3:hover) I tried something like this which let me change lane-2 color when we hover over lane-3
+2024-09-26T11:01:00,Swaraj Dada (Web Dada) JKB,This needs js <This message was edited>
+2024-09-26T11:01:00,Swaraj Dada (Web Dada) JKB,I thought but yes for last element it won't work
+2024-09-26T11:06:00,Swaraj Dada (Web Dada) JKB,U can try keeping car absolute and out of lanes
+2024-09-26T11:08:00,Amey Pacharkar,yaa I think then it would be more better to only keep one div and translate it accordingly
+2024-09-26T11:08:00,Swaraj Dada (Web Dada) JKB,Yes
+2024-09-26T11:08:00,Swaraj Dada (Web Dada) JKB,Is this assignment for this week
+2024-09-26T11:08:00,Amey Pacharkar,yes
+2024-09-26T11:08:00,Amey Pacharkar,we have to make a car game using animations
+2024-09-26T11:08:00,Swaraj Dada (Web Dada) JKB,What was taught in last session
+2024-09-26T11:08:00,Swaraj Dada (Web Dada) JKB,Ok 👌
+2024-09-26T11:09:00,Amey Pacharkar,animations. keyframe
+2024-09-26T11:09:00,Swaraj Dada (Web Dada) JKB,Media queries?
+2024-09-26T11:09:00,Amey Pacharkar,yes that too for the website to be used in phone view as well
+2024-09-26T11:10:00,Swaraj Dada (Web Dada) JKB,👍
+2024-10-06T09:17:00,Amey Pacharkar,bhaiya mera nav bar me kuch gadabad ho raha he.
+2024-10-06T10:42:00,Swaraj Dada (Web Dada) JKB,Navbar ke liye kya properties use Kiya hai
+2024-10-06T10:54:00,Amey Pacharkar,Bhaiya width ka issue tha. Mene % me convert Kiya to ho gaya.
+2024-10-06T10:54:00,Swaraj Dada (Web Dada) JKB,Ha 👍
+2024-10-06T10:55:00,Amey Pacharkar,Thank you bhaiya
+2024-10-12T16:25:00,Swaraj Dada (Web Dada) JKB,Hii
+2024-10-12T16:25:00,Swaraj Dada (Web Dada) JKB,What was covered in last session
+2024-10-12T16:26:00,Amey Pacharkar,"sir told us about different frameworks in css. boosttrap, tailwind"
+2024-10-12T16:27:00,Swaraj Dada (Web Dada) JKB,Only this
+2024-10-12T16:29:00,Amey Pacharkar,ho yevadach yetla last time
+2024-10-12T16:29:00,Swaraj Dada (Web Dada) JKB,So use karun demo dila kay
+2024-10-12T16:30:00,Amey Pacharkar,ho tailwind ani Bootstrap sathi
+2024-10-12T16:30:00,Swaraj Dada (Web Dada) JKB,Ok thanks 👍
+2024-10-12T16:30:00,Amey Pacharkar,no problem
+2024-10-13T21:08:00,Swaraj Dada (Web Dada) JKB,Hii
+2024-10-13T21:08:00,Swaraj Dada (Web Dada) JKB,Call everyone fast
+2024-10-13T21:10:00,Amey Pacharkar,Ho
+2024-10-13T21:10:00,Swaraj Dada (Web Dada) JKB,Sagle main session la pan evdha late kartat ka
+2024-10-13T21:11:00,Amey Pacharkar,Mostly call karava lagta.
+2024-10-13T21:11:00,Swaraj Dada (Web Dada) JKB,Hmm
+2024-10-13T21:11:00,Amey Pacharkar,😅
+2024-10-13T22:31:00,Swaraj Dada (Web Dada) JKB,Give me your email
+2024-10-13T22:32:00,Amey Pacharkar,ameypacharkar076@gmail.com
+2024-10-13T22:35:00,Swaraj Dada (Web Dada) JKB,Sheet pathavli aahe tula
+2024-10-13T22:35:00,Swaraj Dada (Web Dada) JKB,Jynacha nav missing asel te add kar
+2024-10-13T22:36:00,Amey Pacharkar,Ho milali mala sheet
+2024-10-13T22:36:00,Amey Pacharkar,Ho
+2024-10-13T22:36:00,Swaraj Dada (Web Dada) JKB,Ani completed asa mark kar
+2024-10-13T22:36:00,Amey Pacharkar,Ho karto me
+2024-10-13T23:45:00,Amey Pacharkar,Dada sarvanche assignments che status bharle me. Shivam ani Tanmoy che nahi ahet assignment link in the excel sir has send
+2024-10-14T07:39:00,Swaraj Dada (Web Dada) JKB,Ok
+2024-10-27T19:15:00,Amey Pacharkar,"dada are there ways to use private, public like in java? how can I make my function or object private?"
+2024-10-27T19:17:00,Swaraj Dada (Web Dada) JKB,There are no keywords for this
+2024-10-27T19:17:00,Swaraj Dada (Web Dada) JKB,But private can be implemented in other way
+2024-10-27T19:17:00,Swaraj Dada (Web Dada) JKB,We'll be learning about oops later
+2024-10-27T19:27:00,Amey Pacharkar,oh ok
+2024-10-27T19:28:00,Amey Pacharkar,I was trying to search regarding that but the implementation was like function inside function
+2024-10-27T19:35:00,Swaraj Dada (Web Dada) JKB,yes
+2024-10-27T19:35:00,Swaraj Dada (Web Dada) JKB,its called closures
+2024-10-27T19:35:00,Swaraj Dada (Web Dada) JKB,we'll be learning in upcoming sessions
+2024-10-27T19:38:00,Amey Pacharkar,ok chalel <This message was edited>
+2024-10-27T23:33:00,Swaraj Dada (Web Dada) JKB,Hii
+2024-10-27T23:33:00,Swaraj Dada (Web Dada) JKB,Share me that attendance file later
+2024-10-27T23:40:00,Amey Pacharkar,Ho
+2024-10-27T23:41:00,Amey Pacharkar,Sangto me parth la
+2024-10-27T23:41:00,Swaraj Dada (Web Dada) JKB,Ha
+2024-10-29T13:07:00,Amey Pacharkar,dada datetime asta ka js madhe? current date store karachi astil tar?
+2024-10-29T13:08:00,Swaraj Dada (Web Dada) JKB,Ho
+2024-10-29T13:09:00,Swaraj Dada (Web Dada) JKB,w3schools var bagh
+2024-10-29T13:10:00,Amey Pacharkar,milala data mahanun ahe👍
+2024-10-29T13:10:00,Swaraj Dada (Web Dada) JKB,Ha
+2024-10-30T17:43:00,Amey Pacharkar,dada lets say  mala don variables return karacha ahet from a function. me karu sakto ka? ki always one return value?
+2024-10-30T18:08:00,Swaraj Dada (Web Dada) JKB,Return object
+2024-10-30T18:53:00,Amey Pacharkar,oh so then we can access it via indexing
+2024-10-30T18:53:00,Swaraj Dada (Web Dada) JKB,Yes with key
+2024-10-30T19:08:00,Amey Pacharkar,dada do we have to submit the book assignment as well on the google sheets?
+2024-10-30T19:08:00,Swaraj Dada (Web Dada) JKB,"Yes, actually can u move that data to new sheet"
+2024-10-30T19:09:00,Swaraj Dada (Web Dada) JKB,I forgot to tell you
+2024-10-30T19:09:00,Amey Pacharkar,with done part or with links? or keep the link one separated?
+2024-10-30T19:10:00,Swaraj Dada (Web Dada) JKB,For now do for done part
+2024-10-30T19:10:00,Swaraj Dada (Web Dada) JKB,And add links in old sheet
+2024-10-30T19:10:00,Amey Pacharkar,ok chalel
+2024-10-30T19:12:00,Amey Pacharkar,dada the new sheet is not shared with me
+2024-10-30T19:12:00,Swaraj Dada (Web Dada) JKB,Ask parth
+2024-10-30T19:13:00,Swaraj Dada (Web Dada) JKB,U shared your email right
+2024-10-30T19:21:00,Amey Pacharkar,Yes
+2024-10-30T21:23:00,Amey Pacharkar,Bolo ahe me tyala. To bola karto mahanun
+2024-10-30T21:23:00,Swaraj Dada (Web Dada) JKB,Ok
+2024-10-31T10:37:00,Amey Pacharkar,Ajj sir rannacha session ahe ka? Vinayak sir bolat hote asel mahanun
+2024-10-31T10:48:00,Swaraj Dada (Web Dada) JKB,Asu shakto
+2024-10-31T10:48:00,Swaraj Dada (Web Dada) JKB,Most probably asnar
+2024-10-31T10:49:00,Swaraj Dada (Web Dada) JKB,Ekda Abhishek siran na message tak
+2024-10-31T10:49:00,Swaraj Dada (Web Dada) JKB,Mi actually aj baher aahe so jast communicate nahi karu shakat
+2024-10-31T11:06:00,Amey Pacharkar,Chalel
+2024-11-03T21:13:00,Amey Pacharkar,dada session ahe ka ata?
+2024-11-03T21:13:00,Swaraj Dada (Web Dada) JKB,Ho 9:30
+2024-11-03T21:13:00,Amey Pacharkar,oh ok chalel
+2024-11-03T21:14:00,Swaraj Dada (Web Dada) JKB,Sang saglyanna
+2024-11-03T21:14:00,Swaraj Dada (Web Dada) JKB,Ani time var yayla sang
+2024-11-03T21:15:00,Amey Pacharkar,Ho sangto me
+2024-11-14T20:18:00,Amey Pacharkar,dada what is better to use for image? url link or download the image? me search kela tar cdn image boltat ahet
+2024-11-14T20:33:00,Swaraj Dada (Web Dada) JKB,so the the thing is no matter what u use it depends on form where and how fast the image is served
+2024-11-14T20:34:00,Swaraj Dada (Web Dada) JKB,even if u download image u have to serve it when u host site so it might be better in some cases
+2024-11-14T20:35:00,Swaraj Dada (Web Dada) JKB,cdn is correct answer as they are content delevery network which serves data from closest server to you <This message was edited>
+2024-11-14T20:36:00,Swaraj Dada (Web Dada) JKB,the image is replicated at multiple places at data centers where your app users lie
+2024-11-14T21:06:00,Amey Pacharkar,interesting so is it like netlify to put images on cdn?
+2024-11-14T21:06:00,Amey Pacharkar,or would I have to buy/create server of my own?
+2024-11-14T21:07:00,Swaraj Dada (Web Dada) JKB,there are service providers like cloudflare
+2024-11-14T21:07:00,Swaraj Dada (Web Dada) JKB,it depends on use case
+2024-11-14T21:08:00,Swaraj Dada (Web Dada) JKB,some put whole website on cdn <This message was edited>
+2024-11-14T21:08:00,Swaraj Dada (Web Dada) JKB,some put only images <This message was edited>
+2024-11-14T21:09:00,Amey Pacharkar,so website would be more better since then it would reduce the ping and delay but it would cost more right?
+2024-11-14T21:09:00,Swaraj Dada (Web Dada) JKB,yes correct
+2024-11-14T21:09:00,Amey Pacharkar,and images when it is like a lot of images
+2024-11-14T21:10:00,Swaraj Dada (Web Dada) JKB,yes and also because images load slow due to size
+2024-11-14T21:11:00,Amey Pacharkar,tho if upload the images in cdn then host my site on netlify would it be considered for pricing
+2024-11-14T21:12:00,Amey Pacharkar,or it is considered as developer mode?
+2024-11-14T21:12:00,Amey Pacharkar,like in firebase?
+2024-11-14T21:12:00,Swaraj Dada (Web Dada) JKB,For that you will have to look for the specs of cloud providers
+2024-11-14T21:13:00,Swaraj Dada (Web Dada) JKB,I haven't used one yet
+2024-11-14T21:14:00,Swaraj Dada (Web Dada) JKB,It is to be used for serious traffic applications
+2024-11-14T21:14:00,Swaraj Dada (Web Dada) JKB,On netlify u can upload images for free in files
+2024-11-14T21:14:00,Swaraj Dada (Web Dada) JKB,And when using cdn u actually get a link of image
+2024-11-14T21:16:00,Amey Pacharkar,i tried searching it says image storing is part of free plan and that i will have to configure the netlify to config with cloudflare's image cdn
+2024-11-14T21:17:00,Swaraj Dada (Web Dada) JKB,Yeah there might be some other ways to connect too
+2024-11-14T21:17:00,Swaraj Dada (Web Dada) JKB,This actually is part of cloud
+2024-11-14T21:18:00,Swaraj Dada (Web Dada) JKB,"So it's not under web development, so even I don't have much experience with it"
+2024-11-14T21:18:00,Amey Pacharkar,ah ya would it be not ideal to use it ? <This message was edited>
+2024-11-14T21:19:00,Swaraj Dada (Web Dada) JKB,Yes it's used a lot actually
+2024-11-14T21:19:00,Amey Pacharkar,i thought it would be more better to search for optimised way to use images
+2024-11-14T21:19:00,Swaraj Dada (Web Dada) JKB,Yes it's always good to learn
+2024-11-14T21:19:00,Amey Pacharkar,then maybe i will try configuring it for my restaurant project
+2024-11-14T21:20:00,Swaraj Dada (Web Dada) JKB,U can try but this comes under advanced things
+2024-11-14T21:20:00,Swaraj Dada (Web Dada) JKB,But yah it might be doable
+2024-11-14T21:21:00,Swaraj Dada (Web Dada) JKB,Also I wanted to ask do u have exam on Saturday
+2024-11-14T21:21:00,Amey Pacharkar,ho try karun pahato he
+2024-11-14T21:21:00,Amey Pacharkar,no exam is on Monday now
+2024-11-14T21:21:00,Swaraj Dada (Web Dada) JKB,Ok then will keep a revision session on Saturday
+2024-11-14T21:22:00,Amey Pacharkar,chalel
+2024-11-14T21:22:00,Swaraj Dada (Web Dada) JKB,Yes kar Ani sang zala tar
+2024-11-14T21:22:00,Swaraj Dada (Web Dada) JKB,Mi pan ajun try nahi kela so jast idea nahi
+2024-11-14T21:22:00,Amey Pacharkar,ho sangto me
+2024-11-14T21:23:00,Amey Pacharkar,cloudflare try karu ka? ki dusara konte website ahe for cloud storage?
+2024-11-14T21:23:00,Swaraj Dada (Web Dada) JKB,"Cdn che providers sodh, mala he mahit ahe Karan he saglyat jast use hota Ani famous aahe <This message was edited>"
+2024-11-14T21:24:00,Amey Pacharkar,ah acha
+2024-11-14T21:24:00,Amey Pacharkar,tho it will give api right?
+2024-11-14T21:24:00,Amey Pacharkar,most likely
+2024-11-14T21:24:00,Amey Pacharkar,te pahava lakel saka access karna <This message was edited>
+2024-11-14T21:24:00,Swaraj Dada (Web Dada) JKB,Yes
+2024-11-14T21:24:00,Swaraj Dada (Web Dada) JKB,Ha
+2024-11-14T21:26:00,Swaraj Dada (Web Dada) JKB,cdn cha ek alternative ahe ki jevha aplyala mahit ahe ki kontya region madhe aple users ahet tevha apn cloud provider var region vise host karu shakto e.g. AWS
+2024-11-14T21:26:00,Swaraj Dada (Web Dada) JKB,Netlify pan behind the scenes AWS ach use karta ig
+2024-11-14T21:27:00,Amey Pacharkar,aws is? amazon cha ahe na kahe tari?
+2024-11-14T21:27:00,Swaraj Dada (Web Dada) JKB,Ho Amazon Web services
+2024-11-14T21:27:00,Swaraj Dada (Web Dada) JKB,Hosting platform aahe
+2024-11-14T21:27:00,Swaraj Dada (Web Dada) JKB,He apan last la baghnar ahot
+2024-11-14T21:27:00,Amey Pacharkar,ah so cloud computing jasa?
+2024-11-14T21:27:00,Swaraj Dada (Web Dada) JKB,Ha
+2024-11-14T21:27:00,Amey Pacharkar,acha
+2024-11-14T21:28:00,Amey Pacharkar,bhagto me ekda try karto
+2024-11-14T21:28:00,Swaraj Dada (Web Dada) JKB,So aata pasun khup sodhaychi garaj nahi
+2024-11-14T21:28:00,Swaraj Dada (Web Dada) JKB,Yes but direct AWS var nako jau
+2024-11-14T21:28:00,Swaraj Dada (Web Dada) JKB,Free providers ach bagh
+2024-11-14T21:28:00,Swaraj Dada (Web Dada) JKB,Bill bhari yeta 😂
+2024-11-14T21:28:00,Amey Pacharkar,nahi ofcourse providers bhagto ahe me
+2024-11-14T21:29:00,Swaraj Dada (Web Dada) JKB,Yes
+2024-11-14T21:32:00,Amey Pacharkar,tho if we dont consider cdn which would be better for some scale projects?
+2024-11-14T21:32:00,Amey Pacharkar,downloading the image or just put url?
+2024-11-14T21:33:00,Swaraj Dada (Web Dada) JKB,U can check load times from network tab and decide
+2024-11-14T21:33:00,Amey Pacharkar,network tab?
+2024-11-14T21:33:00,Amey Pacharkar,in developer tool?
+2024-11-14T21:33:00,Swaraj Dada (Web Dada) JKB,As we don't know where the url one is coming from
+2024-11-14T21:33:00,Swaraj Dada (Web Dada) JKB,Yes
+2024-11-14T21:34:00,Amey Pacharkar,oh
+2024-11-14T21:34:00,Swaraj Dada (Web Dada) JKB,On local obviously local image will load fast
+2024-11-14T21:34:00,Amey Pacharkar,"true tho if i download it, what would be the source then?"
+2024-11-14T21:34:00,Swaraj Dada (Web Dada) JKB,So check on hosted site
+2024-11-14T21:35:00,Swaraj Dada (Web Dada) JKB,It u download and put in netlify then it comes from netlify servers
+2024-11-14T21:35:00,Amey Pacharkar,oh interesting tho it doesnt provide cdn sadly
+2024-11-14T21:36:00,Swaraj Dada (Web Dada) JKB,U might find region on netlify somewhere
+2024-11-14T21:36:00,Swaraj Dada (Web Dada) JKB,Yes
+2024-11-14T21:37:00,Amey Pacharkar,yaa so it doesnt matter what I do. at the end of day its netlify's server or image's sever which I cant guarantee will be closer
+2024-11-14T21:37:00,Swaraj Dada (Web Dada) JKB,Yes
+2024-11-14T21:37:00,Swaraj Dada (Web Dada) JKB,But in large scale projects we have control over this
+2024-11-14T21:38:00,Amey Pacharkar,by cdn? or by other means?
+2024-11-14T21:38:00,Swaraj Dada (Web Dada) JKB,"AWS , cloudflare and many more providers"
+2024-11-14T21:38:00,Swaraj Dada (Web Dada) JKB,Also we don't rely on single provider sometimes
+2024-11-14T21:39:00,Swaraj Dada (Web Dada) JKB,There is a lot that you will learn in cloud computing next sem
+2024-11-14T21:39:00,Swaraj Dada (Web Dada) JKB,If I keep talking now it will take hours 😂
+2024-11-14T21:39:00,Amey Pacharkar,that's interesting how much we can do to make a few seconds difference in loading time
+2024-11-14T21:40:00,Swaraj Dada (Web Dada) JKB,Yes and it's very important
+2024-11-14T21:40:00,Amey Pacharkar,😂
+2024-11-14T21:40:00,Swaraj Dada (Web Dada) JKB,I'll tell u my trick
+2024-11-14T21:40:00,Swaraj Dada (Web Dada) JKB,U can use svg type image as html and put it
+2024-11-14T21:41:00,Swaraj Dada (Web Dada) JKB,So images will load as fast as website
+2024-11-14T21:41:00,Swaraj Dada (Web Dada) JKB,Ofcourse it might take some milliseconds extra to render
+2024-11-14T21:41:00,Amey Pacharkar,tho it would be interesting to listen
+2024-11-14T21:42:00,Swaraj Dada (Web Dada) JKB,I have exams too 😂
+2024-11-14T21:42:00,Amey Pacharkar,yaa tho I am thinking of using dom to render the whole object as parts
+2024-11-14T21:42:00,Swaraj Dada (Web Dada) JKB,Nice
+2024-11-14T21:42:00,Amey Pacharkar,like I made one container in which I will put small containers using dom and grid
+2024-11-14T21:43:00,Swaraj Dada (Web Dada) JKB,Keep experimenting and exploring
+2024-11-14T21:43:00,Amey Pacharkar,so like if I add new item in object no extra html to write
+2024-11-14T21:43:00,Swaraj Dada (Web Dada) JKB,Yes
+2024-11-14T21:43:00,Amey Pacharkar,yaa I am like connecting android and exploring
+2024-11-14T21:43:00,Swaraj Dada (Web Dada) JKB,Nice 👍
+2024-11-14T21:43:00,Swaraj Dada (Web Dada) JKB,React works similar to this
+2024-11-14T21:44:00,Swaraj Dada (Web Dada) JKB,U can make ur own library now
+2024-11-14T21:44:00,Swaraj Dada (Web Dada) JKB,Although a lot is done in react
+2024-11-14T21:44:00,Swaraj Dada (Web Dada) JKB,That's just basic idea
+2024-11-14T21:45:00,Swaraj Dada (Web Dada) JKB,We'll see react too
+2024-11-14T21:45:00,Amey Pacharkar,oh that would be last right?
+2024-11-14T21:45:00,Swaraj Dada (Web Dada) JKB,Yah
+2024-11-14T21:45:00,Amey Pacharkar,so a long time
+2024-11-14T21:46:00,Swaraj Dada (Web Dada) JKB,U have time go slow
+2024-11-14T21:46:00,Amey Pacharkar,thanks dada
+2024-11-14T21:47:00,Swaraj Dada (Web Dada) JKB,Anytime 👍
+2024-11-22T20:00:00,Amey Pacharkar,dada how can we check for a state change on a div? like if any new elements are added in the div or removed from div?
+2024-11-22T20:03:00,Swaraj Dada (Web Dada) JKB,These kind of things are easier to do in react
+2024-11-22T20:04:00,Swaraj Dada (Web Dada) JKB,But there is something called MutationObserver api that u can check
+2024-11-22T20:04:00,Swaraj Dada (Web Dada) JKB,This will help
+2024-11-22T20:06:00,Swaraj Dada (Web Dada) JKB,But I have never used this
+2024-11-22T20:07:00,Swaraj Dada (Web Dada) JKB,U can also make a function to check childList using event listeners
+2024-11-22T20:08:00,Amey Pacharkar,what is childList?
+2024-11-22T20:08:00,Amey Pacharkar,it shows the children of a tag?
+2024-11-22T20:08:00,Swaraj Dada (Web Dada) JKB,Yes
+2024-11-22T20:08:00,Amey Pacharkar,that would help
+2024-11-22T20:08:00,Swaraj Dada (Web Dada) JKB,It's called children in this case
+2024-11-22T20:09:00,Amey Pacharkar,i see
+2024-11-22T20:09:00,Swaraj Dada (Web Dada) JKB,"const container = document.getElementById('container'); const addButton = document.getElementById('add'); const removeButton = document.getElementById('remove'); // Event listener to add an element addButton.addEventListener('click', () => { const newElement = document.createElement('div'); newElement.textContent = `Item ${container.children.length + 1}`; container.appendChild(newElement); console.log('Element added:', newElement); }); // Event listener to remove the last element removeButton.addEventListener('click', () => { if (container.children.length > 0) { const lastElement = container.lastElementChild; container.removeChild(lastElement); console.log('Element removed:', lastElement); } else { console.log('No more elements to remove!'); } });"
+2024-11-22T20:09:00,Swaraj Dada (Web Dada) JKB,refer this
+2024-11-22T20:09:00,Swaraj Dada (Web Dada) JKB,this is commonly used
+2024-11-22T20:09:00,Amey Pacharkar,i was thinking of just calling a function when i add new element so to update my list of children
+2024-11-22T20:10:00,Swaraj Dada (Web Dada) JKB,thats what event listeners are for
+2024-11-22T20:10:00,Swaraj Dada (Web Dada) JKB,"dont go for this, not important"
+2024-11-22T20:10:00,Amey Pacharkar,yaa
+2024-11-22T20:11:00,Amey Pacharkar,i was trying to do something like how you did with pokemon api
+2024-11-22T20:11:00,Amey Pacharkar,you can add and then remove from the final list
+2024-11-22T20:12:00,Swaraj Dada (Web Dada) JKB,"when ever u have doubt what is .children or .appendlist, always check the object by printing"
+2024-11-22T20:12:00,Swaraj Dada (Web Dada) JKB,ya
+2024-11-22T20:12:00,Swaraj Dada (Web Dada) JKB,everything in that is mostly event listeners
+2024-11-22T20:12:00,Amey Pacharkar,yaa i was doing that since it is confusing which one is which
+2024-11-22T20:12:00,Amey Pacharkar,yaa when i tried to read the div it just shows empty since it doesnt wait to be filled
+2024-11-22T20:13:00,Swaraj Dada (Web Dada) JKB,because for some objects u will find nodeList or children
+2024-11-22T20:13:00,Amey Pacharkar,so i wanted to make it so that it will check  the div when each element is  added
+2024-11-22T20:13:00,Amey Pacharkar,and then update the code list with new list of divs inside the parent div
+2024-11-22T20:13:00,Swaraj Dada (Web Dada) JKB,yes u can do that inside event listner callback function
+2024-11-22T20:14:00,Amey Pacharkar,got it
+2024-11-23T16:02:00,Amey Pacharkar,dada does the eventListener stop working if we rerender the buttons after running the evenetListener once?
+2024-11-23T17:06:00,Swaraj Dada (Web Dada) JKB,It should
+2024-11-23T17:06:00,Amey Pacharkar,it doesnt tho. I think it is because when I redisplay the list it doesnt run the eventListener for the new list
+2024-11-23T17:07:00,Amey Pacharkar,as a result we would have to give them eventListener again
+2024-11-23T17:07:00,Swaraj Dada (Web Dada) JKB,The event listeners are kept in the memory until refresh
+2024-11-23T17:07:00,Amey Pacharkar,since it is deleting the original list and then displaying new one
+2024-11-23T17:07:00,Swaraj Dada (Web Dada) JKB,But not sure about their connection to button <This message was edited>
+2024-11-23T17:08:00,Amey Pacharkar,i think they check for current existing elements which they are targeting as a result when elements are deleted they assume no elements to listen to
+2024-11-23T17:09:00,Amey Pacharkar,and doesnt recheck on rerendering of the list <This message was edited>
+2024-11-23T17:09:00,Swaraj Dada (Web Dada) JKB,Yes this will happen
+2024-11-23T17:09:00,Swaraj Dada (Web Dada) JKB,U can check code of my pokemart on github
+2024-11-23T17:10:00,Swaraj Dada (Web Dada) JKB,I'll have to check more about this
+2024-11-23T17:11:00,Amey Pacharkar,yaa i will do that
+2024-11-23T17:11:00,Amey Pacharkar,tho it is quite interesting how we have to consider things while state changing certain elements
+2024-11-23T17:12:00,Amey Pacharkar,or i made some mistake while working on the eventListeners
+2024-11-23T17:12:00,Swaraj Dada (Web Dada) JKB,It's common
+2024-11-23T17:12:00,Swaraj Dada (Web Dada) JKB,Ull have to check by trying mostly
+2024-11-23T17:14:00,Amey Pacharkar,yaa tho we might loss some cases while working on UI
+2024-11-23T17:14:00,Amey Pacharkar,dada do you have the pokemon website hosted?
+2024-11-23T17:14:00,Swaraj Dada (Web Dada) JKB,Yes
+2024-11-23T17:14:00,Swaraj Dada (Web Dada) JKB,poke-mart.netlify.app
+2024-11-23T17:18:00,Amey Pacharkar,ho dada yours is also same. I had not made a function for the eventListener therefore it only checked once
+2024-11-23T17:18:00,Amey Pacharkar,so just like you when i tried added it in a function and then calling it works fine
+2024-11-23T17:19:00,Swaraj Dada (Web Dada) JKB,So did it work now
+2024-11-23T17:20:00,Amey Pacharkar,yes it is working
+2024-11-23T17:20:00,Swaraj Dada (Web Dada) JKB,👍
+2024-11-24T20:53:00,Amey Pacharkar,Dada mala ajjcha session nahi attend karta yenar. Didi chya hardila ahe me. I will cover up the revision session.
+2024-11-24T20:55:00,Swaraj Dada (Web Dada) JKB,Ok
+2024-12-09T21:16:00,Swaraj Dada (Web Dada) JKB,Cropped image use karu shaktos
+2024-12-09T21:17:00,Swaraj Dada (Web Dada) JKB,Karan background image varti dependent ahe na
+2024-12-09T21:19:00,Amey Pacharkar,hona ani image api varun ghetli ahe tar physically nahi change karta yenar.
+2024-12-09T21:19:00,Amey Pacharkar,on the time of rendering nahi ka change karu shakto?
+2024-12-09T21:22:00,Swaraj Dada (Web Dada) JKB,Tasa tar nahi honar <This message was edited>
+2024-12-09T21:23:00,Swaraj Dada (Web Dada) JKB,Filters use karu shakto css che but
+2024-12-09T21:24:00,Amey Pacharkar,Kutle filters?
+2024-12-09T21:24:00,Amey Pacharkar,Images sathe?
+2024-12-09T21:24:00,Swaraj Dada (Web Dada) JKB,Filter property aste css chi check kar online
+2024-12-09T21:24:00,Swaraj Dada (Web Dada) JKB,Ha
+2024-12-09T21:24:00,Amey Pacharkar,Bhagto me
+2024-12-14T21:06:00,Amey Pacharkar,dada what was the value you were telling us for the media query for margin
+2024-12-14T21:07:00,Swaraj Dada (Web Dada) JKB,Auto
+2024-12-14T21:07:00,Amey Pacharkar,dada for min-width value
+2024-12-14T21:07:00,Swaraj Dada (Web Dada) JKB,1536px
+2024-12-14T21:07:00,Swaraj Dada (Web Dada) JKB,Add some padding inside too
+2024-12-14T21:08:00,Amey Pacharkar,so basically for 4k
+2024-12-14T21:08:00,Amey Pacharkar,after laptop L right?
+2024-12-14T21:09:00,Swaraj Dada (Web Dada) JKB,Yes
+2024-12-14T21:10:00,Amey Pacharkar,ho hota ahe. thanks
+2024-12-14T21:10:00,Swaraj Dada (Web Dada) JKB,👍
+2024-12-14T21:15:00,Swaraj Dada (Web Dada) JKB,Well the images are that way from server
+2024-12-14T21:15:00,Swaraj Dada (Web Dada) JKB,Can't really do much
+2024-12-14T21:15:00,Swaraj Dada (Web Dada) JKB,U can scale it inside and hide black part
+2024-12-14T21:15:00,Amey Pacharkar,yaa thats the issue
+2024-12-14T21:15:00,Swaraj Dada (Web Dada) JKB,But it might cut some part of image
+2024-12-14T21:15:00,Amey Pacharkar,yaa and it would have to check for the black part as well using js
+2024-12-14T21:16:00,Amey Pacharkar,wont that be ai then?
+2024-12-14T21:16:00,Swaraj Dada (Web Dada) JKB,Oh so it's only for some images
+2024-12-14T21:16:00,Swaraj Dada (Web Dada) JKB,Can do much then
+2024-12-14T21:16:00,Amey Pacharkar,oh
+2024-12-14T21:16:00,Amey Pacharkar,how would that be?
+2024-12-14T21:17:00,Swaraj Dada (Web Dada) JKB,What api is that
+2024-12-14T21:17:00,Swaraj Dada (Web Dada) JKB,Sem links for some images
+2024-12-14T21:17:00,Amey Pacharkar,https://cdn.dummyjson.com/products/images/fragrances/Calvin%20Klein%20CK%20One/thumbnail.png
+2024-12-14T21:18:00,Amey Pacharkar,https://cdn.dummyjson.com/products/images/fragrances/Dolce%20Shine%20Eau%20de/thumbnail.png
+2024-12-14T21:18:00,Amey Pacharkar,should I send the images with no issues as well?
+2024-12-14T21:19:00,Swaraj Dada (Web Dada) JKB,yes
+2024-12-14T21:19:00,Amey Pacharkar,https://cdn.dummyjson.com/products/images/beauty/Red%20Nail%20Polish/thumbnail.png
+2024-12-14T21:19:00,Swaraj Dada (Web Dada) JKB,so its dummy api
+2024-12-14T21:19:00,Swaraj Dada (Web Dada) JKB,its problem of by hem
+2024-12-14T21:19:00,Amey Pacharkar,https://cdn.dummyjson.com/products/images/fragrances/Dior%20J'adore/thumbnail.png
+2024-12-14T21:19:00,Amey Pacharkar,yaa
+2024-12-14T21:19:00,Amey Pacharkar,yaa
+2024-12-14T21:20:00,Swaraj Dada (Web Dada) JKB,when we make app we make sure all images are of same proportions
+2024-12-14T21:20:00,Swaraj Dada (Web Dada) JKB,cant do much here
+2024-12-14T21:20:00,Swaraj Dada (Web Dada) JKB,u can use any other api if u want or let it be <This message was edited>
+2024-12-14T21:21:00,Amey Pacharkar,yaa tho most probably it would be done by ai
+2024-12-14T21:21:00,Amey Pacharkar,or make better api img <This message was edited>
+2024-12-14T21:22:00,Swaraj Dada (Web Dada) JKB,making ai for such thing is an over engineered solution
+2024-12-14T21:22:00,Swaraj Dada (Web Dada) JKB,no one does that
+2024-12-14T21:22:00,Swaraj Dada (Web Dada) JKB,this
+2024-12-14T21:22:00,Amey Pacharkar,yaa
+2024-12-17T18:16:00,Amey Pacharkar,Dada some of us have AIML session today. So we won't be able to attend today's
+2024-12-17T18:16:00,Swaraj Dada (Web Dada) JKB,Oh
+2024-12-17T18:16:00,Swaraj Dada (Web Dada) JKB,How many students
+2024-12-17T18:17:00,Amey Pacharkar,"3 of us. Me, Aum and Shivam"
+2024-12-17T18:17:00,Swaraj Dada (Web Dada) JKB,Ok fine
+2024-12-17T18:17:00,Swaraj Dada (Web Dada) JKB,Will still have to keep the session
+2024-12-17T18:17:00,Swaraj Dada (Web Dada) JKB,U guys can attend aiml
+2024-12-17T18:18:00,Amey Pacharkar,Yaa no problem. We will let you know if we have any issues while making the front end
+2024-12-17T18:18:00,Swaraj Dada (Web Dada) JKB,Yes sure
+2024-12-17T18:18:00,Amey Pacharkar,Chalel.
+2024-12-17T18:18:00,Swaraj Dada (Web Dada) JKB,Let these 2 know
+2024-12-17T18:20:00,Amey Pacharkar,Yes
+2024-12-17T23:08:00,Amey Pacharkar,dada ajj kai ghetla?
+2024-12-17T23:08:00,Swaraj Dada (Web Dada) JKB,Just asked about project status
+2024-12-17T23:08:00,Swaraj Dada (Web Dada) JKB,And taught closures concept
+2024-12-17T23:11:00,Amey Pacharkar,functions been declared inside another function?
+2024-12-17T23:11:00,Swaraj Dada (Web Dada) JKB,Yes
+2024-12-17T23:12:00,Swaraj Dada (Web Dada) JKB,These functions have reference to their surrounding state
+2024-12-17T23:13:00,Amey Pacharkar,will have to check them out then
+2024-12-17T23:13:00,Swaraj Dada (Web Dada) JKB,"Its just a concept, nothing new to learn in terms of code"
+2024-12-17T23:14:00,Swaraj Dada (Web Dada) JKB,U can check on YouTube
+2024-12-17T23:14:00,Amey Pacharkar,is it related to global and local declaration of variables and how it may affect the ways certain code will behave?
+2024-12-17T23:14:00,Swaraj Dada (Web Dada) JKB,Yes
+2024-12-17T23:14:00,Amey Pacharkar,I see
+2024-12-17T23:14:00,Amey Pacharkar,i will check it out then
+2024-12-17T23:14:00,Swaraj Dada (Web Dada) JKB,Yes
+2024-12-17T23:14:00,Amey Pacharkar,thank you dada
+2024-12-19T14:38:00,Swaraj Dada (Web Dada) JKB,Hii
+2024-12-19T20:00:00,Amey Pacharkar,dada ajj tu meeting ghenar ahes ka?
+2024-12-19T20:01:00,Amey Pacharkar,mala jara ek issue yeto ahe
+2024-12-19T20:01:00,Swaraj Dada (Web Dada) JKB,Oh ha visarloch
+2024-12-19T20:01:00,Swaraj Dada (Web Dada) JKB,Gheto
+2024-12-19T20:02:00,Amey Pacharkar,karan jara design madhe issue ahe tar asach nahi vicharta yenar
+2024-12-19T20:02:00,Swaraj Dada (Web Dada) JKB,Ohk
+2024-12-19T20:02:00,Swaraj Dada (Web Dada) JKB,Saglyana time adhi call karun bolav
+2024-12-19T20:02:00,Amey Pacharkar,me mug session madhe vicharto
+2024-12-19T20:02:00,Swaraj Dada (Web Dada) JKB,Baki group coordinators na pan sang <This message was edited>
+2024-12-19T20:02:00,Swaraj Dada (Web Dada) JKB,Ha
+2024-12-19T20:03:00,Amey Pacharkar,😂 ho sangto
+2024-12-20T12:33:00,Swaraj Dada (Web Dada) JKB,Hii
+2024-12-20T12:34:00,Swaraj Dada (Web Dada) JKB,Mi gemini api try karat hoto but tyatun kahi response nahi yet aahe
+2024-12-20T12:34:00,Swaraj Dada (Web Dada) JKB,Python code running madhe adakla aahe
+2024-12-20T12:34:00,Swaraj Dada (Web Dada) JKB,Gemini api use karnya sathi kay kay lagta
+2024-12-20T12:35:00,Swaraj Dada (Web Dada) JKB,Mi console varun ek key banavli aahe
+2024-12-20T12:35:00,Swaraj Dada (Web Dada) JKB,Free version pan setup kela aahe
+2024-12-20T12:35:00,Amey Pacharkar,Tu python var karto ahes ka?
+2024-12-20T12:35:00,Swaraj Dada (Web Dada) JKB,Ho
+2024-12-20T12:36:00,Amey Pacharkar,Ek minute
+2024-12-20T12:36:00,Swaraj Dada (Web Dada) JKB,Yes
+2024-12-20T12:37:00,Amey Pacharkar,"function generateContentWithGemini(prompt) { const apiKey = ""AIzaSyAvOF_3VkQLvSBHw_BfPW121Mewyn1zQE8""; const apiUrl = `https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key=${apiKey}`; const payload = { contents: [{ parts: [{ text: prompt }] }] }; const options = { method: ""post"", contentType: ""application/json"", payload: JSON.stringify(payload), }; try { const response = UrlFetchApp.fetch(apiUrl, options); const responseData = JSON.parse(response.getContentText()); Logger.log(""API Response: "" + JSON.stringify(responseData)); return responseData; } catch (error) { Logger.log(""Error calling Gemini API: "" + error.toString()); return null; } } const result = generateContentWithGemini(prompt); ya hota maja code. ekda check karun ghe if anything is missing from yours"
+2024-12-20T12:38:00,Swaraj Dada (Web Dada) JKB,Acha tu url through kela
+2024-12-20T12:38:00,Amey Pacharkar,Ho
+2024-12-20T12:39:00,Swaraj Dada (Web Dada) JKB,"mala docs madhe he bhetla te use kela mi import google.generativeai as genai genai.configure(api_key=""YOUR_API_KEY"") model = genai.GenerativeModel(""gemini-1.5-flash"") response = model.generate_content(""Explain how AI works"") print(response.text)"
+2024-12-20T12:40:00,Amey Pacharkar,Tu error handling ekda karun pahatos ka?
+2024-12-20T12:41:00,Swaraj Dada (Web Dada) JKB,Ha baghto
+2024-12-20T12:41:00,Swaraj Dada (Web Dada) JKB,But api chya dashboard var baghtoy
+2024-12-20T12:41:00,Swaraj Dada (Web Dada) JKB,Kahi traffic nahi aala ahe
+2024-12-20T12:41:00,Swaraj Dada (Web Dada) JKB,Last 11:50 la ala hota
+2024-12-20T12:42:00,Swaraj Dada (Web Dada) JKB,Ata run kartoy Tyacha kahi nahi
+2024-12-20T12:42:00,Swaraj Dada (Web Dada) JKB,Navin api key try karto
+2024-12-20T12:42:00,Amey Pacharkar,Ho
+2024-12-20T12:43:00,Amey Pacharkar,Pun limit nasla paheja
+2024-12-20T12:43:00,Swaraj Dada (Web Dada) JKB,Ha
+2024-12-20T12:43:00,Swaraj Dada (Web Dada) JKB,Mi te free plan pan ghetlay
+2024-12-20T12:44:00,Amey Pacharkar,"Free: 15 RPM 1 million TPM 1,500 RPD he tyancha docs madhe hote"
+2024-12-20T12:44:00,Swaraj Dada (Web Dada) JKB,Ohk
+2024-12-20T12:45:00,Amey Pacharkar,Ekda rest ni karun bhag mug nahitar.
+2024-12-20T12:46:00,Amey Pacharkar,Jar dusarya api key ne nahi hot asel tar
+2024-12-20T12:48:00,Swaraj Dada (Web Dada) JKB,ha baghto
+2024-12-20T12:50:00,Swaraj Dada (Web Dada) JKB,Navin api key ne zala 👍
+2024-12-20T12:54:00,Amey Pacharkar,asa kasa? pahele api key expire jale?
+2024-12-20T12:55:00,Swaraj Dada (Web Dada) JKB,no idea
+2024-12-20T12:55:00,Swaraj Dada (Web Dada) JKB,maybe free plan activate karaychya adhi hoti mhanun
+2024-12-20T12:56:00,Amey Pacharkar,Maybe
+2024-12-21T10:37:00,Swaraj Dada (Web Dada) JKB,Hii
+2024-12-21T10:37:00,Swaraj Dada (Web Dada) JKB,Udya ratri 9 la revision session sathi possible hoil ka sarvanna
+2024-12-21T10:37:00,Swaraj Dada (Web Dada) JKB,Aj mala revision gheta nahi yenar
+2024-12-21T10:38:00,Amey Pacharkar,Dada Sunday la abheshik sir rancha lecture asto 9 la.
+2024-12-21T10:38:00,Amey Pacharkar,To ghenar ahes ka?
+2024-12-21T10:38:00,Swaraj Dada (Web Dada) JKB,Ho
+2024-12-21T10:38:00,Swaraj Dada (Web Dada) JKB,Abhishek sir na nahi possible udya
+2024-12-21T10:39:00,Swaraj Dada (Web Dada) JKB,Tumhi loka kadhi nighnar aahe banglore sathi
+2024-12-21T10:39:00,Swaraj Dada (Web Dada) JKB,Ya sathi vichartoy
+2024-12-21T10:39:00,Amey Pacharkar,Chalel pun Monday morning la sarve bengaluru sathe janar ahet tar maybe nahi pun yevu saktil
+2024-12-21T10:39:00,Swaraj Dada (Web Dada) JKB,Ok morning na
+2024-12-21T10:40:00,Amey Pacharkar,Ho
+2024-12-21T10:40:00,Amey Pacharkar,Mostly tare yala paheje
+2024-12-21T10:40:00,Swaraj Dada (Web Dada) JKB,Mag gheto mi 9 la
+2024-12-21T10:40:00,Amey Pacharkar,Ho chalel
+2024-12-21T10:40:00,Swaraj Dada (Web Dada) JKB,Yayla hava karan session astoch apla
+2024-12-21T10:40:00,Amey Pacharkar,Barobar ahe
+2024-12-21T10:40:00,Amey Pacharkar,Yetil
+2024-12-21T10:40:00,Swaraj Dada (Web Dada) JKB,👍
+2024-12-21T17:42:00,Amey Pacharkar,Sir navte ghenar dada?
+2024-12-21T17:42:00,Swaraj Dada (Web Dada) JKB,Ho sirach lagna aahe udya <This message was edited>
+2024-12-21T17:43:00,Swaraj Dada (Web Dada) JKB,I'm serious
+2024-12-21T17:43:00,Swaraj Dada (Web Dada) JKB,Mhanun possible nahi siran na <This message was edited>
+2024-12-21T17:45:00,Amey Pacharkar,😅
+2024-12-21T17:45:00,Amey Pacharkar,Barobar ahe
+2024-12-21T17:45:00,Swaraj Dada (Web Dada) JKB,Sangat basu nako konala
+2024-12-21T17:46:00,Amey Pacharkar,Ho re. Me nahi sangat
+2024-12-21T17:46:00,Amey Pacharkar,Nahi sarve lagnala jatil udya
+2024-12-21T17:47:00,Amey Pacharkar,Sir ranna congratulations karava lagel nantar.
+2024-12-21T17:48:00,Swaraj Dada (Web Dada) JKB,Yes
+2025-01-11T17:36:00,Amey Pacharkar,dada do we have a revision session today?
+2025-01-11T17:37:00,Swaraj Dada (Web Dada) JKB,Yes
+2025-01-11T17:37:00,Swaraj Dada (Web Dada) JKB,5:45
+2025-01-11T17:38:00,Amey Pacharkar,chalel
+2025-01-12T12:57:00,Swaraj Dada (Web Dada) JKB,Hii
+2025-01-12T12:57:00,Swaraj Dada (Web Dada) JKB,"Kay zala, nantar karuya ka"
+2025-01-12T13:09:00,Amey Pacharkar,Ho ekda ghari pohochala var karuya. Chalel ka?
+2025-01-12T13:12:00,Swaraj Dada (Web Dada) JKB,Ho
+2025-01-12T23:06:00,Swaraj Dada (Web Dada) JKB,Hi
+2025-01-12T23:06:00,Swaraj Dada (Web Dada) JKB,Mi vicharayla visarlo
+2025-01-12T23:06:00,Swaraj Dada (Web Dada) JKB,Siran na vicharun snag kiti vajta yaycha te
+2025-01-12T23:07:00,Amey Pacharkar,Ho me sangto vicharun timing
+2025-01-12T23:07:00,Swaraj Dada (Web Dada) JKB,Ho
+2025-01-12T23:31:00,Amey Pacharkar,sir bolle sakale sangtil
+2025-01-12T23:34:00,Swaraj Dada (Web Dada) JKB,Ok
+2025-01-13T11:42:00,Amey Pacharkar,Dada sir boll meeting would be around 10PM today.
+2025-01-13T11:42:00,Swaraj Dada (Web Dada) JKB,Ok
+2025-01-13T13:38:00,Amey Pacharkar,Dada maybe time will change. I will let you know regarding timing. Since few of the guys have session today.
+2025-01-13T13:38:00,Swaraj Dada (Web Dada) JKB,Yah
+2025-01-13T13:52:00,Amey Pacharkar,Dada the session would be tomorrow at 10PM.
+2025-01-13T13:52:00,Swaraj Dada (Web Dada) JKB,Ok
+2025-01-14T19:38:00,Amey Pacharkar,Dada parat ekda change jala. 10.45 la. Amcha session ahe mahanun.
+2025-01-14T19:38:00,Swaraj Dada (Web Dada) JKB,Ok
+2025-01-14T22:50:00,Amey Pacharkar,Dada yeto ahes na?
+2025-01-14T22:50:00,Swaraj Dada (Web Dada) JKB,Ha just a min
+2025-01-14T22:50:00,Swaraj Dada (Web Dada) JKB,Alet ka sagle
+2025-01-14T22:51:00,Amey Pacharkar,Yetat ahet. Call karto ahe.
+2025-01-14T22:53:00,Swaraj Dada (Web Dada) JKB,Ok
+2025-01-14T22:58:00,Swaraj Dada (Web Dada) JKB,Last time cha zoom cha idea discuss kela ka siran barobar
+2025-01-14T23:00:00,Amey Pacharkar,Ho idea discuss kelela
+2025-01-14T23:00:00,Amey Pacharkar,Depth madhe navta pun
+2025-01-14T23:00:00,Swaraj Dada (Web Dada) JKB,But siran cha reaction kay hota
+2025-01-14T23:00:00,Swaraj Dada (Web Dada) JKB,Work karu shakto ka ya var
+2025-01-14T23:01:00,Amey Pacharkar,Sir bolle discuss Karu mahanun.
+2025-01-14T23:01:00,Swaraj Dada (Web Dada) JKB,Ok
+2025-01-15T00:41:00,Amey Pacharkar,dada kasa karna ahe business logic cha?
+2025-01-15T00:42:00,Amey Pacharkar,sessions ghenar ahe ki group study sarka
+2025-01-15T08:47:00,Swaraj Dada (Web Dada) JKB,Group study type ach asnar
+2025-01-15T08:48:00,Swaraj Dada (Web Dada) JKB,Madhe madhe mi yenar help karayla
+2025-01-15T17:37:00,Amey Pacharkar,Oh nice. Ani code sathe mug GitHub? Ki kasa?
+2025-01-15T17:37:00,Swaraj Dada (Web Dada) JKB,Github
+2025-01-15T17:37:00,Swaraj Dada (Web Dada) JKB,Mi yacha access dein
+2025-01-15T18:32:00,Amey Pacharkar,Ho chalel
+2025-01-16T21:39:00,Amey Pacharkar,dada kadhe pasun chalu karacha  ahe?
+2025-01-16T21:40:00,Swaraj Dada (Web Dada) JKB,Kadhi time ahe tumhala
+2025-01-16T21:40:00,Swaraj Dada (Web Dada) JKB,Ani kon kon seriously interested ahe
+2025-01-16T21:46:00,Amey Pacharkar,Kahi idea nahi ahe. Kone kahi vicharla nahi ahe.
+2025-01-16T21:46:00,Amey Pacharkar,"Monday, Tuesday, Saturday, Sunday la lectures astat. Nahitar anytime."
+2025-01-16T21:47:00,Swaraj Dada (Web Dada) JKB,Saturday Sunday konte lecture?
+2025-01-16T21:47:00,Swaraj Dada (Web Dada) JKB,Robotics?
+2025-01-16T21:48:00,Amey Pacharkar,Practice sessions and web on Sunday. Robotics cha idea nahi ekda vicharun sangto.
+2025-01-16T21:48:00,Swaraj Dada (Web Dada) JKB,Ha web tar ahech
+2025-01-16T21:48:00,Swaraj Dada (Web Dada) JKB,But te ratri asnar
+2025-01-16T21:49:00,Swaraj Dada (Web Dada) JKB,Ani tya sathich he kartoy apan
+2025-01-16T21:49:00,Amey Pacharkar,Ho Sunday la full day free ahe. Only session at 9
+2025-01-16T21:49:00,Swaraj Dada (Web Dada) JKB,Web cha final goal is kahi tari real world implement karna
+2025-01-16T21:50:00,Swaraj Dada (Web Dada) JKB,So Sunday kivha apla revision session nantar jar free asal tar tevha karuya
+2025-01-16T21:50:00,Amey Pacharkar,Dada web nantar AIML cha revision ani mug Android cha. Tar teva nahi honanar
+2025-01-16T21:50:00,Swaraj Dada (Web Dada) JKB,Tu tuzya friends sobat bola Ani je actually intrested astil Tyanna ghe sobat
+2025-01-16T21:50:00,Swaraj Dada (Web Dada) JKB,Acha ok
+2025-01-16T21:51:00,Amey Pacharkar,Te tar ahe.
+2025-01-16T21:51:00,Swaraj Dada (Web Dada) JKB,Tu kiti course kartoys aata
+2025-01-16T21:51:00,Amey Pacharkar,2
+2025-01-16T21:51:00,Swaraj Dada (Web Dada) JKB,Ok
+2025-01-16T21:51:00,Swaraj Dada (Web Dada) JKB,Mag let's do sunday
+2025-01-16T21:52:00,Amey Pacharkar,Sarvana navta sangacha hota ka? Mala vatlela sarvana hota.
+2025-01-16T21:52:00,Swaraj Dada (Web Dada) JKB,Sarvannach ahe
+2025-01-16T21:52:00,Swaraj Dada (Web Dada) JKB,But mi 2 years pasun baghtoy thodya divsa nantar palun jatat 😂
+2025-01-16T21:53:00,Amey Pacharkar,Facts 😂
+2025-01-16T21:53:00,Swaraj Dada (Web Dada) JKB,Mhanun vichartoy actually interested kon ahe
+2025-01-16T21:53:00,Swaraj Dada (Web Dada) JKB,Sagle join Karu shaktat but je actually work karnar tyancha sobat jasta coordinate karu shakto
+2025-01-16T21:54:00,Amey Pacharkar,Chalel. Pun mug group var nahi vicharta yenar
+2025-01-16T21:54:00,Swaraj Dada (Web Dada) JKB,Yah asa kahi bolu nako konala
+2025-01-16T21:54:00,Swaraj Dada (Web Dada) JKB,Sagle yetil Ani je interested astil te thambtil
+2025-01-16T21:55:00,Swaraj Dada (Web Dada) JKB,So fakta saglyana sangaycha try kar Sunday karu
+2025-01-16T21:55:00,Amey Pacharkar,Ho nahitar te barobar nahi vatnar.
+2025-01-16T21:55:00,Swaraj Dada (Web Dada) JKB,Yes
+2025-01-16T21:55:00,Swaraj Dada (Web Dada) JKB,Ani tumhi 3 tar nakki asnar na
+2025-01-16T21:55:00,Amey Pacharkar,Group var nako taku join karala mug?
+2025-01-16T21:56:00,Amey Pacharkar,3 kon?
+2025-01-16T21:56:00,Swaraj Dada (Web Dada) JKB,He mi siran sobat bolun Sangto ekda <This message was edited>
+2025-01-16T21:56:00,Swaraj Dada (Web Dada) JKB,Tya divshi mett madhele
+2025-01-16T21:56:00,Amey Pacharkar,Ho chalel. Te better ahe
+2025-01-16T21:56:00,Amey Pacharkar,Oh ha me sangto. Mostly astil
+2025-01-16T21:57:00,Amey Pacharkar,Doge karnare ahet karan.
+2025-01-16T21:57:00,Swaraj Dada (Web Dada) JKB,So yah tumhi tigha atta just to zoom cha idea dila hota na tumhi tya var research kara
+2025-01-16T21:57:00,Swaraj Dada (Web Dada) JKB,Ani react baddal thoda baghun ya
+2025-01-16T21:58:00,Amey Pacharkar,Me Ani Shivam ne kela tar chalel ka react cha? Ki only basic idea?
+2025-01-16T21:58:00,Swaraj Dada (Web Dada) JKB,Work actually adhi pasun ach chalu karaycha hota but mala pan jasta time bhetat nahi
+2025-01-16T21:58:00,Amey Pacharkar,Ho chalel ke sangto tyana
+2025-01-16T21:59:00,Swaraj Dada (Web Dada) JKB,Yes adhi basics bagha mi Sunday la ajun idea dein
+2025-01-16T21:59:00,Amey Pacharkar,Chalel done 👍
+2025-01-16T22:00:00,Amey Pacharkar,Dada ekda sir ranna vicharun timing sangshil.
+2025-01-16T22:00:00,Swaraj Dada (Web Dada) JKB,Ho actually mala pan tyancha sobat bolta yet nahi aata
+2025-01-16T22:01:00,Swaraj Dada (Web Dada) JKB,Tu ekda asach vichar groups cha kasa karta mhanun
+2025-01-16T22:01:00,Swaraj Dada (Web Dada) JKB,Sir mhanalele na groups banva mhanun
+2025-01-16T22:07:00,Amey Pacharkar,Ho bolle tar hote sir groups cha
+2025-01-16T22:07:00,Amey Pacharkar,Personal var vicharu ka?
+2025-01-16T22:07:00,Swaraj Dada (Web Dada) JKB,Ho vichar
+2025-01-16T22:08:00,Swaraj Dada (Web Dada) JKB,Ani jar possible zala tar vichar Sunday la karu ka session
+2025-01-16T22:08:00,Swaraj Dada (Web Dada) JKB,Mi vicharat hoto te sang
+2025-01-16T22:08:00,Amey Pacharkar,Chalel vicharto me
+2025-01-16T22:08:00,Swaraj Dada (Web Dada) JKB,Yes
+2025-01-17T17:19:00,Amey Pacharkar,Dada sir pune la ahet for yes+ tar mostly te alavar boltil.
+2025-01-17T17:19:00,Swaraj Dada (Web Dada) JKB,Okk
+2025-01-19T13:02:00,Swaraj Dada (Web Dada) JKB,"var server = http.createServer(function (request, response) { switch (request.url) { case ""/AppClientStyle.css"" : response.writeHead(200, {""Content-Type"": ""text/css""}); response.write(cssFile); break; default : response.writeHead(200, {""Content-Type"": ""text/html""}); response.write(htmlFile); }); response.end(); }"
+2025-01-19T13:03:00,Amey Pacharkar,"const http = require('node:http'); const fs = require('node:fs'); const path = require('node:path'); const server = http.createServer((req, res) => { if (req.url === ""/"") { // Serve index.html const filePath = path.join(__dirname, 'index.html'); try { const output = fs.readFileSync(filePath); res.writeHead(200, { 'Content-Type': 'text/html' }); res.end(output.toString()); } catch (err) { res.writeHead(500); res.end(""Error loading index.html""); } } else if (req.url === ""/restaurant_list_screen.html"") { // Serve restaurant_list_screen.html const filePath = path.join(__dirname, 'screen', 'restaurant_list_screen.html'); try { const output = fs.readFileSync(filePath); res.writeHead(200, { 'Content-Type': 'text/html' }); res.end(output.toString()); } catch (err) { res.writeHead(500); res.end(""Error loading restaurant_list_screen.html""); } } else if (req.url === ""/restaurant_details_screen.html"") { // Serve restaurant_details_screen.html const filePath = path.join(__dirname, 'screen', 'restaurant_details_screen.html'); try { const output = fs.readFileSync(filePath); res.writeHead(200, { 'Content-Type': 'text/html' }); res.end(output.toString()); } catch (err) { res.writeHead(500); res.end(""Error loading restaurant_details_screen.html""); } } else if (req.url == ""/style.css"") { // Serve CSS files const filePath = path.join(__dirname, 'styles', path.basename(req.url)); try { const output = fs.readFileSync(filePath); res.writeHead(200, { 'Content-Type': 'text/css' }); res.end(output); } catch (err) { res.writeHead(404, { 'Content-Type': 'text/plain' }); res.end(""CSS file not found""); } } else { // Handle 404 res.writeHead(404, { 'Content-Type': 'text/plain' }); res.end(""Page not found""); } }); server.listen(3000, () => { console.log('Server running at http://localhost:3000/'); });"
+2025-01-19T13:08:00,Amey Pacharkar,"const filePath = path.join(__dirname, ""/style.css"");"
+2025-01-23T08:25:00,Amey Pacharkar,Dada restaurant cha project tailwind madhe thevla tar chalel ka? Ki css madhech thevu?
+2025-01-23T08:28:00,Swaraj Dada (Web Dada) JKB,Kasa hi chalel
+2025-01-23T08:28:00,Swaraj Dada (Web Dada) JKB,But node madhe tailwind kasa work hota te bagh
+2025-01-23T08:36:00,Amey Pacharkar,Chalel.
+2025-01-26T23:12:00,Amey Pacharkar,Dada please send the admin password and email for jkb website
+2025-01-26T23:12:00,Swaraj Dada (Web Dada) JKB,Yah
+2025-01-26T23:13:00,Swaraj Dada (Web Dada) JKB,jkb.poonam@gmail.com jkbjgd123
+2025-01-26T23:14:00,Amey Pacharkar,Me bakichya lokana pathavto
+2025-01-26T23:14:00,Swaraj Dada (Web Dada) JKB,Fakt baki 3 na
+2025-01-26T23:15:00,Amey Pacharkar,Ho sir bolle aum la pun ghyala
+2025-01-26T23:15:00,Amey Pacharkar,Mug 4
+2025-01-26T23:15:00,Swaraj Dada (Web Dada) JKB,Ha
+2025-01-26T23:15:00,Amey Pacharkar,Me tyala sakale sangun mug pathavto
+2025-01-26T23:15:00,Swaraj Dada (Web Dada) JKB,Ha
+2025-01-26T23:16:00,Amey Pacharkar,Chalel dada good night
+2025-01-26T23:16:00,Swaraj Dada (Web Dada) JKB,Good night
+2025-01-26T23:16:00,Amey Pacharkar,Dada database cha model pun pathavna please
+2025-01-26T23:16:00,Amey Pacharkar,To pun lagel na
+2025-01-26T23:17:00,Swaraj Dada (Web Dada) JKB,Are site var distay te use kar
+2025-01-26T23:17:00,Amey Pacharkar,Chalel
+2025-01-26T23:17:00,Swaraj Dada (Web Dada) JKB,Database cha actually 2 vegla table kelay mhanun
+2025-01-26T23:17:00,Amey Pacharkar,Chalel tech gheto mug
+2025-01-26T23:17:00,Swaraj Dada (Web Dada) JKB,Ha
+2025-01-29T17:20:00,Amey Pacharkar,dada ajj web cha revision session thevanar ahes ka?
+2025-01-29T17:21:00,Swaraj Dada (Web Dada) JKB,Aj ratri free ahet ka sagle
+2025-01-29T18:09:00,Amey Pacharkar,Kahi idea nahi he. Mostly astil exam vagere nahi ahet tar.
+2025-01-29T18:19:00,Swaraj Dada (Web Dada) JKB,Ok
+2025-01-29T18:19:00,Swaraj Dada (Web Dada) JKB,Gheto mag
+2025-01-29T18:19:00,Amey Pacharkar,Ho dada
+2025-02-05T21:22:00,Amey Pacharkar,"dada can we make public folder in react for static images, fonts, icons just like how we make it in express?"
+2025-02-05T21:22:00,Swaraj Dada (Web Dada) JKB,Yes in vite they already make one by default <This message was edited>
+2025-02-05T21:22:00,Amey Pacharkar,yaa tho it is not working for me for some reason
+2025-02-05T21:23:00,Swaraj Dada (Web Dada) JKB,Remove /public from paths
+2025-02-05T21:26:00,Amey Pacharkar,I have not put /public for the links
+2025-02-05T21:27:00,Swaraj Dada (Web Dada) JKB,Add / before icons
+2025-02-05T21:28:00,Amey Pacharkar,nothing changed same it is showing alternative
+2025-02-05T21:29:00,Amey Pacharkar,it was working before I pushed it to git this afternoon
+2025-02-05T21:29:00,Amey Pacharkar,now it shows the alternative
+2025-02-05T21:29:00,Swaraj Dada (Web Dada) JKB,Just restart
+2025-02-05T21:40:00,Amey Pacharkar,jala 👍
+2025-02-05T21:41:00,Swaraj Dada (Web Dada) JKB,Ok 👍
+2025-02-08T17:32:00,Amey Pacharkar,dada revision session ahe ka ajj?
+2025-02-08T17:34:00,Swaraj Dada (Web Dada) JKB,Ho
+2025-02-09T12:20:00,Amey Pacharkar,Website Link:- https://jkb-website.netlify.app/ Backend Link:- https://jkb-website-a55x.onrender.com/api/users
+2025-02-09T12:21:00,Amey Pacharkar,dada me repo private thevle ahe tar collaborator madhe add karu ka tula? <This message was edited>
+2025-02-09T12:39:00,Swaraj Dada (Web Dada) JKB,ho
+2025-02-09T13:36:00,Amey Pacharkar,dada tuja username kai ahe?
+2025-02-09T13:36:00,Swaraj Dada (Web Dada) JKB,Swaraj2004
+2025-02-09T13:37:00,Amey Pacharkar,me invite pathavla ahe tula
+2025-02-09T13:37:00,Swaraj Dada (Web Dada) JKB,Ok
+2025-02-15T23:51:00,Swaraj Dada (Web Dada) JKB,Hii
+2025-02-15T23:51:00,Swaraj Dada (Web Dada) JKB,Maza nav add kar rejoin AIML madhe
+2025-02-15T23:51:00,Amey Pacharkar,noted
+2025-02-16T10:12:00,Swaraj Dada (Web Dada) JKB,Hii
+2025-02-16T10:12:00,Swaraj Dada (Web Dada) JKB,Mi tuza ani devansh che task ale ahet
+2025-02-16T10:13:00,Swaraj Dada (Web Dada) JKB,Baki 2 cha Kay status ahe te sang vicharun
+2025-02-16T10:13:00,Swaraj Dada (Web Dada) JKB,Ani tuzya sathi ek task hota let me know when u are free
+2025-02-16T11:41:00,Amey Pacharkar,Aum ani shivam bolle te host karun pathavtil
+2025-02-16T11:42:00,Amey Pacharkar,Ho bolna. Mala assignments karachr ahet te 2-3 hrs madhe hovun jaail
+2025-02-16T11:43:00,Swaraj Dada (Web Dada) JKB,Ha just apla codebase share karaycha ahe tula ani thoda sangaycha ahe
+2025-02-16T11:43:00,Swaraj Dada (Web Dada) JKB,Baki 3 ale tar changla hoil
+2025-02-16T11:43:00,Amey Pacharkar,Ho chalel. Mala chalel kadehe.
+2025-02-16T11:44:00,Amey Pacharkar,12 la sangu ka?
+2025-02-16T11:44:00,Swaraj Dada (Web Dada) JKB,Ho baki chyancha confirm karun sang ek time
+2025-02-16T11:44:00,Amey Pacharkar,Chalel
+2025-02-16T11:54:00,Amey Pacharkar,Ajj 4PM la karuya. Sarvana chalel.
+2025-02-16T11:54:00,Swaraj Dada (Web Dada) JKB,Ok done
+2025-02-16T11:55:00,Swaraj Dada (Web Dada) JKB,Aj mi revision thevla tar yetil ka
+2025-02-16T11:55:00,Swaraj Dada (Web Dada) JKB,Ani last time Kay cover kela hota
+2025-02-16T11:58:00,Amey Pacharkar,Ajj sir rancha pun lecture ahe. Tar idea nahi ahe yetil ke nahi
+2025-02-16T11:58:00,Swaraj Dada (Web Dada) JKB,Hmm
+2025-02-16T11:59:00,Swaraj Dada (Web Dada) JKB,ok will keep revision some otehr day
+2025-02-16T11:59:00,Amey Pacharkar,Mongoose Ghetla sir ranni
+2025-02-16T11:59:00,Swaraj Dada (Web Dada) JKB,Ok
+2025-02-16T15:56:00,Swaraj Dada (Web Dada) JKB,Let me know when ready
+2025-02-16T15:58:00,Amey Pacharkar,Ho join karto ahe. Me kela call yetat ahe
+2025-02-16T15:59:00,Swaraj Dada (Web Dada) JKB,Ha
+2025-02-16T17:01:00,Swaraj Dada (Web Dada) JKB,https://www.youtube.com/watch?v=vwSlYG7hFk0
+2025-02-16T17:02:00,Swaraj Dada (Web Dada) JKB,https://www.youtube.com/watch?v=qURCyd3ycfw&t
+2025-02-16T17:10:00,Swaraj Dada (Web Dada) JKB,https://youtu.be/bugO1tmSDpM?si=v9X2g0uKGLK3zccL
+2025-02-17T16:14:00,Amey Pacharkar,"🎊Welcome to our WhatsApp group for Your AI-ML-DS L3PP batch & Career Growth along-with the Mentorship Program by Vinayak Sir ❤️ https://chat.whatsapp.com/D6RAApLoDHL21dELBq31ZP ✅Fixed Schedule will be given in group description of WA group We have assigned 2 trainers🎊 MT : Master Trainer PT : Practice Trainer For your small batch to get 💯% productivity which will define your career growth🎊 ➡️Level up your journey, Keep practicing 💪 & ask all your doubts in *Live Session* & our WhatsApp Group. ➡️ Attend all MT, PT & Practice sessions ➡️ Submit assignment to MT &  PT in WhatsApp Group - Team JKB 💙"
+2025-02-18T23:05:00,Swaraj Dada (Web Dada) JKB,null
+2025-02-21T23:35:00,Amey Pacharkar,Dada udya revision session honar ahe ka?
+2025-02-21T23:38:00,Swaraj Dada (Web Dada) JKB,Tumcha ahe ka dusra konta session
+2025-02-21T23:52:00,Amey Pacharkar,aiml cha ahe pun to sir bolle choose karala timing.
+2025-02-21T23:52:00,Amey Pacharkar,mahanun vicharat hoto
+2025-02-21T23:52:00,Amey Pacharkar,nahi kahi janan cha robotics pun ahe
+2025-02-21T23:52:00,Swaraj Dada (Web Dada) JKB,"Garaj ahe ka web cha revision chi, siran ne pan 2-3 session ghetle ahet na"
+2025-02-22T00:12:00,Amey Pacharkar,Ho
+2025-02-22T00:12:00,Amey Pacharkar,Chalel mug no issue
+2025-02-22T00:16:00,Swaraj Dada (Web Dada) JKB,Ha
+2025-02-23T10:32:00,Swaraj Dada (Web Dada) JKB,Hii
+2025-02-23T10:32:00,Swaraj Dada (Web Dada) JKB,Aj kadhi free ahes
+2025-02-23T10:44:00,Amey Pacharkar,Sir ranni ek task dila ahe. Te jala ki hovun jail
+2025-02-23T10:45:00,Swaraj Dada (Web Dada) JKB,Ok sang free aslas ki
+2025-02-23T10:46:00,Amey Pacharkar,Ho chalel
+2025-02-24T18:38:00,Swaraj Dada (Web Dada) JKB,"https://excalidraw.com/#json=va80hexO6zT-FOPosZZgP,t2jTmgGeZECkSwKh_zPxQA"
+2025-02-26T08:34:00,Swaraj Dada (Web Dada) JKB,Hii
+2025-02-26T08:34:00,Swaraj Dada (Web Dada) JKB,Aj kahi pan karun frontend complete karaycha ahe
+2025-02-26T08:34:00,Swaraj Dada (Web Dada) JKB,Backend almost zala ahe
+2025-02-26T08:35:00,Swaraj Dada (Web Dada) JKB,Bakichyanna sang
+2025-02-26T08:35:00,Swaraj Dada (Web Dada) JKB,Aj meet karuya
+2025-02-26T08:35:00,Swaraj Dada (Web Dada) JKB,Ani udya testing karnar
+2025-02-26T08:35:00,Amey Pacharkar,Chalel
+2025-02-26T08:35:00,Swaraj Dada (Web Dada) JKB,Karan parva aplyala time nahi bhetnar mtw mule
+2025-02-26T08:36:00,Amey Pacharkar,Meeting kadhe gheche ahe?
+2025-02-26T08:36:00,Swaraj Dada (Web Dada) JKB,10 la free ahat tar sanga
+2025-02-26T08:36:00,Amey Pacharkar,Group var message thaku
+2025-02-26T08:36:00,Swaraj Dada (Web Dada) JKB,Ho
+2025-02-26T08:37:00,Swaraj Dada (Web Dada) JKB,Sahil la add kar ani
+2025-02-26T08:39:00,Amey Pacharkar,4 jana chalel na?
+2025-02-26T08:39:00,Swaraj Dada (Web Dada) JKB,Ho
+2025-02-26T08:39:00,Swaraj Dada (Web Dada) JKB,Bas aata tevdhech
+2025-02-26T08:39:00,Amey Pacharkar,Chalel
+2025-02-26T08:39:00,Swaraj Dada (Web Dada) JKB,Mi Sagla sangnar ahe so imp ahe
+2025-02-26T10:05:00,Swaraj Dada (Web Dada) JKB,Join kar
+2025-03-04T18:10:00,Swaraj Dada (Web Dada) JKB,Hii
+2025-03-04T18:11:00,Amey Pacharkar,hello
+2025-03-04T18:11:00,Swaraj Dada (Web Dada) JKB,Tu karat ahes ka site cha
+2025-03-04T18:12:00,Amey Pacharkar,professor cha?
+2025-03-04T18:12:00,Swaraj Dada (Web Dada) JKB,Ha
+2025-03-04T18:12:00,Amey Pacharkar,ho me setup karat hoto
+2025-03-04T18:12:00,Swaraj Dada (Web Dada) JKB,Ok
+2025-03-04T18:12:00,Swaraj Dada (Web Dada) JKB,Zala ki sang
+2025-03-04T18:12:00,Amey Pacharkar,ho
+2025-03-04T18:12:00,Swaraj Dada (Web Dada) JKB,Mi ghari pohochlyavar meet madhe yein
+2025-03-04T18:12:00,Amey Pacharkar,chalel
+2025-03-04T18:56:00,Swaraj Dada (Web Dada) JKB,Python 3.9
+2025-03-04T18:57:00,Swaraj Dada (Web Dada) JKB,Ani consts.py madhe db chi link tak
+2025-03-04T19:06:00,Swaraj Dada (Web Dada) JKB,Zala ka
+2025-03-04T19:06:00,Swaraj Dada (Web Dada) JKB,Ye meet madhe
+2025-03-04T19:06:00,Amey Pacharkar,"ho, frontend run karto ahe"
+2025-03-04T19:06:00,Amey Pacharkar,zoom?
+2025-03-04T19:07:00,Swaraj Dada (Web Dada) JKB,Ha
+2025-03-04T19:07:00,Swaraj Dada (Web Dada) JKB,Yeto mi 5 mintat
+2025-03-04T19:07:00,Swaraj Dada (Web Dada) JKB,Frontend madhe Swaraj branch madhe ja
+2025-03-04T19:12:00,Swaraj Dada (Web Dada) JKB,"MONGO_URI = ""mongodb+srv://swaraj:swaj2004@cluster0.pz0dp.mongodb.net/"""
+2025-03-04T19:13:00,Swaraj Dada (Web Dada) JKB,backend consts
+2025-03-04T19:18:00,Swaraj Dada (Web Dada) JKB,Hii
+2025-03-04T19:18:00,Swaraj Dada (Web Dada) JKB,Meet madhe ahe mi
+2025-03-04T20:56:00,Swaraj Dada (Web Dada) JKB,6651e4e3cd97dc0e2208beaa
+2025-03-04T21:02:00,Swaraj Dada (Web Dada) JKB,http://127.0.0.1:8000/api/v1/professor/lectures?prof_user_id=6651e4e3cd97dc0e2208beae
+2025-03-04T21:11:00,Amey Pacharkar,"KeyError: 'updated_at' {'_id': ObjectId('6651e4e3cd97dc0e2208beae'), 'full_name': 'Swaraj Chavan', 'username': 'swaraj2004', 'email': 'swaraj2004@gmail.com', 'password': '$2b$12$K0MJYRUmpHtmqWk.iZLu9elgB4RW2H9MJp5l5X/8gedYdOhOu2iXa', 'phone': '8080903080', 'location': 'Panvel', 'role_id': ObjectId('6615133863116bcd91feaac7'), 'created_at': datetime.datetime(2023, 5, 25, 13, 17, 23), 'updated_at': datetime.datetime(2024, 5, 25, 13, 19, 31), 'updated_by': '65da0982dcde71263736aa1a'} {'_id': ObjectId('6651e4e3cd97dc0e2208beae'), 'full_name': 'Swaraj Chavan', 'username': 'swaraj2004', 'email': 'swaraj2004@gmail.com', 'password': '$2b$12$K0MJYRUmpHtmqWk.iZLu9elgB4RW2H9MJp5l5X/8gedYdOhOu2iXa', 'phone': '8080903080', 'location': 'Panvel', 'role_id': ObjectId('6615133863116bcd91feaac7'), 'created_at': datetime.datetime(2023, 5, 25, 13, 17, 23), 'updated_at': datetime.datetime(2024, 5, 25, 13, 19, 31), 'updated_by': '65da0982dcde71263736aa1a'} INFO:     127.0.0.1:59004 - ""GET /api/v1/student/attendance?student_id=6652f3ab09b5dcd29ad95e68 HTTP/1.1"" 200 OK INFO:     127.0.0.1:59043 - ""GET /api/v1/admin/subjects HTTP/1.1"" 200 OK"
+2025-03-04T23:23:00,Amey Pacharkar,Dada jala ahe ka?
+2025-03-04T23:25:00,Amey Pacharkar,null
+2025-03-04T23:26:00,Swaraj Dada (Web Dada) JKB,Can't talk now. Call me later?
+2025-03-04T23:26:00,Swaraj Dada (Web Dada) JKB,In meet
+2025-03-04T23:26:00,Amey Pacharkar,Okk
+2025-03-04T23:26:00,Swaraj Dada (Web Dada) JKB,Will do tomorrow
+2025-03-04T23:26:00,Amey Pacharkar,Ok
+2025-03-04T23:26:00,Amey Pacharkar,Me zhopto mug ata. Good night
+2025-03-04T23:26:00,Swaraj Dada (Web Dada) JKB,Ho gn
+2025-03-05T20:11:00,Swaraj Dada (Web Dada) JKB,null
+2025-03-05T20:14:00,Swaraj Dada (Web Dada) JKB,Hii
+2025-03-05T20:14:00,Swaraj Dada (Web Dada) JKB,8:30 meet yeu shaktoa ka
+2025-03-06T18:14:00,Amey Pacharkar,Dada tu free ahes ka? Mala ek issue yeto ahe mongodb cha
+2025-03-06T18:14:00,Amey Pacharkar,Data nahi fetch hot ahe
+2025-03-06T18:15:00,Swaraj Dada (Web Dada) JKB,Ha
+2025-03-06T18:15:00,Amey Pacharkar,Meet var chalel ki screenshot pathavu me?
+2025-03-06T18:16:00,Swaraj Dada (Web Dada) JKB,Adhi ss pathav
+2025-03-06T18:16:00,Swaraj Dada (Web Dada) JKB,mag baghuya meet var yaycha ka
+2025-03-06T18:17:00,Swaraj Dada (Web Dada) JKB,mongo db madhlya data cha photo pathav
+2025-03-06T18:18:00,Swaraj Dada (Web Dada) JKB,restaurant property kay ahe
+2025-03-06T18:19:00,Amey Pacharkar,kutla restaurant cha menuitem item ahe te sangto. restaurant objectid ahe <This message was edited>
+2025-03-06T18:19:00,Swaraj Dada (Web Dada) JKB,i think tyacha type pan object id asayla haa
+2025-03-06T18:19:00,Amey Pacharkar,ho
+2025-03-06T18:19:00,Amey Pacharkar,tyavarun sort karto ahe me for menuitems
+2025-03-06T18:20:00,Swaraj Dada (Web Dada) JKB,pan tu data base madhe as string thevlay <This message was edited>
+2025-03-06T18:20:00,Amey Pacharkar,🥲
+2025-03-06T18:21:00,Amey Pacharkar,kalala
+2025-03-06T18:21:00,Amey Pacharkar,me 1hr shodada hoto issue me code check karat hoto.
+2025-03-06T18:21:00,Swaraj Dada (Web Dada) JKB,Bagh thik karun solve zala ka
+2025-03-06T18:21:00,Amey Pacharkar,ho
+2025-03-06T18:21:00,Swaraj Dada (Web Dada) JKB,Experienced player here 😆
+2025-03-06T18:23:00,Swaraj Dada (Web Dada) JKB,Atta jkb backend madhe he khup zhol hote
+2025-03-06T18:24:00,Swaraj Dada (Web Dada) JKB,"Karan to array madhe objectid nahi taku shakat, tyat as string ash thevava lagta"
+2025-03-06T18:24:00,Amey Pacharkar,Mag manual change karava lagla ka?
+2025-03-06T18:24:00,Swaraj Dada (Web Dada) JKB,nahi
+2025-03-06T18:25:00,Swaraj Dada (Web Dada) JKB,database thk hota but ha issue hota
+2025-03-06T18:25:00,Swaraj Dada (Web Dada) JKB,backend la typecast karaycha
+2025-03-06T18:26:00,Amey Pacharkar,Me direct fead kela data from chatgpt
+2025-03-06T18:26:00,Swaraj Dada (Web Dada) JKB,Ha
+2025-03-06T18:26:00,Amey Pacharkar,Mahanun images pun nahi ahet
+2025-03-06T18:26:00,Swaraj Dada (Web Dada) JKB,Ha
+2025-03-06T18:27:00,Swaraj Dada (Web Dada) JKB,images sathi mostly manually karava lagel base64 madhe convert karun
+2025-03-06T18:27:00,Swaraj Dada (Web Dada) JKB,kivha links thevun
+2025-03-06T18:27:00,Amey Pacharkar,Ho na. Te ek kam karava lagnar ahe
+2025-03-06T18:27:00,Amey Pacharkar,Atatar nahi karna te
+2025-03-06T18:28:00,Amey Pacharkar,Asa way ahe ka ki sarve restaurants ka type eksath change Karu sakto mongodb atlas madhe?
+2025-03-06T18:28:00,Swaraj Dada (Web Dada) JKB,are gpt la adhich list of images de web varun ani mag data banvayla sang
+2025-03-06T18:29:00,Amey Pacharkar,Oh interesting. Te charto. Purna data udavun. Mug to id pun takel accordingly
+2025-03-06T18:29:00,Swaraj Dada (Web Dada) JKB,asel but mala nahi jamla kadhi neet
+2025-03-06T18:29:00,Swaraj Dada (Web Dada) JKB,Ha
+2025-03-06T18:29:00,Amey Pacharkar,Karto me try ani sangto
+2025-03-06T18:29:00,Swaraj Dada (Web Dada) JKB,Ha

@@ -1,0 +1,1001 @@
+timestamp,sender,message
+2023-10-16T00:23:00,Amey Pacharkar,👍
+2023-10-16T02:24:00,Dovansh,your isn't running
+2023-10-16T03:16:00,Dovansh,tera program bhai
+2023-10-16T06:20:00,Amey Pacharkar,Pata he logic issue he kuch to
+2023-10-16T06:21:00,Dovansh,Infinite loop
+2023-10-16T06:21:00,Dovansh,Kuch nhi samajh raha
+2023-10-16T06:21:00,Amey Pacharkar,Thek tahu college me
+2023-10-16T06:21:00,Dovansh,Okk
+2023-10-16T07:11:00,Dovansh,"#include <stdio.h> #include <stdlib.h> struct party{ int num; int votes; }; struct par{ int num; int vote; struct par *next; }; struct party *newnode,*head,*tail,*temp,*pretemp,*ptemp; struct party p[100]; int main() { int nop,i,j,ch,temp,flag,n,temp1; printf(""\t\tELECTION SYSTEM!!!\n""); printf(""Enter the number of parties participating in election process:""); scanf(""%d"",&nop); while(1){ printf(""\t\tSTART VOTING!!!""); printf(""The parties are:\n""); for(i = 0; i < nop; i ++){ p[i].num=i; printf(""%d.Party no. %d\n"",i,p[i].num); } printf(""%d.Exit\n"",(nop + 1)); printf(""Enter your choice:""); scanf(""%d"",&ch); if(ch == (nop + 1)) break; else { for(int i = 0;i < nop;i++){ if(i == ch){ p[i].votes++; printf(""Your Vote has been Added!!!\n""); break; } } } } for(i = 0; i < nop; i ++){ printf(""PARTY %d:"",p[i].num); printf(""%d\n"",p[i].votes); } //bubble sort for(i=0;i<nop-1;i++) { for(j=0;j<nop-1-i;j++) { flag=0; if(p[j].votes<p[j+1].votes) { temp=p[j].votes; temp1=p[j].num; p[j].votes=p[j+1].votes; p[j].num=p[j+1].num; p[j+1].votes=temp; p[j+1].num=temp1; flag=1; } } if(flag==0) break; } for(i=0;i<nop;i++) { printf(""Party :%d "",p[i].num); printf(""Points :%d \n"",p[i].votes); } void LL(){ newnode = (struct party *)malloc(sizeof(struct party)); newnode -> next = NULL; printf("" %d:"",i); if(head == NULL){ head = newnode; tail = newnode; }else{ tail -> next = newnode; tail = newnode; } printf(""Name registered!!!\n""); } }"
+2023-10-16T07:11:00,Dovansh,thoda baki hai
+2023-10-16T11:30:00,Amey Pacharkar,DSGT he
+2023-10-16T11:31:00,Amey Pacharkar,DLCA ke sir absent hr
+2023-10-16T15:27:00,Dovansh,"#include<stdio.h> #include<stdlib.h> struct node { int data; struct node *left; struct node *right; }node; struct node *insert(struct node *t,int key) { if(t==NULL) { t=(struct node*)(malloc(sizeof(node))); t->data=key; t->left=NULL; t->right=NULL; } else { if(key>t->data) t->right=insert(t->right,key); else t->left=insert(t->left,key); } return(t); } struct node *search(struct node *t,int key) { if(t==NULL) return(NULL); else if(t->data==key) return(t); else if(key>t->data) return(search(t->right,key)); else return(search(t->left,key)); } struct node *max(struct node *t) { if(t==NULL) return(NULL); while(t->right!=NULL) t=t->right; return(t); } struct node *min(struct node *t) { if(t==NULL) return(NULL); while(t->left!=NULL) t=t->left; return(t); } void preorder(struct node *temp) { if(temp!=NULL) { printf(""\n \n data: %d"",temp->data); preorder(temp->left); preorder(temp->right); } } void postorder (struct node *temp) { if(temp!=NULL) { postorder(temp->left); postorder(temp->right); printf(""\n \n data: %d"",temp->data); } } void inorder(struct node *temp) { if(temp!=NULL) { postorder(temp->left); printf(""\n \n data: %d"",temp->data); postorder(temp->right); } } int main() { struct node *root=NULL; struct node *temp=NULL; int c,key,n,i; do { printf(""****MAIN MENU****""); printf(""\n  1.insert node \n  2.search \n  3.maximum number \n  4.minimum number \n  5.display in inorder format \n  6.display in postorfer format \n  7.display in preorder format\n  8.exit \n""); printf(""enter your choice:""); scanf(""%d"",&c); switch(c) { case 1: printf(""enter the number of data you want to enter:""); scanf(""%d"",&n); for(i=0;i<n;i++) { printf(""enter data:""); scanf(""%d"",&key); if(root==NULL) root=insert(root,key); else temp=insert(root,key); } break; case 2: printf(""enter key:""); scanf(""%d"",&key); temp=search(root,key); if(temp!=NULL) printf(""%d found"",key); else printf(""%d not found"",key); break; case 3: temp=max(root); printf(""\nmax=%d\n"",temp->data); break; case 4: temp=min(root); printf(""\nmin=%d\n"",temp->data); break; case 5: inorder(root); break; case 6: postorder(root); break; case 7: preorder(root); break; } } while(c!=8); return 0; }"
+2023-10-16T23:57:00,Amey Pacharkar,script for project
+2023-10-17T07:15:00,Amey Pacharkar,You deleted this message
+2023-10-17T07:15:00,Amey Pacharkar,You deleted this message
+2023-10-17T14:57:00,Dovansh,Hi dear love you amey
+2023-10-17T20:53:00,Amey Pacharkar,do you have cg outputs?
+2023-10-17T20:54:00,Dovansh,EXPT1
+2023-10-17T20:54:00,Dovansh,EXPT2
+2023-10-17T20:54:00,Dovansh,EXPT3
+2023-10-17T20:54:00,Dovansh,EXPT4
+2023-10-17T20:55:00,Dovansh,EXPT5A
+2023-10-17T20:55:00,Dovansh,EXPT5B
+2023-10-17T20:55:00,Dovansh,EXPT6
+2023-10-17T20:56:00,Dovansh,EXPT7
+2023-10-17T20:57:00,Dovansh,EXPT8
+2023-10-17T20:57:00,Dovansh,EXPT9
+2023-10-17T20:57:00,Dovansh,EXPT10
+2023-10-17T20:58:00,Amey Pacharkar,thank you
+2023-10-17T20:58:00,Amey Pacharkar,turbo c is pretty hard
+2023-10-17T20:58:00,Amey Pacharkar,reverse karna baki he kya?
+2023-10-17T21:13:00,Dovansh,ha shaya
+2023-10-17T21:14:00,Amey Pacharkar,chalega
+2023-10-17T21:14:00,Amey Pacharkar,bheju tuje reverse wale?
+2023-10-17T22:27:00,Amey Pacharkar,ho gaya run
+2023-10-18T09:52:00,Amey Pacharkar,Agar time Mila to sir ko ppt dekha dena
+2023-10-18T13:33:00,Amey Pacharkar,Thanks
+2023-10-18T19:56:00,Amey Pacharkar,is it fine if I make it same for thread program? the one ma'am gave us
+2023-10-18T23:03:00,Dovansh,🐠
+2023-10-19T12:26:00,Amey Pacharkar,If you are taking print take mine too
+2023-10-19T21:39:00,Amey Pacharkar,lab manual bhi bhej na
+2023-10-19T21:39:00,Dovansh,Missed voice call
+2023-10-19T21:39:00,Amey Pacharkar,??
+2023-10-19T21:39:00,Dovansh,Galati se laga
+2023-10-19T21:40:00,Amey Pacharkar,chalega
+2023-10-19T21:40:00,Dovansh,Java ka wo program bhejna
+2023-10-19T21:40:00,Dovansh,Mam ne likhaya tha
+2023-10-19T21:40:00,Dovansh,Applet ka
+2023-10-19T21:40:00,Amey Pacharkar,kya kya bhaki he?
+2023-10-19T21:41:00,Amey Pacharkar,bhejta hu after dinner
+2023-10-19T21:47:00,Dovansh,Haa chalega
+2023-10-19T21:58:00,Amey Pacharkar,Abhishek kade ahe
+2023-10-19T21:58:00,Amey Pacharkar,Ye batana
+2023-10-19T23:01:00,Dovansh,17 18
+2023-10-19T23:01:00,Dovansh,Baki hai
+2023-10-19T23:01:00,Dovansh,Porgarm banana hai
+2023-10-19T23:07:00,Amey Pacharkar,Ha kal thektahu banake bhejta hu
+2023-10-19T23:07:00,Amey Pacharkar,I won't be coming tomorrow....will rest tomorrow
+2023-10-19T23:07:00,Amey Pacharkar,Will complete my checking on Monday. You go ahead and check yours
+2023-10-19T23:19:00,Dovansh,Okk
+2023-10-19T23:19:00,Dovansh,Chalega
+2023-10-19T23:19:00,Dovansh,Dhyaan rakh
+2023-10-19T23:51:00,Amey Pacharkar,Ha chalega
+2023-10-20T11:10:00,Dovansh,2nd pdf
+2023-10-20T12:48:00,Amey Pacharkar,I wont be coming tomorrow....will rest tomorrow
+2023-10-20T12:48:00,Amey Pacharkar,will do the checking on Monday
+2023-10-20T12:48:00,Amey Pacharkar,you get yours checkde
+2023-10-20T14:24:00,Dovansh,Again ?
+2023-10-20T16:06:00,Amey Pacharkar,??
+2023-10-20T16:17:00,Dovansh,?
+2023-10-21T09:17:00,Amey Pacharkar,Can you please send whatever the prints we have to take for remaining DLCA practical?
+2023-10-21T09:17:00,Amey Pacharkar,Aur JAVA ka applet bhi please
+2023-10-21T10:49:00,Dovansh,Wo sab kartikey ke paas hai
+2023-10-21T10:49:00,Dovansh,Uske paas se liya maine
+2023-10-21T11:40:00,Amey Pacharkar,acha thik hhe
+2023-10-21T14:54:00,Dovansh,"#include <stdio.h> #include <math.h> #include <stdlib.h> int cf=0; void lift(int choice) { signed int diff; int i; diff=cf-choice; diff=abs(diff); if(choice<0) printf(""INVALID""); else if(choice==cf) { printf(""You chose the same floor\n""); } else if(choice>cf) { for(i=1;i<=diff;i++) cf++; if(diff>5) sleep(6); else sleep(3); printf(""You are now on floor %d"",cf); } else { for(i=1;i<=diff;i++) cf--; if(diff>5) sleep(6); else sleep(3); printf(""You are now on floor %d"",cf); } } int main() { int chf; do { printf(""\nYou are currently on floor %d Enter the floor you want to go to:\n"",cf); printf(""0   \n""); printf(""\n""); printf(""1    2\n""); printf(""\n""); printf(""3    4\n""); printf(""\n""); printf(""5    6\n""); printf(""\n""); printf(""7    8\n""); printf(""\n""); printf(""9    10\n""); printf(""\n""); printf(""Enter 20 if you reached your desired floor: \n""); printf(""\n""); scanf(""%d"",&chf); if(chf!=20) lift(chf); } while(chf!=20); return 0; }"
+2023-10-21T14:54:00,Dovansh,try this
+2023-10-21T14:55:00,Dovansh,don't check the code just run it
+2023-10-21T15:01:00,Amey Pacharkar,What is this code? Sleep?abs?
+2023-10-21T15:01:00,Amey Pacharkar,Explain me the code
+2023-10-21T15:11:00,Dovansh,sleep is like delay
+2023-10-21T15:12:00,Dovansh,and abs keeps the numbers positive
+2023-10-21T15:12:00,Dovansh,like the difference can come -3 but abs converts -3 to 3
+2023-10-21T16:04:00,Amey Pacharkar,I see cool
+2023-10-21T16:04:00,Amey Pacharkar,Tho why make it in such a way? Timepass?
+2023-10-21T18:22:00,Dovansh,Timepass
+2023-10-21T20:03:00,Amey Pacharkar,Acha
+2023-10-21T20:32:00,Amey Pacharkar,Kal lecture hoga kya?
+2023-10-21T20:35:00,Dovansh,Lagta nahi
+2023-10-21T21:23:00,Dovansh,Where ?
+2023-10-21T21:23:00,Amey Pacharkar,Value of L
+2023-10-21T21:27:00,Dovansh,This message was deleted
+2023-10-21T21:28:00,Dovansh,1
+2023-10-21T21:28:00,Amey Pacharkar,So we take the largest limit na?
+2023-10-21T21:28:00,Amey Pacharkar,In this case 2
+2023-10-21T21:29:00,Dovansh,No no
+2023-10-21T21:29:00,Dovansh,It's 0 to 2l
+2023-10-21T21:29:00,Dovansh,And we have 0 to 2
+2023-10-21T21:29:00,Dovansh,So we divide the whole thing by 2
+2023-10-21T21:29:00,Amey Pacharkar,"yaa so you took 0,2 instead of 0,1"
+2023-10-21T21:29:00,Dovansh,We get 0 to l and 0 to 1
+2023-10-21T21:29:00,Dovansh,When ?
+2023-10-21T21:30:00,Amey Pacharkar,to calculate
+2023-10-21T21:30:00,Dovansh,When?
+2023-10-21T21:30:00,Dovansh,Which sum
+2023-10-21T21:30:00,Amey Pacharkar,Tu isena bol Raha he?
+2023-10-21T21:30:00,Dovansh,Isena ?
+2023-10-21T21:31:00,Amey Pacharkar,"Ha it translates to "" like this?"""
+2023-10-21T21:31:00,Dovansh,Okk
+2023-10-21T21:31:00,Dovansh,L is 1
+2023-10-21T21:31:00,Amey Pacharkar,Ok thanks
+2023-10-22T09:30:00,Amey Pacharkar,Will you do the report for DS projects please? Or should I do it?
+2023-10-22T12:09:00,Dovansh,I'll do it
+2023-10-22T18:24:00,Amey Pacharkar,what all functons we have to show for BST program?
+2023-10-22T18:25:00,Amey Pacharkar,"currently I have done add,post,pre,in"
+2023-10-22T18:25:00,Amey Pacharkar,should I add delete a node as well?
+2023-10-22T18:28:00,Dovansh,Searcing
+2023-10-22T18:31:00,Amey Pacharkar,so like search a number right?
+2023-10-22T18:31:00,Amey Pacharkar,anything else?
+2023-10-22T18:32:00,Dovansh,Yeah searching data
+2023-10-22T18:33:00,Amey Pacharkar,??
+2023-10-22T18:47:00,Dovansh,Naa
+2023-10-22T18:48:00,Dovansh,I just did in pre post and searh
+2023-10-22T19:37:00,Amey Pacharkar,how do you print search?
+2023-10-22T19:48:00,Dovansh,Just print
+2023-10-22T19:48:00,Dovansh,Element found
+2023-10-22T19:48:00,Dovansh,Or element not found
+2023-10-22T20:00:00,Amey Pacharkar,aleright
+2023-10-22T20:08:00,Amey Pacharkar,and what about bfs and dfs programs?
+2023-10-22T20:10:00,Dovansh,I'm thinkig we can take it from kartikey
+2023-10-22T20:10:00,Amey Pacharkar,why we cant make it?
+2023-10-22T20:10:00,Dovansh,Then we can just see it
+2023-10-22T20:10:00,Dovansh,I'm too tired too
+2023-10-22T20:10:00,Amey Pacharkar,so you haven't made it?
+2023-10-22T20:11:00,Dovansh,And everywhere I search it's the same thing
+2023-10-22T20:11:00,Amey Pacharkar,I thought you had it
+2023-10-22T20:11:00,Dovansh,Na
+2023-10-22T20:11:00,Amey Pacharkar,you took bst too? or made it?
+2023-10-22T20:11:00,Dovansh,Made it
+2023-10-22T20:12:00,Amey Pacharkar,well would we have to make graph first for bfs and dfs?
+2023-10-22T20:12:00,Dovansh,Graph first
+2023-10-22T20:12:00,Dovansh,Then bfs dfs
+2023-10-22T20:12:00,Amey Pacharkar,so how do we make graph?
+2023-10-22T20:12:00,Dovansh,Search on YouTube you'll get it
+2023-10-22T20:12:00,Amey Pacharkar,alright
+2023-10-22T20:39:00,Amey Pacharkar,"#include <stdio.h> #include <stdlib.h> #include <stdbool.h> // Structure for a node in the adjacency list struct Node { int data; struct Node* next; }; // Structure for the adjacency list struct List { struct Node* head; }; // Structure for a graph struct Graph { int vertices; struct List* array; }; // Create a new node struct Node* createNode(int data) { struct Node* newNode = (struct Node*)malloc(sizeof(struct Node)); newNode->data = data; newNode->next = NULL; return newNode; } // Create a graph with 'vertices' vertices struct Graph* createGraph(int vertices) { struct Graph* graph = (struct Graph*)malloc(sizeof(struct Graph)); graph->vertices = vertices; graph->array = (struct List*)malloc(vertices * sizeof(struct List)); for (int i = 0; i < vertices; i++) { graph->array[i].head = NULL; } return graph; } // Add an edge to the graph void addEdge(struct Graph* graph, int src, int dest) { struct Node* newNode = createNode(dest); newNode->next = graph->array[src].head; graph->array[src].head = newNode; newNode = createNode(src); newNode->next = graph->array[dest].head; graph->array[dest].head = newNode; } // Function to perform BFS void BFS(struct Graph* graph, int start) { bool* visited = (bool*)malloc(graph->vertices * sizeof(bool)); for (int i = 0; i < graph->vertices; i++) { visited[i] = false; } // Create a queue for BFS int* queue = (int*)malloc(graph->vertices * sizeof(int)); int front = 0, rear = 0; visited[start] = true; queue[rear++] = start; printf(""Breadth-First Search starting from vertex %d:\n"", start); while (front < rear) { int current = queue[front++]; printf(""%d "", current); struct Node* temp = graph->array[current].head; while (temp) { int neighbor = temp->data; if (!visited[neighbor]) { visited[neighbor] = true; queue[rear++] = neighbor; } temp = temp->next; } } free(visited); free(queue); printf(""\n""); } // Recursive function for Depth-First Search void DFSUtil(struct Graph* graph, int vertex, bool visited[]) { visited[vertex] = true; printf(""%d "", vertex); struct Node* temp = graph->array[vertex].head; while (temp) { if (!visited[temp->data]) { DFSUtil(graph, temp->data, visited); } temp = temp->next; } } // Function to perform DFS void DFS(struct Graph* graph, int start) { bool* visited = (bool*)malloc(graph->vertices * sizeof(bool)); for (int i = 0; i < graph->vertices; i++) { visited[i] = false; } printf(""Depth-First Search starting from vertex %d:\n"", start); DFSUtil(graph, start, visited); printf(""\n""); free(visited); } int main() { int vertices, edges, src, dest, start; printf(""Enter the number of vertices: ""); scanf(""%d"", &vertices); struct Graph* graph = createGraph(vertices); printf(""Enter the number of edges: ""); scanf(""%d"", &edges); for (int i = 0; i < edges; i++) { printf(""Enter edge (source destination): ""); scanf(""%d %d"", &src, &dest); addEdge(graph, src, dest); } printf(""Enter the starting vertex for traversal: ""); scanf(""%d"", &start); BFS(graph, start); DFS(graph, start); return 0; }"
+2023-10-22T20:39:00,Amey Pacharkar,chat gpt gave this code
+2023-10-22T20:41:00,Dovansh,Does it work ?
+2023-10-22T20:42:00,Amey Pacharkar,Ha
+2023-10-22T20:44:00,Dovansh,Then it's good
+2023-10-22T20:44:00,Dovansh,Just tell me how it works
+2023-10-22T20:44:00,Amey Pacharkar,No idea will have to decode it
+2023-10-22T21:17:00,Dovansh,Then tell me
+2023-10-23T04:50:00,Dovansh,Enter the number of vertices: 4 Enter the number of edges: 5 Enter edge (source destination): 1 2 Enter edge (source destination): 2 3 Enter edge (source destination): 3 4 Enter edge (source destination): 4 2 Enter edge (source destination): 1 3 Enter the starting vertex for traversal: 3 Breadth-First Search starting from vertex 3: 3 1 4 2 Depth-First Search starting from vertex 3: 3 1 2 4
+2023-10-23T13:39:00,Amey Pacharkar,"Write a program to implement the breadth-first search algorithm. #include <stdio.h> #define MAX 10 void breadth_first_search(int adj[][MAX],int visited[],int start) { int queue[MAX],rear = –1,front =– 1, i; queue[++rear] = start; visited[start] = 1; while(rear != front) { start = queue[++front]; if(start == 4) printf(""5\t""); else printf(""%c \t"",start + 65); for(i = 0; i < MAX; i++) { if(adj[start][i] == 1 && visited[i] == 0) { queue[++rear] = i; visited[i] = 1; } } } } int main()"
+2023-10-23T13:39:00,Amey Pacharkar,"{ int visited[MAX] = {0}; int adj[MAX][MAX], i, j; printf(""\n Enter the adjacency matrix: ""); for(i = 0; i < MAX; i++) for(j = 0; j < MAX; j++) scanf(""%d"", &adj[i][j]); breadth_first_search(adj,visited,0); return 0; }"
+2023-10-23T13:40:00,Amey Pacharkar,"void depth_first_search(int adj[][MAX],int visited[],int start) { int stack[MAX]; int top = –1, i; printf(""%c–"",start + 65); visited[start] = 1; stack[++top] = start; while(top ! = –1) { start = stack[top]; for(i = 0; i < MAX; i++) { if(adj[start][i] && visited[i] == 0) { stack[++top] = i; printf(""%c–"", i + 65); visited[i] = 1; break; } } if(i == MAX) top––; } }"
+2023-10-24T01:00:00,Dovansh,"#include <stdio.h> #include <string.h> int main() { int l=1,t=1; int v,at=0,attempts=3; char ver[10]; printf(""LOGIN AS:\n""); printf(""1.Admin\n""); printf(""2.Voter\n""); scanf(""%d"",&v); if (v==1) { do { printf(""Enter password:""); scanf(""%s"",ver); if (strcmp(ver,""password"") == 0) { printf(""\nThe password is correct:\nYou are logged in as the admin\n""); at++; } else { printf(""\nWRONG PASSWORD!!\nATTEMPTS REMAINING %d!!\n"",attempts-1); at++; attempts--; printf(""%d %d"",at,attempts); } if(attempts==0) { printf(""timer""); } } while(at!=1 || (at!=3 && attempts!=0)); } return 0; }"
+2023-10-24T01:00:00,Dovansh,i cant figure out what to put in the while condition
+2023-10-24T01:00:00,Dovansh,we have to stop when the password is correct or 3 wrong passwords
+2023-10-24T09:20:00,Amey Pacharkar,Don't use do while use if else along with breaks and continue
+2023-10-24T09:20:00,Amey Pacharkar,Like how we did in guess the random number
+2023-10-24T10:46:00,Dovansh,Okk
+2023-10-24T10:54:00,Amey Pacharkar,Happy Dussehra 🎉
+2023-10-24T12:42:00,Dovansh,Happy dushera 🎉🎉
+2023-10-24T12:56:00,Dovansh,it doesn't work
+2023-10-24T12:56:00,Dovansh,u need a loop for breaks and continues
+2023-10-24T12:56:00,Amey Pacharkar,Yaa you can't put break and continue in if
+2023-10-24T12:56:00,Amey Pacharkar,I also learned that hard way
+2023-10-24T12:56:00,Dovansh,you told me to do that
+2023-10-24T12:57:00,Amey Pacharkar,How did we do it in random tho?
+2023-10-24T12:57:00,Dovansh,I don't remember
+2023-10-24T12:57:00,Dovansh,while loop
+2023-10-24T13:00:00,Dovansh,how do I stop this
+2023-10-24T13:00:00,Amey Pacharkar,code bhej me thek ta hu
+2023-10-24T13:01:00,Dovansh,it should stop at 0
+2023-10-24T13:01:00,Dovansh,"#include <stdio.h> #include <string.h> int main() { int l=1,t=1; int v,at=0,attempts=3; char ver[10]; printf(""LOGIN AS:\n""); printf(""1.Admin\n""); printf(""2.Voter\n""); scanf(""%d"",&v); while(1) { if ((v==1 && at!=10) || attempts!=0) { printf(""Enter password:""); scanf(""%s"",ver); if (strcmp(ver,""password"") == 0) { printf(""\nThe password is correct:\nYou are logged in as the admin\n""); at=10; attempts=0; break; } else { printf(""\nWRONG PASSWORD!!\nATTEMPTS REMAINING %d!!\n"",attempts-1); at++; attempts--; printf(""%d %d"",at,attempts); if(at!=10 && attempts==0) { printf(""timer""); } continue; } } } return 0; }"
+2023-10-24T13:01:00,Dovansh,and something else will go in the timer wala loop
+2023-10-24T13:01:00,Dovansh,that is just temporary
+2023-10-24T13:17:00,Amey Pacharkar,"#include <stdio.h> #include <string.h> int main(){ int l=1,t=1; int v,at=0,attempts=0; char ver[10]; printf(""LOGIN AS:\n""); printf(""1.Admin\n""); printf(""2.Voter\n""); scanf(""%d"",&v); while(v == 1 && attempts != 3){ printf(""Enter the Password:""); scanf(""%s"",&ver); if(strcmp(ver,""password"") == 0){ printf(""Welcome Admin!!!!\n""); break; }else{ attempts ++; printf(""Wrong Password!!!\nPlease try again!!!\nRemaining attempts %d\n"",(3-attempts)); continue; } } return 0; }"
+2023-10-24T13:17:00,Dovansh,okk
+2023-10-24T13:17:00,Amey Pacharkar,anything else?
+2023-10-24T13:17:00,Dovansh,naa
+2023-10-24T13:18:00,Dovansh,ill give you the login code
+2023-10-24T13:18:00,Dovansh,you change the ds project accordingly later
+2023-10-24T13:18:00,Amey Pacharkar,should I add anyting more ?
+2023-10-24T13:18:00,Dovansh,the admin will have option to add or delete parties
+2023-10-24T13:19:00,Dovansh,and view the number of votes each party has
+2023-10-24T13:19:00,Amey Pacharkar,like if it is a admin give him how many votes each person got along with winne
+2023-10-24T13:19:00,Amey Pacharkar,alright
+2023-10-24T13:19:00,Dovansh,and the voter will only have one option
+2023-10-24T13:19:00,Dovansh,vote
+2023-10-24T13:19:00,Amey Pacharkar,chalega
+2023-10-24T13:19:00,Dovansh,should we take voter id
+2023-10-24T13:20:00,Dovansh,like the admin can check which id voted who
+2023-10-24T13:20:00,Amey Pacharkar,that's against law  for admin to see that
+2023-10-24T13:21:00,Amey Pacharkar,only thing id is used is to know number of voters
+2023-10-24T13:21:00,Dovansh,so should we give a voter id ?
+2023-10-24T13:21:00,Dovansh,or party isd ?
+2023-10-24T13:21:00,Amey Pacharkar,naa just keep incrementing int  variable voters. and we can give party ids
+2023-10-24T13:22:00,Dovansh,okk
+2023-10-24T13:22:00,Amey Pacharkar,so to not check names during counting
+2023-10-24T13:22:00,Dovansh,yaa
+2023-10-24T13:22:00,Amey Pacharkar,and instead ids
+2023-10-24T13:22:00,Dovansh,the admin will add the parties and their ids
+2023-10-24T13:22:00,Amey Pacharkar,send me log in will add everything else after that
+2023-10-24T13:22:00,Amey Pacharkar,haa
+2023-10-24T13:22:00,Dovansh,okk
+2023-10-24T13:23:00,Amey Pacharkar,will have to add everything and make a new one
+2023-10-24T13:23:00,Dovansh,yaaa
+2023-10-24T13:41:00,Dovansh,This message was deleted
+2023-10-24T13:42:00,Dovansh,give admin option to log out after every time it changes something
+2023-10-24T13:42:00,Dovansh,give function call to timer func
+2023-10-24T13:42:00,Dovansh,we can have that for log in too
+2023-10-24T13:43:00,Amey Pacharkar,…….
+2023-10-24T13:43:00,Amey Pacharkar,deleted code?
+2023-10-24T13:44:00,Dovansh,wait sending
+2023-10-24T13:44:00,Dovansh,run it in turbo c
+2023-10-24T13:44:00,Amey Pacharkar,kyu?
+2023-10-24T13:44:00,Amey Pacharkar,will remove clrscr() add it later after everything is done
+2023-10-24T13:45:00,Dovansh,"#include <stdio.h> #include<stdlib.h> #include <string.h> void timer() { int l=1,t=1; do { if(l==1) { printf(""Invalid Entry LOGGING OUT.:""); l++; t++; sleep(1); clrscr(); } else if(l==2) { printf(""Invalid Entry LOGGING OUT..:""); l++; t++; sleep(1); clrscr(); } else if(l==3) { printf(""Invalid Entry LOGGING OUT...:""); l++; t++; sleep(1); clrscr(); } else if(l==4) { printf(""Invalid Entry LOGGING OUT....:""); l++; t++; sleep(1); clrscr(); } else if(l==5) { printf(""Invalid Entry LOGGING OUT.....:""); l=1; t++; sleep(1); clrscr(); } }while(t!=15); if(t==15) printf(""LOGGED OUT!THANK YOU!!""); } int v,at=0,attempts=3; int wrongpass() { char ver[10]; printf(""Enter password:""); scanf(""%s"",ver); if (strcmp(ver,""password"") == 0) { printf(""\nThe password is correct:\nYou are logged in as the admin\n""); at=10; attempts=0; return 1; } else { printf(""\nWRONG PASSWORD!!\nATTEMPTS REMAINING %d!!\n"",attempts-1); at++; attempts--; } } int main() { char ver[10]; int c; printf(""LOGIN AS:\n""); printf(""1.Admin\n""); printf(""2.Voter\n""); scanf(""%d"",&v); if ((v==1 && at!=10) || (v==1 &&attempts!=0)) { printf(""Enter password:""); scanf(""%s"",ver); if (strcmp(ver,""password"") == 0) { printf(""\nThe password is correct:\nYou are logged in as the admin\n""); at=10; attempts=0; } else { printf(""\nWRONG PASSWORD!!\nATTEMPTS REMAINING %d!!\n"",attempts-1); at++; attempts--; while(at!=3) { c=wrongpass(); if(c==1) break; } if(at==3) { timer(); } } } return 0; }"
+2023-10-24T13:45:00,Dovansh,just try it once
+2023-10-24T13:45:00,Dovansh,then edit
+2023-10-24T13:45:00,Amey Pacharkar,alright
+2023-10-24T13:45:00,Dovansh,you can create functions for login and all if youd like
+2023-10-24T13:46:00,Amey Pacharkar,yaa
+2023-10-24T14:53:00,Dovansh,Clear screen after every vote
+2023-10-24T15:10:00,Amey Pacharkar,"#include <stdio.h> #include <stdlib.h> #include <conio.h> #include <string.h> //clrscr(); struct party { char name[100]; int vote; struct party* next; }; // Initialize the variables of struct party struct party* newnode, * head, * tail, * temp, *pretemp, *lptr, *tempParty, *party1, *party2; //global variables int v,at=0,attempts=3, nop; // Function prototypes void party_name_input(int i); void print_name(); void give_vote(int ch); void vote_ranking(); void vote_tie(); int start_voting(); void print_ranking(); void admin_log_in(); void timer(); int wrongpass(); void admin_ascess(); void voter_log_in(); int main() { // Initialization int  i, ch; head = NULL; tail = NULL; printf(""\t\tELECTION SYSTEM!!!\n""); printf(""Log in before proceeding\n1.Admin Log in\n2.Voter Log in\nEnter your choice:""); scanf(""%d"",&ch); switch(ch){ case 1: admin_log_in(); break; case 2: voter_log_in(); break; } if (head -> vote == head -> next -> vote) { vote_tie(); }else { printf(""Congratulations!!! %s HAS WON THE ELECTIONS!!!\n"", head->name); } return 0; } void party_name_input(int i) { newnode = (struct party*)malloc(sizeof(struct party)); newnode -> next = NULL; printf(""Enter the name of party %d: "", i); scanf(""%s"",&newnode -> name); newnode -> vote = 0; // Initialize vote count to 0 if (head == NULL) { head = newnode; tail = newnode; } else { tail -> next = newnode; tail = newnode; } printf(""Name registered!!!\n""); } void print_name() { temp = head; for (int i = 1; i <= nop; i++) { printf(""%d. %s\n"", i, temp -> name); temp = temp -> next; } } void give_vote(int ch) { temp = head; for (int i = 1; i < ch; i++) { temp = temp -> next; } temp -> vote ++; } void vote_ranking() { int swapped; lptr = NULL; if (head == NULL) return; do { swapped = 0; temp = head; while (temp -> next != lptr) { if (temp -> vote < temp -> next -> vote) { // Swap the parties tempParty = temp; temp = temp -> next; tempParty -> next = temp -> next; temp -> next = tempParty; if (tempParty == head) head = temp; else { pretemp -> next = temp; } swapped = 1; } pretemp = temp; temp = temp -> next; } lptr = temp; } while (swapped); } void vote_tie() { int ch; party1 = head; party2 = head -> next; printf(""There is a TIE between %s and %s!!!\n"", party1 -> name, party2 -> name); printf(""Last Round between them!!!\n""); while (1) { print_name(2); printf(""3. Exit\n""); printf(""Enter your choice: ""); scanf(""%d"", &ch); if (ch == 1) { give_vote(1); } else if (ch == 2) { give_vote(2); } else if (ch == 3) { break; } if (party1 -> vote > party2 -> vote) { printf(""Congratulations!!! %s HAS WON THE ELECTIONS!!!\n"", party1 -> name); break; } else if (party1 -> vote < party2 -> vote) { printf(""Congratulations!!! %s HAS WON THE ELECTIONS!!!\n"", party2   -> name); break; } } } int start_voting() { int ch; printf(""\t\tSTART VOTING!!!\n""); printf(""The parties are:\n""); print_name(); printf(""%d. Exit\n"", (nop + 1)); printf(""Enter your choice: ""); scanf(""%d"", &ch); if (ch == (nop + 1)) return nop; give_vote(ch); printf(""Your Vote has been Added!!!\n""); start_voting(); } void print_ranking() { temp = head; while (temp != NULL) { printf(""%s == %d\n"", temp -> name, temp -> vote); temp = temp -> next; } } void admin_log_in(){ char ver[10]; int c; if (at!=10 || attempts!=0){ printf(""Enter password:""); scanf(""%s"",ver); if (strcmp(ver,""password"") == 0){ printf(""\nThe password is correct:\nYou are logged in as the admin\n""); at=10; attempts=0; admin_ascess(); } else{ printf(""\nWRONG PASSWORD!!\nATTEMPTS REMAINING %d!!\n"",(attempts-1)); at++; attempts--; while(at!=3) { c=wrongpass(); if(c==1){ admin_ascess(); break; } } if(at==3) { timer(); } } } } int wrongpass(){ char ver[10]; printf(""Enter password:""); scanf(""%s"",ver); if (strcmp(ver,""password"") == 0){ printf(""\nThe password is correct:\nYou are logged in as the admin\n""); at=10; attempts=0; return 1; } else{ printf(""\nWRONG PASSWORD!!\nATTEMPTS REMAINING %d!!\n"",attempts-1); at++; attempts--; } } void timer(){ int l=1,t=1; do{ if(l==1){ printf(""Invalid Entry LOGGING OUT.:""); l++; t++; sleep(1); }else if(l==2){ printf(""Invalid Entry LOGGING OUT..:""); l++; t++; sleep(1); }else if(l==3){ printf(""Invalid Entry LOGGING OUT...:""); l++; t++; sleep(1); clrscr(); }else if(l==4){ printf(""Invalid Entry LOGGING OUT....:""); l++; t++; sleep(1); }else if(l==5){ printf(""Invalid Entry LOGGING OUT.....:""); l=1; t++; sleep(1); } }while(t!=15); if(t==15) printf(""LOGGED OUT!THANK YOU!!""); } void admin_ascess(){ int ch,i; printf(""Welcome ADMIN!!!\nPlease choice what you  wish to do:\n1.Enter the party names\n2.Start Counting\n3.Declare Result\n4.Exit\nPlease Enter your choice:""); scanf(""%d"",&ch); switch(ch){ case 1: printf(""Enter the number of parties participating in the election process:""); scanf(""%d"", &nop); for (i = 1; i <= nop; i++) { party_name_input(i); } break; case 2: vote_ranking(nop); break; case 3: print_ranking(); break; case 4: return ; } } void voter_log_in(){ printf(""Welcome Voters!!!!""); start_voting(nop); }"
+2023-10-24T15:10:00,Amey Pacharkar,know anything about this error?
+2023-10-24T15:10:00,Amey Pacharkar,i removed all clrscr() still it gives that error
+2023-10-24T15:10:00,Dovansh,See again there must be some
+2023-10-24T15:13:00,Dovansh,Let me try
+2023-10-24T15:13:00,Amey Pacharkar,ha
+2023-10-24T15:13:00,Amey Pacharkar,tho it gives error in trbo c
+2023-10-24T15:15:00,Amey Pacharkar,"#include <stdio.h> #include <stdlib.h> #include <conio.h> #include <string.h> //clrscr(); struct party { char name[100]; int vote; struct party* next; }; // Initialize the variables of struct party struct party* newnode, * head, * tail, * temp, *pretemp, *lptr, *tempParty, *party1, *party2; //global variables int v,at=0,attempts=3, nop; // Function prototypes void party_name_input(int i); void print_name(); void give_vote(int ch); void vote_ranking(); void vote_tie(); int start_voting(); void print_ranking(); void admin_log_in(); void timer(); int wrongpass(); void admin_ascess(); void voter_log_in(); int main() { // Initialization int  i, ch; head = NULL; tail = NULL; printf(""\t\tELECTION SYSTEM!!!\n""); printf(""Log in before proceeding\n1.Admin Log in\n2.Voter Log in\nEnter your choice:""); scanf(""%d"",&ch); switch(ch){ case 1: admin_log_in(); break; case 2: voter_log_in(); break; } if (head -> vote == head -> next -> vote) { vote_tie(); }else { printf(""Congratulations!!! %s HAS WON THE ELECTIONS!!!\n"", head->name); } return 0; } void party_name_input(int i) { newnode = (struct party*)malloc(sizeof(struct party)); newnode -> next = NULL; printf(""Enter the name of party %d: "", i); scanf(""%s"",&newnode -> name); newnode -> vote = 0; // Initialize vote count to 0 if (head == NULL) { head = newnode; tail = newnode; } else { tail -> next = newnode; tail = newnode; } printf(""Name registered!!!\n""); } void print_name() { temp = head; for (int i = 1; i <= nop; i++) { printf(""%d. %s\n"", i, temp -> name); temp = temp -> next; } } void give_vote(int ch) { temp = head; for (int i = 1; i < ch; i++) { temp = temp -> next; } temp -> vote ++; } void vote_ranking() { int swapped; lptr = NULL; if (head == NULL) return; do { swapped = 0; temp = head; while (temp -> next != lptr) { if (temp -> vote < temp -> next -> vote) { // Swap the parties tempParty = temp; temp = temp -> next; tempParty -> next = temp -> next; temp -> next = tempParty; if (tempParty == head) head = temp; else { pretemp -> next = temp; } swapped = 1; } pretemp = temp; temp = temp -> next; } lptr = temp; } while (swapped); } void vote_tie() { int ch; party1 = head; party2 = head -> next; printf(""There is a TIE between %s and %s!!!\n"", party1 -> name, party2 -> name); printf(""Last Round between them!!!\n""); while (1) { print_name(2); printf(""3. Exit\n""); printf(""Enter your choice: ""); scanf(""%d"", &ch); if (ch == 1) { give_vote(1); } else if (ch == 2) { give_vote(2); } else if (ch == 3) { break; } if (party1 -> vote > party2 -> vote) { printf(""Congratulations!!! %s HAS WON THE ELECTIONS!!!\n"", party1 -> name); break; } else if (party1 -> vote < party2 -> vote) { printf(""Congratulations!!! %s HAS WON THE ELECTIONS!!!\n"", party2   -> name); break; } } } int start_voting() { int ch; printf(""\t\tSTART VOTING!!!\n""); printf(""The parties are:\n""); print_name(); printf(""%d. Exit\n"", (nop + 1)); printf(""Enter your choice: ""); scanf(""%d"", &ch); if (ch == (nop + 1)) return nop; give_vote(ch); printf(""Your Vote has been Added!!!\n""); start_voting(); } void print_ranking() { temp = head; while (temp != NULL) { printf(""%s == %d\n"", temp -> name, temp -> vote); temp = temp -> next; } } void admin_log_in(){ char ver[10]; int c; if (at!=10 || attempts!=0){ printf(""Enter password:""); scanf(""%s"",ver); if (strcmp(ver,""password"") == 0){ printf(""\nThe password is correct:\nYou are logged in as the admin\n""); at=10; attempts=0; admin_ascess(); } else{ printf(""\nWRONG PASSWORD!!\nATTEMPTS REMAINING %d!!\n"",(attempts-1)); at++; attempts--; while(at!=3) { c=wrongpass(); if(c==1){ admin_ascess(); break; } } if(at==3) { timer(); } } } } int wrongpass(){ char ver[10]; printf(""Enter password:""); scanf(""%s"",ver); if (strcmp(ver,""password"") == 0){ printf(""\nThe password is correct:\nYou are logged in as the admin\n""); at=10; attempts=0; return 1; } else{ printf(""\nWRONG PASSWORD!!\nATTEMPTS REMAINING %d!!\n"",attempts-1); at++; attempts--; } } void timer(){ int l=1,t=1; do{ if(l==1){ printf(""Invalid Entry LOGGING OUT.:""); l++; t++; sleep(1); }else if(l==2){ printf(""Invalid Entry LOGGING OUT..:""); l++; t++; sleep(1); }else if(l==3){ printf(""Invalid Entry LOGGING OUT...:""); l++; t++; sleep(1); clrscr(); }else if(l==4){ printf(""Invalid Entry LOGGING OUT....:""); l++; t++; sleep(1); }else if(l==5){ printf(""Invalid Entry LOGGING OUT.....:""); l=1; t++; sleep(1); } }while(t!=15); if(t==15) printf(""LOGGED OUT!THANK YOU!!""); } void admin_ascess(){ int ch,i; printf(""Welcome ADMIN!!!\nPlease choice what you  wish to do:\n1.Enter the party names\n2.Start Counting\n3.Declare Result\n4.Exit\nPlease Enter your choice:""); scanf(""%d"",&ch); switch(ch){ case 1: printf(""Enter the number of parties participating in the election process:""); scanf(""%d"", &nop); for (i = 1; i <= nop; i++) { party_name_input(i); } break; case 2: vote_ranking(); break; case 3: print_ranking(); break; case 4: return ; } } void voter_log_in(){ printf(""Welcome Voters!!!!""); start_voting(); }"
+2023-10-24T15:16:00,Dovansh,what this ?
+2023-10-24T15:16:00,Amey Pacharkar,run that one
+2023-10-24T15:17:00,Dovansh,same error
+2023-10-24T15:17:00,Amey Pacharkar,haa
+2023-10-24T15:18:00,Amey Pacharkar,aur waha error nahi he
+2023-10-24T15:18:00,Dovansh,there was one clrscr
+2023-10-24T15:18:00,Amey Pacharkar,you removed it?
+2023-10-24T15:19:00,Dovansh,yaa
+2023-10-24T15:19:00,Dovansh,tie error
+2023-10-24T15:19:00,Amey Pacharkar,hoa na run?
+2023-10-24T15:20:00,Dovansh,BJP won
+2023-10-24T15:20:00,Dovansh,haa
+2023-10-24T15:20:00,Amey Pacharkar,check kar le
+2023-10-24T15:20:00,Dovansh,"#include <stdio.h> #include <stdlib.h> #include <conio.h> #include <string.h> //clrscr(); struct party { char name[100]; int vote; struct party* next; }; // Initialize the variables of struct party struct party* newnode, * head, * tail, * temp, *pretemp, *lptr, *tempParty, *party1, *party2; //global variables int v,at=0,attempts=3, nop; // Function prototypes void party_name_input(int i); void print_name(); void give_vote(int ch); void vote_ranking(); void vote_tie(); int start_voting(); void print_ranking(); void admin_log_in(); void timer(); int wrongpass(); void admin_ascess(); void voter_log_in(); int main() { // Initialization int  i, ch; head = NULL; tail = NULL; printf(""\t\tELECTION SYSTEM!!!\n""); printf(""Log in before proceeding\n1.Admin Log in\n2.Voter Log in\nEnter your choice:""); scanf(""%d"",&ch); switch(ch){ case 1: admin_log_in(); break; case 2: voter_log_in(); break; } if (head -> vote == head -> next -> vote) { vote_tie(); }else { printf(""Congratulations!!! %s HAS WON THE ELECTIONS!!!\n"", head->name); } return 0; } void party_name_input(int i) { newnode = (struct party*)malloc(sizeof(struct party)); newnode -> next = NULL; printf(""Enter the name of party %d: "", i); scanf(""%s"",&newnode -> name); newnode -> vote = 0; // Initialize vote count to 0 if (head == NULL) { head = newnode; tail = newnode; } else { tail -> next = newnode; tail = newnode; } printf(""Name registered!!!\n""); } void print_name() { temp = head; for (int i = 1; i <= nop; i++) { printf(""%d. %s\n"", i, temp -> name); temp = temp -> next; } } void give_vote(int ch) { temp = head; for (int i = 1; i < ch; i++) { temp = temp -> next; } temp -> vote ++; } void vote_ranking() { int swapped; lptr = NULL; if (head == NULL) return; do { swapped = 0; temp = head; while (temp -> next != lptr) { if (temp -> vote < temp -> next -> vote) { // Swap the parties tempParty = temp; temp = temp -> next; tempParty -> next = temp -> next; temp -> next = tempParty; if (tempParty == head) head = temp; else { pretemp -> next = temp; } swapped = 1; } pretemp = temp; temp = temp -> next; } lptr = temp; } while (swapped); } void vote_tie() { int ch; party1 = head; party2 = head -> next; printf(""There is a TIE between %s and %s!!!\n"", party1 -> name, party2 -> name); printf(""Last Round between them!!!\n""); while (1) { print_name(2); printf(""3. Exit\n""); printf(""Enter your choice: ""); scanf(""%d"", &ch); if (ch == 1) { give_vote(1); } else if (ch == 2) { give_vote(2); } else if (ch == 3) { break; } if (party1 -> vote > party2 -> vote) { printf(""Congratulations!!! %s HAS WON THE ELECTIONS!!!\n"", party1 -> name); break; } else if (party1 -> vote < party2 -> vote) { printf(""Congratulations!!! %s HAS WON THE ELECTIONS!!!\n"", party2   -> name); break; } } } int start_voting() { int ch; printf(""\t\tSTART VOTING!!!\n""); printf(""The parties are:\n""); print_name(); printf(""%d. Exit\n"", (nop + 1)); printf(""Enter your choice: ""); scanf(""%d"", &ch); if (ch == (nop + 1)) return nop; give_vote(ch); printf(""Your Vote has been Added!!!\n""); start_voting(); } void print_ranking() { temp = head; while (temp != NULL) { printf(""%s == %d\n"", temp -> name, temp -> vote); temp = temp -> next; } } void admin_log_in(){ char ver[10]; int c; if (at!=10 || attempts!=0){ printf(""Enter password:""); scanf(""%s"",ver); if (strcmp(ver,""password"") == 0){ printf(""\nThe password is correct:\nYou are logged in as the admin\n""); at=10; attempts=0; admin_ascess(); } else{ printf(""\nWRONG PASSWORD!!\nATTEMPTS REMAINING %d!!\n"",(attempts-1)); at++; attempts--; while(at!=3) { c=wrongpass(); if(c==1){ admin_ascess(); break; } } if(at==3) { timer(); } } } } int wrongpass(){ char ver[10]; printf(""Enter password:""); scanf(""%s"",ver); if (strcmp(ver,""password"") == 0){ printf(""\nThe password is correct:\nYou are logged in as the admin\n""); at=10; attempts=0; return 1; } else{ printf(""\nWRONG PASSWORD!!\nATTEMPTS REMAINING %d!!\n"",attempts-1); at++; attempts--; } } void timer(){ int l=1,t=1; do{ if(l==1){ printf(""Invalid Entry LOGGING OUT.:""); l++; t++; sleep(1); }else if(l==2){ printf(""Invalid Entry LOGGING OUT..:""); l++; t++; sleep(1); }else if(l==3){ printf(""Invalid Entry LOGGING OUT...:""); l++; t++; sleep(1); }else if(l==4){ printf(""Invalid Entry LOGGING OUT....:""); l++; t++; sleep(1); }else if(l==5){ printf(""Invalid Entry LOGGING OUT.....:""); l=1; t++; sleep(1); } }while(t!=15); if(t==15) printf(""LOGGED OUT!THANK YOU!!""); } void admin_ascess(){ int ch,i; printf(""Welcome ADMIN!!!\nPlease choice what you  wish to do:\n1.Enter the party names\n2.Start Counting\n3.Declare Result\n4.Exit\nPlease Enter your choice:""); scanf(""%d"",&ch); switch(ch){ case 1: printf(""Enter the number of parties participating in the election process:""); scanf(""%d"", &nop); for (i = 1; i <= nop; i++) { party_name_input(i); } break; case 2: vote_ranking(); break; case 3: print_ranking(); break; case 4: return ; } } void voter_log_in(){ printf(""Welcome Voters!!!!""); start_voting(); }"
+2023-10-24T15:20:00,Amey Pacharkar,if everything good
+2023-10-24T15:20:00,Dovansh,are
+2023-10-24T15:20:00,Dovansh,see the pic
+2023-10-24T15:20:00,Dovansh,error
+2023-10-24T15:20:00,Dovansh,blunder
+2023-10-24T15:20:00,Amey Pacharkar,😂😂
+2023-10-24T15:21:00,Dovansh,ya what to do
+2023-10-24T15:21:00,Dovansh,directly tie
+2023-10-24T15:21:00,Dovansh,no voting?
+2023-10-24T15:21:00,Dovansh,voter kya karega
+2023-10-24T15:21:00,Dovansh,admin hi decide karega to
+2023-10-24T15:23:00,Amey Pacharkar,ahahhaha dekta u
+2023-10-24T15:23:00,Amey Pacharkar,*hu
+2023-10-24T15:23:00,Dovansh,again
+2023-10-24T15:23:00,Dovansh,another one
+2023-10-24T15:23:00,Amey Pacharkar,ha re
+2023-10-24T15:23:00,Dovansh,wromg password pe log in ho gaya
+2023-10-24T15:24:00,Amey Pacharkar,wo mene chapa he
+2023-10-24T15:24:00,Amey Pacharkar,log in wala just copy paste
+2023-10-24T15:24:00,Dovansh,are to usko synch kar
+2023-10-24T15:39:00,Amey Pacharkar,"#include <stdio.h> #include <stdlib.h> #include <conio.h> #include <string.h> //clrscr(); struct party { char name[100]; int vote; struct party* next; }; // Initialize the variables of struct party struct party* newnode, * head, * tail, * temp, *pretemp, *lptr, *tempParty, *party1, *party2; //global variables int v,at=0,attempts=3, nop; // Function prototypes void party_name_input(int i); void print_name(); void give_vote(int ch); void vote_ranking(); void vote_tie(); int start_voting(); void print_ranking(); void admin_log_in(); void timer(); int wrongpass(); void admin_ascess(); void voter_log_in(); int main() { // Initialization int  i, ch; head = NULL; tail = NULL; printf(""\t\tELECTION SYSTEM!!!\n""); do{ printf(""Log in before proceeding\n1.Admin Log in\n2.Voter Log in\n3.Exit\nEnter your choice:""); scanf(""%d"",&ch); switch(ch){ case 1: admin_log_in(); break; case 2: voter_log_in(); break; case 3: printf(""Thank you!!!\n""); break; } }while(ch!= 3); if (head -> vote == head -> next -> vote) { vote_tie(); }else { printf(""Congratulations!!! %s HAS WON THE ELECTIONS!!!\n"", head->name); } return 0; } void party_name_input(int i) { newnode = (struct party*)malloc(sizeof(struct party)); newnode -> next = NULL; printf(""Enter the name of party %d: "", i); scanf(""%s"",&newnode -> name); newnode -> vote = 0; // Initialize vote count to 0 if (head == NULL) { head = newnode; tail = newnode; } else { tail -> next = newnode; tail = newnode; } printf(""Name registered!!!\n""); } void print_name() { temp = head; for (int i = 1; i <= nop; i++) { printf(""%d. %s\n"", i, temp -> name); temp = temp -> next; } } void give_vote(int ch) { temp = head; for (int i = 1; i < ch; i++) { temp = temp -> next; } temp -> vote ++; } void vote_ranking() { int swapped; lptr = NULL; if (head == NULL) return; do { swapped = 0; temp = head; while (temp -> next != lptr) { if (temp -> vote < temp -> next -> vote) { // Swap the parties tempParty = temp; temp = temp -> next; tempParty -> next = temp -> next; temp -> next = tempParty; if (tempParty == head) head = temp; else { pretemp -> next = temp; } swapped = 1; } pretemp = temp; temp = temp -> next; } lptr = temp; } while (swapped); } void vote_tie() { int ch; party1 = head; party2 = head -> next; printf(""There is a TIE between %s and %s!!!\n"", party1 -> name, party2 -> name); printf(""Last Round between them!!!\n""); while (1) { print_name(2); printf(""3. Exit\n""); printf(""Enter your choice: ""); scanf(""%d"", &ch); if (ch == 1) { give_vote(1); } else if (ch == 2) { give_vote(2); } else if (ch == 3) { break; } if (party1 -> vote > party2 -> vote) { printf(""Congratulations!!! %s HAS WON THE ELECTIONS!!!\n"", party1 -> name); break; } else if (party1 -> vote < party2 -> vote) { printf(""Congratulations!!! %s HAS WON THE ELECTIONS!!!\n"", party2   -> name); break; } } } int start_voting() { int ch; printf(""\t\tSTART VOTING!!!\n""); printf(""The parties are:\n""); print_name(); printf(""%d. Exit\n"", (nop + 1)); printf(""Enter your choice: ""); scanf(""%d"", &ch); if (ch == (nop + 1)) return nop; give_vote(ch); printf(""Your Vote has been Added!!!\n""); start_voting(); } void print_ranking() { temp = head; while (temp != NULL) { printf(""%s == %d\n"", temp -> name, temp -> vote); temp = temp -> next; } } void admin_log_in(){ char ver[10]; int c; if (at!=10 || attempts!=0){ printf(""Enter password:""); scanf(""%s"",ver); if (strcmp(ver,""password"") == 0){ printf(""\nThe password is correct:\nYou are logged in as the admin\n""); at=10; attempts=0; admin_ascess(); } else{ printf(""\nWRONG PASSWORD!!\nATTEMPTS REMAINING %d!!\n"",(attempts-1)); at++; attempts--; while(at!=4) { c=wrongpass(); if(c==1){ break; } } if(at==3) { timer(); } } } } int wrongpass(){ char ver[10]; printf(""Enter password:""); scanf(""%s"",ver); if (strcmp(ver,""password"") == 0){ printf(""\nThe password is correct:\nYou are logged in as the admin\n""); at=10; attempts=0; admin_ascess(); return 1; } else{ printf(""\nWRONG PASSWORD!!\nATTEMPTS REMAINING %d!!\n"",attempts-1); at++; attempts--; } } void timer(){ int l=1,t=1; do{ if(l==1){ printf(""Invalid Entry LOGGING OUT.:""); l++; t++; sleep(1); }else if(l==2){ printf(""Invalid Entry LOGGING OUT..:""); l++; t++; sleep(1); }else if(l==3){ printf(""Invalid Entry LOGGING OUT...:""); l++; t++; sleep(1); }else if(l==4){ printf(""Invalid Entry LOGGING OUT....:""); l++; t++; sleep(1); }else if(l==5){ printf(""Invalid Entry LOGGING OUT.....:""); l=1; t++; sleep(1); } }while(t!=15); if(t==15) printf(""LOGGED OUT!THANK YOU!!""); } void admin_ascess(){ int ch,i; printf(""Welcome ADMIN!!!\nPlease choice what you  wish to do:\n1.Enter the party names\n2.Start Counting\n3.Declare Result\n4.Exit\nPlease Enter your choice:""); scanf(""%d"",&ch); switch(ch){ case 1: printf(""Enter the number of parties participating in the election process:""); scanf(""%d"", &nop); for (i = 1; i <= nop; i++) { party_name_input(i); } break; case 2: vote_ranking(); break; case 3: print_ranking(); break; case 4: return ; } } void voter_log_in(){ if(tail == NULL){ printf(""Welcome Voters!!!!\n""); printf(""There are no Parties to Vote for!!!\n""); }else{ printf(""Welcome Voters!!!!\n""); start_voting(); } }"
+2023-10-24T15:40:00,Amey Pacharkar,log in ka kuc error  araha he
+2023-10-24T15:40:00,Amey Pacharkar,it only takes 2 attemps instead of 3
+2023-10-24T15:40:00,Dovansh,Nahi hua solve ?
+2023-10-24T15:40:00,Amey Pacharkar,then if you try to relog in it wont let you
+2023-10-24T15:40:00,Dovansh,Ek baar wrong hua uske baad 2 ?
+2023-10-24T15:40:00,Amey Pacharkar,this two problem only currently
+2023-10-24T15:41:00,Dovansh,Re log in ke time pe at attempts ka value reset kar
+2023-10-24T15:41:00,Amey Pacharkar,it only gives 2 attemps.
+2023-10-24T15:41:00,Dovansh,Total 2 ?
+2023-10-24T15:41:00,Dovansh,Ya ek baar wrong hua uske baad 2
+2023-10-24T15:41:00,Amey Pacharkar,ok
+2023-10-24T15:41:00,Amey Pacharkar,this one
+2023-10-24T15:42:00,Dovansh,Condition change karde na
+2023-10-24T15:42:00,Amey Pacharkar,run that code solo
+2023-10-24T15:42:00,Dovansh,Solo ?
+2023-10-24T15:42:00,Amey Pacharkar,if it works like that then it is sth different
+2023-10-24T15:42:00,Amey Pacharkar,only the log n code
+2023-10-24T15:43:00,Amey Pacharkar,whats  initial values of attempts and at?
+2023-10-24T15:43:00,Dovansh,At is 0
+2023-10-24T15:43:00,Dovansh,Attempts is 3
+2023-10-24T15:55:00,Amey Pacharkar,"#include <stdio.h> #include <stdlib.h> #include <conio.h> #include <string.h> //clrscr(); struct party { char name[100]; int vote; struct party* next; }; // Initialize the variables of struct party struct party* newnode, * head, * tail, * temp, *pretemp, *lptr, *tempParty, *party1, *party2; //global variables int v,at=0,attempts=3, nop; // Function prototypes void party_name_input(int i); void print_name(); void give_vote(int ch); void vote_ranking(); void vote_tie(); int start_voting(); void print_ranking(); void admin_log_in(); void timer(); int wrongpass(); void admin_ascess(); void voter_log_in(); int main() { // Initialization int  i, ch; head = NULL; tail = NULL; printf(""\t\tELECTION SYSTEM!!!\n""); do{ printf(""Log in before proceeding\n1.Admin Log in\n2.Voter Log in\n3.Exit\nEnter your choice:""); scanf(""%d"",&ch); switch(ch){ case 1: at = 0; attempts = 3; admin_log_in(); break; case 2: voter_log_in(); break; case 3: printf(""Thank you!!!\n""); break; } }while(ch!= 3); if (head -> vote == head -> next -> vote) { vote_tie(); }else { printf(""Congratulations!!! %s HAS WON THE ELECTIONS!!!\n"", head->name); } return 0; } void party_name_input(int i) { newnode = (struct party*)malloc(sizeof(struct party)); newnode -> next = NULL; printf(""Enter the name of party %d: "", i); scanf(""%s"",&newnode -> name); newnode -> vote = 0; // Initialize vote count to 0 if (head == NULL && tail == NULL) { head = newnode; tail = newnode; } else { tail -> next = newnode; tail = newnode; } printf(""Name registered!!!\n""); } void print_name() { temp = head; for (int i = 1; i <= nop; i++) { printf(""%d. %s\n"", i, temp -> name); temp = temp -> next; } } void give_vote(int ch) { temp = head; for (int i = 1; i < ch; i++) { temp = temp -> next; } temp -> vote ++; } void vote_ranking() { int swapped; lptr = NULL; if (tail == NULL){ printf(""There are no Parties found to be ranked!!!!\n""); return; } do { swapped = 0; temp = head; while (temp -> next != lptr) { if (temp -> vote < temp -> next -> vote) { // Swap the parties tempParty = temp; temp = temp -> next; tempParty -> next = temp -> next; temp -> next = tempParty; if (tempParty == head) head = temp; else { pretemp -> next = temp; } swapped = 1; } pretemp = temp; temp = temp -> next; } lptr = temp; } while (swapped); } void vote_tie() { int ch; party1 = head; party2 = head -> next; printf(""There is a TIE between %s and %s!!!\n"", party1 -> name, party2 -> name); printf(""Last Round between them!!!\n""); while (1) { print_name(2); printf(""3. Exit\n""); printf(""Enter your choice: ""); scanf(""%d"", &ch); if (ch == 1) { give_vote(1); } else if (ch == 2) { give_vote(2); } else if (ch == 3) { break; } if (party1 -> vote > party2 -> vote) { printf(""Congratulations!!! %s HAS WON THE ELECTIONS!!!\n"", party1 -> name); break; } else if (party1 -> vote < party2 -> vote) { printf(""Congratulations!!! %s HAS WON THE ELECTIONS!!!\n"", party2   -> name); break; } } } int start_voting() { int ch; printf(""\t\tSTART VOTING!!!\n""); printf(""The parties are:\n""); print_name(); printf(""%d. Exit\n"", (nop + 1)); printf(""Enter your choice: ""); scanf(""%d"", &ch); if (ch == (nop + 1)) return nop; give_vote(ch); printf(""Your Vote has been Added!!!\n""); start_voting(); } void print_ranking() { temp = head; if(tail == NULL){ printf(""There are no Parties found!!!\n""); }else{ for (int i = 1; i <= nop; i++) { printf(""%d. %s ==> %d\n"", i, temp -> name,temp -> vote); temp = temp -> next; } } } void admin_log_in(){ char ver[10]; int c; if (at!=10 || attempts!=0){ printf(""Enter password:""); scanf(""%s"",ver); if (strcmp(ver,""password"") == 0){ printf(""\nThe password is correct:\nYou are logged in as the admin\n""); at=10; attempts=0; admin_ascess(); } else{ printf(""\nWRONG PASSWORD!!\nATTEMPTS REMAINING %d!!\n"",(attempts-1)); at++; attempts--; while(at!=4) { c=wrongpass(); if(c==1){ break; } } if(at==3) { timer(); } } } } int wrongpass(){ char ver[10]; printf(""Enter password:""); scanf(""%s"",ver); if (strcmp(ver,""password"") == 0){ printf(""\nThe password is correct:\nYou are logged in as the admin\n""); at=10; attempts=0; admin_ascess(); return 1; } else{ printf(""\nWRONG PASSWORD!!\nATTEMPTS REMAINING %d!!\n"",attempts-1); at++; attempts--; } } void timer(){ int l=1,t=1; do{ if(l==1){ printf(""Invalid Entry LOGGING OUT.:""); l++; t++; sleep(1); }else if(l==2){ printf(""Invalid Entry LOGGING OUT..:""); l++; t++; sleep(1); }else if(l==3){ printf(""Invalid Entry LOGGING OUT...:""); l++; t++; sleep(1); }else if(l==4){ printf(""Invalid Entry LOGGING OUT....:""); l++; t++; sleep(1); }else if(l==5){ printf(""Invalid Entry LOGGING OUT.....:""); l=1; t++; sleep(1); } }while(t!=15); if(t==15) printf(""LOGGED OUT!THANK YOU!!""); } void admin_ascess(){ int ch,i; do{ printf(""Welcome ADMIN!!!\nPlease choice what you  wish to do:\n1.Enter the party names\n2.Start Counting\n3.Declare Result\n4.Exit\nPlease Enter your choice:""); scanf(""%d"",&ch); switch(ch){ case 1: printf(""Enter the number of parties participating in the election process:""); scanf(""%d"", &nop); for (i = 1; i <= nop; i++) { party_name_input(i); } break; case 2: vote_ranking(); break; case 3: print_ranking(); break; } }while(ch != 4); } void voter_log_in(){ if(tail == NULL){ printf(""Welcome Voters!!!!\n""); printf(""There are no Parties to Vote for!!!\n""); }else{ printf(""Welcome Voters!!!!\n""); start_voting(); } }"
+2023-10-24T15:55:00,Amey Pacharkar,everything done hopefully except for the log in ppart
+2023-10-24T15:55:00,Amey Pacharkar,1 less attemp
+2023-10-24T15:55:00,Dovansh,It's fine
+2023-10-24T15:55:00,Dovansh,We don't need a PPT right
+2023-10-24T15:55:00,Dovansh,Just the report
+2023-10-24T15:55:00,Amey Pacharkar,yaa
+2023-10-24T15:55:00,Dovansh,Okk
+2023-10-24T15:55:00,Amey Pacharkar,no I meant log in part
+2023-10-24T15:56:00,Amey Pacharkar,admin log in part with only 2 attemps
+2023-10-24T15:56:00,Dovansh,Okk
+2023-10-24T15:56:00,Dovansh,I'll see it
+2023-10-24T15:56:00,Dovansh,Everything else runs ?
+2023-10-24T15:56:00,Amey Pacharkar,yaa
+2023-10-24T15:56:00,Dovansh,Properly ?
+2023-10-24T15:56:00,Amey Pacharkar,and if we wanna add then clrscr()
+2023-10-24T15:56:00,Amey Pacharkar,ha
+2023-10-24T15:57:00,Dovansh,Okk
+2023-10-24T15:57:00,Amey Pacharkar,nahi hua to bata dena
+2023-10-24T15:57:00,Dovansh,Turbo c errors ?
+2023-10-24T15:57:00,Amey Pacharkar,haven't seen them
+2023-10-24T15:57:00,Dovansh,Okk I'll see
+2023-10-24T15:57:00,Amey Pacharkar,understood
+2023-10-24T15:58:00,Dovansh,Ok
+2023-10-24T17:10:00,Amey Pacharkar,me adha soke utha aur sir ne lecture cancle kar diya
+2023-10-24T17:11:00,Dovansh,😂😂😂
+2023-10-25T09:56:00,Amey Pacharkar,Sir Gaye to bata
+2023-10-25T09:56:00,Dovansh,Haa
+2023-10-25T10:03:00,Amey Pacharkar,Gaye kya sir?
+2023-10-25T10:11:00,Dovansh,Haa
+2023-10-26T13:18:00,Dovansh,"give the advantages and disadvantages of handwired control unit design using state-table method and Delay-element method 42. what is cache Memory? A 32-bit computer has a 32-bit -memory address. It has 8kb of cache memory the Computer follows four-way set associative mapping. Each line size is 16. bytes. Show the memory format and cache memory organization. address 03 what is Amdahl's love? let a program have do percent of its code enhanced (so f₂ =0·4) run 2.8 times faster. (so f₁ = 2.3),ohat is the overall system speedup s? ea what is addressing node and explain it os Draw and Explain functioning of the microprogrammed con bol unit. the neat black diagram for flynn's classification. 06- Draw the neat block. -07 Daaw basic exganisation of computer and explain. its block level functional units. 08 Enlist different types of bus arbitration schemes and explain any one a short note: Interleaved and assovahve memory"
+2023-10-26T13:30:00,Dovansh,"microprogram for instruction MOV A (copy the contents of Register I to Register n) 11 Explain with suitable diagrams, long DRAM cell Required Refreshing in Computer System"
+2023-10-26T14:50:00,Amey Pacharkar,15min me aya me
+2023-10-26T21:40:00,Amey Pacharkar,Kal araha he na?
+2023-10-26T21:42:00,Dovansh,Haa
+2023-10-26T21:42:00,Dovansh,Aaunga
+2023-10-26T21:42:00,Dovansh,Soke
+2023-10-26T21:43:00,Amey Pacharkar,ha chalega sirf mere leye 2-3 double sided pages leke ana. Along with dlca assignment no 1
+2023-10-26T21:43:00,Dovansh,Haaa
+2023-10-26T21:43:00,Dovansh,Garba khelega ?
+2023-10-26T21:43:00,Amey Pacharkar,thanks
+2023-10-26T21:44:00,Amey Pacharkar,ha chal
+2023-10-26T21:44:00,Dovansh,Khelega ?
+2023-10-26T21:44:00,Dovansh,Thikke
+2023-10-26T21:44:00,Dovansh,5 baje hai
+2023-10-26T21:44:00,Amey Pacharkar,kal?
+2023-10-26T21:44:00,Dovansh,Haa
+2023-10-26T21:44:00,Dovansh,Kal hi to hai college me
+2023-10-26T21:44:00,Amey Pacharkar,acha sach me?
+2023-10-26T21:44:00,Dovansh,Haaa
+2023-10-26T21:45:00,Amey Pacharkar,chalega
+2023-10-26T21:45:00,Dovansh,Haaaaaaa
+2023-10-26T22:53:00,Amey Pacharkar,There is no tie devanshuva
+2023-10-26T22:54:00,Dovansh,Hmmm
+2023-10-26T22:54:00,Dovansh,Okk
+2023-10-26T22:54:00,Amey Pacharkar,Did you checked the old code by mistake by any chance?
+2023-10-26T22:54:00,Dovansh,Ya I guess
+2023-10-26T22:54:00,Dovansh,Send me this code
+2023-10-26T22:54:00,Amey Pacharkar,Will make a notepad of code after getting home
+2023-10-26T22:55:00,Dovansh,Okk chalse
+2023-10-26T22:55:00,Amey Pacharkar,"#include <stdio.h> #include <stdlib.h> #include <conio.h> #include <string.h> //clrscr(); struct party { char name[100]; int vote; struct party* next; }; // Initialize the variables of struct party struct party* newnode, * head, * tail, * temp, *pretemp, *lptr, *tempParty, *party1, *party2; //global variables int v,at=0,attempts=3, nop; // Function prototypes void party_name_input(int i); void print_name(); void give_vote(int ch); void vote_ranking(); void vote_tie(); int start_voting(); void print_ranking(); void admin_log_in(); void timer(); int wrongpass(); void admin_ascess(); void voter_log_in(); int main() { // Initialization int  i, ch; head = NULL; tail = NULL; printf(""\t\tELECTION SYSTEM!!!\n""); do{ printf(""Log in before proceeding\n1.Admin Log in\n2.Voter Log in\n3.Exit\nEnter your choice:""); scanf(""%d"",&ch); switch(ch){ case 1: at = 0; attempts = 3; admin_log_in(); break; case 2: voter_log_in(); break; case 3: printf(""Thank you!!!\n""); break; } }while(ch!= 3); if (head -> vote == head -> next -> vote) { vote_tie(); }else { printf(""Congratulations!!! %s HAS WON THE ELECTIONS!!!\n"", head->name); } return 0; } void party_name_input(int i) { newnode = (struct party*)malloc(sizeof(struct party)); newnode -> next = NULL; printf(""Enter the name of party %d: "", i); scanf(""%s"",&newnode -> name); newnode -> vote = 0; // Initialize vote count to 0 if (head == NULL && tail == NULL) { head = newnode; tail = newnode; } else { tail -> next = newnode; tail = newnode; } printf(""Name registered!!!\n""); } void print_name() { temp = head; for (int i = 1; i <= nop; i++) { printf(""%d. %s\n"", i, temp -> name); temp = temp -> next; } } void give_vote(int ch) { temp = head; for (int i = 1; i < ch; i++) { temp = temp -> next; } temp -> vote ++; } void vote_ranking() { int swapped; lptr = NULL; if (tail == NULL){ printf(""There are no Parties found to be ranked!!!!\n""); return; } do { swapped = 0; temp = head; while (temp -> next != lptr) { if (temp -> vote < temp -> next -> vote) { // Swap the parties tempParty = temp; temp = temp -> next; tempParty -> next = temp -> next; temp -> next = tempParty; if (tempParty == head) head = temp; else { pretemp -> next = temp; } swapped = 1; } pretemp = temp; temp = temp -> next; } lptr = temp; } while (swapped); } void vote_tie() { int ch; party1 = head; party2 = head -> next; printf(""There is a TIE between %s and %s!!!\n"", party1 -> name, party2 -> name); printf(""Last Round between them!!!\n""); while (1) { print_name(2); printf(""3. Exit\n""); printf(""Enter your choice: ""); scanf(""%d"", &ch); if (ch == 1) { give_vote(1); } else if (ch == 2) { give_vote(2); } else if (ch == 3) { break; } if (party1 -> vote > party2 -> vote) { printf(""Congratulations!!! %s HAS WON THE ELECTIONS!!!\n"", party1 -> name); break; } else if (party1 -> vote < party2 -> vote) { printf(""Congratulations!!! %s HAS WON THE ELECTIONS!!!\n"", party2   -> name); break; } } } int start_voting() { int ch; printf(""\t\tSTART VOTING!!!\n""); printf(""The parties are:\n""); print_name(); printf(""%d. Exit\n"", (nop + 1)); printf(""Enter your choice: ""); scanf(""%d"", &ch); if (ch == (nop + 1)) return nop; give_vote(ch); printf(""Your Vote has been Added!!!\n""); start_voting(); } void print_ranking() { temp = head; if(tail == NULL){ printf(""There are no Parties found!!!\n""); }else{ for (int i = 1; i <= nop; i++) { printf(""%d. %s ==> %d\n"", i, temp -> name,temp -> vote); temp = temp -> next; } } } void admin_log_in(){ char ver[10]; int c; if (at!=10 || attempts!=0){ printf(""Enter password:""); scanf(""%s"",ver); if (strcmp(ver,""password"") == 0){ printf(""\nThe password is correct:\nYou are logged in as the admin\n""); at=10; attempts=0; admin_ascess(); } else{ printf(""\nWRONG PASSWORD!!\nATTEMPTS REMAINING %d!!\n"",(attempts-1)); at++; attempts--; while(at!=4) { c=wrongpass(); if(c==1){ break; } } if(at==3) { timer(); } } } } int wrongpass(){ char ver[10]; printf(""Enter password:""); scanf(""%s"",ver); if (strcmp(ver,""password"") == 0){ printf(""\nThe password is correct:\nYou are logged in as the admin\n""); at=10; attempts=0; admin_ascess(); return 1; } else{ printf(""\nWRONG PASSWORD!!\nATTEMPTS REMAINING %d!!\n"",attempts-1); at++; attempts--; } } void timer(){ int l=1,t=1; do{ if(l==1){ printf(""Invalid Entry LOGGING OUT.:""); l++; t++; sleep(1); }else if(l==2){ printf(""Invalid Entry LOGGING OUT..:""); l++; t++; sleep(1); }else if(l==3){ printf(""Invalid Entry LOGGING OUT...:""); l++; t++; sleep(1); }else if(l==4){ printf(""Invalid Entry LOGGING OUT....:""); l++; t++; sleep(1); }else if(l==5){ printf(""Invalid Entry LOGGING OUT.....:""); l=1; t++; sleep(1); } }while(t!=15); if(t==15) printf(""LOGGED OUT!THANK YOU!!""); } void admin_ascess(){ int ch,i; do{ printf(""Welcome ADMIN!!!\nPlease choice what you  wish to do:\n1.Enter the party names\n2.Start Counting\n3.Declare Result\n4.Exit\nPlease Enter your choice:""); scanf(""%d"",&ch); switch(ch){ case 1: printf(""Enter the number of parties participating in the election process:""); scanf(""%d"", &nop); for (i = 1; i <= nop; i++) { party_name_input(i); } break; case 2: vote_ranking(); break; case 3: print_ranking(); break; } }while(ch != 4); } void voter_log_in(){ if(tail == NULL){ printf(""Welcome Voters!!!!\n""); printf(""There are no Parties to Vote for!!!\n""); }else{ printf(""Welcome Voters!!!!\n""); start_voting(); } }"
+2023-10-26T22:55:00,Amey Pacharkar,Just for reference rn
+2023-10-26T22:56:00,Dovansh,yaaaa
+2023-10-27T02:24:00,Dovansh,AMEY
+2023-10-27T02:25:00,Dovansh,ITS ALWAYS SHOWING THAT THE FIRST ONE IS THE WINNER
+2023-10-27T02:25:00,Dovansh,THERE IS NO SORTING
+2023-10-27T02:34:00,Dovansh,SORRY MY BAD
+2023-10-27T02:34:00,Dovansh,IT WORKS
+2023-10-27T04:31:00,Dovansh,This message was deleted
+2023-10-27T08:45:00,Amey Pacharkar,👍
+2023-10-27T09:50:00,Amey Pacharkar,Iska bhi print likal na  please
+2023-10-27T09:51:00,Amey Pacharkar,Name change kar dena
+2023-10-27T21:48:00,Amey Pacharkar,To kal nahi ana he na?
+2023-10-27T21:52:00,Dovansh,nahi aana hai
+2023-10-27T21:52:00,Dovansh,chutti
+2023-10-27T22:54:00,Amey Pacharkar,Acha he
+2023-10-28T12:11:00,Amey Pacharkar,Thanks
+2023-10-29T03:39:00,Dovansh,cg on online gdb
+2023-10-29T07:40:00,Amey Pacharkar,Let's go
+2023-10-29T08:17:00,Amey Pacharkar,join kar follow up!!!!
+2023-10-29T10:49:00,Dovansh,it bugged out
+2023-10-29T12:04:00,Amey Pacharkar,Woah that's pretty cool bugging out
+2023-10-29T12:23:00,Amey Pacharkar,Barabar he?
+2023-10-29T13:27:00,Dovansh,Ha right
+2023-10-29T15:09:00,Dovansh,Maths hua Tera solve karke ?
+2023-10-29T15:09:00,Dovansh,Ya dsgt ?
+2023-10-29T15:11:00,Amey Pacharkar,Maths
+2023-10-29T15:12:00,Dovansh,Bhejo na jara
+2023-10-29T15:28:00,Amey Pacharkar,Don't make them public ok?
+2023-10-29T15:28:00,Dovansh,Ha I won't
+2023-10-29T16:41:00,Amey Pacharkar,dsgt ka hua kya?
+2023-10-29T18:10:00,Dovansh,Nahi
+2023-10-29T18:10:00,Dovansh,Mai soya tha abhi utha
+2023-10-29T18:43:00,Amey Pacharkar,acha thik hr
+2023-10-30T21:34:00,Dovansh,DLCA bolte hai sir ko
+2023-10-30T21:34:00,Dovansh,karane
+2023-10-30T21:34:00,Dovansh,thoda to
+2023-10-30T21:52:00,Amey Pacharkar,Chalega
+2023-10-30T22:56:00,Dovansh,haa
+2023-10-30T23:21:00,Amey Pacharkar,teach me hashing tomorrow please
+2023-10-30T23:21:00,Dovansh,Yaa will do
+2023-10-31T10:49:00,Dovansh,Application for Assessment of Quality of Textbook/ Reference Books/ E- Book
+2023-11-01T18:11:00,Amey Pacharkar,Can you please send DLCA ka assignment no.1?
+2023-11-01T21:00:00,Dovansh,Sorry I was asleep
+2023-11-01T21:01:00,Amey Pacharkar,Yaa I realised that
+2023-11-01T21:01:00,Amey Pacharkar,No problemo
+2023-11-01T21:01:00,Amey Pacharkar,Send me in a while
+2023-11-01T21:02:00,Dovansh,Ya I'll send it
+2023-11-01T21:44:00,Amey Pacharkar,Thanku
+2023-11-02T01:35:00,Amey Pacharkar,Kal please bring some double sided pages👍
+2023-11-02T07:45:00,Amey Pacharkar,Submission sirf DLCA aur Maths ka hoga na.
+2023-11-02T07:45:00,Amey Pacharkar,Every other subject file we will need to study for viva
+2023-11-02T07:45:00,Amey Pacharkar,Aur maths ajj le rahe he ma'am
+2023-11-02T07:46:00,Amey Pacharkar,DLCA puchna padega
+2023-11-02T09:57:00,Dovansh,Haaaaa
+2023-11-02T10:09:00,Amey Pacharkar,Sab ke sab chor hai saale
+2023-11-02T20:41:00,Dovansh,Dlca ka assignment ka question kisiko bhej mat
+2023-11-02T20:41:00,Dovansh,Jo kartikey ne bheja
+2023-11-02T20:42:00,Amey Pacharkar,Ok👍
+2023-11-02T20:42:00,Dovansh,Confirm nahi hai wo sir ne bola nahi hai
+2023-11-02T20:42:00,Dovansh,Kartikey unse wo questions confirm karwalega
+2023-11-02T20:42:00,Amey Pacharkar,To assignment kere ki nahi?
+2023-11-02T20:42:00,Dovansh,Wo bola likhlo
+2023-11-02T20:42:00,Dovansh,Wo sir ko mana lega
+2023-11-02T20:42:00,Amey Pacharkar,Thik he 👍
+2023-11-02T23:33:00,Amey Pacharkar,https://docs.google.com/presentation/d/1lrY6-uA17R559BB-jOAxILuXWP77myzBHgg21rnoXUw/edit?usp=sharing
+2023-11-03T00:17:00,Amey Pacharkar,CG ka animation ka he kya tere pas write up?
+2023-11-03T00:20:00,Dovansh,ye
+2023-11-03T09:05:00,Amey Pacharkar,Jyada nahi ho gaya kya?
+2023-11-03T09:05:00,Dovansh,Mam apna project bajume rakhne wali hai
+2023-11-03T09:05:00,Dovansh,To itna lagega
+2023-11-03T09:06:00,Amey Pacharkar,Acha chalega
+2023-11-03T09:06:00,Dovansh,Ye bhi hai
+2023-11-03T09:06:00,Amey Pacharkar,Chalega
+2023-11-04T19:47:00,Dovansh,1st ka 0 aya ?
+2023-11-04T19:48:00,Amey Pacharkar,Ha
+2023-11-04T19:48:00,Dovansh,Dekh jara kya galat hai
+2023-11-04T19:49:00,Dovansh,Aaya answer
+2023-11-04T19:49:00,Dovansh,Pura solve nahi kiya tha
+2023-11-04T19:53:00,Dovansh,Right hai ?
+2023-11-04T19:53:00,Amey Pacharkar,How did you found v?
+2023-11-04T19:54:00,Dovansh,Sir ne jo sum kiya
+2023-11-04T19:54:00,Dovansh,Wo sum jaise
+2023-11-04T19:54:00,Amey Pacharkar,So CR equation na?
+2023-11-04T19:54:00,Dovansh,Yaa
+2023-11-04T19:54:00,Amey Pacharkar,But they didn't said f(z) is analytic
+2023-11-04T19:54:00,Dovansh,Sir said na ki consider it analytic
+2023-11-04T19:54:00,Amey Pacharkar,Ok
+2023-11-04T19:55:00,Amey Pacharkar,1/r not r
+2023-11-04T19:56:00,Dovansh,Can you send me all 4 equations?
+2023-11-04T19:56:00,Amey Pacharkar,Wait I am doing sum 2
+2023-11-04T19:56:00,Dovansh,Okk
+2023-11-04T19:58:00,Dovansh,It's righr
+2023-11-04T19:59:00,Amey Pacharkar,Not the formula. Sorry I wasn't specific. I meant when you were reducing the equation for ur
+2023-11-04T19:59:00,Dovansh,Ohlk
+2023-11-04T20:01:00,Dovansh,Integration of 1/r is 1 ?
+2023-11-04T20:02:00,Dovansh,It's logr
+2023-11-04T20:03:00,Amey Pacharkar,Yaa logr
+2023-11-04T20:03:00,Dovansh,Yaa
+2023-11-05T10:51:00,Dovansh,https://youtu.be/ehbSTazdhbU?si=-D2GMdhf9eDVxWp-
+2023-11-05T10:51:00,Dovansh,this is pretty messed up
+2023-11-05T11:43:00,Amey Pacharkar,That's pretty cool
+2023-11-05T11:43:00,Amey Pacharkar,There are so many different languages and ways to code
+2023-11-05T11:43:00,Amey Pacharkar,I liked the space vala
+2023-11-05T11:51:00,Dovansh,Haaaa
+2023-11-05T11:51:00,Dovansh,The + wala
+2023-11-05T11:58:00,Amey Pacharkar,Ha voto kuch samja nahi
+2023-11-05T13:37:00,Dovansh,Haana
+2023-11-05T15:55:00,Amey Pacharkar,You deleted this message
+2023-11-05T15:55:00,Amey Pacharkar,You deleted this message
+2023-11-05T16:06:00,Amey Pacharkar,Kuch nahi tha. Jyada soch mat
+2023-11-05T16:50:00,Dovansh,Kya tha bol
+2023-11-05T16:50:00,Amey Pacharkar,CG ka playlist
+2023-11-05T16:50:00,Amey Pacharkar,Par itna acha nahi tha
+2023-11-05T16:50:00,Amey Pacharkar,To delete kar diya
+2023-11-05T16:52:00,Dovansh,Acha thikke
+2023-11-05T19:20:00,Amey Pacharkar,Devansh meet wants our DS report
+2023-11-05T19:20:00,Amey Pacharkar,Bhej na he kya?
+2023-11-05T22:03:00,Amey Pacharkar,https://youtube.com/playlist?list=PLYwpaL_SFmcAtxMe7ahYC4ZYjQHun_b-T&si=_VafvaCCIsH3bNYW
+2023-11-05T22:03:00,Amey Pacharkar,ye wala thek le
+2023-11-05T22:03:00,Amey Pacharkar,agar kuch doubt hoga to
+2023-11-05T22:03:00,Dovansh,CG ka ?
+2023-11-05T22:03:00,Amey Pacharkar,ye wala acha he
+2023-11-05T22:03:00,Amey Pacharkar,haa
+2023-11-05T22:03:00,Dovansh,Acha okk
+2023-11-05T22:03:00,Dovansh,Thanks
+2023-11-05T22:04:00,Amey Pacharkar,par m6 aur m5 ka 5.4  aur weiler-atherton nahi he
+2023-11-05T22:04:00,Dovansh,Wo kahi aur se dhundh lenge
+2023-11-05T22:05:00,Amey Pacharkar,aur don't watch from 40 to 47
+2023-11-05T22:05:00,Dovansh,Okk
+2023-11-05T22:05:00,Amey Pacharkar,they are 10min videos  so around 470min
+2023-11-05T22:05:00,Dovansh,Ohkk
+2023-11-05T22:16:00,Amey Pacharkar,CG ka lab manual ka exp list bhej na
+2023-11-05T22:20:00,Dovansh,See file ka index
+2023-11-05T22:20:00,Amey Pacharkar,Are ha
+2023-11-05T23:15:00,Amey Pacharkar,animation ka code bhej na
+2023-11-06T09:08:00,Amey Pacharkar,Kartikey aur kiska viva he ajj?
+2023-11-06T09:08:00,Dovansh,Harshit
+2023-11-06T09:09:00,Amey Pacharkar,Rishab bhi na?
+2023-11-06T09:09:00,Dovansh,Haa
+2023-11-06T18:51:00,Dovansh,report nahi dena hai kal
+2023-11-06T18:51:00,Dovansh,sirf practical ke liye jana ha
+2023-11-06T18:51:00,Dovansh,baadme diya to chlega
+2023-11-06T18:55:00,Amey Pacharkar,Pacha na?
+2023-11-06T18:55:00,Dovansh,Haa
+2023-11-06T18:55:00,Amey Pacharkar,Thik he
+2023-11-06T18:55:00,Dovansh,Ha
+2023-11-06T18:55:00,Dovansh,Om ne bheja project ?
+2023-11-06T18:56:00,Amey Pacharkar,Nahi
+2023-11-06T18:56:00,Dovansh,Bol usko
+2023-11-06T19:03:00,Amey Pacharkar,gedit filename.java javac filename.java java filename
+2023-11-06T19:03:00,Amey Pacharkar,Barabar na?
+2023-11-06T19:03:00,Dovansh,Haa
+2023-11-06T22:44:00,Amey Pacharkar,Unofficial pe kyu bhej Raha he?
+2023-11-06T22:45:00,Dovansh,galati se aaya
+2023-11-07T20:12:00,Dovansh,"502,Gods Gitf Tower, N.M.Joshi Marg, Lower Parel, Mumbai 400013"
+2023-11-07T20:12:00,Amey Pacharkar,Gift na?
+2023-11-07T20:13:00,Dovansh,gifts
+2023-11-07T20:13:00,Dovansh,ha
+2023-11-07T20:25:00,Amey Pacharkar,You deleted this message
+2023-11-07T20:26:00,Amey Pacharkar,its report
+2023-11-07T20:27:00,Amey Pacharkar,sorry I was saying its log book
+2023-11-07T20:31:00,Dovansh,okk
+2023-11-07T20:31:00,Amey Pacharkar,Check kijiye log book
+2023-11-07T20:32:00,Dovansh,dono grp pe daal de
+2023-11-07T20:32:00,Dovansh,gadheda
+2023-11-07T20:32:00,Dovansh,ds aur mini project misx kiya tune
+2023-11-07T20:33:00,Dovansh,meko final bhej
+2023-11-07T20:33:00,Dovansh,mai jaa raha hu print nikalne
+2023-11-07T20:34:00,Amey Pacharkar,Conclusion chota kar
+2023-11-07T20:34:00,Amey Pacharkar,Bakika chalega
+2023-11-07T20:35:00,Amey Pacharkar,mulla sir na?
+2023-11-07T20:37:00,Dovansh,Haa
+2023-11-07T20:39:00,Amey Pacharkar,dhekle
+2023-11-07T20:40:00,Dovansh,Haa chalega
+2023-11-07T20:41:00,Amey Pacharkar,thikhe
+2023-11-07T20:49:00,Amey Pacharkar,I really hope I get boundary fill algorithm
+2023-11-07T20:50:00,Dovansh,Why
+2023-11-07T20:50:00,Amey Pacharkar,Easy
+2023-11-07T21:18:00,Amey Pacharkar,the most program
+2023-11-07T21:18:00,Amey Pacharkar,after that the 2d one along with dda
+2023-11-07T21:18:00,Amey Pacharkar,*the most easy program
+2023-11-07T21:19:00,Dovansh,It's that easy ?
+2023-11-07T21:19:00,Amey Pacharkar,ha
+2023-11-07T21:19:00,Amey Pacharkar,its recursion for 4dot method
+2023-11-07T21:19:00,Dovansh,Ohhhhh
+2023-11-07T21:19:00,Amey Pacharkar,super easy
+2023-11-07T21:19:00,Dovansh,I'll also do that then
+2023-11-07T21:20:00,Amey Pacharkar,"x+1,y+1,x-1,y-1"
+2023-11-07T21:20:00,Amey Pacharkar,and done
+2023-11-07T21:20:00,Dovansh,Nice
+2023-11-07T21:20:00,Amey Pacharkar,karle
+2023-11-07T21:20:00,Dovansh,I'll have to pull an all nighter today
+2023-11-07T21:20:00,Amey Pacharkar,do this two also
+2023-11-07T21:20:00,Dovansh,Haaa
+2023-11-07T21:20:00,Amey Pacharkar,for 2d wala.you only need to remember the for loop
+2023-11-07T21:20:00,Dovansh,Okk
+2023-11-07T21:36:00,Amey Pacharkar,CG ke sir Sai he re. Ajj viva Dina bache shayad bhul gaye honge to vo kal de denge.
+2023-11-07T21:45:00,Amey Pacharkar,devansh mini project ke files bhej na please
+2023-11-07T21:50:00,Amey Pacharkar,Dhanyawad
+2023-11-08T07:00:00,Amey Pacharkar,Hua kya CG ka padke?
+2023-11-08T07:31:00,Dovansh,Thoda bohot hua
+2023-11-08T07:32:00,Amey Pacharkar,To kar paiga?
+2023-11-08T07:32:00,Dovansh,Lagta nahi
+2023-11-08T07:32:00,Dovansh,Dekhte hai
+2023-11-08T07:33:00,Amey Pacharkar,Acha thik he
+2023-11-08T07:33:00,Dovansh,Haa
+2023-11-08T07:55:00,Amey Pacharkar,We have to take the print for this report na?
+2023-11-08T18:57:00,Dovansh,nikal du ?
+2023-11-08T18:57:00,Dovansh,final ?
+2023-11-08T18:57:00,Amey Pacharkar,Ha chalega
+2023-11-08T18:57:00,Amey Pacharkar,Ek bar group PE dalde
+2023-11-08T18:58:00,Dovansh,wo sirf sign wala rakh raha hu pehele ka replace kar raha hu
+2023-11-08T18:58:00,Amey Pacharkar,Ha
+2023-11-09T08:46:00,Dovansh,Mai aa raha hu practical ke liye
+2023-11-09T08:46:00,Dovansh,Abhi just utha
+2023-11-09T08:46:00,Dovansh,Mam ko bol mai 10 baje takk aaunga
+2023-11-09T08:46:00,Amey Pacharkar,😂😂
+2023-11-09T08:46:00,Amey Pacharkar,Chalega
+2023-11-09T08:47:00,Dovansh,Haa
+2023-11-09T08:47:00,Amey Pacharkar,Me 10-15 minute me pohach jayunga
+2023-11-09T08:47:00,Dovansh,Okk
+2023-11-09T08:47:00,Amey Pacharkar,Beto na Viva ko?
+2023-11-09T08:47:00,Dovansh,Haa Tera karle
+2023-11-09T08:47:00,Dovansh,Meko mill par jaa mat gharpe
+2023-11-09T08:49:00,Amey Pacharkar,Ha tuje milke Ghar jata hu
+2023-11-09T08:49:00,Dovansh,Haa
+2023-11-09T09:14:00,Dovansh,Practical chalu hua to Meko bol
+2023-11-09T09:27:00,Amey Pacharkar,Chalu hua
+2023-11-10T20:00:00,Amey Pacharkar,attack on titan ended
+2023-11-10T20:00:00,Amey Pacharkar,it was really great....
+2023-11-10T20:06:00,Dovansh,ya i know
+2023-11-10T20:06:00,Dovansh,i didn't see it though
+2023-11-10T20:27:00,Amey Pacharkar,Yaa it was a good end
+2023-11-10T22:44:00,Dovansh,Kal class Jana hai ?
+2023-11-10T22:44:00,Dovansh,10.30 ko ?
+2023-11-10T23:01:00,Amey Pacharkar,It's online
+2023-11-10T23:02:00,Amey Pacharkar,And yes we have to go...
+2023-11-10T23:02:00,Amey Pacharkar,It's gonna be apti
+2023-11-11T01:09:00,Dovansh,At 10.30 na
+2023-11-11T10:48:00,Amey Pacharkar,soch agar lecture he nahi hua to?
+2023-11-11T10:48:00,Dovansh,Teko marunga
+2023-11-11T10:48:00,Amey Pacharkar,😂
+2023-11-11T10:48:00,Amey Pacharkar,aja Diwali ko phir
+2023-11-11T10:48:00,Dovansh,Ha😂😂
+2023-11-11T10:48:00,Dovansh,Furina is a nice buffer
+2023-11-11T10:49:00,Dovansh,My hutao DMG went from 37k to 47-51
+2023-11-11T10:49:00,Amey Pacharkar,hahha yaa she is
+2023-11-11T10:49:00,Dovansh,Haaa
+2023-11-11T10:49:00,Amey Pacharkar,but she makes characters more easy t die
+2023-11-11T10:49:00,Dovansh,At lvl 70 she has 30k hp
+2023-11-11T10:49:00,Dovansh,I didn't have that problem without any healer
+2023-11-11T10:50:00,Amey Pacharkar,realy?
+2023-11-11T10:50:00,Dovansh,Haaa
+2023-11-11T10:50:00,Amey Pacharkar,you tried abyss or bosses?
+2023-11-11T10:50:00,Dovansh,Na
+2023-11-11T10:50:00,Amey Pacharkar,so ofc that's gonna be it
+2023-11-11T10:50:00,Amey Pacharkar,run with healer more dmg buff
+2023-11-11T10:50:00,Dovansh,Mostly that artifact domain
+2023-11-11T10:50:00,Dovansh,Ya but then what team ?
+2023-11-11T10:51:00,Dovansh,I run hutao xingqui kazuha and furina
+2023-11-11T10:51:00,Amey Pacharkar,hutao yelen/xq furina jean?
+2023-11-11T10:51:00,Dovansh,I don't have jean
+2023-11-11T10:51:00,Amey Pacharkar,replace jean with any healer who heals full party
+2023-11-11T10:51:00,Dovansh,Mika ?
+2023-11-11T10:51:00,Amey Pacharkar,like burst and healed
+2023-11-11T10:51:00,Dovansh,I don't have him built
+2023-11-11T10:51:00,Dovansh,Barbara ?
+2023-11-11T10:52:00,Amey Pacharkar,mika would be fine too
+2023-11-11T10:52:00,Dovansh,I would have to build him
+2023-11-11T10:52:00,Dovansh,I have no resin remaining
+2023-11-11T10:52:00,Dovansh,I used 14 fragile resin
+2023-11-11T10:52:00,Dovansh,In 1 day
+2023-11-11T10:52:00,Dovansh,Yesterday
+2023-11-11T10:52:00,Amey Pacharkar,yaa her kit is like you remove hp and the heal it up to full for stks
+2023-11-11T10:52:00,Dovansh,Haaa
+2023-11-11T10:53:00,Amey Pacharkar,woah
+2023-11-11T10:53:00,Dovansh,Haa
+2023-11-11T10:53:00,Amey Pacharkar,12.12 ko lecture he
+2023-11-11T10:53:00,Dovansh,Haa dekha
+2023-11-11T10:53:00,Dovansh,I'll play till then
+2023-11-11T10:53:00,Amey Pacharkar,online he
+2023-11-11T10:54:00,Dovansh,Haaa
+2023-11-11T10:54:00,Amey Pacharkar,chalega chal
+2023-11-11T10:54:00,Dovansh,Haa chal
+2023-11-11T12:25:00,Amey Pacharkar,Join kar devansh
+2023-11-11T12:25:00,Amey Pacharkar,bol Gaya kya?
+2023-11-11T12:26:00,Dovansh,Are haa kar raha hu
+2023-11-11T12:33:00,Amey Pacharkar,Are ha tu ghel Raha tha na
+2023-11-11T12:33:00,Dovansh,Haa
+2023-11-11T12:33:00,Dovansh,R5
+2023-11-11T12:33:00,Amey Pacharkar,Fishing na
+2023-11-11T12:34:00,Dovansh,Haaa
+2023-11-11T12:34:00,Amey Pacharkar,Acha he
+2023-11-11T12:34:00,Amey Pacharkar,Sir ne 30minites me kuch nahi bola he
+2023-11-11T12:34:00,Amey Pacharkar,Kya karna he?
+2023-11-11T12:35:00,Dovansh,Rukte hai thodi der
+2023-11-11T12:35:00,Amey Pacharkar,Me ajj books lene dadar Jane wala hu
+2023-11-11T12:35:00,Amey Pacharkar,Tu aaraha he kya?
+2023-11-11T12:35:00,Dovansh,Tu jaake aa
+2023-11-11T12:36:00,Amey Pacharkar,Thik he
+2023-11-11T12:59:00,Amey Pacharkar,your marks for DS  IA2 is 20
+2023-11-11T13:00:00,Dovansh,Haa
+2023-11-11T13:00:00,Dovansh,That's what I was seeing
+2023-11-11T13:01:00,Amey Pacharkar,and the probsbility for 3 coin toss is 1/8
+2023-11-11T13:01:00,Dovansh,3 coin toss is 1/8 how ?
+2023-11-11T13:01:00,Amey Pacharkar,in the sense there is a chance to get the desired outcome from 8 options
+2023-11-11T13:01:00,Dovansh,Total outcomes is 8
+2023-11-11T13:02:00,Amey Pacharkar,ha
+2023-11-11T13:02:00,Dovansh,Okk that way
+2023-11-11T13:07:00,Dovansh,Mujhe pin kabhi kiya sir ne
+2023-11-11T13:07:00,Dovansh,Maine dekha hi nahi
+2023-11-11T14:39:00,Amey Pacharkar,Jabhi sir ne pucha 3 coin ka probability
+2023-11-11T15:34:00,Dovansh,Ohhh
+2023-11-11T22:32:00,Dovansh,You know
+2023-11-11T22:32:00,Dovansh,Thered another value of pi
+2023-11-11T22:33:00,Dovansh,https://www.instagram.com/reel/CzZbgSNLDIr/?igshid=MW83djc0dG81NTMxYg==
+2023-11-11T23:17:00,Amey Pacharkar,Woah is morse code that easy?
+2023-11-12T00:04:00,Dovansh,I guess
+2023-11-12T13:43:00,Dovansh,Kyu
+2023-11-12T15:00:00,Amey Pacharkar,Practice?
+2023-11-12T15:08:00,Dovansh,Okk
+2023-11-12T23:54:00,Dovansh,Write a program to multiple 2 numbers without using * operator
+2023-11-13T07:09:00,Amey Pacharkar,"import java.util.*; class multiply{ public static void main(String[] args){ int a,result = 0,b; Scanner sc = new Scanner(System.in); System.out.println("" Enter the the two numbers which needs to be multiplied:""); a = sc.nextInt(); b = sc.nextInt(); for (int i = 0; i < b; i ++){ result = result + a; } System.out.println("" The result is ""+result); } }"
+2023-11-13T07:46:00,Amey Pacharkar,Sir bole the na Monday ko lecture hoga
+2023-11-13T08:55:00,Dovansh,Haa
+2023-11-13T08:55:00,Dovansh,Lekin time wagera kuch bole nahi
+2023-11-13T09:27:00,Amey Pacharkar,Hoga ki nahi ye bhi group PE nahi dala he
+2023-11-13T10:21:00,Dovansh,nahi dala hai to nahi hoga
+2023-11-13T22:53:00,Amey Pacharkar,Ki ye sum?
+2023-11-13T22:53:00,Dovansh,Nahi
+2023-11-13T22:54:00,Dovansh,3 din se book ko haat nahi lagata
+2023-11-13T22:57:00,Amey Pacharkar,Acha DLCA ho gaya?
+2023-11-13T22:57:00,Dovansh,Are bhai book ko haat nahi lagaya
+2023-11-13T22:57:00,Dovansh,Universal hai
+2023-11-13T22:57:00,Dovansh,Koi bhi book ko haat nahi lagaya
+2023-11-13T22:58:00,Amey Pacharkar,3din pehele padhega?
+2023-11-13T22:58:00,Dovansh,Ha wohi karna padega
+2023-11-13T22:58:00,Amey Pacharkar,Bakike subjects?
+2023-11-13T22:58:00,Dovansh,Wo 4 din karunga
+2023-11-13T22:58:00,Dovansh,Fir 3 din maths
+2023-11-13T22:58:00,Amey Pacharkar,Ek ek ghanta to padle...Varna bohot ho jyaga
+2023-11-13T22:59:00,Amey Pacharkar,Acha kal se?
+2023-11-13T22:59:00,Dovansh,Abhi raat se
+2023-11-13T23:00:00,Amey Pacharkar,Acha
+2023-11-13T23:00:00,Amey Pacharkar,Kuch hoga to puch le.
+2023-11-13T23:00:00,Amey Pacharkar,👍
+2023-11-13T23:00:00,Dovansh,Haa
+2023-11-13T23:08:00,Amey Pacharkar,Kal aa Raha he kya? 6PM?
+2023-11-13T23:09:00,Dovansh,Dekhta hu
+2023-11-13T23:09:00,Dovansh,Aaunga
+2023-11-14T16:23:00,Dovansh,He's not picking up
+2023-11-14T16:24:00,Amey Pacharkar,Message him then
+2023-11-14T16:24:00,Amey Pacharkar,Maybe they have lecture now
+2023-11-14T16:24:00,Dovansh,Haa
+2023-11-14T16:24:00,Dovansh,What do I msg him
+2023-11-14T16:26:00,Amey Pacharkar,Do you have a lecture right now going on?
+2023-11-14T16:26:00,Dovansh,Ok
+2023-11-14T16:27:00,Amey Pacharkar,Or will go alittle early
+2023-11-14T16:28:00,Dovansh,Haa
+2023-11-14T16:36:00,Amey Pacharkar,Kya kuch samja? Should I we leave?
+2023-11-14T16:42:00,Dovansh,Uska internet band hai
+2023-11-14T16:42:00,Dovansh,Let's leave by 5
+2023-11-14T16:43:00,Amey Pacharkar,Alright
+2023-11-14T16:46:00,Dovansh,Yaa
+2023-11-14T20:30:00,Amey Pacharkar,Vo 24th barabar tha
+2023-11-14T20:30:00,Amey Pacharkar,Bohot sare sums ma'am ke notes me he
+2023-11-15T07:28:00,Dovansh,Okk
+2023-11-15T14:30:00,Dovansh,Sunn
+2023-11-15T14:30:00,Dovansh,Jo bhi tujhe important lagte hai wo sums bhejna
+2023-11-15T14:30:00,Dovansh,Solve kiye huye
+2023-11-15T14:31:00,Dovansh,Mai bhi karta hu
+2023-11-15T15:38:00,Dovansh,Check
+2023-11-15T19:07:00,Amey Pacharkar,Barabar che
+2023-11-15T19:08:00,Amey Pacharkar,Chalega
+2023-11-15T19:08:00,Amey Pacharkar,Agar vo pdf 100pages ka hua to pura padna padega samjana
+2023-11-15T19:08:00,Amey Pacharkar,😂😂
+2023-11-15T19:09:00,Dovansh,Ha bhai padh lunga
+2023-11-15T19:21:00,Amey Pacharkar,Sunday Tak bhejta hu
+2023-11-15T19:21:00,Dovansh,Ha chalega
+2023-11-16T06:53:00,Dovansh,https://youtu.be/wGLTV8MgLlA?si=dK4LNkcgYI5b3pb1
+2023-11-16T06:53:00,Dovansh,dsgt ke liye
+2023-11-16T07:51:00,Amey Pacharkar,Thanks
+2023-11-16T07:51:00,Dovansh,Dsgt ke sir ko bol ia ke marks bhejne
+2023-11-16T07:51:00,Dovansh,Wo papers aur questions koi dekhne nahi wala
+2023-11-16T07:53:00,Amey Pacharkar,Kyu nahi dekhne wale?
+2023-11-16T07:53:00,Dovansh,Kitne sare hai wo
+2023-11-16T07:53:00,Dovansh,Questions
+2023-11-16T07:53:00,Dovansh,Usse acha is me jo questions hai wo practice kar paper ke bhi hai aur wo explain bhi karta hai
+2023-11-16T07:54:00,Amey Pacharkar,Karne wale sab karenge
+2023-11-16T07:54:00,Dovansh,Teko lagta hai apne class me se koi hai Jo sab karega ?
+2023-11-16T08:12:00,Amey Pacharkar,Kartikey?
+2023-11-16T08:34:00,Dovansh,Wo nhi karega sab
+2023-11-16T09:40:00,Amey Pacharkar,Acha thik he
+2023-11-16T12:27:00,Dovansh,Jaa
+2023-11-16T12:27:00,Dovansh,Haa
+2023-11-16T14:40:00,Amey Pacharkar,For Pascal's triangle what do we use? nPr or nCr
+2023-11-16T18:17:00,Dovansh,I don't know about Pascal's triangle
+2023-11-16T18:22:00,Amey Pacharkar,Alright
+2023-11-16T18:43:00,Amey Pacharkar,I am gonna take a maths test tomorrow. 2.30 to 5.30.  Wanna give it as well?
+2023-11-16T18:43:00,Dovansh,Yaa I'll give it too
+2023-11-16T19:57:00,Amey Pacharkar,Chalega
+2023-11-16T19:57:00,Dovansh,Bata Meko tu karega tabh
+2023-11-16T20:45:00,Amey Pacharkar,Ha me tuje 30minites pehele 🥔 hu
+2023-11-16T21:46:00,Dovansh,Haaa
+2023-11-17T14:01:00,Amey Pacharkar,Let's give paper at 2.30
+2023-11-17T14:13:00,Dovansh,Haa
+2023-11-17T14:25:00,Dovansh,Which paper ?
+2023-11-17T14:31:00,Amey Pacharkar,null
+2023-11-17T15:52:00,Amey Pacharkar,Hua kya paper?
+2023-11-17T15:53:00,Amey Pacharkar,"63/80... And alot of sums we don't have....like Q3.B, Q4.A, Q5"
+2023-11-17T16:15:00,Dovansh,Ya same
+2023-11-17T16:15:00,Dovansh,54
+2023-11-17T16:16:00,Dovansh,Give me 2 sums
+2023-11-17T16:16:00,Dovansh,4c ka first
+2023-11-17T16:16:00,Dovansh,And Q2c
+2023-11-17T16:17:00,Dovansh,And last one ka deduce
+2023-11-17T16:17:00,Dovansh,Rest i solved
+2023-11-17T16:28:00,Amey Pacharkar,Second aya?
+2023-11-17T16:28:00,Dovansh,Haa
+2023-11-17T16:29:00,Amey Pacharkar,Bhej
+2023-11-17T16:29:00,Amey Pacharkar,What's that first step?
+2023-11-17T16:29:00,Dovansh,Convolution se kiya maine
+2023-11-17T16:30:00,Amey Pacharkar,e^-πs is 1?
+2023-11-17T16:31:00,Dovansh,Shit i forgot one step
+2023-11-17T16:31:00,Amey Pacharkar,Will send you this later
+2023-11-17T16:31:00,Dovansh,Okk
+2023-11-17T16:32:00,Amey Pacharkar,Is it a formula or you solve it and got 1?
+2023-11-17T16:32:00,Dovansh,No there is one step after the inverse laplace that i forgot
+2023-11-17T16:32:00,Dovansh,Haa
+2023-11-17T16:32:00,Dovansh,Formula
+2023-11-17T16:32:00,Amey Pacharkar,Konsa?
+2023-11-17T16:33:00,Amey Pacharkar,Ahh yaa yad aya
+2023-11-17T16:33:00,Dovansh,Haaq
+2023-11-17T16:33:00,Amey Pacharkar,Woah that's a rare sum then
+2023-11-17T16:33:00,Dovansh,Ya it is
+2023-11-17T16:34:00,Amey Pacharkar,Acha practice hua.I will do it again tomorrow same time. You gonna join?
+2023-11-17T16:35:00,Dovansh,Yaaa
+2023-11-17T16:35:00,Amey Pacharkar,Group PE sir ne dalne bola tha na?
+2023-11-17T16:35:00,Amey Pacharkar,Marks kitna ata he wo?
+2023-11-17T16:35:00,Dovansh,Bola tha ?
+2023-11-17T16:35:00,Dovansh,Mera 50 in 1:30 hai
+2023-11-17T16:36:00,Amey Pacharkar,1.30hrs?
+2023-11-17T16:36:00,Dovansh,Wo last wala sum count nahi karega ro
+2023-11-17T16:36:00,Dovansh,To
+2023-11-17T16:36:00,Amey Pacharkar,Bohot jaldi khatam Kiya hamne
+2023-11-17T16:36:00,Dovansh,Haaa
+2023-11-17T16:36:00,Amey Pacharkar,If you remove deduce that and you got a0 and an right. It's 6marks
+2023-11-17T16:37:00,Dovansh,Ohh
+2023-11-17T16:37:00,Dovansh,Then it's 56 in 1.45
+2023-11-17T16:37:00,Amey Pacharkar,Ha agar pura 3hrs bhete to deduce hoga and extra bhi
+2023-11-17T16:37:00,Dovansh,Haaa
+2023-11-17T16:37:00,Dovansh,Par isme extra karne jaisa kuch tha hi nahi
+2023-11-17T16:37:00,Dovansh,Jitna aata tha utna sab hua
+2023-11-17T16:38:00,Dovansh,1 2 chodke
+2023-11-17T16:38:00,Amey Pacharkar,Are module alag the na
+2023-11-17T16:38:00,Dovansh,Haa
+2023-11-17T16:38:00,Dovansh,Z transform
+2023-11-17T16:38:00,Amey Pacharkar,Mere aur jata. But I didn't solved M1 questions
+2023-11-17T16:38:00,Dovansh,M1 ?
+2023-11-17T16:38:00,Amey Pacharkar,Module 1
+2023-11-17T16:38:00,Dovansh,Kyu ?
+2023-11-17T16:39:00,Dovansh,Laplace ?
+2023-11-17T16:39:00,Amey Pacharkar,Don't remember. Haven't revived that
+2023-11-17T16:39:00,Amey Pacharkar,Will first do probability on Sunday and then M1
+2023-11-17T16:39:00,Dovansh,Laplace ka sirf 1tha 6mks
+2023-11-17T16:39:00,Dovansh,Okk
+2023-11-17T16:39:00,Amey Pacharkar,D wala bhi tha
+2023-11-17T16:40:00,Amey Pacharkar,Q3-C
+2023-11-17T16:40:00,Dovansh,Kahape?
+2023-11-17T16:40:00,Dovansh,Ha wo hume syllabus me nahi hai
+2023-11-17T16:40:00,Amey Pacharkar,D he
+2023-11-17T16:41:00,Amey Pacharkar,I remember solving them
+2023-11-17T16:41:00,Dovansh,Nahi hai re
+2023-11-17T16:41:00,Dovansh,Last sem me tha wo differential equations
+2023-11-17T16:41:00,Amey Pacharkar,Ohh acha
+2023-11-17T16:41:00,Amey Pacharkar,😂😂
+2023-11-17T16:41:00,Dovansh,Haaa
+2023-11-17T16:42:00,Amey Pacharkar,Me abhi jata hu. Luch karna he
+2023-11-17T16:42:00,Dovansh,Haa mai bhi
+2023-11-17T16:42:00,Amey Pacharkar,*lunch
+2023-11-17T16:42:00,Dovansh,Haaaaa
+2023-11-17T16:42:00,Amey Pacharkar,Chal phir
+2023-11-17T16:42:00,Dovansh,Haa
+2023-11-17T16:42:00,Dovansh,Chal
+2023-11-17T18:35:00,Amey Pacharkar,Tomorrow let's solve the paper ma'am have send in the classroom
+2023-11-17T18:59:00,Dovansh,Alright
+2023-11-18T09:04:00,Amey Pacharkar,What were the topics we discussed for DLCA last 3 modules?
+2023-11-18T11:26:00,Dovansh,Cache memory
+2023-11-18T11:27:00,Dovansh,Hard wired control unit
+2023-11-18T11:27:00,Dovansh,And it's 2 types
+2023-11-18T11:27:00,Dovansh,Microprogrammed control unit
+2023-11-18T11:27:00,Dovansh,Microprogramms
+2023-11-18T11:27:00,Dovansh,Ahmdals law
+2023-11-18T11:27:00,Dovansh,Flynns classification
+2023-11-18T13:16:00,Amey Pacharkar,Thanks
+2023-11-18T13:44:00,Amey Pacharkar,3days for first paper
+2023-11-18T14:02:00,Dovansh,Ya i know
+2023-11-18T14:02:00,Dovansh,I haven't done anything for CG and dlca
+2023-11-18T14:15:00,Amey Pacharkar,Well 1day preview I guess
+2023-11-18T14:16:00,Amey Pacharkar,We have to send ours timetable  as well?
+2023-11-18T14:16:00,Amey Pacharkar,Btw 2.30 rememberright?
+2023-11-18T14:17:00,Dovansh,Haa
+2023-11-18T14:18:00,Dovansh,Mu ka send Kiya na kisine
+2023-11-18T14:20:00,Dovansh,send me the paper my phone is dead
+2023-11-18T14:21:00,Amey Pacharkar,Comp ka
+2023-11-18T14:21:00,Amey Pacharkar,Nahi bheja he
+2023-11-18T14:21:00,Dovansh,nahi hai ?
+2023-11-18T14:22:00,Dovansh,ha to bhejde
+2023-11-18T14:32:00,Amey Pacharkar,null
+2023-11-18T14:32:00,Dovansh,Haa
+2023-11-18T15:58:00,Dovansh,I did 36 in 45
+2023-11-18T15:58:00,Dovansh,kantala aay
+2023-11-18T15:58:00,Dovansh,BAKIKA BAADME CONTINUE KARUNGA
+2023-11-18T16:13:00,Amey Pacharkar,try getting it to around 45 in 1 hr since in exam we will be in pressure even if alittle bit
+2023-11-18T16:13:00,Amey Pacharkar,then we can get the remaining 19 in 2 hrs
+2023-11-18T16:14:00,Amey Pacharkar,if we are getting 45 at home we will be at around 35~39 in exam
+2023-11-18T16:14:00,Dovansh,Haa
+2023-11-18T16:26:00,Amey Pacharkar,same as last time... 69/80 2hrs
+2023-11-18T19:17:00,Dovansh,nice
+2023-11-18T20:45:00,Amey Pacharkar,Tomorrow 2.30 same time and nov 2022 paper 👍
+2023-11-18T20:45:00,Amey Pacharkar,Ye KT wala paper tha so maybe it was alittle easy
+2023-11-18T20:54:00,Dovansh,Kal match hai
+2023-11-18T20:56:00,Amey Pacharkar,Acha thi he 😂
+2023-11-18T20:56:00,Amey Pacharkar,Btw did you got any videos for computer architecture?
+2023-11-18T20:56:00,Amey Pacharkar,The CA part of DLCA
+2023-11-18T20:56:00,Dovansh,Haa
+2023-11-18T20:56:00,Amey Pacharkar,Bhej na
+2023-11-18T20:57:00,Dovansh,https://youtu.be/BHD7qhZRoXQ?si=oyvIUe2KlRrIX5yZ
+2023-11-18T20:57:00,Dovansh,Ye flynns ka hai
+2023-11-18T20:57:00,Dovansh,Bakike topics iske yt channel peil jaayenge
+2023-11-18T20:58:00,Amey Pacharkar,Acha thanks
+2023-11-20T08:41:00,Amey Pacharkar,I haven't solved the practice problem yet. So I would say just revive from notebooks as they all are imp questions
+2023-11-20T12:29:00,Dovansh,Okk
+2023-11-20T22:00:00,Amey Pacharkar,If you are having trouble finding all the formulas you can check summary from ma'am in classroom
+2023-11-20T22:00:00,Amey Pacharkar,It has everything we need
+2023-11-20T22:00:00,Amey Pacharkar,Except for some basic formulas we use rarely
+2023-11-20T22:02:00,Dovansh,I'll do that
+2023-11-22T18:53:00,Amey Pacharkar,Hoa kya re?
+2023-11-22T20:28:00,Dovansh,Nahi hua
+2023-11-22T20:28:00,Dovansh,Tera ?
+2023-11-22T20:59:00,Amey Pacharkar,Kya baki he?
+2023-11-22T21:00:00,Amey Pacharkar,M5 remaining and then sum practice
+2023-11-22T21:00:00,Dovansh,Sab
+2023-11-22T21:00:00,Amey Pacharkar,Are?!!
+2023-11-22T21:00:00,Amey Pacharkar,Sat bhar kare ga?
+2023-11-22T21:00:00,Amey Pacharkar,*rat bhar
+2023-11-22T21:01:00,Dovansh,Haa
+2023-11-22T21:01:00,Dovansh,Karna padega
+2023-11-22T21:49:00,Amey Pacharkar,Ha me bhi shayad jara der jhagunga
+2023-11-22T22:08:00,Dovansh,Haa
+2023-11-22T22:08:00,Dovansh,Uske paper check karne ka tareeka khatarnak hai
+2023-11-22T22:08:00,Dovansh,Padhke Jana padega
+2023-11-22T22:37:00,Amey Pacharkar,You don't need to study alot to pass. The marks after that we need to study
+2023-11-22T22:37:00,Dovansh,Well i studied more than enough to pass
+2023-11-22T22:38:00,Dovansh,I studied enough to get me till 45
+2023-11-22T22:44:00,Amey Pacharkar,Yaa more 19 marks
+2023-11-22T22:44:00,Dovansh,16
+2023-11-22T22:44:00,Dovansh,We have 19 as average
+2023-11-22T22:44:00,Dovansh,So 61 will do
+2023-11-22T22:50:00,Amey Pacharkar,Yaa what all have you done?
+2023-11-22T23:05:00,Dovansh,Induction
+2023-11-22T23:05:00,Dovansh,Group theory
+2023-11-22T23:05:00,Dovansh,Graph theory
+2023-11-22T23:06:00,Dovansh,Sets
+2023-11-22T23:06:00,Dovansh,Those counting ka sums
+2023-11-22T23:16:00,Amey Pacharkar,Oh counting matlab product rule and pigeon hole na?
+2023-11-22T23:16:00,Amey Pacharkar,Haa vo abelian bhi karle
+2023-11-22T23:23:00,Dovansh,Haa
+2023-11-22T23:23:00,Dovansh,Inclusion exclusion
+2023-11-22T23:23:00,Dovansh,Kiya
+2023-11-24T20:26:00,Amey Pacharkar,No sums for LinkedIn list na?
+2023-11-24T20:36:00,Dovansh,Ya no sums
+2023-11-24T22:07:00,Amey Pacharkar,Ajj kiya kuch? Me to sirf sums kiye sab
+2023-11-24T22:07:00,Dovansh,Kuch nhi kiya
+2023-11-24T22:07:00,Dovansh,Raat ko aur kal pura din dlca
+2023-11-24T22:07:00,Dovansh,Fir 2 din ds
+2023-11-24T22:08:00,Amey Pacharkar,Oh I was gonna ask if you will solve paper with me on Sunday
+2023-11-24T22:08:00,Dovansh,Oh i can
+2023-11-24T22:08:00,Dovansh,I'll solve with you
+2023-11-24T22:08:00,Amey Pacharkar,Alright will see which paper to solve on that time... Same time 2.30
+2023-11-24T22:08:00,Dovansh,Yepp
+2023-11-24T22:09:00,Amey Pacharkar,First 32 in 1hr then continue to see if 64 in 2.30 hrs
+2023-11-24T22:09:00,Dovansh,Yaa
+2023-11-25T20:19:00,Amey Pacharkar,DLCA ho gaya Tera?
+2023-11-25T22:22:00,Dovansh,Nahi hua
+2023-11-25T23:24:00,Amey Pacharkar,To kal paper te Raha hena?
+2023-11-25T23:43:00,Dovansh,Haa
+2023-11-25T23:43:00,Dovansh,Ds ka na ?
+2023-11-26T00:06:00,Amey Pacharkar,Ha
+2023-11-26T12:44:00,Amey Pacharkar,Agar soch Linked list ka 20marks ko 1 program agaya to? Circular with all options of insertion and deletion
+2023-11-26T13:01:00,Dovansh,5 operation hobge
+2023-11-26T13:01:00,Dovansh,Ya 6 jyada se jyada
+2023-11-26T13:23:00,Amey Pacharkar,Even for 20Marks?
+2023-11-26T14:31:00,Dovansh,i havent studied anything
+2023-11-26T14:32:00,Dovansh,ill write later
+2023-11-26T14:33:00,Amey Pacharkar,Understood
+2023-11-26T14:34:00,Amey Pacharkar,then don't check the paper first
+2023-11-26T14:39:00,Dovansh,haa
+2023-11-26T15:40:00,Amey Pacharkar,when we gave the extra ds ka mini project we never gave ma'am the password for admin even in our main mini project how will they ever verify if it works or not😂😂 or did you put the password somewhere?
+2023-11-26T15:43:00,Dovansh,The password is in the code
+2023-11-26T15:43:00,Dovansh,If they find it they find it 😂😂😂
+2023-11-26T15:50:00,Amey Pacharkar,😂😂
+2023-11-26T15:51:00,Amey Pacharkar,Btw DS ka paper shayad one side hone wala he....1.20hrs me 60marks 🤦‍♂️😅
+2023-11-26T15:51:00,Dovansh,Haa kya
+2023-11-26T15:51:00,Dovansh,Dekhna padega
+2023-11-26T15:52:00,Amey Pacharkar,Ha pehele padle
+2023-11-26T15:52:00,Dovansh,Haaa
+2023-11-26T15:52:00,Dovansh,Raat ko likhunga
+2023-11-26T15:59:00,Amey Pacharkar,Ha badme bata mujhe
+2023-11-26T16:00:00,Amey Pacharkar,Abhi me jara ghelta hu in evening will continue
+2023-11-26T16:09:00,Dovansh,Okk
+2023-11-26T16:09:00,Dovansh,Chalse
+2023-11-26T20:19:00,Amey Pacharkar,2022 ka iske samne kuch nahi he
+2023-11-26T20:19:00,Amey Pacharkar,Ye wala will take like 2hr if we are writing alot
+2023-11-26T20:19:00,Amey Pacharkar,For 60
+2023-11-26T20:19:00,Dovansh,Oh ok
+2023-11-27T19:19:00,Amey Pacharkar,It took 4 pages for a sum of linear probing...because of steps from books
+2023-11-27T19:21:00,Amey Pacharkar,Ajj me 5hours WhatsApp PE tha😂😂😂
+2023-11-27T19:22:00,Amey Pacharkar,Pata nahi kya kar Raha tha par mere phone ne thekha me 5hrs WhatsApp PE tha
+2023-11-27T20:21:00,Amey Pacharkar,for double hashinh
+2023-11-27T20:21:00,Amey Pacharkar,*hashing
+2023-11-27T20:55:00,Dovansh,okk
+2023-11-27T23:12:00,Amey Pacharkar,https://youtu.be/cFHZ-a87Vp4?si=m0T-InP8pgw4Hfec
+2023-11-27T23:12:00,Amey Pacharkar,Samaj jyaga tu. Bohot acha sikhaya he
+2023-11-27T23:12:00,Amey Pacharkar,17min...with algorithm and code
+2023-11-27T23:17:00,Amey Pacharkar,And what all are theory questions?
+2023-11-27T23:38:00,Dovansh,That we have to right it on our own
+2023-11-28T08:18:00,Amey Pacharkar,Yaa but what different questions do they ask?
+2023-11-28T08:19:00,Amey Pacharkar,And is it only polynomial addition or also multiplication?
+2023-11-28T12:38:00,Dovansh,Representation and adding
+2023-11-29T19:19:00,Amey Pacharkar,Is that everything of the CA part?
+2023-11-29T19:19:00,Dovansh,Not everything
+2023-11-29T19:19:00,Dovansh,Main ones
+2023-11-29T19:20:00,Amey Pacharkar,So if I do only that it will be enough?
+2023-11-29T19:20:00,Dovansh,I think
+2023-11-29T19:20:00,Dovansh,Do booths sums
+2023-11-29T19:20:00,Dovansh,And 1EEE conversationa
+2023-11-29T19:20:00,Amey Pacharkar,Ok thanks alot
+2023-11-29T19:43:00,Amey Pacharkar,Microprogram kiya?
+2023-11-29T19:44:00,Dovansh,Nahi
+2023-11-29T19:44:00,Dovansh,Booths
+2023-11-29T19:48:00,Amey Pacharkar,Haa kuch nahi samja video thekna padeka
+2023-11-29T22:00:00,Dovansh,Ha dekh video
+2023-11-29T22:00:00,Dovansh,Easy hai
+2023-11-29T22:00:00,Dovansh,Ho jaayega
+2023-11-29T22:17:00,Amey Pacharkar,Ha dekh bohot easy he
+2023-11-29T22:17:00,Amey Pacharkar,Maybe today is not the day to sleep
+2023-11-29T22:21:00,Dovansh,That's true

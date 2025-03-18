@@ -1,0 +1,12 @@
+Subject: Project Update
+Date: 5-4-2025
+
+Hello Team,
+
+We are excited to share that our AI-powered resume screening tool is nearing completion. The system effectively filters and ranks candidates based on job requirements, making recruitment more efficient.
+
+Currently, we are conducting real-world testing with selected companies. We plan to go live by April 20th.
+
+Thank you for your patience and support!
+
+Best Regards,
