@@ -1,1001 +1,1001 @@
-timestamp,sender,message
-2023-08-09T23:08:00,Dovansh,And Luka sampo luocha and Kafka for dot tram
-2023-08-09T23:08:00,Dovansh,Team
-2023-08-09T23:09:00,Amey Pacharkar,Luocha is the 5* healer?
-2023-08-09T23:09:00,Dovansh,Yaa
-2023-08-09T23:09:00,Dovansh,He also debuffs and buffs
-2023-08-09T23:09:00,Amey Pacharkar,Interesting
-2023-08-09T23:09:00,Dovansh,Basically Bennet of hsr
-2023-08-09T23:09:00,Dovansh,But 5 star
-2023-08-09T23:09:00,Amey Pacharkar,Yaa but 5*
-2023-08-09T23:09:00,Dovansh,Yaa
-2023-08-09T23:09:00,Dovansh,Sad
-2023-08-09T23:09:00,Amey Pacharkar,Hahaha yaa maybe save for him
-2023-08-09T23:10:00,Dovansh,Yaa
-2023-08-09T23:10:00,Dovansh,Chal I'll sleep now
-2023-08-09T23:10:00,Amey Pacharkar,Yaa me too
-2023-08-09T23:10:00,Amey Pacharkar,Will write DLCA tomorrow
-2023-08-09T23:10:00,Dovansh,I wrote half half tomorrow
-2023-08-10T18:57:00,Amey Pacharkar,Hame bhi register karna he kya?
-2023-08-10T18:57:00,Dovansh,Kya ?
-2023-08-10T18:57:00,Amey Pacharkar,YES+?
-2023-08-10T18:58:00,Amey Pacharkar,Aur quiz too?
-2023-08-10T18:58:00,Dovansh,Quiz ka to kar Diya Maine
-2023-08-10T18:58:00,Dovansh,Yes+ hum nahi karenge na
-2023-08-10T18:58:00,Dovansh,Humara ho gaya na
-2023-08-10T18:58:00,Amey Pacharkar,Mera bhi?
-2023-08-10T18:59:00,Dovansh,Pura team ka
-2023-08-10T19:07:00,Amey Pacharkar,And what about maths assignment
-2023-08-10T19:09:00,Dovansh,Oh haa
-2023-08-10T19:09:00,Dovansh,What was our topic ?
-2023-08-10T21:00:00,Amey Pacharkar,code for cg?
-2023-08-10T21:01:00,Dovansh,na
-2023-08-10T21:01:00,Dovansh,open it
-2023-08-10T21:01:00,Amey Pacharkar,did you drew it on paint?
-2023-08-10T21:01:00,Dovansh,no svg
-2023-08-10T21:01:00,Dovansh,cg
-2023-08-10T21:02:00,Dovansh,svg code for s
-2023-08-10T21:02:00,Dovansh,open it in browser
-2023-08-10T21:02:00,Amey Pacharkar,let eme search
-2023-08-10T21:03:00,Amey Pacharkar,it was co-varience
-2023-08-10T21:03:00,Amey Pacharkar,130-133
-2023-08-10T21:03:00,Dovansh,okk well have to search
-2023-08-10T21:04:00,Dovansh,output for thr cg program
-2023-08-10T21:05:00,Amey Pacharkar,https://corporatefinanceinstitute.com/resources/data-science/covariance/
-2023-08-10T21:05:00,Dovansh,data science
-2023-08-10T21:05:00,Amey Pacharkar,whats that?
-2023-08-10T21:05:00,Dovansh,nothing
-2023-08-10T21:06:00,Dovansh,can we get 4 sums from this
-2023-08-10T21:06:00,Amey Pacharkar,yaa searching for a vide
-2023-08-10T21:09:00,Amey Pacharkar,it is pretty easy
-2023-08-10T21:09:00,Dovansh,Is it
-2023-08-10T21:09:00,Amey Pacharkar,i mea yaa
-2023-08-10T21:09:00,Amey Pacharkar,you need to just take mean
-2023-08-10T21:09:00,Dovansh,Well we can find sums too online
-2023-08-10T21:09:00,Dovansh,Yaa
-2023-08-10T21:09:00,Amey Pacharkar,and then use formula
-2023-08-10T21:10:00,Dovansh,It's easy then
-2023-08-10T21:10:00,Amey Pacharkar,yaa solve 4 sums and then give it to ppl
-2023-08-10T21:10:00,Amey Pacharkar,"130,131,132,133"
-2023-08-10T21:10:00,Dovansh,You solve 2 I'll solve 2
-2023-08-10T21:10:00,Dovansh,Then we'll give the easy one to others
-2023-08-10T21:10:00,Amey Pacharkar,first find 4 sums
-2023-08-10T21:10:00,Dovansh,Yaa
-2023-08-10T21:11:00,Amey Pacharkar,n need we just have to explain it with example
-2023-08-10T21:11:00,Amey Pacharkar,*no
-2023-08-10T21:11:00,Amey Pacharkar,anyone can do that
-2023-08-10T21:11:00,Dovansh,But each one has to explain
-2023-08-10T21:11:00,Dovansh,We'll see
-2023-08-10T21:12:00,Amey Pacharkar,no we dont
-2023-08-10T21:12:00,Amey Pacharkar,do we?
-2023-08-10T21:12:00,Dovansh,Yes
-2023-08-10T21:12:00,Amey Pacharkar,just one easy sum wll do
-2023-08-10T21:13:00,Amey Pacharkar,"Example 1: Find covariance for following data set x = {2,5,6,8,9}, y = {4,3,7,5,6} Solution: Given data sets x = {2,5,6,8,9}, y = {4,3,7,5,6} and N = 5 Mean(x) = (2 + 5 + 6 + 8 + 9) / 5 = 30 / 5 = 6 Mean(y) = (4 + 3 +7 + 5 + 6) / 5 = 25 / 5 = 5 Sample covariance Cov(x,y) = ∑(xi - x ) × (yi - y)/ (N - 1) = [(2 - 6)(4 - 5) + (5 - 6)(3 - 5) + (6 - 6)(7 - 5) + (8 - 6)(5 - 5) + (9 - 6)(6 - 5)] / 5 - 1 = 4 + 2 + 0 + 0 + 3 / 4 = 9 / 4 = 2.25 Population covariance Cov(x,y) = ∑(xi - x ) × (yi - y)/ (N) = [(2 - 6)(4 - 5) + (5 - 6)(3 - 5) + (6 - 6)(7 - 5) + (8 - 6)(5 - 5) + (9 - 6)(6 - 5)] / 5 = 4 + 2 + 0 + 0 + 3 / = 9 / 5 = 1.8 Answer: The sample covariance is 2.25 and the population covariance is 1.8. Example 2: Using the covariance formula, find covariance for following data set x = {5,6,8,11,4,6}, y = {1,4,3,7,9,12}. Given data sets x = {5,6,8,11,4,6}, y = {1,4,3,7,9,12} and N = 6 Mean(x) = (5 + 6 + 8 + 11 + 4 + 6) / 6 = 40 / 6 = 6.67 Mean(y) = (1 + 4 + 3 + 7 + 9 + 12) / 6 = 36 / 6 = 6 Using sample covariance formula Cov(x,y) = ∑(xi - x ) × (yi - y)/ (N - 1) = - 0.4 Population covariance Cov(x,y) = ∑(xi - x ) × (yi - y)/ (N) = - 0.33 Answer: The sample covariance is -0.4 and the population covariance is -0.33. Example 3: Find covariance for following data set x = {13,15,17,18,19}, y = {10,11, 12,14,16} using the covariance formula. Solution: Given data sets x = {13,15,17,18,19}, y = {10,11,12,14,16} and N = 5 Mean(x) = (13 + 15 + 17 + 18 + 19) / 5 = 82 / 5 = 16.4 Mean(y) = (10 + 11 +12 + 14 + 16) / 5 = 63 / 5 = 12.6 Sample covariance Cov(x,y) = ∑(xi - x ) × (yi - y)/ (N - 1) = [(16.4 - 13)(12.6 - 10) + (16.4 - 15)(12.6 - 11) + (16.4 - 17)(12.6 - 12) + (16.4 - 18)(12.6 - 14) + (16.4 - 19)(12.6 - 16)] / 5 - 1 = (8.84 + 2.24 - 0.36 + 2.24 + 8.84) / 4 = 21.8 / 4 = 5.45 Population covariance Cov(x,y) = ∑(xi - x ) × (yi - y)/ (N) = [(16.4 - 13)(12.6 - 10) + (16.4 - 15)(12.6 - 11) + (16.4 - 17)(12.6 - 12) + (16.4 - 18)(12.6 - 14) + (16.4 - 19)(12.6 - 16)] / 5 = (8.84 + 2.24 - 0.36 + 2.24 + 8.84) / 5 = 21.8 / 5 = 4.36 Answer: The sample covariance is 5.45 and the population covariance is 4.36."
-2023-08-10T21:13:00,Amey Pacharkar,there are 3 questioons
-2023-08-10T21:20:00,Dovansh,and ha send me  the last 3 solutions of tutorial
-2023-08-10T21:52:00,Amey Pacharkar,Will send you in a while
-2023-08-10T22:01:00,Dovansh,Okk
-2023-08-10T22:14:00,Dovansh,What's the corrected 4th question
-2023-08-11T04:15:00,Dovansh,Your 5th one is wrong
-2023-08-11T06:05:00,Amey Pacharkar,Why?
-2023-08-11T06:15:00,Dovansh,It's supposed to be s^4s
-2023-08-11T06:15:00,Dovansh,Not t everywhere
-2023-08-11T06:16:00,Dovansh,e^
-2023-08-11T06:25:00,Amey Pacharkar,Samja
-2023-08-11T06:25:00,Amey Pacharkar,So only change t to s
-2023-08-11T07:45:00,Amey Pacharkar,Are can you send me the link for videos you are doing DS from?
-2023-08-11T07:45:00,Amey Pacharkar,I wanted them for stack and queue
-2023-08-11T08:00:00,Dovansh,Ya wait
-2023-08-11T08:23:00,Dovansh,https://youtube.com/playlist?list=PLWT5UoQyWxtUHoQWohNch_kSEFpF0jiVG
-2023-08-11T08:24:00,Dovansh,Linked list ke aage nahi hai isme
-2023-08-11T08:24:00,Dovansh,Usk liye Jenny's lectures cs it dsa search kar
-2023-08-13T07:48:00,Amey Pacharkar,joint kar devansh
-2023-08-13T10:58:00,Dovansh,Soya tha
-2023-08-13T11:19:00,Amey Pacharkar,Chalega
-2023-08-14T19:02:00,Amey Pacharkar,"9) public class Main { public static void main(String[] args) { int num=8; String msg = """"; msg = num > 10 ? ""Number is greater than 10"" : ""Number is less than or equal to 10""; System.out.println(msg); } } Output: Number is less than or equal to 10 10) public class Main { public static void main(String[] args) { int a=1,b=3; b= a++ + a++ + a++ + a++ + a++; System.out.println(""a= "" +a+ "" b= "" +b); } } Output: a= 6 b= 15 11) public class Main { public static void main(String[] args) { int x=9,y=8; System.out.println(""x & y = "" +(x&y)); System.out.println(""x ^ y = "" +(x^y)); System.out.println(""x | y = "" +(x|y)); int z=2; System.out.println(""~z = "" +(~z)); } } Output: x & y = 8 x ^ y = 1 x | y = 9 ~z = -3 12) public class Main { public static void main(String[] args) { int x=50; int y=100; int z=200; int a,b,c; a = ++x; b = y++; c = x+ y++ + ++z; System.out.println(""x = ""+x); System.out.println(""y = ""+y); System.out.println(""z = ""+z); System.out.println(""a = ""+a); System.out.println(""b = ""+b); System.out.println(""c = ""+c); } } Output: x = 51 y = 102 z = 201 a = 51 b = 100 c = 353 13) public class Main { public static void main(String[] args) { int num,a=10; num= a-- - -a--; System.out.printf(""num=%d a=%d"",num,a); } } Output: num=19 a=8 14) public class Main { public static void main(String[] args) { int a=2,b; b=a++ + a-- + ++a + --a; System.out.printf(""a=%d b=%d"",a,b); } } Output: a=2 b=10 15) public class Main { public static void main(String[] args) { int a=1,b=3; b= a++ + a++ + a++ + a++ + a++; System.out.println(""a= "" +a+ "" b= "" +b); } } Output: a= 6 b= 15"
-2023-08-14T19:05:00,Dovansh,only these
-2023-08-14T19:05:00,Amey Pacharkar,Last
-2023-08-14T19:06:00,Dovansh,okk
-2023-08-14T19:06:00,Dovansh,thanks
-2023-08-14T21:04:00,Dovansh,kal 7.30 aana hai
-2023-08-14T21:06:00,Amey Pacharkar,Kyu?
-2023-08-14T21:06:00,Amey Pacharkar,8.30?
-2023-08-14T22:05:00,Dovansh,7.30
-2023-08-15T07:40:00,Amey Pacharkar,Room number 311
-2023-08-15T14:02:00,Amey Pacharkar,Sundesh ka number he?
-2023-08-15T14:02:00,Dovansh,+91 99201 89620
-2023-08-15T22:47:00,Amey Pacharkar,https://youtube.com/playlist?list=PL0rxPh2ovQP_JTqkFUtaZzBXzppx-VSWn
-2023-08-16T01:10:00,Dovansh,just link them again in vs code
-2023-08-16T01:10:00,Dovansh,and then run
-2023-08-16T11:27:00,Amey Pacharkar,Chalega
-2023-08-16T13:20:00,Dovansh,You know
-2023-08-16T13:20:00,Dovansh,I get ideas of how to implement something in code at absurd times
-2023-08-16T14:45:00,Amey Pacharkar,😅
-2023-08-16T14:50:00,Amey Pacharkar,no codes?
-2023-08-16T15:29:00,Dovansh,Codes ?
-2023-08-16T15:33:00,Dovansh,Are just inspect
-2023-08-16T15:33:00,Dovansh,Na
-2023-08-16T16:11:00,Amey Pacharkar,Haa
-2023-08-16T16:11:00,Amey Pacharkar,😅
-2023-08-16T18:37:00,Amey Pacharkar,When you get free call me
-2023-08-16T18:38:00,Amey Pacharkar,JS is pretty stupid I think
-2023-08-16T18:47:00,Dovansh,Ya i know right
-2023-08-16T18:48:00,Dovansh,Did you do it ?
-2023-08-16T19:14:00,Amey Pacharkar,Yaa still doing it
-2023-08-16T19:14:00,Amey Pacharkar,You just have to use if else and do html
-2023-08-16T19:14:00,Amey Pacharkar,Or use switch
-2023-08-16T19:15:00,Amey Pacharkar,If someone click on food open food wala list
-2023-08-16T19:15:00,Amey Pacharkar,So give names/id to them and then just execute them
-2023-08-16T19:15:00,Dovansh,I still have to make the list inside list
-2023-08-16T19:15:00,Dovansh,I'll do that tonight
-2023-08-16T19:16:00,Amey Pacharkar,Will complete till then
-2023-08-16T19:16:00,Dovansh,But for that we won't need js
-2023-08-16T19:16:00,Dovansh,I can do that with css
-2023-08-16T19:16:00,Amey Pacharkar,Yaa
-2023-08-16T19:16:00,Amey Pacharkar,So what do we need js for?
-2023-08-16T19:16:00,Dovansh,You do search wala thing
-2023-08-16T19:17:00,Dovansh,For searching
-2023-08-16T19:17:00,Dovansh,And add others wala input
-2023-08-16T19:17:00,Amey Pacharkar,Hmm idk how to do that
-2023-08-16T19:17:00,Dovansh,Do what ?
-2023-08-16T19:17:00,Amey Pacharkar,Oh maybe I do
-2023-08-16T19:17:00,Dovansh,Search it na
-2023-08-16T19:17:00,Amey Pacharkar,Search wala will try doing it
-2023-08-16T19:17:00,Dovansh,I'm also doing the same
-2023-08-16T19:17:00,Dovansh,Haa
-2023-08-16T19:17:00,Amey Pacharkar,Yaa I remember how to do it
-2023-08-16T19:17:00,Dovansh,I'll do the list inside list
-2023-08-16T19:18:00,Amey Pacharkar,So only need to do search part?
-2023-08-16T19:18:00,Dovansh,Send me the html css js files after you're done
-2023-08-16T19:18:00,Dovansh,Haaa
-2023-08-16T19:18:00,Dovansh,I'll do the rest
-2023-08-16T19:18:00,Amey Pacharkar,Can still do js without the list within list part?
-2023-08-16T19:18:00,Dovansh,Yaaa
-2023-08-16T19:55:00,Amey Pacharkar,how do i copy from inspect?
-2023-08-16T20:29:00,Dovansh,https://youtu.be/z0avfnlBRto
-2023-08-16T22:13:00,Amey Pacharkar,"CSS: const wrapper = document.querySelector("".wrapper""); selectBtn = wrapper.querySelector("".select-btn""); optios = wrapper.querySelector("".options""); // add category here for search things let category = [""Beverages"", ""Travelling"" , ""Healthcare"", ""Stationary""]; function addCategory() { category.forEach(category => { let li = `<li onclick=""updateName(this)"">${category}</li>`; options.insertAdjacentHTML(""beforeend"" , li); }); } addcategory(); function updateName(selectedLi){ wrapper.classList.remove(""actve""); selectBtn.firstElementChild.innerText = selectedLi.innerText; } selectBtn.addEventListener(""click"", () => { wrapper.classList.toggle(""active""); });"
-2023-08-16T22:14:00,Amey Pacharkar,"HTML: <!DOCTYPE html> <html lang=""en"" dir=""ltr""> <head> <meta charset=""uil-8""> <meta name=""viewport"" content=""width=device-width, initial-scale=1.0""> <title>Expense Tracker</title> <link rel=""stylesheet"" href=""index.css""> <link rel=""stylesheet"" href=""https://unicorn.iconscout.com/release/v4.0.0/css/line.css""> </head> <body> <div class=""wrapper""> <div class=""select-btn""> <span>SELECT CATEGORY</span> <i class=""uil uil-angle-down""></i> </div> <div class=""content""> <div class=""search""> <i class=""uil uil-search""></i> <input type=""text"" placeholder=""Search""> </div> <ul class=""options""></ul> </div> </div> <script src=""index.js""></script> </body> </html>"
-2023-08-16T22:14:00,Amey Pacharkar,"CSS: *{ padding: 0; margin: 0; box-sizing: border-box; font-family: Arial, Helvetica, sans-serif; } body{ background-color: aqua; } .wrapper{ width: 370px; margin: 130px auto 0; } .options li,.select-btn{ display: flex; align-items: center; cursor: pointer; } .select-btn{ background-color: aliceblue; align-items: center; display: flex; justify-content: space-between; height: 60px; padding: 0 25px; font-size: 18px; border-radius: 8px; } .select-btni{ font-size: 31px; } .content{ background-color: aliceblue; margin-top: 15px; padding: 20px; border-radius: 8px; } .wrapper .active .content{ display: block; } .content .search{ position: relative; } .search i{ position: absolute; left: 15px; line-height: 53px; } .search input{ height: 55px; width: 100%; font-size: 20px; outline: none; padding: 0 15px 0 43px; border: 2px solid  gray; border-radius: 5px; } .content .options{ margin-top: 10px; max-height: 200px; overflow-y: auto; } .options li{ height: 50px; padding: 0 13px; font-size: 20px } .options li:hover{ background-color: white; }"
-2023-08-16T22:15:00,Amey Pacharkar,Time:14.07
-2023-08-16T23:27:00,Amey Pacharkar,https://youtu.be/ZFUOC-y4i0s
-2023-08-17T02:03:00,Amey Pacharkar,"grid-template-columns : repeat(auto-fill,minimax(150px, 1fr))"
-2023-08-17T02:03:00,Amey Pacharkar,The px and fr are the minimum and maximum values
-2023-08-17T21:04:00,Dovansh,we have to write program too ?
-2023-08-17T21:05:00,Amey Pacharkar,Only write
-2023-08-17T21:05:00,Amey Pacharkar,Printout of output only
-2023-08-17T21:05:00,Amey Pacharkar,I ask about that to sir twice
-2023-08-17T21:05:00,Dovansh,no printout of program ?
-2023-08-17T21:05:00,Dovansh,okk
-2023-08-17T21:05:00,Amey Pacharkar,Nahi
-2023-08-17T21:05:00,Dovansh,okk
-2023-08-17T21:05:00,Amey Pacharkar,Agar hu to bhi vaha nikal denge
-2023-08-17T22:42:00,Dovansh,bresenhams wala mila ?
-2023-08-18T12:41:00,Dovansh,"EXPERIMENT NO.1 NAME:-KARTIKEY PRADEEP SINGH ID No.:-VU1F2223117 DIV:-B(SE) BRANCH:-COMPUTER ENGINEERING SUBJECT:-COMPUTER GRAPHICS(CG) #include<stdio.h> #include<stdlib.h> #include<graphics.h> void main() { int gdriver=DETECT,gmode; int x1,y1,x2,y2,i,step,xincr,yincr,dx,dy; initgraph(&gdriver,&gmode,""C:\\TURBOC3\\BGI""); printf(""\t\t********DDA LINE ALGORITHM********\n\n""); printf(""Enter the starting coordinates""); scanf(""%d%d"",&x1,&y1); printf(""Enter the ending coordinates""); scanf(""%d%d"",&x2,&y2); dx=x2-x1; dy=y2-y1; if(abs(dx)>abs(dy)) { step=abs(dx); } else { step=abs(dy); } xincr=dx/step; yincr=dy/step; for(i=1;i<=step;i++) { putpixel(x1,y1,15); delay(50); x1=x1+xincr; y1=y1+yincr; } getch(); closegraph(); }"
-2023-08-18T19:59:00,Amey Pacharkar,tum dono 4 baje nikal gaye kya ajj?
-2023-08-18T19:59:00,Dovansh,4.30 ko
-2023-08-18T20:00:00,Amey Pacharkar,close enough
-2023-08-18T20:02:00,Dovansh,Yaa
-2023-08-19T20:30:00,Dovansh,"#include<stdio.h> struct priority_queue{ int ele; int priority; }pq[4]; int rear=-1; int isfull() { if(rear==4) return 1; else return 0; } int isempty() { if(rear==-1) return 1; else return 0; } void insert(int ele,int p) { rear=rear+1; pq[rear].ele=ele; pq[rear].priority=p; } int gethighestpriority() { int i,p=-1; if(!isempty()) { for(i=0;i<=rear;i++) { if(pq[i].priority>p) p=pq[i].priority; } } return p; } int deletehighestpriority() { int i,j,p,ele; p=gethighestpriority(); for(i=0;i<=rear;i++) { if(pq[i].priority==p) { ele=pq[i].ele; break; } } if(i<rear) { for(j=i;j<=rear;j++) { pq[j].ele=pq[j+1].ele; pq[j].priority=pq[j+1].priority; } } rear--; return ele; } void display() { int i; printf(""\nPriority Queue:-\n""); for(i=1;i<=rear;i++); printf(""\n|ele=%d --- priority=%d|\n"",pq[i].ele,pq[i].priority); } // int peek() // { //     return pq[rear].ele; // } int main() { int ch,ele,p,m; do { printf(""\n1.Insert\n2.gethighestpriority\n3.deletehighestpriority\n4.Display\n5.Peek\n6.Exit""); printf(""\nEnter your choice:-""); scanf(""%d"",&ch); switch(ch) { case 1: if(isfull()) printf(""Priority Queue is full""); else { printf(""\n Enter Element:-""); scanf(""%d"",&ele); printf(""\n Enter Priority:-""); scanf(""%d"",&p); insert(ele,p); } break; case 2: if(isempty()) printf(""Priority Queue is Empty""); else { p=gethighestpriority(); printf(""\nHighest priority is:-%d\n"",p); } break; case 3: if(isempty()) { printf(""Priority Queue is Empty""); } else ele=deletehighestpriority(); printf(""\n%d is Deleted"",ele); case 4: if(isempty()) printf(""Priority Queue is Empty""); else display(); break; case 5: if(isempty()) printf(""QUEUE IS EMPTY""); else { printf(""%d"",pq[rear].ele); } break; } } while(ch!=6); }"
-2023-08-19T20:31:00,Dovansh,"check this progra,"
-2023-08-19T20:31:00,Dovansh,somethings wrong with display
-2023-08-19T20:31:00,Dovansh,priority queue
-2023-08-19T20:44:00,Amey Pacharkar,I have no idea what that is
-2023-08-19T20:44:00,Amey Pacharkar,You want me to check syntax?
-2023-08-19T20:44:00,Dovansh,Yaa
-2023-08-19T20:45:00,Dovansh,Run the program
-2023-08-19T20:45:00,Dovansh,Youll know what the problem is
-2023-08-20T08:01:00,Amey Pacharkar,devanshuva soo gaya kyaa?
-2023-08-20T10:05:00,Dovansh,Haa
-2023-08-20T10:45:00,Amey Pacharkar,Koi nahi
-2023-08-22T06:57:00,Amey Pacharkar,Can you send the code for postfix evaluation?
-2023-08-22T06:57:00,Amey Pacharkar,Mera vo bacha he
-2023-08-23T18:52:00,Dovansh,"import java.util.*; class ArrayAddition { public void Addition(int array[],int m) { int add=0; for(int i=0;i<=m;i++) { add=add+array[i]; } System.out.print(""\nthe Addition of all elements of the array is ""+add+""\n\n""); } public void display(int array[],int j) { int i=0; System.out.println(""The array is :""); while(i!=j) { System.out.print(array[i]+""  ""); i++; } } } class Main { public static void main(String[] args ) { int a[]=new int[100],i=0,n; Scanner sc = new Scanner (System.in); System.out.println(""enter the number of elements in the array:""); n=sc.nextInt(); System.out.println(""The number of elements in the array is:""+n); System.out.println(""enter the elements of the array""); while(i!=n) { a[i]=sc.nextInt(); i++; } ArrayAddition fill = new ArrayAddition (); fill.display(a,n); fill.Addition(a,n); } }"
-2023-08-23T22:01:00,Dovansh,"import java.util.*; class StringOpr { public String Uppercase(String s) { s=s.toUpperCase(); return s; } public String Lowercase(String s) { s=s.toLowerCase(); return s; } public void Length(String s) { int a; a=s.length(); System.out.println(a); } public String replace(String s) { String j,h; Scanner read= new Scanner(System.in); System.out.println(""String:""+s); System.out.print(""Enter the word you want to change in the string: ""); j =read.nextLine(); System.out.print(""Enter the word you want to change it to: ""); h=read.nextLine(); s=s.replace(j,h); return s; } } class Stringfunc { public static void main(String[] args) { String str; int ch; Scanner sc= new Scanner(System.in); System.out.println(""Enter a string: ""); str= sc.nextLine(); StringOpr JAVA = new StringOpr (); do { System.out.println(""***CHOOSE OPTION***""); System.out.println(""0.Print string""); System.out.println(""1.Change to upper case""); System.out.println(""2.Change to lower case""); System.out.println(""3.Check length""); System.out.println(""4.Edit input string""); System.out.println(""5.Check character""); System.out.println(""6.Exit""); System.out.println(""Choose from the above options:""); ch=sc.nextInt(); switch (ch) { case 0: System.out.println(str); break; case 1: str=JAVA.Uppercase(str); System.out.println(str); break; case 2: str=JAVA.Lowercase(str); System.out.println(str); break; case 3: JAVA.Length(str); break; case 4: str=JAVA.replace(str); System.out.println(str); break; case 5: int n; System.out.println(""Enter the position to find character""); n=sc.nextInt(); char g=str.charAt(n); System.out.println(""Character at position ""+n+"" is:""+g); } } while(ch!=6); } }"
-2023-08-23T22:02:00,Dovansh,STRING OPERATIONS!!!
-2023-08-23T22:03:00,Dovansh,we can add new cases also
-2023-08-23T22:03:00,Amey Pacharkar,got it
-2023-08-23T22:05:00,Amey Pacharkar,"#include <stdio.h> char queue[100]; int rear=-1,front=-1,n; int isfull(){ if(rear==n) return 1; else return 0; } int isempty(){ if(front==-1) return 1; else return 0; } void enqueue(int ele){ if(rear==-1) front++; rear++; queue[rear]=ele; } int dequeue(){ int ele; ele=queue[front]; front++; if(front>rear){ front=-1; rear=-1; } return ele; } void display(){ int i; printf(""The Entered Queue is:\n""); for(i=rear;i>=front;i--){ printf(""%d\t"",queue[i]); } } int main() { int ch,ele,i; printf(""Enter the number of elements in queue:""); scanf(""%d"",&n); printf(""1.Enqueue\n2.Dequeue\n3.Display\n4.Exit\n""); printf(""Choose from above operations on Queue:""); scanf(""%d"",&ch); for(i=0;i>=-1;i++){ switch(ch){ case 1: if(isfull()) printf(""The queue is Overflowing\n""); else{ printf(""Enter the element:""); scanf(""%d"",&ele); enqueue(ele); } break; case 2: if(isempty()) printf(""The queue is Underflowing\n""); else{ ele=dequeue(); printf(""The deleted element from the queue is:""); printf(""\n""); } break; case 3: if(isempty()) printf(""The queue is empty!!""); else{ display(); } break; case 4: printf(""Thank you!!""); return 0; default: printf(""Invaid option choosen!!\nPlease select between (1-4) as follows:\n""); break; } } }"
-2023-08-23T22:05:00,Amey Pacharkar,try this code
-2023-08-23T22:05:00,Amey Pacharkar,if you find error et me knwo
-2023-08-23T22:05:00,Amey Pacharkar,it works? i havent tried it yet
-2023-08-23T22:06:00,Amey Pacharkar,found the error nevermind
-2023-08-23T22:07:00,Dovansh,queue is overflow
-2023-08-23T22:07:00,Dovansh,infinite
-2023-08-23T22:07:00,Amey Pacharkar,yaa because the option choosing is outside for loop
-2023-08-23T22:07:00,Amey Pacharkar,so it takes infnite enqueue
-2023-08-23T22:07:00,Dovansh,ohh thats nice
-2023-08-23T22:07:00,Dovansh,nice
-2023-08-23T22:07:00,Amey Pacharkar,sth new to learn
-2023-08-23T22:08:00,Dovansh,yaa
-2023-08-23T22:08:00,Amey Pacharkar,it has quite a few applications
-2023-08-23T22:08:00,Dovansh,does it
-2023-08-23T22:08:00,Amey Pacharkar,yaa
-2023-08-23T22:08:00,Dovansh,its still printing you know
-2023-08-23T22:08:00,Amey Pacharkar,like array
-2023-08-23T22:09:00,Dovansh,if my pc hangs ill get you to buy me new one
-2023-08-23T22:09:00,Amey Pacharkar,ofc stop it manualy
-2023-08-23T22:09:00,Dovansh,its nice to see it going
-2023-08-23T22:09:00,Dovansh,now i did
-2023-08-24T15:27:00,Amey Pacharkar,"(i!=n-1){ System.out.print(""""+a[i]+"" + ""); } else{ System.out.print(""""+a[i]+"" = ""); } } System.out.print(""""+result);"
-2023-08-24T22:18:00,Dovansh,This message was deleted
-2023-08-24T22:18:00,Dovansh,This message was deleted
-2023-08-24T22:18:00,Dovansh,This message was deleted
-2023-08-25T12:33:00,Dovansh,"import java.util.*; class go{ static String a[100]; static String b[100]; static String c[100]; static int n; static void print(){ void toUppercase(){ b=a.UpperCase(); System.out.println(""The upper case of given string '""+a+""' is:""+b); } void toLowercase(){ b=a.LowerCase(); System.out.println(""The lower case of given string '""+a+""' is:""+b); } void charAt(){ Scanner sca = new Scanner(System.in); System.out.println(""Enter the number of element which needs to be displayed:""); n=sca.nextInt(); b=a.charAt(n); System.out.println(""The character at '""+n+""' is:""+b); } void Length(){ n=a.length(); System.out.println(""The length of given string '""+a+""' is:""+n); } void Replace(){ System.out.println(""The string is:""+a); Scanner read = new Scanner(System.in); System.out.print(""Enter the string which needs to be changed:""); b=read.nextString(); System.out.println(""Enter the string which needs to be added:""); c=read.nextString(); b=a.replace(b,c); System.out.println(""The replaced string is:""+b); } void Intern(){ b=a.intern(); System.out.println(""The copyn of given string '""+a+""' is:""+b); } public static void main(String [] args){ int i,n; System.out.print(""Enter the string which needs to be operated:""); Scanner sc = newScanner(System.in); a = sc.nextString(); System.out.println(""Entered string is :""+a); for(i=0;i>-1;i++){ System.out.println(""1.toUpperCase""); System.out.println(""2.toLowerCase""); System.out.println(""3.CharAt""); System.out.println(""4.length""); System.out.println(""5.replace""); System.out.println(""6.intern""); System.out.println(""7.Exit""); System.out.println(""Enter an option:""); print p = new print(); n = sc.nextInt(); switch(ch){ case 1: p.toUppercase(); break; case 2: p.toLowercase(); break; case 3: p.charAt(); break; case 4: p.Length(); break; case 5: p.Replace(); break; case 6: p.Intern(); break; case 7: System.out.println(""Thank you""); System.exit(0); default: System.out.println(""Please enter the current option:""); break; } }"
-2023-08-25T15:30:00,Dovansh,"<html> <head> <script type=""text/javascript"" src=""https://www.gstatic.com/charts/loader.js""></script> <script type=""text/javascript""> google.charts.load('current', {'packages':['corechart']}); google.charts.setOnLoadCallback(drawChart); function drawChart() { var data = google.visualization.arrayToDataTable([ ['Task', 'Hours per Day'], ['Work',     11], ['Eat',      2], ['Commute',  2], ['Watch TV', 2], ['Sleep',    7] ]); var options = { title: 'My Daily Activities' }; var chart = new google.visualization.PieChart(document.getElementById('piechart')); chart.draw(data, options); } </script> </head> <body> <div id=""piechart"" style=""width: 900px; height: 500px;""></div> </body> </html>"
-2023-08-25T15:32:00,Dovansh,"google.charts.load('current', {packages: ['corechart', 'bar']}); google.charts.setOnLoadCallback(drawBarColors); function drawBarColors() { var data = google.visualization.arrayToDataTable([ ['City', '2010 Population', '2000 Population'], ['New York City, NY', 8175000, 8008000], ['Los Angeles, CA', 3792000, 3694000], ['Chicago, IL', 2695000, 2896000], ['Houston, TX', 2099000, 1953000], ['Philadelphia, PA', 1526000, 1517000] ]); var options = { title: 'Population of Largest U.S. Cities', chartArea: {width: '50%'}, colors: ['#b0120a', '#ffab91'], hAxis: { title: 'Total Population', minValue: 0 }, vAxis: { title: 'City' } }; var chart = new google.visualization.BarChart(document.getElementById('chart_div')); chart.draw(data, options); }"
-2023-08-26T10:42:00,Dovansh,https://youtu.be/JxugkDrs6Tg?si=bURswkJx7iCnM2Jx
-2023-08-26T10:42:00,Dovansh,see this
-2023-08-26T10:43:00,Amey Pacharkar,What language is that?
-2023-08-26T10:43:00,Dovansh,js
-2023-08-26T10:43:00,Amey Pacharkar,His language
-2023-08-26T10:43:00,Amey Pacharkar,Not coding language
-2023-08-26T10:44:00,Dovansh,bengoli or something
-2023-08-26T10:44:00,Dovansh,how to take input from user in js and print in table in html
-2023-08-26T10:44:00,Dovansh,search this
-2023-08-26T10:44:00,Amey Pacharkar,Yaa I am watching that video
-2023-08-26T10:45:00,Dovansh,I typed and ran it
-2023-08-26T10:45:00,Dovansh,but its not working
-2023-08-26T12:30:00,Amey Pacharkar,Yaa will try looking in it
-2023-08-26T17:46:00,Amey Pacharkar,It is not taking values after first name
-2023-08-26T17:49:00,Dovansh,Mines not any values
-2023-08-26T17:49:00,Amey Pacharkar,most probably it is server error or it is not getting values from id
-2023-08-26T17:50:00,Dovansh,Yaaa maybe
-2023-08-26T23:18:00,Amey Pacharkar,"<!DOCTYPE html> <html lang=""en""> <head> <meta charset=""UTF-8""> <meta name=""viewport"" content=""width=device-width, initial-scale=1.0""> <title>Table</title> <link rel=""stylesheet"" href=""style.css""> </head> <body> <center> <table border=""4""> <thread> <tr> <th>First Name</th> <td><input type=""text"" name=""fname"" id=""fname""></td> </tr> </thread> <tbody> <tr> <th>Last Name</th> <td><input type=""text"" name=""lname"" id=""lname""></td> </tr> <tr> <th>Email</th> <td><input type=""text"" name=""email"" id=""email""></td> </tr> <tr> <th>Age</th> <td><input type=""text"" name=""age"" id=""age""></td> </tr> <tr id=""btna""> <td colspan=""2""><input type=""button"" name=""button"" id=""btn"" value=""Add"" onclick=""AddRow()""></td> </tr> </tbody> </table> <table border=""4"" id=""show""> <thead> <tr> <th>First Name</th> <th>Last Name</th> <th>Email</th> <th>Age</th> </tr> </thead> </table> </center> <script> var list1 = []; var list2 = []; var list3 = []; var list4 = []; var i=0; var n=1; var x=0; function AddRow(){ for(i=0;i<=3;i++){ var AddRown = document.getElementById('show'); var NewRow = AddRown.insertRow(n); list1[x] = document.getElementById(""fname"").value; list2[x] = document.getElementById(""lname"").value; list3[x] = document.getElementById(""email"").value; list4[x] = document.getElementById(""age"").value; var cel1 =NewRow.insertCell(0); var cel2 =NewRow.insertCell(1); var cel3 =NewRow.insertCell(2); var cel4 =NewRow.insertCell(3); cel1.innerHTML = list1[x]; cel2.innerHTML = list12[x]; cel3.innerHTML = list3[x]; cel4.innerHTML = list4[x]; } n++; x++; } </script> </body> </html>"
-2023-08-26T23:18:00,Amey Pacharkar,"table{ margin-top: 50px; text-align: center; background: #333; color: #fff; } #show th, #show td{ padding: 12px; } #btna td input{ width: 100%; }"
-2023-08-26T23:18:00,Amey Pacharkar,You deleted this message
-2023-08-26T23:18:00,Amey Pacharkar,try them
-2023-08-26T23:18:00,Amey Pacharkar,maybe they will work for you
-2023-08-26T23:18:00,Dovansh,Okk
-2023-08-26T23:23:00,Amey Pacharkar,btw \n and \t works with System.out.print
-2023-08-26T23:31:00,Dovansh,Ohkk
-2023-08-26T23:31:00,Dovansh,I'll try it
-2023-08-27T08:02:00,Amey Pacharkar,joint kar follow please
-2023-08-27T08:02:00,Dovansh,Bahar hu mai
-2023-08-27T09:31:00,Amey Pacharkar,class ko ane wala he na?
-2023-08-27T09:31:00,Amey Pacharkar,3.30 pm
-2023-08-27T09:35:00,Dovansh,Haa aaunga
-2023-08-27T20:34:00,Amey Pacharkar,thats all?
-2023-08-27T20:44:00,Dovansh,Haa
-2023-08-27T20:45:00,Amey Pacharkar,Where is list?
-2023-08-27T20:45:00,Amey Pacharkar,No list? Only amount?
-2023-08-27T20:47:00,Dovansh,Hover on option
-2023-08-27T21:10:00,Amey Pacharkar,"<!DOCTYPE html> <html lang=""en""> <head> <meta charset=""UTF-8""> <meta name=""viewport"" content=""width=device-width, initial-scale=1.0""> <title>Document</title> <link rel=""stylesheet"" href=""style2.css""> </head> <body> <header></header> <div id=""container""> <div id=""menu""> <ul> <li> <a href=""#"" class=""options"">OPTIONS</a> <ul> <li> <a href=""#"" id=""go"">Travelling</a> <ul> <li><a href=""#"">rickshaw</a></li> <li><a href=""#"">train</a></li> <li><a href=""#"">bus</a></li> <li><a href=""#"">cab</a></li> <li><a href=""#"">plane</a></li> </ul> </li> <li> <a href=""#"" id=""go"">Food</a> <ul> <li><a href=""#"">Menu 1</a></li> <li><a href=""#"">Menu 2</a></li> <li><a href=""#"">Menu 3</a></li> <li><a href=""#"">Menu 4</a></li> <li><a href=""#"">Menu 5</a></li> </ul> </li> <li> <a href=""#"" id=""go"">Medical</a> <ul> <li><a href=""#"">Menu 1</a></li> <li><a href=""#"">Menu 2</a></li> <li><a href=""#"">Menu 3</a></li> <li><a href=""#"">Menu 4</a></li> <li><a href=""#"">Menu 5</a></li> </ul> </li> <li> <a href=""#"" id=""go"">Stationary</a> <ul> <li><a href=""#"">Menu 1</a></li> <li><a href=""#"">Menu 2</a></li> <li><a href=""#"">Menu 3</a></li> <li><a href=""#"">Menu 4</a></li> <li><a href=""#"">Menu 5</a></li> </ul> </li> <li> <a href=""#"" id=""go"">Menu 5</a> <ul> <li><a href=""#"">Menu 1</a></li> <li><a href=""#"">Menu 2</a></li> <li><a href=""#"">Menu 3</a></li> <li><a href=""#"">Menu 4</a></li> <li><a href=""#"">Menu 5</a></li> </ul> </li> <li> <a>OTHERS</a> <ul> <li> <input type=""text"" placeholder=""Enter your new option""> </li> </ul> </li> </ul> </li> </ul> </div> <input type=""number"" placeholder=""Enter the amount"" id=""money""> <input type=""date"" id=""d1"" name=""d1""> <tr id=""btna""> <td colspan=""2""><input type=""button"" name=""button"" id=""btn"" value=""Add"" onclick=""AddRow()""></td> </tr> <div id=""table""> <table border=""4"" id=""show""> <tr> <th>Category</th> <th>Amount</th> <th>Date</th> </tr> </table> </div> </div> <script> var list1 = []; var list2 = []; var list3 = []; var list4 = []; var i=0; var n=1; var x=0; function AddRow(){ var AddRown = document.getElementById('show'); var NewRow = AddRown.insertRow(n); list1[x] = document.getElementById(""go"").value; list2[x] = document.getElementById(""money"").value; list3[x] = document.getElementById(""d1"").value; var cel1 =NewRow.insertCell(0); var cel2 =NewRow.insertCell(1); var cel3 =NewRow.insertCell(2); cel1.innerHTML = list1[x]; cel2.innerHTML = list12[x]; cel3.innerHTML = list3[x]; n++; x++; } </script> <footer></footer> </body> </html>"
-2023-08-29T14:07:00,Dovansh,content://com.whatsapp.provider.media/item/fa4f64c0-29c2-403e-b423-d0db6c4bc791
-2023-08-29T20:43:00,Amey Pacharkar,"if(s1[i].name[i]==""STOP"" || s1[i],ch[i]==""STOP"") can we run this in cp?"
-2023-08-29T20:43:00,Amey Pacharkar,nvm got it
-2023-08-29T20:43:00,Dovansh,Ya we can
-2023-08-29T20:43:00,Amey Pacharkar,yaa
-2023-08-29T20:43:00,Dovansh,What is it ?
-2023-08-29T20:44:00,Amey Pacharkar,try to use if in structure
-2023-08-29T20:44:00,Amey Pacharkar,if struct can be just put in if
-2023-08-29T20:45:00,Amey Pacharkar,*rying
-2023-08-29T20:45:00,Dovansh,Okk
-2023-08-29T20:45:00,Amey Pacharkar,*trying
-2023-08-29T20:45:00,Amey Pacharkar,not try
-2023-08-29T20:45:00,Dovansh,Okk
-2023-08-29T20:45:00,Dovansh,Haa re
-2023-08-30T22:15:00,Dovansh,"#include<stdio.h> #include<stdlib.h> struct node{ int data; struct node*next; }; void main(){ struct node *head,*temp,*newnode; head=0; int choice=1; while(choice) { newnode=(struct node *)malloc(sizeof(struct node)); printf(""Enter data:\n""); scanf(""%d"",&newnode->data); newnode->next=0; if(head==0) { head=temp=newnode; } else { temp->next=newnode; temp=newnode; } printf(""Do you want to continue(0,1)?\n""); scanf(""%d"",&choice); } temp=head; while(temp!=0) { printf(""|%d|--->"",temp->data); temp=temp->next; } }"
-2023-08-30T22:16:00,Dovansh,creating a linked lidt
-2023-08-30T23:42:00,Amey Pacharkar,"<!DOCTYPE html> <html lang=""en""> <head> <style> body { min-height: 100vh; display: flex; justify-content: center; align-items: center; background-color: aliceblue; font-family: 'Open Sans', Arial; font-size: 18px; } ul { outline: 2px solid #ddd; padding: 1rem 2rem; border-radius: 0.5rem; list-style-position: inside; color: blue; } ::marker { color: #747474; } ul ol { font-size: .9em; margin: 0.4rem 0; } </style> <meta charset=""UTF-8""> <meta name=""viewport"" content=""width=device-width, initial-scale=1.0""> <title> Nested List JavaScript </title> </head> <body> <script> let div = document.createElement('div'); document.body.appendChild(div); let ul = document.createElement('ul'); let li = null; let subLi = null; let skills = { FrontEnd: ['Html', 'Css', 'JavaScript', 'React'], BackEnd: ['NodeJs', 'ExpressJs'], Database: ['MongoDB', 'MySql'] }; const values = Object.entries(skills); values.forEach(([key, value]) => { let li = document.createElement('li'); li.innerText = key; let subOl = document.createElement('ol'); for (let i in value){ let subValue = value[i]; subLi = document.createElement('li'); subLi.innerText = subValue; subOl.appendChild(subLi); } li.appendChild(subOl); ul.appendChild(li); }); div.appendChild(ul); </script> </body> <html>"
-2023-08-31T05:02:00,Dovansh,whats this
-2023-08-31T06:11:00,Amey Pacharkar,Try running it
-2023-08-31T06:11:00,Amey Pacharkar,Its list inside list via js
-2023-08-31T06:11:00,Dovansh,what is segmentation error
-2023-08-31T06:12:00,Amey Pacharkar,Maybe syntax?
-2023-08-31T06:12:00,Dovansh,naa syntax was all right
-2023-08-31T06:12:00,Dovansh,"#include<stdio.h> #include<stdlib.h> struct node{ int data; struct node*next; }; struct node *head,*temp,*newnode; void crt() { int choice=1; while(choice) { newnode=(struct node *)malloc(sizeof(struct node)); printf(""Enter data:\n""); scanf(""%d"",&newnode->data); newnode->next=0; if(head==0) { head=temp=newnode; } else { temp->next=newnode; temp=newnode; } printf(""Do you want to continue(0,1)?\n""); scanf(""%d"",&choice); } } void insertbegn(){ newnode=(struct node *)malloc(sizeof(struct node)); printf(""Enter data:\n""); scanf(""%d"",&newnode->data); newnode->next=head; head=newnode; } void display(){ while(temp!=0) { printf(""|%d|--->"",temp->data); temp=temp->next; } } void main(){ head=0; int ch; do{ printf(""***MAIN MENU***""); printf(""\n1.Create Linked list\n2.Display Linked List\n3.Insert element in the beginning\n""); scanf(""%d"",ch); switch(ch) { case 1: crt(); break; case 2: if(head==0) printf(""Linked list does not exist""); else{ insertbegn(); } break; } } while(ch!=4); }"
-2023-08-31T06:12:00,Dovansh,try this
-2023-08-31T21:52:00,Amey Pacharkar,Did you asked for the code?
-2023-08-31T21:52:00,Dovansh,I forgot
-2023-08-31T21:52:00,Dovansh,You ask na
-2023-08-31T21:53:00,Amey Pacharkar,👍
-2023-08-31T21:53:00,Dovansh,I'll ask too
-2023-08-31T21:53:00,Amey Pacharkar,Chalega
-2023-08-31T21:54:00,Dovansh,Mill gaya
-2023-08-31T21:54:00,Amey Pacharkar,Haa
-2023-08-31T21:54:00,Amey Pacharkar,Bohot fast tha
-2023-08-31T21:55:00,Dovansh,Haaa
-2023-08-31T22:26:00,Dovansh,done atlast
-2023-09-02T16:01:00,Dovansh,password ?
-2023-09-02T16:02:00,Amey Pacharkar,aya nahi he abtak
-2023-09-02T16:02:00,Dovansh,JKB
-2023-09-02T18:01:00,Dovansh,Yehi karna hai na
-2023-09-02T19:43:00,Dovansh,How did you do that
-2023-09-02T22:12:00,Amey Pacharkar,The first [ ] tells number of strings and second [ ] tells number of letters in it
-2023-09-02T23:01:00,Amey Pacharkar,Call me when you are free
-2023-09-02T23:15:00,Amey Pacharkar,Cute
-2023-09-02T23:15:00,Dovansh,I know right
-2023-09-02T23:18:00,Dovansh,*Guys if your photo is not there in poster or video is not in the final video don’t worry you are subject friend the only thing is that your photo or video wasn’t processed properly and we couldn’t use it in the final video/poster*‼️‼️ *Sorry For Inconvenience caused by our side but please Cooperate with us And Make this Event A Huge Success !!! 💯🥺🥳*
-2023-09-03T07:56:00,Amey Pacharkar,aa raha he na?
-2023-09-03T07:56:00,Amey Pacharkar,follow up ko
-2023-09-03T09:26:00,Amey Pacharkar,bailu is pretty cute
-2023-09-03T11:09:00,Dovansh,Mandir
-2023-09-03T11:09:00,Dovansh,I know
-2023-09-04T21:39:00,Amey Pacharkar,whats your topic tomorrow again?
-2023-09-04T21:53:00,Dovansh,constructors
-2023-09-04T21:53:00,Dovansh,how to download illustrator ?
-2023-09-05T18:30:00,Dovansh,Thanks
-2023-09-05T19:59:00,Amey Pacharkar,Who got the best subject friend?
-2023-09-05T19:59:00,Dovansh,hiya
-2023-09-05T20:00:00,Amey Pacharkar,From our class? Or overall?
-2023-09-05T20:00:00,Dovansh,from se
-2023-09-05T20:00:00,Dovansh,and someone from te
-2023-09-05T20:00:00,Amey Pacharkar,Woah cool
-2023-09-05T20:00:00,Dovansh,yeah
-2023-09-05T20:00:00,Dovansh,she even got 2000 rupees
-2023-09-05T20:00:00,Amey Pacharkar,You didn't got it?
-2023-09-05T20:00:00,Dovansh,i didnt
-2023-09-05T20:01:00,Amey Pacharkar,There was ranking or just best?
-2023-09-05T20:01:00,Dovansh,just best
-2023-09-05T20:01:00,Amey Pacharkar,Nice
-2023-09-05T20:01:00,Dovansh,but i think we were second
-2023-09-05T20:01:00,Amey Pacharkar,Maybe kartikey
-2023-09-05T20:01:00,Amey Pacharkar,For DLCA
-2023-09-05T20:01:00,Dovansh,case while giving out certificates my and oms name was first
-2023-09-05T20:01:00,Dovansh,then some one from te
-2023-09-05T20:02:00,Dovansh,then alternate
-2023-09-05T20:02:00,Amey Pacharkar,Woah cool
-2023-09-05T20:02:00,Dovansh,yeah
-2023-09-05T20:02:00,Amey Pacharkar,Congrats
-2023-09-05T20:02:00,Dovansh,thanks
-2023-09-05T20:02:00,Amey Pacharkar,And what about the cake? Teachers liked it?
-2023-09-05T20:02:00,Dovansh,yaa
-2023-09-05T20:02:00,Dovansh,we ate most of it
-2023-09-05T20:03:00,Amey Pacharkar,Kal AA Raha he kya?
-2023-09-05T20:03:00,Dovansh,haaa
-2023-09-05T20:03:00,Amey Pacharkar,Yaa teachers don't eat alot
-2023-09-05T20:03:00,Dovansh,yaa
-2023-09-05T20:04:00,Amey Pacharkar,Kal adhe ache lectures he aur adhe timepass vale
-2023-09-05T20:04:00,Dovansh,haaa
-2023-09-05T20:04:00,Dovansh,maths ya kuch karenge
-2023-09-05T20:04:00,Amey Pacharkar,Ma'am log sikhayenge
-2023-09-05T20:05:00,Dovansh,we can do our own work
-2023-09-05T20:05:00,Dovansh,they wont say anything
-2023-09-05T20:05:00,Amey Pacharkar,Maths bhi kya kare?
-2023-09-05T20:05:00,Amey Pacharkar,Maybe CG or sth
-2023-09-05T20:05:00,Dovansh,or some other sub
-2023-09-05T20:05:00,Dovansh,yaa
-2023-09-06T19:04:00,Amey Pacharkar,Devansh Jenny ka link bhej na (DS)
-2023-09-06T19:08:00,Dovansh,https://youtube.com/playlist?list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU&si=2fPgaf05y1EAXqpn
-2023-09-06T19:43:00,Amey Pacharkar,she only has linked kist?
-2023-09-06T19:45:00,Dovansh,hai
-2023-09-06T19:45:00,Dovansh,niche jaaa
-2023-09-06T19:46:00,Amey Pacharkar,mila
-2023-09-06T19:48:00,Dovansh,okk
-2023-09-06T20:34:00,Dovansh,13th nahi hai
-2023-09-06T22:12:00,Dovansh,Your 5th one has a mistake
-2023-09-06T22:12:00,Dovansh,Inverse
-2023-09-06T22:23:00,Dovansh,6th amlso
-2023-09-06T22:29:00,Amey Pacharkar,devansh fow infinite loop try using while(1) it is more simple and better than giving infinite condition
-2023-09-06T22:30:00,Amey Pacharkar,or you used to do it like that?
-2023-09-06T22:35:00,Dovansh,naa
-2023-09-06T22:35:00,Dovansh,I never used infinite loop
-2023-09-06T22:35:00,Amey Pacharkar,then its fine
-2023-09-06T22:36:00,Dovansh,yaaa
-2023-09-06T22:36:00,Dovansh,check your maths ka sums
-2023-09-06T22:37:00,Amey Pacharkar,Ha kal karne wala hu me
-2023-09-06T22:37:00,Amey Pacharkar,Ajj DS kar Raha hu
-2023-09-06T22:37:00,Amey Pacharkar,Maybe DLCA badme
-2023-09-06T22:37:00,Dovansh,okk
-2023-09-06T22:38:00,Dovansh,ill complete maths tonight
-2023-09-06T22:38:00,Dovansh,kal dsgt
-2023-09-06T22:38:00,Amey Pacharkar,👍
-2023-09-06T23:39:00,Amey Pacharkar,for circular queue how to display? displa via front or rear?
-2023-09-06T23:39:00,Dovansh,There are two conditions
-2023-09-06T23:40:00,Dovansh,In one from front
-2023-09-06T23:40:00,Amey Pacharkar,so both  via both ways?
-2023-09-06T23:40:00,Dovansh,And in the other half front half rear
-2023-09-06T23:40:00,Dovansh,Either of both
-2023-09-06T23:40:00,Dovansh,Depend on where your rear and front pointers are
-2023-09-06T23:41:00,Amey Pacharkar,so if rear ahead print via front and if front is ahead then print with rear?
-2023-09-06T23:42:00,Dovansh,If rear greater than front
-2023-09-06T23:42:00,Dovansh,Print with front
-2023-09-06T23:42:00,Amey Pacharkar,somjaa
-2023-09-06T23:42:00,Dovansh,Else
-2023-09-06T23:42:00,Dovansh,Half with front till limit
-2023-09-06T23:42:00,Dovansh,Then with rear till front
-2023-09-06T23:42:00,Dovansh,No from start to rear
-2023-09-06T23:43:00,Amey Pacharkar,woah thats aot of conditon
-2023-09-06T23:43:00,Dovansh,Ya there is two for loops in else
-2023-09-06T23:43:00,Dovansh,And one in if
-2023-09-06T23:44:00,Amey Pacharkar,what if both are equal?
-2023-09-06T23:44:00,Dovansh,Then it will go in else
-2023-09-06T23:44:00,Dovansh,That means only one element is there in the queue
-2023-09-06T23:44:00,Dovansh,And print that one element
-2023-09-06T23:44:00,Amey Pacharkar,okkk
-2023-09-06T23:44:00,Dovansh,I can't find induction
-2023-09-06T23:45:00,Dovansh,How to do induction?
-2023-09-06T23:50:00,Dovansh,And equivalence classes
-2023-09-06T23:50:00,Dovansh,I found out the relation
-2023-09-06T23:51:00,Dovansh,But what is equivalence classes of the relation
-2023-09-06T23:52:00,Amey Pacharkar,"void display(){ int i; if(front == -1 && rear == -1) printf(""The queue is Underflow\n""); //to print elements else{ if(front>rear){ i=front; printf(""Queue is:\n""); while(i!=rear){ printf(""%d\t"",queue[i]); i=(i+1)%n; } printf(""%d\n"",queue[rear]); } else if(rear>front){ i=rear; printf(""Queue is:\n""); while(i!=front){ printf(""%d\t"",queue[i]); i=(i+1)%n; } printf(""%d\n"",queue[front]); } else{ printf(""Queue is:\n""); printf(""%d"",queue[rear]); } } }"
-2023-09-06T23:52:00,Amey Pacharkar,check it
-2023-09-06T23:52:00,Dovansh,When ?
-2023-09-06T23:52:00,Amey Pacharkar,yesterday
-2023-09-06T23:52:00,Dovansh,Ohhh we weren't there
-2023-09-06T23:53:00,Dovansh,The first if condition is rear greater than front
-2023-09-06T23:54:00,Dovansh,Why %n ?
-2023-09-06T23:55:00,Dovansh,There is no else if
-2023-09-06T23:55:00,Dovansh,Just if else
-2023-09-06T23:57:00,Amey Pacharkar,to check next
-2023-09-06T23:57:00,Amey Pacharkar,it is in techknowledge and jenny
-2023-09-06T23:57:00,Amey Pacharkar,it is pretty cool one
-2023-09-06T23:59:00,Dovansh,If(rear>front) { For(i=front;i<=rear;i++) Print cq[i] } Else { For(i=front;i<=size-1;i++) Print cq[i] For(i=0;i<=rear;i++) Print cq[i] }
-2023-09-07T00:13:00,Dovansh,Now what is this
-2023-09-07T00:14:00,Amey Pacharkar,Wo sum shayad kiya he
-2023-09-07T00:14:00,Dovansh,Is it supposed to be ulta e ?
-2023-09-07T00:14:00,Amey Pacharkar,Sir ne class me
-2023-09-07T00:14:00,Dovansh,Okk
-2023-09-07T00:14:00,Amey Pacharkar,Shayad pata nahi
-2023-09-07T00:17:00,Dovansh,Send me dsgt ka solution if you get time
-2023-09-07T00:17:00,Amey Pacharkar,Am sleeping
-2023-09-07T00:17:00,Amey Pacharkar,Should I send you now or in morning?
-2023-09-07T00:17:00,Dovansh,Ya same
-2023-09-07T00:17:00,Dovansh,Can you send it now ?
-2023-09-07T00:17:00,Dovansh,I'll solve it first thing in the morning
-2023-09-07T00:17:00,Dovansh,Thanks
-2023-09-07T08:31:00,Dovansh,I woke up so late
-2023-09-07T08:37:00,Amey Pacharkar,Same same
-2023-09-07T08:37:00,Amey Pacharkar,Hahahaha
-2023-09-07T08:38:00,Amey Pacharkar,Just now
-2023-09-07T08:38:00,Dovansh,Wow
-2023-09-07T08:38:00,Dovansh,Abhi padhna padega
-2023-09-07T08:38:00,Amey Pacharkar,Haa after a hour or so
-2023-09-07T08:38:00,Dovansh,Yaa same
-2023-09-07T12:06:00,Dovansh,amey
-2023-09-07T12:07:00,Dovansh,ye aayega exam me
-2023-09-07T12:07:00,Dovansh,paper me tha
-2023-09-07T12:08:00,Dovansh,I saw the paper
-2023-09-07T12:08:00,Amey Pacharkar,Thank you
-2023-09-07T12:08:00,Amey Pacharkar,Tho it was a easy sum
-2023-09-07T12:08:00,Amey Pacharkar,Top bad
-2023-09-07T12:08:00,Dovansh,when we went tp pravin sir
-2023-09-07T12:08:00,Amey Pacharkar,*too
-2023-09-07T12:08:00,Dovansh,ya I know
-2023-09-07T12:08:00,Dovansh,i think it was this sum
-2023-09-07T12:08:00,Amey Pacharkar,Don't spread it to everyone has sir might you know
-2023-09-07T12:09:00,Amey Pacharkar,Get scolded for telling paper
-2023-09-07T12:09:00,Dovansh,ya i know
-2023-09-07T12:09:00,Dovansh,haaa
-2023-09-07T12:10:00,Dovansh,what is chain amti chain
-2023-09-07T12:10:00,Amey Pacharkar,Yaa I haven't done that yet
-2023-09-07T12:10:00,Dovansh,sir taught us ?
-2023-09-07T12:10:00,Amey Pacharkar,Yes he have
-2023-09-07T12:10:00,Dovansh,i don't have notes of it
-2023-09-07T12:10:00,Dovansh,ohkk
-2023-09-07T14:22:00,Amey Pacharkar,"#include <stdio.h> //global variables int dequeue[100]; int front = -1; int rear = -1; int n=0; //function prototype void enqueuefront(); void enqueuerear(); void dequeuefront(); void dequeuerear(); void display(); void getFront(); void getRear(); int main(){ int choice,x; while(1){ printf(""1.Enqueue from Rear\n""); printf(""2.Enqueue from Front\n""); printf(""3.Dequeue from Front\n""); printf(""4.Dequeue from Rear\n""); printf(""5.Get the Front Element\n""); printf(""6.Get the Rear Element\n""); printf(""7.Display the Dequeue\n""); printf(""8.Exit\n""); printf(""Enter your choice:""); scanf(""%d"",&choice); switch(choice){ case 1: enqueuefront(); break; case 2: enqueuerear(); break; case 3: dequeuefront(); break; case 4: dequeuerear(); break; case 5: getFront(); break; case 6: getRear(); break; case 7: display(); break; case 8: printf(""Thank you""); return 0; default: printf(""\t\t\t!!!PLEASE ENTER CORRECT OPTION!!!\n""); } } } //for entering an element via front of dequeue void enqueuefront(){ int x=0; //if dequeue is empty if(front == -1 && rear == -1){ printf(""Enter the number of elements in the Dequeue:""); scanf(""%d"",&n); printf(""Enter the element of the Dequeue:""); scanf(""%d"",&x); front = rear = 0; dequeue[front] = x; } //if dequeue is full else if((front == 0 && rear == n-1) || (front == rear+1)) printf(""Overflow Condition\n""); //if front is at 0 else if(front == 0){ front = n-1; dequeue[front] = x; } else{ front --; dequeue[front] = x; } } //for entering an element via rear of dequeue void enqueuerear(){ int x=0; //if dequeue is empty if(front == -1 && rear == -1){ printf(""Enter the number of elements in the Dequeue:""); scanf(""%d"",&n); printf(""Enter the element of the Dequeue:""); scanf(""%d"",&x); front = rear = 0; dequeue[rear] = x; } //if dequeue is full else if((front == 0 && rear == n-1) || (front == rear+1)) printf(""Overflow Condition\n""); //if rear is at 0 else if(rear == n-1){ rear = 0; dequeue[rear] = x; } else{ rear ++; dequeue[rear] = x; } } //deleting an element from front of dequeue void dequeuefront(){ //if queue is full if(front == -1 && rear == -1) printf(""Underflow Condition\n""); //if both are equal else if(front == rear){ printf(""The deleted element is: %d\n"",dequeue[front]); front = rear = -1; } //if front is at max else if(front == n-1){ printf(""The deleted element is: %d\n"",dequeue[front]); front = 0; } else{ printf(""The deleted element is: %d\n"",dequeue[front]); front ++; } } //deleting an element from rear of dequeue void dequeuerear(){ //if queue is full if(front == -1 && rear == -1) printf(""Underflow Condition\n""); //if both are equal else if(front == rear){ printf(""The deleted element is: %d\n"",dequeue[rear]); front = rear = -1; } //if rear is at initialization else if(rear == 0){ printf(""The deleted element is: %d\n"",dequeue[rear]); rear = n-1; } else{ printf(""The deleted element is: %d\n"",dequeue[rear]); rear --; } } //to print the front element void getFront(){ if(front == -1 && rear == -1) printf(""Underflow Condition\n""); else printf(""The front element is: %d\n"",dequeue[front]); } //to print the rear element void getRear(){ if(front == -1 && rear == -1) printf(""Underflow Condition\n""); else printf(""The rear element is: %d\n"",dequeue[rear]); } //to display the  elements of dequeue void display(){ if(front == -1 && rear == -1) printf(""Underflow Condition\n""); int i = front; printf(""The dequeue is:""); while(i != rear){ printf(""%d\t"",dequeue[i]); i = (i+1)%n; } printf(""%d\n"",dequeue[rear]); }"
-2023-09-07T14:22:00,Amey Pacharkar,can you check it once?
-2023-09-07T14:35:00,Dovansh,is it for double ended queue ?
-2023-09-07T14:36:00,Amey Pacharkar,Yaa dequeue
-2023-09-07T14:36:00,Dovansh,okk
-2023-09-07T14:37:00,Dovansh,iys not working
-2023-09-07T14:37:00,Dovansh,cant input elements after putting once
-2023-09-07T14:37:00,Amey Pacharkar,Yaa ik that's why I was asking
-2023-09-07T14:38:00,Dovansh,are but in dequeue aren't there two conditions
-2023-09-07T14:39:00,Dovansh,like entry restricted and exit rextricted
-2023-09-07T14:39:00,Dovansh,two types i mean
-2023-09-07T14:40:00,Amey Pacharkar,Ohh
-2023-09-07T14:40:00,Amey Pacharkar,Yaa I didn't put those conditions
-2023-09-07T14:40:00,Dovansh,haa
-2023-09-07T14:40:00,Amey Pacharkar,Will do it later then
-2023-09-07T14:40:00,Dovansh,okk
-2023-09-07T14:40:00,Dovansh,ill have to go through the code
-2023-09-07T18:35:00,Dovansh,Thanks
-2023-09-09T11:08:00,Dovansh,Saw this on reddit
-2023-09-09T11:14:00,Amey Pacharkar,It's on beta most probably
-2023-09-09T11:16:00,Amey Pacharkar,Can you send me the notes for priority queue and dequeue?
-2023-09-09T11:22:00,Amey Pacharkar,Thanks
-2023-09-09T18:54:00,Amey Pacharkar,lecture has not started yet?
-2023-09-09T18:54:00,Dovansh,Yaa
-2023-09-09T18:54:00,Dovansh,null
-2023-09-09T18:55:00,Amey Pacharkar,so still waiting haa..
-2023-09-09T18:55:00,Dovansh,Haaaa
-2023-09-09T18:55:00,Dovansh,You left ?
-2023-09-09T18:55:00,Amey Pacharkar,i joint just now
-2023-09-09T18:56:00,Amey Pacharkar,thats why i was asking
-2023-09-09T18:56:00,Dovansh,ohkk
-2023-09-09T18:56:00,Dovansh,okk
-2023-09-09T18:56:00,Amey Pacharkar,bore ho raha he...
-2023-09-09T18:56:00,Amey Pacharkar,dlca kiya?
-2023-09-09T18:56:00,Dovansh,haa ho gaya
-2023-09-09T18:57:00,Amey Pacharkar,meto notes se he kar liya
-2023-09-09T18:57:00,Amey Pacharkar,dhekenke kya hota he...
-2023-09-09T18:57:00,Amey Pacharkar,kuch laga imp?
-2023-09-09T18:57:00,Dovansh,Are east hai
-2023-09-09T18:58:00,Dovansh,https://us06web.zoom.us/j/9768190255?_JKB_Education_IT_Services_Vinayak_Sir Meeting ID: 9768190255 Passcode: JKB
-2023-09-09T18:58:00,Dovansh,Join this
-2023-09-09T18:58:00,Amey Pacharkar,haa pata he sir wo multiplexer karna he
-2023-09-09T18:58:00,Amey Pacharkar,new link?
-2023-09-09T18:58:00,Dovansh,Yaap
-2023-09-09T18:58:00,Amey Pacharkar,where did you got  it?
-2023-09-09T18:58:00,Dovansh,Ashmit
-2023-09-09T18:58:00,Dovansh,Sent
-2023-09-09T18:59:00,Amey Pacharkar,and  how did he got it?
-2023-09-09T19:02:00,Dovansh,Iske aage bhi he thoda
-2023-09-09T19:02:00,Dovansh,Sab nahi kiya hai abhi tak
-2023-09-09T19:06:00,Amey Pacharkar,kis ka he wo?
-2023-09-09T19:06:00,Dovansh,Kya ?
-2023-09-09T19:08:00,Amey Pacharkar,whose notes are those?
-2023-09-09T19:08:00,Dovansh,Mine
-2023-09-09T19:12:00,Amey Pacharkar,Yaa I have that much too
-2023-09-09T19:12:00,Amey Pacharkar,Tho thanks
-2023-09-09T19:13:00,Amey Pacharkar,If you have the notes for lectures we were in coding club please send them
-2023-09-09T19:22:00,Dovansh,Naa
-2023-09-09T19:35:00,Amey Pacharkar,sir abhe bhi nahi de rahe hahaha
-2023-09-09T19:35:00,Dovansh,To kya
-2023-09-09T19:35:00,Dovansh,Aine dopher ko call Kiya tha
-2023-09-09T19:36:00,Amey Pacharkar,sir ne?
-2023-09-09T19:36:00,Dovansh,Maine
-2023-09-09T19:36:00,Dovansh,Sir ko
-2023-09-09T19:36:00,Amey Pacharkar,waa
-2023-09-09T19:37:00,Amey Pacharkar,othaya sir ne?
-2023-09-09T19:37:00,Dovansh,Haa
-2023-09-09T19:37:00,Dovansh,Baat bhi Kiya
-2023-09-09T19:37:00,Dovansh,Questions bank bhi pucha Maine
-2023-09-09T19:37:00,Dovansh,Na hole sir
-2023-09-09T19:37:00,Dovansh,Computer organisation me se kuch nhi aaayega
-2023-09-09T19:38:00,Amey Pacharkar,haa acha he
-2023-09-09T19:38:00,Dovansh,Haa
-2023-09-09T19:38:00,Amey Pacharkar,sir sai he call uthate he
-2023-09-09T19:38:00,Dovansh,Sai ?
-2023-09-09T19:38:00,Amey Pacharkar,saaahii
-2023-09-09T19:39:00,Dovansh,haa to uthana padega
-2023-09-09T19:39:00,Amey Pacharkar,acha he
-2023-09-09T19:39:00,Dovansh,haaaa
-2023-09-09T19:39:00,Amey Pacharkar,tuje kuch imo laga?
-2023-09-09T19:39:00,Amey Pacharkar,meto dono paper me latka huu
-2023-09-09T19:39:00,Dovansh,kmap
-2023-09-09T19:40:00,Dovansh,mux
-2023-09-09T19:40:00,Dovansh,nand nor gate
-2023-09-09T19:40:00,Amey Pacharkar,kmap out of portion
-2023-09-09T19:40:00,Amey Pacharkar,it is only there for adde
-2023-09-09T19:40:00,Amey Pacharkar,*adder
-2023-09-09T19:40:00,Dovansh,haa
-2023-09-09T19:40:00,Amey Pacharkar,so adder?
-2023-09-09T19:40:00,Dovansh,adder aur subtracter bhi imp hai
-2023-09-09T19:40:00,Amey Pacharkar,*mera
-2023-09-09T19:40:00,Dovansh,sahi hai
-2023-09-09T19:41:00,Amey Pacharkar,vo he notes me tere?
-2023-09-09T19:41:00,Dovansh,haa hai
-2023-09-09T19:41:00,Amey Pacharkar,muje binary wala module aur toda logics ata he
-2023-09-09T19:41:00,Amey Pacharkar,last odule nahi ata
-2023-09-09T19:42:00,Dovansh,are easy hai sab
-2023-09-09T19:42:00,Dovansh,padh le ho jaayega
-2023-09-09T19:42:00,Amey Pacharkar,haa pur bore hota he ds aur dlca padneko
-2023-09-09T20:51:00,Amey Pacharkar,Tune Jo Kiya he votna hi Kiya to chalega na?
-2023-09-09T20:51:00,Dovansh,Haa
-2023-09-09T20:51:00,Dovansh,Gates nahi kiya hai Maine abhi tak
-2023-09-09T20:51:00,Dovansh,Wo bhi karne wala hu
-2023-09-09T20:52:00,Dovansh,Aur conversions saare karna Maine sab nahi likha hai
-2023-09-09T20:52:00,Amey Pacharkar,Haa me ratke aa jayunga fhir
-2023-09-09T20:52:00,Amey Pacharkar,Conversions?
-2023-09-09T20:52:00,Dovansh,Number conversions
-2023-09-09T20:52:00,Amey Pacharkar,Binary to decimal vo wala?
-2023-09-09T20:52:00,Dovansh,Haa
-2023-09-09T20:53:00,Amey Pacharkar,Cholegaa
-2023-09-09T20:53:00,Dovansh,Haaa
-2023-09-09T22:45:00,Dovansh,??
-2023-09-09T22:46:00,Amey Pacharkar,your grey code to binary table  was different
-2023-09-09T22:47:00,Amey Pacharkar,you didnt made grey  part for the table
-2023-09-09T22:47:00,Dovansh,Different?
-2023-09-09T22:47:00,Amey Pacharkar,...
-2023-09-09T22:47:00,Dovansh,Oh that
-2023-09-09T22:47:00,Dovansh,Haa
-2023-09-09T22:47:00,Dovansh,I didn't make grey code ka column
-2023-09-09T22:48:00,Amey Pacharkar,haaa
-2023-09-09T22:48:00,Dovansh,Na
-2023-09-09T22:48:00,Dovansh,I didn't make binary ka column
-2023-09-09T22:48:00,Dovansh,I didn't make this
-2023-09-09T22:48:00,Dovansh,I just checked
-2023-09-09T22:48:00,Amey Pacharkar,Yaa
-2023-09-09T22:49:00,Dovansh,Yaa I'll make it
-2023-09-09T23:28:00,Amey Pacharkar,tune jobheja he usme kya kya baki he?
-2023-09-09T23:28:00,Dovansh,Gates
-2023-09-09T23:28:00,Dovansh,Conversions
-2023-09-09T23:29:00,Dovansh,Aur mux ke aage ka part
-2023-09-09T23:29:00,Amey Pacharkar,whats that?
-2023-09-09T23:29:00,Dovansh,Are making 4x1 mux using 2x1 mux
-2023-09-09T23:29:00,Dovansh,And some like that
-2023-09-09T23:30:00,Dovansh,And the part sis taught us in the last lecture
-2023-09-09T23:30:00,Amey Pacharkar,ohh that part
-2023-09-09T23:30:00,Dovansh,Sir
-2023-09-09T23:30:00,Dovansh,Haa
-2023-09-09T23:30:00,Amey Pacharkar,dhek he chalega
-2023-09-10T07:54:00,Amey Pacharkar,joint kar follow up session abhee
-2023-09-10T10:32:00,Dovansh,abhi utha
-2023-09-10T10:55:00,Amey Pacharkar,what all is there before doubly linked list in linked list
-2023-09-10T10:55:00,Dovansh,everything
-2023-09-10T10:56:00,Amey Pacharkar,names
-2023-09-10T10:56:00,Dovansh,introduction array
-2023-09-10T10:56:00,Dovansh,stack
-2023-09-10T10:56:00,Dovansh,queue
-2023-09-10T10:56:00,Dovansh,array
-2023-09-10T10:57:00,Amey Pacharkar,which topcs in ll?
-2023-09-10T10:57:00,Amey Pacharkar,llinked list (ll)
-2023-09-10T10:57:00,Dovansh,singl
-2023-09-10T10:57:00,Dovansh,circular
-2023-09-10T10:57:00,Dovansh,double
-2023-09-10T10:57:00,Amey Pacharkar,👍
-2023-09-10T15:16:00,Amey Pacharkar,"else{ prevnode -> next = NULL; printf(""The deleted value is:%d"",temp -> data); free(temp); }"
-2023-09-10T15:16:00,Amey Pacharkar,its the condition for deletion from end in singly
-2023-09-10T15:16:00,Amey Pacharkar,is there something wrong with it?
-2023-09-10T15:18:00,Dovansh,"void deleteend() { if(head==0) printf(""\nList Empty\n""); else { temp=head; while(temp->next!=0) { prevnode=temp; temp=temp->next; } if(temp==head) head=0; else prevnode->next=0; free(temp); count--; display(); } }"
-2023-09-10T15:19:00,Amey Pacharkar,Wrong nahi he
-2023-09-10T15:19:00,Amey Pacharkar,It is just not going in int main loop again
-2023-09-10T15:19:00,Amey Pacharkar,Kya pata kyu
-2023-09-10T15:19:00,Dovansh,int main ko function call de
-2023-09-10T15:19:00,Amey Pacharkar,Kiya re sirf vo hi function ko charbihe
-2023-09-10T15:20:00,Dovansh,hona chchiye
-2023-09-10T15:20:00,Amey Pacharkar,Janethe
-2023-09-10T15:20:00,Dovansh,display func add karke try kar
-2023-09-10T15:20:00,Amey Pacharkar,Hame reverse ll karna he?
-2023-09-10T15:20:00,Dovansh,end me
-2023-09-10T15:20:00,Dovansh,naaa
-2023-09-10T15:20:00,Amey Pacharkar,Kiya nahi ata
-2023-09-10T15:21:00,Dovansh,dlca ka qb aaya
-2023-09-10T15:21:00,Amey Pacharkar,Mene Jo tujhe bhejana usmehi error he
-2023-09-10T15:21:00,Amey Pacharkar,Kaha?
-2023-09-10T15:21:00,Dovansh,classroom
-2023-09-10T15:21:00,Dovansh,harami abhi bhej raha hai
-2023-09-10T15:22:00,Amey Pacharkar,Tu kar aur phir muje bhi bhej
-2023-09-10T15:22:00,Amey Pacharkar,Mera DS baki he
-2023-09-10T15:22:00,Amey Pacharkar,Circular aur doubly
-2023-09-10T15:22:00,Dovansh,haa chalega
-2023-09-10T15:22:00,Dovansh,okk
-2023-09-10T15:24:00,Amey Pacharkar,8 Tak hojya ga
-2023-09-10T15:24:00,Amey Pacharkar,Useke bad DLCA kar dungaa
-2023-09-10T15:25:00,Dovansh,okk
-2023-09-10T15:25:00,Dovansh,mai fir abhi dlca karta hu
-2023-09-10T15:36:00,Amey Pacharkar,Chalega
-2023-09-10T17:14:00,Dovansh,5 6 7 nahi hai
-2023-09-10T17:14:00,Dovansh,Kartikey bola wo karke bhejega
-2023-09-10T17:15:00,Amey Pacharkar,Easy tha? Itna jaldi ho gaya
-2023-09-10T17:15:00,Dovansh,Haa easy hai
-2023-09-10T17:15:00,Amey Pacharkar,Chalega
-2023-09-10T17:15:00,Amey Pacharkar,Usne bheja to muje bhi bhej the
-2023-09-10T17:15:00,Dovansh,Haa
-2023-09-10T17:17:00,Amey Pacharkar,DS ka bhi QB tha na?
-2023-09-10T17:17:00,Amey Pacharkar,Vo kiya?
-2023-09-10T17:17:00,Dovansh,Kar raha tha
-2023-09-10T17:17:00,Dovansh,Fir kantala aaya
-2023-09-10T17:17:00,Dovansh,To aage ka nahi kiya
-2023-09-10T17:18:00,Dovansh,Itne bade bade programs hai
-2023-09-10T17:18:00,Amey Pacharkar,Haa
-2023-09-10T17:18:00,Amey Pacharkar,Aur usme se jhotasa part ayega
-2023-09-10T18:15:00,Amey Pacharkar,Doubly ka sab ayega ki only difference wala part?
-2023-09-10T18:41:00,Dovansh,Ek theory question
-2023-09-10T19:14:00,Amey Pacharkar,"Everything is right, right?"
-2023-09-10T19:14:00,Amey Pacharkar,DLCA ka
-2023-09-10T22:16:00,Amey Pacharkar,Kartikey ne bheja
-2023-09-10T22:16:00,Dovansh,Mera right hai 6th wala
-2023-09-10T22:17:00,Amey Pacharkar,Haa
-2023-09-13T22:08:00,Amey Pacharkar,DLCA ka bhej na
-2023-09-13T22:15:00,Dovansh,Nahi likha
-2023-09-13T22:15:00,Dovansh,Kal subah likhunga
-2023-09-13T22:37:00,Amey Pacharkar,College me?
-2023-09-13T22:38:00,Dovansh,Jaldi uthke
-2023-09-13T23:44:00,Amey Pacharkar,Kal college me de Dena
-2023-09-14T07:45:00,Amey Pacharkar,Kiska he ye?
-2023-09-14T07:52:00,Dovansh,Mera
-2023-09-14T07:52:00,Dovansh,Sab nahi hai
-2023-09-14T07:52:00,Dovansh,Aur aage ka hai
-2023-09-14T07:53:00,Dovansh,Mere paas single side paper nahi tha to Aisa banaya
-2023-09-14T11:01:00,Amey Pacharkar,Chalega
-2023-09-15T17:17:00,Dovansh,"#include<stdio.h> #include <stdlib.h> struct node { int data; struct node *pre; struct node *next; }; struct node *head,*tail,*newnode,*prevnode,*nextnode,*cnode,*temp1,*temp; int count; void disfrstrt() { if(head==0) printf("" Doubly Linked List Empty""); else { temp=head; while(temp!=0) { printf(""|%d|--->"",temp->data); temp=temp->next; } printf(""\nNumber of nodes=%d\n\n"",count); } } void create() { int n,i; printf(""Enter the number of data you want to input""); scanf(""\n%d"",&n); for(i=1;i<=n;i++) { newnode=(struct node *)malloc(sizeof(struct node)); printf(""Enter data:\n""); scanf(""%d"",&newnode->data); newnode->next=0; if(head==0) { head=tail=newnode; } else { tail->next=newnode; newnode->pre=tail; tail=newnode; } count++; } disfrstrt(); } void disfrend() { if(head==0) printf("" Doubly Linked List Empty""); else { temp=tail; while(temp!=0) { printf(""|%d|--->"",temp->data); temp=temp->pre; } printf(""\nNumber of nodes=%d\n\n"",count); } } void insbeg() { if(head==0) printf("" Doubly Linked List Empty""); else { newnode=(struct node*)malloc(sizeof(struct node)); newnode->pre=0; printf(""Enter the data:""); scanf(""%d"",&newnode->data); head->pre=newnode; newnode->next=head; head=newnode; count++; disfrstrt(); } } void insend() { if(head==0) printf("" Doubly Linked List Empty""); else { newnode=(struct node*)malloc(sizeof(struct node)); printf(""Enter the data:""); scanf(""%d"",&newnode->data); newnode->next=0; tail->next=newnode; newnode->pre=tail; tail=newnode; count++; disfrstrt(); } } void insaft() { int p,i=1; if(head==0) printf(""\nLinked list not created yet\n""); else{ newnode=(struct node *)malloc(sizeof(struct node)); printf(""Enter position(After):\n""); scanf(""%d"",&p); if(p>count) printf(""Invalid position""); else{ temp=head; while(i<p) { temp=temp->next; i++; } printf(""Enter data:\n""); scanf(""%d"",&newnode->data); newnode->pre=temp; newnode->next=temp->next; temp->next=newnode; newnode->next->pre=newnode; } count++; disfrstrt(); } } void insbef() { int p,i=1; if(head==0) printf(""\nLinked list not created yet\n""); else{ newnode=(struct node *)malloc(sizeof(struct node)); printf(""Enter position(After):\n""); scanf(""%d"",&p); if(p>count) printf(""Invalid position""); else{ temp=head; while(i<p-1) { temp=temp->next; i++; } printf(""Enter data:\n""); scanf(""%d"",&newnode->data); newnode->pre=temp; newnode->next=temp->next; temp->next=newnode; newnode->next->pre=newnode; } count++; disfrstrt(); } } void delstrt() { if(head==0) printf(""Linked list empty""); else { temp=head; head=temp->next; printf(""the deleted data is %d"",temp->data); free(temp); temp=head; temp->pre=0; } } void delend() { if(head==0) printf(""Linked list empty""); else { temp=tail; tail=temp->pre; printf(""the deleted data is %d"",temp->data); free(temp); temp=tail; tail->next=0; } } void delpos() { int p,i=1; temp=head; if(head==0) printf(""Linked list empty""); else { printf(""Enter the pos you want to delete:""); scanf(""%d"",&p); if(p<1 || p>count) printf(""Invalid position""); else if(p==1) delstrt(); else if(p==count) delend(); else { while(i<p) { temp=temp->next; i++; } } temp1->pre->next=temp->next; temp1->next->pre=temp->pre; free(temp); } count--; disfrstrt(); main(); } void main() { int ch; do{ printf(""\n\n******MENU******\n""); printf(""\n1.Create Linked List""); printf(""\n2.Display Linked List From Start""); printf(""\n3.Display Linked List From End""); printf(""\n4.Enter element at the beginning""); printf(""\n5.Enter element at the end""); printf(""\n6.Enter element after a node""); printf(""\n7.Enter element before a node""); printf(""\n8.Delete element at the beginning""); printf(""\n9.Delete element at the end""); printf(""\n10.Delete element from a specific location""); printf(""\n11.Reverse the node:""); printf(""\n12.EXIT\n""); printf(""\nEnter your Choice:\n""); scanf(""%d"",&ch); switch(ch) { case 1: create(); break; case 2: disfrstrt(); break; case 3: disfrend(); break; case 4: insbeg(); break; case 5: insend(); break; case 6: insaft(); break; case 7: insbef(); break; case 8: delstrt(); break; case 9: delend(); break; case 10: delpos(); break; } } while(ch!=12); }"
-2023-09-15T17:17:00,Dovansh,somethings wrong with delpos func
-2023-09-15T17:17:00,Amey Pacharkar,Deposit?
-2023-09-15T17:18:00,Dovansh,delete position function
-2023-09-15T17:18:00,Amey Pacharkar,*delpos?
-2023-09-15T17:20:00,Amey Pacharkar,Why you put temp1?
-2023-09-15T17:21:00,Amey Pacharkar,Where is your temp1? Shouldn't it be temp?
-2023-09-15T17:22:00,Amey Pacharkar,They put us in second batch...now kartikey is alone
-2023-09-15T17:23:00,Amey Pacharkar,Kartikey and Prathamesh
-2023-09-15T17:25:00,Dovansh,haa
-2023-09-15T17:25:00,Dovansh,i just called him
-2023-09-15T17:26:00,Dovansh,he said they will come in our batch
-2023-09-15T17:26:00,Amey Pacharkar,Great
-2023-09-15T17:26:00,Dovansh,it worked
-2023-09-15T17:26:00,Dovansh,the program
-2023-09-15T17:27:00,Amey Pacharkar,What was wrong?
-2023-09-15T17:27:00,Dovansh,temp1
-2023-09-15T17:27:00,Amey Pacharkar,Yaa typo hurts programing
-2023-09-15T17:27:00,Dovansh,ya it does
-2023-09-15T17:32:00,Dovansh,This message was deleted
-2023-09-15T17:56:00,Dovansh,"#include<stdio.h> #include <stdlib.h> struct node { int data; struct node *pre; struct node *next; }; struct node *head,*tail,*newnode,*nextnode,*cnode,*temp; int count; void disfrstrt() { if(head==0) printf("" Doubly Linked List Empty""); else { temp=head; while(temp!=0) { printf(""|%d|--->"",temp->data); temp=temp->next; } printf(""\nNumber of nodes=%d\n\n"",count); } } void create() { int n,i; printf(""Enter the number of data you want to input""); scanf(""\n%d"",&n); for(i=1;i<=n;i++) { newnode=(struct node *)malloc(sizeof(struct node)); printf(""Enter data:\n""); scanf(""%d"",&newnode->data); newnode->next=0; if(head==0) { head=tail=newnode; } else { tail->next=newnode; newnode->pre=tail; tail=newnode; } count++; } disfrstrt(); } void disfrend() { if(head==0) printf("" Doubly Linked List Empty""); else { temp=tail; while(temp!=0) { printf(""|%d|--->"",temp->data); temp=temp->pre; } printf(""\nNumber of nodes=%d\n\n"",count); } } void insbeg() { if(head==0) printf("" Doubly Linked List Empty""); else { newnode=(struct node*)malloc(sizeof(struct node)); newnode->pre=0; printf(""Enter the data:""); scanf(""%d"",&newnode->data); head->pre=newnode; newnode->next=head; head=newnode; count++; disfrstrt(); } } void insend() { if(head==0) printf("" Doubly Linked List Empty""); else { newnode=(struct node*)malloc(sizeof(struct node)); printf(""Enter the data:""); scanf(""%d"",&newnode->data); newnode->next=0; tail->next=newnode; newnode->pre=tail; tail=newnode; count++; disfrstrt(); } } void insaft() { int p,i=1; if(head==0) printf(""\nLinked list not created yet\n""); else{ newnode=(struct node *)malloc(sizeof(struct node)); printf(""Enter position(After):\n""); scanf(""%d"",&p); if(p>count) printf(""Invalid position""); else{ temp=head; while(i<p) { temp=temp->next; i++; } printf(""Enter data:\n""); scanf(""%d"",&newnode->data); newnode->pre=temp; newnode->next=temp->next; temp->next=newnode; newnode->next->pre=newnode; } count++; disfrstrt(); } } void insbef() { int p,i=1; if(head==0) printf(""\nLinked list not created yet\n""); else{ newnode=(struct node *)malloc(sizeof(struct node)); printf(""Enter position(After):\n""); scanf(""%d"",&p); if(p>count) printf(""Invalid position""); else{ temp=head; while(i<p-1) { temp=temp->next; i++; } printf(""Enter data:\n""); scanf(""%d"",&newnode->data); newnode->pre=temp; newnode->next=temp->next; temp->next=newnode; newnode->next->pre=newnode; } count++; disfrstrt(); } } void delstrt() { if(head==0) printf(""Linked list empty""); else { temp=head; head=temp->next; printf(""the deleted data is %d"",temp->data); free(temp); temp=head; temp->pre=0; } } void delend() { if(head==0) printf(""Linked list empty""); else { temp=tail; tail=temp->pre; printf(""the deleted data is %d"",temp->data); free(temp); temp=tail; tail->next=0; } } void delpos() { int p,i=1; temp=head; if(head==0) printf(""Linked list empty""); else { printf(""Enter the pos you want to delete:""); scanf(""%d"",&p); if(p<1 || p>count) printf(""Invalid position""); else { while(i<p) { temp=temp->next; i++; } } temp->pre->next=temp->next; temp->next->pre=temp->pre; free(temp); } count--; disfrstrt(); } reverse() { cnode=head; while(temp!=0) { nextnode=cnode->next; cnode->next=cnode->pre; cnode->pre=nextnode; cnode=nextnode; } cnode=head; head=tail; tail=cnode; } void main() { int ch; do{ printf(""\n\n******MENU******\n""); printf(""\n1.Create Linked List""); printf(""\n2.Display Linked List From Start""); printf(""\n3.Display Linked List From End""); printf(""\n4.Enter element at the beginning""); printf(""\n5.Enter element at the end""); printf(""\n6.Enter element after a node""); printf(""\n7.Enter element before a node""); printf(""\n8.Delete element at the beginning""); printf(""\n9.Delete element at the end""); printf(""\n10.Delete element from a specific location""); printf(""\n11.Reverse the node:""); printf(""\n12.EXIT\n""); printf(""\nEnter your Choice:\n""); scanf(""%d"",&ch); switch(ch) { case 1: create(); break; case 2: disfrstrt(); break; case 3: disfrend(); break; case 4: insbeg(); break; case 5: insend(); break; case 6: insaft(); break; case 7: insbef(); break; case 8: delstrt(); break; case 9: delend(); break; case 10: delpos(); break; case 11: reverse(); break; default: } } while(ch!=12); }"
-2023-09-15T17:57:00,Dovansh,everything's working
-2023-09-15T17:57:00,Dovansh,except reverse im too bored to do that now
-2023-09-15T21:55:00,Amey Pacharkar,Tomorrow is it a online lecture or offline?
-2023-09-15T21:56:00,Dovansh,Online
-2023-09-16T08:22:00,Amey Pacharkar,Hamara batch 2 he na?
-2023-09-16T08:23:00,Dovansh,Haa
-2023-09-17T07:51:00,Amey Pacharkar,joint kar follow up session devansh
-2023-09-17T07:51:00,Amey Pacharkar,uth ja...
-2023-09-17T12:11:00,Amey Pacharkar,"//function to delete a node at End void delete_end(){ current == tail -> next; if(tail == 0){ printf(""The Linked List is empty\n""); } else if(current -> next == current){ tail = 0; printf(""The deleted value is:%d"",current -> data); free(current); }else{ while(current -> next != tail -> next){ previous = current; current = current -> next; } previous -> next = tail -> next; tail = previous; printf(""The deleted value is:%d"",current -> data); free(current); } }"
-2023-09-17T12:11:00,Amey Pacharkar,can you tell whats wrong with it?
-2023-09-17T12:11:00,Amey Pacharkar,delete at end for circular queue
-2023-09-17T13:27:00,Dovansh,"void delend() { int i=1; temp=tail->next; if(tail==0) printf(""\nList Empty\n""); else if(temp->next==temp) { tail=0; free(temp); } else { while(temp->next!=tail->next){ prevnode=temp; temp=temp->next; } prevnode->next=tail->next; tail=prevnode; free(temp); } count--; display(); }"
-2023-09-17T13:28:00,Dovansh,Everything looks correct
-2023-09-17T13:56:00,Amey Pacharkar,Still it shows segmentation fault
-2023-09-17T13:59:00,Dovansh,Then it's something else
-2023-09-17T14:00:00,Dovansh,Logic is right
-2023-09-17T22:20:00,Amey Pacharkar,Can you please send images of IV we took? Thank you
-2023-09-17T22:22:00,Dovansh,Kartikey has them
-2023-09-17T22:27:00,Amey Pacharkar,You didn't took them? I though you did
-2023-09-17T22:28:00,Dovansh,Kartikey did
-2023-09-17T22:34:00,Amey Pacharkar,Alright I have asked him too. I hope he sends them later
-2023-09-18T13:59:00,Dovansh,Yaa
-2023-09-18T15:26:00,Dovansh,That's a good one though
-2023-09-18T15:26:00,Amey Pacharkar,It is?
-2023-09-18T15:27:00,Dovansh,Ya
-2023-09-18T15:27:00,Dovansh,I use it on my welt
-2023-09-18T15:28:00,Amey Pacharkar,Yaa except him it is not usefull for anyone
-2023-09-18T16:21:00,Dovansh,Ya I guess
-2023-09-18T21:36:00,Amey Pacharkar,Build pela and do remembrance it's super broken
-2023-09-18T21:36:00,Amey Pacharkar,brain dead broken
-2023-09-19T04:46:00,Dovansh,will try
-2023-09-20T18:32:00,Amey Pacharkar,"🪷🌺श्री गणेशाय नमः 🪷🌺 🌺आग्रहाचे निमंत्रण 🌺 आपणास कळविण्यात आनंद होत आहे की,  दरवर्षीप्रमाणे या वर्षी सुद्धा आपल्या घरी लाडक्या बाप्पाचे दिनांक १९/०९/२०२३ पासून ते २३/०९/२०२३ पर्यत पाच दिवसांसाठी आगमन होणार आहे.  तसेच दि.२१/०९/२०२३ रोजी श्री सत्यनारायणाची महापूजा संपन्न होणार आहे. तरी तुम्ही सह कुटुंब सह परिवार बाप्पाच्या दर्शनास येऊन तीर्थप्रसादाचा लाभ घ्यावा हि नम्र विनंती ..🙏🙏 🙏आपले नम्र 🙏 पाचारकर परिवार पत्ता - १४०२, इ विंग, स्काय व्हीव सोसायटी, मदर डेअरी रोड, नेहरू नगर, कुर्ला (पूर्व), मुंबई 400024."
-2023-09-20T18:32:00,Amey Pacharkar,Pad ye ab aur aa kal
-2023-09-20T19:05:00,Dovansh,Baapre
-2023-09-20T19:05:00,Dovansh,Chalega
-2023-09-21T19:10:00,Amey Pacharkar,Joint HOA tu?
-2023-09-21T19:10:00,Dovansh,naaa
-2023-09-21T19:10:00,Dovansh,abhi hua
-2023-09-21T22:29:00,Amey Pacharkar,Sir aye to message kar de ek bar
-2023-09-21T22:29:00,Dovansh,Haa
-2023-09-21T22:46:00,Dovansh,I left
-2023-09-21T22:46:00,Amey Pacharkar,Yaa it's fine
-2023-09-21T22:46:00,Amey Pacharkar,Sir never told us to joint anyways
-2023-09-21T22:46:00,Dovansh,Yaa
-2023-09-21T22:46:00,Dovansh,Haa
-2023-09-21T22:47:00,Amey Pacharkar,To much charbi
-2023-09-21T22:47:00,Dovansh,True
-2023-09-24T08:05:00,Amey Pacharkar,joint kar follow up
-2023-09-24T08:07:00,Dovansh,I just thought ki tune abhi Tak msg nahi kiya
-2023-09-24T08:08:00,Amey Pacharkar,late chalu kiya
-2023-09-24T08:08:00,Amey Pacharkar,joint kar
-2023-09-24T08:08:00,Dovansh,Karna padega
-2023-09-24T09:17:00,Amey Pacharkar,nahi kiya tune joint
-2023-09-24T13:24:00,Dovansh,mera laptop band ho gaya tha
-2023-09-24T13:24:00,Amey Pacharkar,Phone se joint kar leta
-2023-09-24T21:10:00,Dovansh,"/****************************************************************************** Online C Compiler. Code, Compile, Run and Debug C program online. Write your code in this editor and press ""Run"" button to compile and execute it. *******************************************************************************/ #include <stdio.h> #include<string.h> int main() { int i=0; char s[]={""Hello World""}; printf(""H""); printf(""e""); printf(""l""); printf(""l""); printf(""o""); printf("" ""); printf(""W""); printf(""o""); printf(""r""); printf(""l""); printf(""d""); printf(""\n\n\n""); for(i=0;i<=strlen(s);i++) printf(""%c"",s[i]); printf(""\n\n\n""); i=0; while(i<=strlen(s)) { printf(""%c"",s[i]); i++; } return 0; }"
-2023-09-24T21:10:00,Dovansh,try this
-2023-09-24T21:22:00,Amey Pacharkar,So?
-2023-09-24T21:23:00,Amey Pacharkar,What's your point?
-2023-09-24T21:28:00,Dovansh,TP
-2023-09-24T21:33:00,Amey Pacharkar,🤦‍♂️
-2023-09-24T21:34:00,Amey Pacharkar,😂
-2023-09-25T05:38:00,Dovansh,well ya
-2023-09-25T08:59:00,Amey Pacharkar,Nahi araha?
-2023-09-25T21:02:00,Amey Pacharkar,Devansh kal 💰💰la photocopy ka bharna he
-2023-09-25T21:02:00,Amey Pacharkar,Bulna mat
-2023-09-25T21:35:00,Dovansh,kitna ?
-2023-09-26T06:02:00,Amey Pacharkar,10 ke hisab se araha hu me
-2023-09-26T06:09:00,Dovansh,Okk
-2023-09-26T14:07:00,Dovansh,"#include<stdio.h> #include<stdlib.h> struct node{ int data; struct node*next; }; struct node *head,*temp,*newnode,*prevnode,*nextnode,*cnode; int count; void create() { head=0; int i,n,choice=1; printf(""Enter the number of nodes you want to enter:\n""); scanf(""%d"",&n); printf(""Creating a linked list.....\n""); for(i=0;i<n;i++) { newnode=(struct node *)malloc(sizeof(struct node)); printf(""Enter data:\n""); scanf(""%d"",&newnode->data); newnode->next=0; if(head==0) { head=temp=newnode; } else { temp->next=newnode; temp=newnode; } count++; } display(); } void display() { if(head==0) printf(""\nLinked list empty\n""); else{ temp=head; printf(""The Linked List is:\n""); while(temp!=0) { printf(""|%d|--->"",temp->data); temp=temp->next; } printf(""\nNumber of nodes=%d\n\n"",count); } } void insertbegn() { if(head==0) printf(""\nLinked list not created yet\n""); else{ newnode=(struct node *)malloc(sizeof(struct node)); printf(""Enter data(Start):\n""); scanf(""%d"",&newnode->data); newnode->next=head; head=newnode; count++; display(); } } void insertend() { if(head==0) printf(""\nLinked list not created yet\n""); else{ newnode=(struct node *)malloc(sizeof(struct node)); printf(""\n""); printf(""Enter data(End):\n""); scanf(""%d"",&newnode->data); newnode->next=0; temp=head; while(temp->next!=0) { temp=temp->next; } temp->next=newnode; count++; display(); } } void insertafter() { int p,i=1; if(head==0) printf(""\nLinked list not created yet\n""); else{ newnode=(struct node *)malloc(sizeof(struct node)); printf(""Enter position(After):\n""); scanf(""%d"",&p); if(p>count) printf(""Invalid position""); else{ temp=head; while(i<p) { temp=temp->next; i++; } printf(""Enter data:\n""); scanf(""%d"",&newnode->data); newnode->next=temp->next; temp->next=newnode; } count++; display(); } } void insertbefore() { int p,i=1; if(head==0) printf(""Linked list not created yet""); else{ newnode=(struct node *)malloc(sizeof(struct node)); printf(""Enter position(Before):\n""); scanf(""%d"",&p); if(p>count) printf(""Invalid position""); else{ temp=head; while(i<p-1) { temp=temp->next; i++; } printf(""Enter data:\n""); scanf(""%d"",&newnode->data); newnode->next=temp->next; temp->next=newnode; } count++; display(); } } void deletestrt() { if(head==0) printf(""\nList Empty\n""); else { temp=head; head=head->next; free(temp); } count--; display(); } void deleteend() { if(head==0) printf(""\nList Empty\n""); else { temp=head; while(temp->next!=0) { prevnode=temp; temp=temp->next; } if(temp==head) head=0; else prevnode->next=0; free(temp); count--; display(); } } void deletepos() { int pos,i=1; if(head==0) printf(""\nList Empty\n""); else { temp=head; printf(""Enter the position:""); scanf(""%d"",&pos); while(i<pos-1){ temp=temp->next; i++; } nextnode=temp->next; temp->next=nextnode->next; free(nextnode); count--; display(); } } void reverse() { prevnode=0; cnode=nextnode=head; while(nextnode!=0) { nextnode=nextnode->next; cnode->next=prevnode; prevnode=cnode; cnode=nextnode; } head=prevnode; display(); } void main() { int ch; do{ printf(""\n\n****MENU****\n\n""); printf(""\n1.Create Linked List""); printf(""\n2.Display Linked List""); printf(""\n3.Enter element at the beginning""); printf(""\n4.Enter element at the end""); printf(""\n5.Enter element after a node""); printf(""\n6.Enter element before a node""); printf(""\n7.Delete element at the beginning""); printf(""\n8.Delete element at the end""); printf(""\n9.Delete element from a specific location""); printf(""\n10.Reverse the node:""); printf(""\n11.EXIT\n""); printf(""\nEnter your Choice:\n""); scanf(""%d"",&ch); switch(ch) { case 1: create(); break; case 2: display(); break; case 3: insertbegn(); break; case 4: insertend(); break; case 5: insertafter(); break; case 6: insertbefore(); break; case 7: deletestrt(); break; case 8: deleteend(); break; case 9: deletepos(); break; case 10: reverse(); break; } } while(ch!=11); }"
-2023-09-26T14:21:00,Dovansh,"void deleteend() { if(head==0) printf(""\nList Empty\n""); else { temp=head; while(temp->next!=0) { prevnode=temp; temp=temp->next; } if(temp==head) head=0; else prevnode->next=0; free(temp); count--; display(); } }"
-2023-09-26T14:46:00,Amey Pacharkar,You deleted this message
-2023-09-26T14:46:00,Amey Pacharkar,You deleted this message
-2023-09-26T20:56:00,Amey Pacharkar,Can you send the link for meet in group please?
-2023-09-26T20:59:00,Dovansh,https://meet.google.com/dit-vuwp-hga
-2023-09-26T21:02:00,Amey Pacharkar,Avaj arahe kya mera?
-2023-09-26T21:02:00,Dovansh,nahi
-2023-09-26T21:55:00,Amey Pacharkar,Join karna phirse
-2023-09-26T21:55:00,Amey Pacharkar,Check karle ekbar sirf
-2023-09-26T22:24:00,Amey Pacharkar,"<!DOCTYPE html> <html lang=""en""> <head> <meta charset=""UTF-8""> <meta name=""viewport"" content=""width=device-width, initial-scale=1.0""> <title>Budget Tracker</title> <style> body { font-family: Arial, sans-serif; text-align: center; } #container { max-width: 400px; margin: 0 auto; } input[type=""text""], input[type=""button""] { padding: 5px; margin: 5px; } #budget { font-weight: bold; } #expenses { margin-top: 20px; } #totalExpenses { margin-top: 10px; font-weight: bold; } </style> </head> <body> <div id=""container""> <h1>Budget Tracker</h1> <p>Enter your budget:</p> <input type=""text"" id=""budgetInput""> <input type=""button"" value=""Set Budget"" onclick=""setBudget()""> <hr> <div id=""budget"">Budget: $0.00</div> <hr> <p>Enter an expense (or type 'done' to finish):</p> <input type=""text"" id=""expenseInput""> <input type=""button"" value=""Add Expense"" onclick=""addExpense()""> <div id=""expenses""></div> <div id=""totalExpenses"">Total Expenses: $0.00</div> </div> <script> var budget = 0; var expenses = []; function setBudget() { var budgetInput = parseFloat(document.getElementById(""budgetInput"").value); if (!isNaN(budgetInput)) { budget = budgetInput; document.getElementById(""budget"").textContent = ""Budget: $"" + budget.toFixed(2); } else { alert(""Invalid input. Please enter a valid number.""); } } function addExpense() { var expenseInput = document.getElementById(""expenseInput"").value; var expense = parseFloat(expenseInput); if (expenseInput.toLowerCase() === ""done"") { return; } if (!isNaN(expense) ) { if (expense <= budget) { expenses.push(expense); budget -= expense; updateExpenses(); document.getElementById(""budget"").textContent = ""Budget: $"" + budget.toFixed(2); document.getElementById(""expenseInput"").value = """"; } else { alert(""Expense exceeds the budget. Please enter a smaller amount.""); } } else { alert(""Invalid input. Please enter a valid number greater than 0.""); } } function updateExpenses() { var expensesList = document.getElementById(""expenses""); expensesList.innerHTML = """"; var totalExpenses = expenses.reduce(function(a, b) { return a + b; }, 0); document.getElementById(""totalExpenses"").textContent = ""Total Expenses: $"" + totalExpenses.toFixed(2); } </script> </body> </html>"
-2023-09-26T22:35:00,Amey Pacharkar,"<!DOCTYPE html> <html lang=""en""> <head> <meta charset=""UTF-8""> <meta name=""viewport"" content=""width=device-width, initial-scale=1.0""> <title>Budget Tracker</title> <style> body { font-family: Arial, sans-serif; text-align: center; } #container { max-width: 400px; margin: 0 auto; } input[type=""text""], input[type=""button""] { padding: 5px; margin: 5px; } #budget { font-weight: bold; } #expenses { margin-top: 20px; } #totalExpenses { margin-top: 10px; font-weight: bold; } </style> </head> <body> <div id=""container""> <h1>Budget Tracker</h1> <p>Enter your budget:</p> <input type=""text"" id=""budgetInput""> <input type=""button"" value=""Set Budget"" onclick=""setBudget()""> <hr> <div id=""budget"">Budget: $0.00</div> <hr> <p>Enter an expense:</p> <input type=""text"" id=""expenseInput""> <input type=""button"" value=""Add Expense"" onclick=""addExpense()""> <div id=""expenses""></div> <div id=""totalExpenses"">Total Expenses: $0.00</div> </div> <script> var budget = 0; var expenses = []; function setBudget() { var budgetInput = parseFloat(document.getElementById(""budgetInput"").value); if (!isNaN(budgetInput)) { budget = budgetInput; document.getElementById(""budget"").textContent = ""Budget: $"" + budget.toFixed(2); } else { alert(""Invalid input. Please enter a valid number.""); } } function addExpense() { var expenseInput = document.getElementById(""expenseInput"").value; var expense = parseFloat(expenseInput); if (expenseInput.toLowerCase() === ""done"") { return; } if (!isNaN(expense) ) { if (expense <= budget) { expenses.push(expense); budget -= expense; updateExpenses(); document.getElementById(""budget"").textContent = ""Budget: $"" + budget.toFixed(2); document.getElementById(""expenseInput"").value = """"; } else { alert(""Expense exceeds the budget. Please enter a smaller amount.""); } } else { alert(""Invalid input. Please enter a valid number greater than 0.""); } } function updateExpenses() { var expensesList = document.getElementById(""expenses""); expensesList.innerHTML = """"; var totalExpenses = expenses.reduce(function(a, b) { return a + b; }, 0); document.getElementById(""totalExpenses"").textContent = ""Total Expenses: $"" + totalExpenses.toFixed(2); } </script> </body> </html>"
-2023-09-27T14:07:00,Amey Pacharkar,You deleted this message
-2023-09-27T14:15:00,Dovansh,"import java.util.*; class calculator { public int add(int a,int b) { return a+b; } public int subtract(int a,int b) { return a-b; } public int multiply(int a,int b) { return a*b; } public int divide(int a,int b) { return a/b; } public int mod(int a,int b) { return a%b; } } class Main { public static void main(String[] args) { int i,j,ch; calculator cal=new calculator(); Scanner sc =new Scanner(System.in); do { System.out.print(""Enter Two numbers a and b:""); i = sc.nextInt(); j = sc.nextInt(); System.out.println(""Enter Operation""); System.out.println(""1.ADDITION:""); System.out.println(""2.SUBTRACTION:""); System.out.println(""3.MULTIPLICATION:""); System.out.println(""4.DIVISION""); System.out.println(""5.MODULUS""); System.out.println(""6.EXIT""); ch = sc.nextInt(); switch(ch) { case 1: System.out.println(""Addition is ""+i+""+""+j+""=""+cal.add(i,j)); break; case 2: System.out.println(""Subtracttion is ""+i+""-""+j+""=""+cal.subtract(i,j)); break; case 3: System.out.println(""Multiplication is ""+i+""x""+j+""=""+cal.multiply(i,j)); break; case 4: System.out.println(""Division is ""+i+""/""+j+""=""+cal.divide(i,j)); break; case 5: System.out.println(""Modulus is ""+i+""%""+j+""=""+cal.mod(i,j)); break; default: } } while(ch!=6); } }"
-2023-09-27T14:31:00,Dovansh,"import java.util.*; class exp9 { public static void man(String[] args) { int a,b,c; Scanner sc = new Scanner(System.in); System.out.println(""Enter two numbers""); a=Integer.parseInt(ar[0]); b=Integer.parseInt(ar[1]); c=a+b; System.out.println(""Sum of""+a+""and""+b+""is""+c); } }"
-2023-09-27T20:34:00,Amey Pacharkar,we have college tomorrow?
-2023-09-27T20:35:00,Amey Pacharkar,the notice only said 29th
-2023-09-27T20:35:00,Dovansh,What about tomorrow?
-2023-09-27T20:36:00,Amey Pacharkar,it didnt said anthing about tomorrow
-2023-09-27T20:36:00,Dovansh,We have to come tomorrow?
-2023-09-27T20:36:00,Amey Pacharkar,Most probably
-2023-09-27T20:37:00,Dovansh,This message was deleted
-2023-09-27T20:37:00,Amey Pacharkar,Chat he ghale nahi 👍
-2023-09-27T20:38:00,Dovansh,Kya ?
-2023-09-27T20:38:00,Amey Pacharkar,No swear in chat
-2023-09-27T20:38:00,Amey Pacharkar,You gonna come tomorrow?
-2023-09-27T20:38:00,Dovansh,Okk my bad
-2023-09-27T20:38:00,Dovansh,If we have college then we have to come
-2023-09-27T20:38:00,Amey Pacharkar,4hr DLCA your favourite
-2023-09-27T20:43:00,Dovansh,Nooooooooo
-2023-09-27T21:05:00,Amey Pacharkar,Yaa atleast we got coding club
-2023-09-27T21:05:00,Amey Pacharkar,So 28 and 29 holiday
-2023-09-27T21:05:00,Dovansh,holiday
-2023-09-27T21:05:00,Amey Pacharkar,Bach Gaya tu
-2023-09-27T21:06:00,Amey Pacharkar,😂😂
-2023-09-27T21:06:00,Dovansh,haaa naaa
-2023-09-27T21:06:00,Amey Pacharkar,To 5 din suti
-2023-09-27T21:06:00,Dovansh,yesss
-2023-09-27T21:06:00,Dovansh,mast
-2023-09-27T21:06:00,Amey Pacharkar,Btw I will not be coming to lecture from Friday to Monday. Maybe I will attend Monday and Friday lecture so if sir ask please let him know
-2023-09-27T21:07:00,Amey Pacharkar,Will inform jkb team too
-2023-09-27T21:07:00,Amey Pacharkar,Soneka
-2023-09-27T21:07:00,Dovansh,okk will do
-2023-09-27T21:07:00,Dovansh,yessss
-2023-09-27T21:07:00,Dovansh,soneka
-2023-09-27T21:07:00,Amey Pacharkar,Itna acha Marathi in English nahi he ki itna bada likhu
-2023-09-27T21:07:00,Amey Pacharkar,Haa kal 5PM ko uthane ka
-2023-09-27T21:08:00,Dovansh,haaaa
-2023-09-27T21:08:00,Dovansh,im gonna sleep only after completing all the quests now
-2023-09-27T21:10:00,Amey Pacharkar,Ha me bhi mini project karke maybe swarm karunga
-2023-09-27T21:11:00,Amey Pacharkar,Maja ata he legin Marta hu me bohot....too hard of endgame
-2023-09-27T23:14:00,Dovansh,Is it
-2023-09-27T23:14:00,Dovansh,I'll try it too tomorrow
-2023-09-28T18:31:00,Amey Pacharkar,👍thektahu badme
-2023-09-29T14:34:00,Amey Pacharkar,"//to check who won for( i = 0 ; i < n ; i ++){ for(int j = i + 1 ; j < n ; j ++){ if(points[i] < points [j]){ pointstemp = points[i];                     //pointstemp = int, points = array, nametemp = string, name = array of string points[i] = points[j]; points[j] = pointstemp; nametemp = name[i]; name[i] = name[j]; name[j] = nametemp; } } } //to print the ranking of participants as per there points for(i = 0; i < n; i ++){ System.out.print(""""+(i + 1)"". ""+name[i]+"" with ""+points[i]+"" points!!!""); } System.out.println(""""+name[0]+"" have the tournamment!!!"");"
-2023-09-29T14:34:00,Amey Pacharkar,ranking
-2023-09-29T16:55:00,Dovansh,Okk
-2023-09-29T16:55:00,Dovansh,Lecture?
-2023-09-29T16:55:00,Amey Pacharkar,Pata nahi sir ne message nahi dala he
-2023-09-29T16:55:00,Dovansh,Okk
-2023-09-29T21:16:00,Amey Pacharkar,Badme muje batade sir ne kya bola abhi
-2023-09-29T21:16:00,Dovansh,pura program hi bhej na
-2023-09-29T21:16:00,Amey Pacharkar,Call kartahubadme
-2023-09-29T21:16:00,Dovansh,haa okk
-2023-09-29T21:16:00,Amey Pacharkar,Kitne baje Tak tu zaka hoga?
-2023-09-29T21:16:00,Amey Pacharkar,Mera program alag he re pura
-2023-09-29T21:16:00,Dovansh,puri raat mostly
-2023-09-29T21:17:00,Amey Pacharkar,Me Tera program change karke bhjetahu badme
-2023-09-29T21:17:00,Amey Pacharkar,Call karta hu
-2023-09-29T21:17:00,Dovansh,okk
-2023-09-29T21:17:00,Dovansh,aaramse
-2023-09-30T13:59:00,Amey Pacharkar,Dekle sir ke sath meeting karna he na 3 baje? Agar hoga to ekbar call ya message karde
-2023-09-30T14:03:00,Dovansh,I forgot about that
-2023-09-30T14:04:00,Dovansh,Ya I'll call you
-2023-09-30T14:56:00,Amey Pacharkar,Pocha sir ko?
-2023-09-30T15:08:00,Dovansh,join lar raha hu
-2023-09-30T15:08:00,Amey Pacharkar,Ha me bhi
-2023-09-30T15:09:00,Amey Pacharkar,No one is there
-2023-09-30T15:09:00,Dovansh,Haaa
-2023-09-30T15:09:00,Dovansh,Ask aum
-2023-09-30T15:13:00,Dovansh,kya bola ?
-2023-09-30T15:18:00,Amey Pacharkar,Only read Kiya
-2023-09-30T15:18:00,Amey Pacharkar,Sir sya ya ana hoga to call karna
-2023-09-30T15:19:00,Dovansh,kya
-2023-09-30T15:19:00,Amey Pacharkar,Sir Aye to call karna
-2023-09-30T15:19:00,Dovansh,okk
-2023-09-30T16:46:00,Amey Pacharkar,Nahi hoa na
-2023-09-30T17:57:00,Dovansh,Nahi
-2023-09-30T18:19:00,Amey Pacharkar,Chalega
-2023-09-30T18:19:00,Amey Pacharkar,Dektehe lecture he ki nahi
-2023-09-30T18:59:00,Dovansh,Abhi ?
-2023-09-30T18:59:00,Amey Pacharkar,Ha shayad nahi hoga
-2023-10-01T07:55:00,Amey Pacharkar,joint kar follow up ajj
-2023-10-01T09:10:00,Dovansh,Bimaar
-2023-10-01T09:17:00,Amey Pacharkar,are are aram kar
-2023-10-01T09:18:00,Dovansh,Maybe I also won't go to class today
-2023-10-01T09:30:00,Amey Pacharkar,ha marna mat soja
-2023-10-01T09:39:00,Dovansh,Areeee 😭😭
-2023-10-03T12:25:00,Amey Pacharkar,2 contacts.vcf (file attached)
-2023-10-03T12:25:00,Amey Pacharkar,Add kar maths me
-2023-10-03T21:33:00,Dovansh,https://youtu.be/Z_DYRgtAXfw?si=FoKOpL4fCU0j0sVY
-2023-10-04T10:38:00,Dovansh,"#include<stdio.h> #include<string.h> #define MAX 20 #define true 1 #define false 0 int top = -1; int stack[MAX]; /*Begin of push*/ char push(char item) { if(top == (MAX-1)) printf(""Stack Overflow\n""); else { top=top+1; stack[top] = item; } } /*Begin of pop*/ char pop() { if(top == -1) printf(""Stack Underflow\n""); else return(stack[top--]); } main() { char exp[MAX],temp; int i,valid=true; printf(""Enter an algebraic expression : ""); gets(exp); for(i=0;i<strlen(exp);i++) { if(exp[i]=='(' || exp[i]=='{' || exp[i]=='[') { push( exp[i] ); printf(""%c"",exp[i]); } if(exp[i]==')' || exp[i]=='}' || exp[i]==']') { if(top == -1) /* stack empty */ valid=false; else { temp=pop(); if( exp[i]==')' && (temp=='{' || temp=='[') ) valid=false; if( exp[i]=='}' && (temp=='(' || temp=='[') ) valid=false; if( exp[i]==']' && (temp=='(' || temp=='{') ) valid=false; } } } if(top>=0) /*stack not empty*/ valid=false; if( valid==true ) printf(""Valid expression\n""); else printf(""Invalid expression\n""); }"
-2023-10-05T19:00:00,Amey Pacharkar,can you please send  java exp list
-2023-10-05T20:24:00,Dovansh,4th tutorial bhej
-2023-10-06T18:50:00,Amey Pacharkar,Ajj lecture hoga ki nahi?
-2023-10-06T18:59:00,Dovansh,hoga
-2023-10-07T11:21:00,Dovansh,https://classroom.google.com/c/NjE2OTM5ODIwMTI0?cjc=pv7u7ef SE-B All students are requested to join the google classroom for DLCA Subject
-2023-10-07T13:09:00,Amey Pacharkar,Board pe dekh
-2023-10-08T07:19:00,Amey Pacharkar,Join karna ajj follow session
-2023-10-08T15:38:00,Amey Pacharkar,Can you send me the topics for tree?
-2023-10-08T15:38:00,Dovansh,binary tree
-2023-10-08T15:38:00,Dovansh,binary searxh tree
-2023-10-08T15:39:00,Dovansh,avl tree
-2023-10-08T15:39:00,Dovansh,expression tree
-2023-10-08T15:39:00,Dovansh,b tree
-2023-10-08T15:39:00,Dovansh,b+tree
-2023-10-08T15:39:00,Dovansh,Huffman coding
-2023-10-08T15:39:00,Amey Pacharkar,Notes?
-2023-10-08T15:39:00,Dovansh,haaa
-2023-10-08T15:39:00,Amey Pacharkar,Thanks 👍
-2023-10-08T19:08:00,Amey Pacharkar,"Can you send me the code for pre-order, in-order and post-order"
-2023-10-08T19:36:00,Dovansh,"void preorder(struct node * root) { if(root==0) return; else { printf("" |%d| "",root->data); preorder(root->ll); preorder(root->rl); } } void inorder(struct node * root) { if(root==0) return; else { inorder(root->ll); printf("" |%d| "",root->data); inorder(root->rl); } } void postorder(struct node * root) { if(root==0) return; else { postorder(root->ll); postorder(root->rl); printf("" |%d| "",root->data); } }"
-2023-10-08T19:36:00,Amey Pacharkar,What is it returning?
-2023-10-08T19:36:00,Amey Pacharkar,It works?
-2023-10-08T19:36:00,Dovansh,Nothing
-2023-10-08T19:36:00,Dovansh,Ya
-2023-10-08T19:36:00,Amey Pacharkar,Mine gives infinite output
-2023-10-08T19:37:00,Dovansh,It doesn't return anything
-2023-10-08T19:37:00,Dovansh,Loop must be wrong
-2023-10-08T19:37:00,Amey Pacharkar,"void preorder(struct node * root){ if(root == NULL){ return 0; }else{ printf(""%d\t"",root -> data); preorder(root -> left); preorder(root -> right); } } //to print the inorder of the Tree void inorder(struct node * root){ if(root == NULL){ return 0; }else{ inorder(root -> left); printf(""%d\t"",root -> data); inorder(root -> right); } } //to print the postorder of the Tree void postorder(struct node * root){ if(root == NULL){ return 0; }else{ postorder(root -> left); postorder(root -> right); printf(""%d\t"",root -> data); } }"
-2023-10-08T19:37:00,Amey Pacharkar,remove 0
-2023-10-08T19:40:00,Amey Pacharkar,Check kar ek bar
-2023-10-08T20:23:00,Amey Pacharkar,dekh le ek bar
-2023-10-08T21:02:00,Dovansh,Haa
-2023-10-08T21:04:00,Dovansh,Rishab mujhe bol Raha tha ki om ko nikal ke usko daalne java ke group me
-2023-10-08T21:05:00,Amey Pacharkar,To dalna he kya?
-2023-10-08T21:05:00,Dovansh,pata nahi
-2023-10-08T21:05:00,Dovansh,download nahi ho raha file
-2023-10-08T21:06:00,Amey Pacharkar,Laptop PE bhi nahi?
-2023-10-08T21:06:00,Dovansh,ye barabar hai tere create tree wale function me gadbag hoga
-2023-10-08T21:06:00,Amey Pacharkar,"//to create the binary tree with recursion struct node *create(){ struct node *newnode; int choice,x; printf(""\n\n1.Continue creating the Tree\n""); printf(""2.Terminate the creating of Tree\n""); printf(""Enter your choice:""); scanf(""%d"",&choice); switch(choice){ case 1: printf(""Enter data:""); scanf(""%d"",&x); newnode -> data = x; printf(""\nEnter the left child of the node %d\n"",x); newnode -> left = create(); printf(""\nEnter the right child of the node %d\n"",x); newnode -> right = create(); return newnode; case 2: return NULL; } }"
-2023-10-08T21:06:00,Dovansh,"#include<stdio.h> #include<stdlib.h> struct node{ int data; struct node*ll,*rl; }; struct node * create() { int x; struct node *newnode; newnode=(struct node *)malloc(sizeof(struct node)); printf(""Enter Data(Enter -1 to exit):\n""); scanf(""%d"",&x); if(x==-1) return 0; else { newnode->data=x; printf(""Enter the left child %d:\n"",x); newnode->ll=create(); printf(""Enter the right child %d:\n"",x); newnode->rl=create(); } return newnode; } void preorder(struct node * root) { if(root==0) return; else { printf("" |%d| "",root->data); preorder(root->ll); preorder(root->rl); } } void inorder(struct node * root) { if(root==0) return; else { inorder(root->ll); printf("" |%d| "",root->data); inorder(root->rl); } } void postorder(struct node * root) { if(root==0) return; else { postorder(root->ll); postorder(root->rl); printf("" |%d| "",root->data); } } void main() { struct node * root; int ch; do{ printf(""\n\n****MENU****\n\n""); printf(""\n1.Create Tree""); printf(""\n2.Display in Inorder""); printf(""\n3.Display in Preorder""); printf(""\n4.Display in Postorder""); printf(""\n5.EXIT\n""); printf(""\nEnter your Choice:\n""); scanf(""%d"",&ch); switch(ch) { case 1: root=create(); break; case 2: printf(""inorder:\n""); inorder(root); break; case 3: printf(""Preorder:\n""); preorder(root); break; case 4: printf(""Postorder:\n""); postorder(root); break; } } while(ch!=5); }"
-2023-10-08T21:07:00,Amey Pacharkar,badme thekta hu
-2023-10-08T21:07:00,Dovansh,Haaa
-2023-10-08T21:07:00,Amey Pacharkar,abhi sab bhej rahe he java ka
-2023-10-08T21:07:00,Amey Pacharkar,friday last day tha aur
-2023-10-08T21:07:00,Dovansh,Waah
-2023-10-08T21:07:00,Dovansh,Kar kar kaam
-2023-10-08T21:11:00,Amey Pacharkar,😂
-2023-10-08T21:11:00,Amey Pacharkar,Dekte he me abhi nahi karne wala wonsebhi Kam
-2023-10-08T21:21:00,Amey Pacharkar,Group PE bhej dukya excel?
-2023-10-08T21:22:00,Amey Pacharkar,Deklo kiska name he hese? Ya phir nahi?
-2023-10-08T21:22:00,Dovansh,Mat bhej
-2023-10-08T21:22:00,Dovansh,Fir kisika naam kisine nahi dala hoga to natak karenge
-2023-10-08T21:22:00,Dovansh,Sabko tujhe personally bhejne de
-2023-10-08T21:23:00,Dovansh,Ya kuch puchenge to Mai bolta hu grp pe
-2023-10-08T21:23:00,Amey Pacharkar,Chalega nahi bhejta
-2023-10-08T21:23:00,Dovansh,Haa
-2023-10-08T22:23:00,Amey Pacharkar,Thek kya karna he iska?
-2023-10-08T22:41:00,Dovansh,Dekhte hai rukk
-2023-10-08T22:52:00,Dovansh,Tu mam ko bhej raha hai ye file abhi ?
-2023-10-08T22:52:00,Amey Pacharkar,Kal
-2023-10-08T22:53:00,Dovansh,Haa to apne grp ka kal dekhte hai change karna hai ki nahi fir dete hai
-2023-10-09T08:24:00,Amey Pacharkar,Ajj late ho jayga shayad thoda
-2023-10-09T14:05:00,Dovansh,"#include<stdio.h> #include<stdlib.h> struct node{ int data; struct node*next; }; struct node *head,*tail,*newnode,*prevnode,*nextnode,*cnode,*temp; int count; void create() { int i,n,choice=1; printf(""Enter the number of nodes you want to enter:\n""); scanf(""%d"",&n); printf(""Creating a linked list.....\n""); for(i=0;i<n;i++) { newnode=(struct node *)malloc(sizeof(struct node)); printf(""Enter data:\n""); scanf(""%d"",&newnode->data); newnode->next=0; if(tail==0) { tail=newnode; tail->next=newnode; } else { newnode->next=tail->next; tail->next=newnode; tail=newnode; } count++; } display(); } display() { if(tail==0) printf(""\nLinked list empty\n""); else{ temp=tail->next; printf(""The Linked List is:\n""); do { printf(""|%d|--->"",temp->data); temp=temp->next; } while(temp!=tail->next); printf(""\nNumber of nodes=%d\n\n"",count); } } void insbeg() { int n; if(tail==0){ printf(""\nLinked list not created yet\n""); printf(""\nEnter 1 to create linked list 0 to options\n""); scanf(""%d"",&n); if(n==1) create(); else main(); } else{ newnode=(struct node *)malloc(sizeof(struct node)); printf(""Enter data(Start):\n""); scanf(""%d"",&newnode->data); newnode->next=tail->next; tail->next=newnode; count++; display(); printf(""1st node is:|%d|"",tail->next->data); } } void insend() { int n; if(tail==0){ printf(""\nLinked list not created yet\n""); printf(""\nEnter 1 to create linked list 0 to options\n""); scanf(""%d"",&n); if(n==1) create(); else main(); } else{ newnode=(struct node *)malloc(sizeof(struct node)); printf(""Enter data(END):\n""); scanf(""%d"",&newnode->data); newnode->next=tail->next; tail->next=newnode; tail=newnode; } count++; display(); } void inspos() { int p,i=1; if(tail==0) printf(""Linked list not created yet""); else{ newnode=(struct node *)malloc(sizeof(struct node)); printf(""Enter position:\n""); scanf(""%d"",&p); if(p>count) printf(""Invalid position""); else{ temp=tail->next; while(i<p-1) { temp=temp->next; i++; } printf(""Enter data:\n""); scanf(""%d"",&newnode->data); newnode->next=temp->next; temp->next=newnode; } count++; display(); } } void delstrt() { temp=tail->next; if(tail==0) printf(""\nList Empty\n""); else if(temp->next==temp) { tail=0; free(temp); } else { tail->next=temp->next; free(temp); } count--; display(); } void delend() { int i=1; temp=tail->next; if(tail==0) printf(""\nList Empty\n""); else if(temp->next==temp) { tail=0; free(temp); } else { while(temp->next!=tail->next){ prevnode=temp; temp=temp->next; } prevnode->next=tail->next; tail=prevnode; free(temp); } count--; display(); } void delpos() { int pos,i=1; if(tail==0) printf(""\nList Empty\n""); else { temp=tail->next; printf(""Enter the position:""); scanf(""%d"",&pos); while(i<pos-1){ temp=temp->next; i++; } nextnode=temp->next; temp->next=nextnode->next; free(nextnode); count--; display(); } } void reverse() { prevnode=0; cnode=nextnode=tail->next; while(nextnode!=0) { nextnode=nextnode->next; cnode->next=prevnode; prevnode=cnode; cnode=nextnode; } tail->next=prevnode; display(); } void main() { int ch; do{ printf(""\n\n****MENU****\n\n""); printf(""\n1.Create Linked List""); printf(""\n2.Display Linked List""); printf(""\n3.Enter element at the beginning""); printf(""\n4.Enter element at the end""); printf(""\n5.Enter element at a specific position""); printf(""\n6.Delete element at the beginning""); printf(""\n7.Delete element at the end""); printf(""\n8.Delete element from a specific location""); printf(""\n9.Reverse the node:""); printf(""\n10.EXIT\n""); printf(""\nEnter your Choice:\n""); scanf(""%d"",&ch); switch(ch) { case 1: create(); break; case 2: display(); break; case 3: insbeg(); break; case 4: insend(); break; case 5: inspos(); break; case 6: delstrt(); break; case 7: delend(); break; case 8: delpos(); break; case 9: reverse(); break; } } while(ch!=10); printf(""THANK YOU!!""); }"
-2023-10-09T19:15:00,Amey Pacharkar,ajj bohot nind aaraha he
-2023-10-09T19:16:00,Dovansh,haanaa
-2023-10-10T07:07:00,Amey Pacharkar,Thanks
-2023-10-10T08:53:00,Dovansh,Aaj aaneme thoda late hoga
-2023-10-10T10:09:00,Amey Pacharkar,Kab araha he? K
-2023-10-10T14:06:00,Amey Pacharkar,"#include <stdio.h> #include <stdlib.h> //initialise the structure struct node{ int data; struct node *next; }; //initialise pointer struct node *front = NULL,*rear = NULL,*temp, *newnode; //function prototype void enqueue(); void dequeue(); void peek(); void display(); int main(){ int ch; while(1){ printf(""\n\nChoose your option:\n1.Enqueue\n2.Dequeue\n3.Peek\n4.Display\n5.Exit\nEnter your choice:""); scanf(""%d"",&ch); switch(ch){ case 1: enqueue(); break; case 2: dequeue(); break; case 3: peek(); break; case 4: display(); break; case 5: printf(""Thank you!!!""); return 0; } } } //to add elements in queue void enqueue(){ newnode = (struct node*)malloc(sizeof(struct node)); printf(""Enter the data:""); scanf(""%d"",&newnode -> data); newnode -> next = NULL; if(front == NULL && rear == NULL){ front = newnode; rear = newnode; }else{ rear -> next = newnode; rear = newnode; } } //to delete elements from queue void dequeue(){ if(front == NULL && rear == NULL){ printf(""Underflow Condition!!!""); }else{ temp = front; front = front -> next; printf(""Deleted element is:%d"",temp -> data); free(temp); } } //to peek void peek(){ if(front == NULL && rear == NULL){ printf(""Underflow Condition!!!""); }else{ printf(""The number at front pointer is:%d"",front -> data); } } //to display void display(){ if(front == NULL && rear == NULL){ printf(""Underflow Condition!!!""); }else{ temp = front; while(temp != NULL){ printf(""%d\t"",temp -> data); temp = temp -> next; } } }"
-2023-10-10T14:06:00,Amey Pacharkar,Choose your option: 1.Enqueue 2.Dequeue 3.Peek 4.Display 5.Exit Enter your choice:1 Enter the data:12 Choose your option: 1.Enqueue 2.Dequeue 3.Peek 4.Display 5.Exit Enter your choice:1 Enter the data:34 Choose your option: 1.Enqueue 2.Dequeue 3.Peek 4.Display 5.Exit Enter your choice:1 Enter the data:56 Choose your option: 1.Enqueue 2.Dequeue 3.Peek 4.Display 5.Exit Enter your choice:1 Enter the data:78 Choose your option: 1.Enqueue 2.Dequeue 3.Peek 4.Display 5.Exit Enter your choice:1 Enter the data:90 Choose your option: 1.Enqueue 2.Dequeue 3.Peek 4.Display 5.Exit Enter your choice:4 12      34      56      78      90 Choose your option: 1.Enqueue 2.Dequeue 3.Peek 4.Display 5.Exit Enter your choice:2 Deleted element is:12 Choose your option: 1.Enqueue 2.Dequeue 3.Peek 4.Display 5.Exit Enter your choice:2 Deleted element is:34 Choose your option: 1.Enqueue 2.Dequeue 3.Peek 4.Display 5.Exit Enter your choice:3 The number at front pointer is:56 Choose your option: 1.Enqueue 2.Dequeue 3.Peek 4.Display 5.Exit Enter your choice:4 56      78      90 Choose your option: 1.Enqueue 2.Dequeue 3.Peek 4.Display 5.Exit Enter your choice:5 Thank you!!!
-2023-10-10T18:16:00,Amey Pacharkar,Shubham Sir CG.vcf (file attached)
-2023-10-11T10:52:00,Dovansh,Khatam hua to call kar
-2023-10-11T10:52:00,Dovansh,Hi
-2023-10-11T10:52:00,Dovansh,Hi
-2023-10-11T10:52:00,Dovansh,Hi
-2023-10-11T10:52:00,Dovansh,Hi
-2023-10-11T10:52:00,Dovansh,Hi
-2023-10-11T10:52:00,Dovansh,Ho
-2023-10-11T10:52:00,Dovansh,Hi
-2023-10-11T10:52:00,Dovansh,Khatam hua to call kar
-2023-10-11T11:12:00,Amey Pacharkar,Ha re
-2023-10-11T11:49:00,Dovansh,Kya chal Raha hai ?
-2023-10-11T12:23:00,Amey Pacharkar,Tp
-2023-10-11T12:25:00,Amey Pacharkar,4hrs hoga
-2023-10-11T12:41:00,Dovansh,Kya ?
-2023-10-11T12:55:00,Amey Pacharkar,Ha
-2023-10-11T19:06:00,Dovansh,Yaa so
-2023-10-11T19:06:00,Amey Pacharkar,That's not java 😂😂
-2023-10-11T19:07:00,Dovansh,Aree 😂😂
-2023-10-11T19:07:00,Amey Pacharkar,Me kitne derse thug Raha hu ye error
-2023-10-11T19:07:00,Dovansh,Kar kar 😂
-2023-10-11T19:08:00,Amey Pacharkar,ha 30minute me bbhej ta hu
-2023-10-11T19:08:00,Dovansh,Chalegq
-2023-10-11T19:53:00,Amey Pacharkar,ye le
-2023-10-11T19:55:00,Amey Pacharkar,turbo c pe jake run karna
-2023-10-11T19:55:00,Amey Pacharkar,online turbo c
-2023-10-11T21:43:00,Amey Pacharkar,string ka code bhej na
-2023-10-11T21:55:00,Dovansh,"5.PROGRAM TO FIND FACTORIAL OF A NUMBER import java.util.*; class factorial { public int Factorial(int n) { int i,result = 1; for ( i = 1; i <= n; i++) { result *= i; } return result; } } class main { public static void main(String[] args) { int num,Result; Scanner sc = new Scanner(System.in); System.out.print(""Enter a number: ""); num = sc.nextInt(); factorial calculator = new factorial(); Result = calculator.Factorial(num); System.out.println(""Using iterative method:""); System.out.println(""Factorial of "" + num + "" is: "" + Result); } } 6.Factorial import java.util.*; class fibonacci { public int Fibonacci(int n) { if (n <= 1) { return n; } else { return Fibonacci(n - 1) + Fibonacci(n - 2); } } } class Main { public static void main(String[] args) { int fibNum,num; Scanner sc = new Scanner(System.in); System.out.print(""Enter a number: ""); num = sc.nextInt(); fibonacci calculator = new fibonacci(); System.out.println(""Fibonacci series up to "" + num + "":""); for (int i = 0; i <= num; i++) { fibNum = calculator.Fibonacci(i); System.out.print(fibNum + ""||""); } } } 7.Multiplication Table import java.util.*; class multiplicationtable { public int Table(int t,int n) { return t*n; } } class Main { public static void main(String[] args) { int num,m,i; Scanner sc = new Scanner(System.in); System.out.print(""Enter the number of which multiplication table you need:""); m=sc.nextInt(); multiplicationtable calculator = new multiplicationtable(); for (i = 0; i <= 10; i++) { num = calculator.Table(m,i); System.out.println(""|""+m+""x""+i+""=""+num+""|""); System.out.println(""-----------""); } } } 8.Simple Calculator import java.util.*; class calculator { public int add(int a,int b) { return a+b; } public int subtract(int a,int b) { return a-b; } public int multiply(int a,int b) { return a*b; } public int divide(int a,int b) { return a/b; } public int mod(int a,int b) { return a%b; } } class Main { public static void main(String[] args) { int i,j,ch; calculator cal=new calculator(); Scanner sc =new Scanner(System.in); do { System.out.print(""Enter Two numbers a and b:""); i = sc.nextInt(); j = sc.nextInt(); System.out.println(""Enter Operation""); System.out.println(""1.ADDITION:""); System.out.println(""2.SUBTRACTION:""); System.out.println(""3.MULTIPLICATION:""); System.out.println(""4.DIVISION""); System.out.println(""5.MODULUS""); System.out.println(""6.EXIT""); ch = sc.nextInt(); switch(ch) { case 1: System.out.println(""Addition is ""+i+""+""+j+""=""+cal.add(i,j)); break; case 2: System.out.println(""Subtracttion is ""+i+""-""+j+""=""+cal.subtract(i,j)); break; case 3: System.out.println(""Multiplication is ""+i+""x""+j+""=""+cal.multiply(i,j)); break; case 4: System.out.println(""Division is ""+i+""/""+j+""=""+cal.divide(i,j)); break; case 5: System.out.println(""Modulus is ""+i+""%""+j+""=""+cal.mod(i,j)); break; default: } } while(ch!=6); } } 9: 10.Constructor overloading: import java.util.*; public class Student { //instance variables of the class int id; String name; Student(){ System.out.println(""this a default constructor""); } Student(int i, String n){ id = i; name = n; } public static void main(String[] args) { //object creation Student s = new Student(); System.out.println(""\nDefault Constructor values: \n""); System.out.println(""Student Id : ""+s.id + ""\nStudent Name : ""+s.name); System.out.println(""\nParameterized Constructor values: \n""); Student student = new Student(10, ""David""); System.out.println(""Student Id : ""+student.id + ""\nStudent Name : ""+student.name); } } OUTPUT: this a default constructor Default Constructor values: Student Id : 0 Student Name : null Parameterized Constructor values: Student Id : 10 Student Name : David 11.Method Overloading PROGRAM: import java.util.*; public class area { public double area(double r){ return 3.14*r*r; } public int area(int l, int b){ return l*b; } public static void main(String[] args) { int length,breadth,radius; Scanner sc = new Scanner(System.in); System.out.println(""Enter length and breadth for area of rectangle""); length=sc.nextInt(); breadth=sc.nextInt(); area rec = new area(); System.out.println(""Area of the rectangle is :""+rec.area(length,breadth)); System.out.println(""Enter radius for area or circle""); radius=sc.nextInt(); System.out.println(""Area of the circle is :""+rec.area(radius)); } } OUTPUT: Enter length and breadth for area or rectangle 10 10 Area of the rectangle is :100 Enter radius for area or circle 10 Area of the circle is :314.0 12.Parameterized constructor PROGRAM: import java.util.*; public class area { String Name = new String(); int rollno; int age; area(int n,int d,String g){ Name=g; rollno=d; age=n; } public static void main(String[] args) { int no,id; Scanner sc = new Scanner(System.in); System.out.println(""Enter your age number:""); no=sc.nextInt(); System.out.println(""Enter your roll number:""); id=sc.nextInt(); System.out.println(""Enter your name:""); String name=sc.nextLine(); area a = new area(no,id,name); System.out.println(""Your name is ""+a.Name+"" Your roll no is ""+a.rollno+"" Your phone number is ""+a.age); } } 13:Array Addition import java.util.*; class ArrayAddition { public void Addition(int array[],int m) { int add=0; for(int i=0;i<=m;i++) { add=add+array[i]; } System.out.print(""\nthe Addition of all elements of the array is ""+add+""\n\n""); } public void display(int array[],int j) { int i=0; System.out.println(""The array is :""); while(i!=j) { System.out.print(array[i]+""  ""); i++; } } } class Main { public static void main(String[] args ) { int a[]=new int[100],i=0,n; Scanner sc = new Scanner (System.in); System.out.println(""enter the number of elements in the array:""); n=sc.nextInt(); System.out.println(""The number of elements in the array is:""+n); System.out.println(""enter the elements of the array""); while(i!=n) { a[i]=sc.nextInt(); i++; } sc.close(); ArrayAddition fill = new ArrayAddition (); fill.display(a,n); fill.Addition(a,n); } } 14:String operations import java.util.*; class StringOpr { public String Uppercase(String s) { s=s.toUpperCase(); return s; } public String Lowercase(String s) { s=s.toLowerCase(); return s; } public void Length(String s) { int a; a=s.length(); System.out.println(a); } public String replace(String s) { String j,h; Scanner read= new Scanner(System.in); System.out.println(""String:""+s); System.out.print(""Enter the word you want to change in the string: ""); j =read.nextLine(); System.out.print(""Enter the word you want to change it to: ""); h=read.nextLine(); s=s.replace(j,h); return s; } } class Stringfunc { public static void main(String[] args) { String str; int ch; Scanner sc= new Scanner(System.in); System.out.println(""Enter a string: ""); str= sc.nextLine(); StringOpr JAVA = new StringOpr (); do { System.out.println(""***CHOOSE OPTION***""); System.out.println(""0.Print string""); System.out.println(""1.Change to upper case""); System.out.println(""2.Change to lower case""); System.out.println(""3.Check length""); System.out.println(""4.Edit input string""); System.out.println(""5.Check character""); System.out.println(""6.Exit""); System.out.println(""Choose from the above options:""); ch=sc.nextInt(); switch (ch) { case 0: System.out.println(str); break; case 1: str=JAVA.Uppercase(str); System.out.println(str); break; case 2: str=JAVA.Lowercase(str); System.out.println(str); break; case 3: JAVA.Length(str); break; case 4: str=JAVA.replace(str); System.out.println(str); break; case 5: int n; System.out.println(""Enter the position to find character""); n=sc.nextInt(); char g=str.charAt(n); System.out.println(""Character at position ""+n+"" is:""+g); } } while(ch!=6); } }"
-2023-10-12T07:01:00,Amey Pacharkar,Name?
-2023-10-12T18:18:00,Dovansh,10 to 14
-2023-10-12T18:49:00,Amey Pacharkar,14 to 20
-2023-10-12T18:50:00,Dovansh,kya
-2023-10-12T19:07:00,Amey Pacharkar,Pata nahi tune bheja to mene bhi bhrja
-2023-10-12T19:47:00,Dovansh,20 to 100
-2023-10-12T21:12:00,Amey Pacharkar,100 to 2109
-2023-10-12T23:05:00,Dovansh,101 to 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
-2023-10-13T08:20:00,Amey Pacharkar,Wrong start you lose
-2023-10-13T19:46:00,Amey Pacharkar,puchna he na sir ko?
-2023-10-13T19:46:00,Amey Pacharkar,lecture ke badd?
-2023-10-13T19:47:00,Dovansh,Haaa
-2023-10-13T19:47:00,Amey Pacharkar,chalega
-2023-10-13T19:47:00,Amey Pacharkar,sirf sir ne bhagana nahi chaheye
-2023-10-13T19:59:00,Dovansh,Haa
-2023-10-13T21:50:00,Amey Pacharkar,so basically don't take
-2023-10-13T21:50:00,Dovansh,haaaa
-2023-10-13T21:52:00,Amey Pacharkar,HOD ka bolne wala tha me pur nahi bola
-2023-10-13T21:52:00,Dovansh,kal bolenge
-2023-10-13T21:52:00,Amey Pacharkar,full emotional blackmail
-2023-10-13T21:52:00,Dovansh,haaaaa
-2023-10-13T21:52:00,Dovansh,kal bolte hai
-2023-10-13T21:53:00,Amey Pacharkar,chalega
-2023-10-13T21:53:00,Dovansh,haaaa
-2023-10-13T21:53:00,Amey Pacharkar,chaleha
-2023-10-15T08:04:00,Amey Pacharkar,join kar follow up? ki so gaya?
-2023-10-15T09:01:00,Dovansh,haa
-2023-10-15T09:25:00,Amey Pacharkar,acah
+input,output
+Like 5 5 15 15 15 25 35 45,Ah total 40
+Yaa,I see
+Haaa,I thought 40 on lvl45
+Naa,Too generous
+And a free five star weapon selector At 45,Nice
+Yaaa,Which rover you choose?
+Female She's tall Really tall I chose sea server,Nice I will choose sea too
+Yaa,Will let you know the UID once I play
+Yaaa,Taller than you?
+Me ? You're taller than me,I meant the rover
+Ofcourse She is,I see
+And if female one is then male will be too,What about lag and bug? Any you encounter?
+Not yet But sometimes the animation cab have some refinement Other than that graphics are great Gameplay is great,I see that's good
+Yaaa Combat is good We have counter attack and dodge,I mean it's very 1.0 we can give some slack to them
+Yaa that's what They'll improve,Nice and I heard they had qte too for swapping character Yaa hopefully
+Yess There are pets too,I heard kuro games do tend to listen to player base tho we will see
+That's good,I see
+In the sense echos,Ahh I see
+Like we can call them in battles and use their ability,I saw u can transform in mobs
+Yaaa,Yaa
+That's echos,I see Well I will get going now
+Yepp,Will have to complete alot of OS Later
+Yeah,The game is really laggy
+is it,It needs to get stable or else it was fun roaming around killing
+it works fine for me,It lags quite a bit even on lowest setting for me Maybe because it is just put *out
+ya maybe,Hopefully it will get better
+ya it will 900450801 UID,I will add later
+"yepp 23/05/2024, 5:50 pm - You pinned a message",I have like 9010...
+Ohkk,How much did you progress?
+i have to reacg level 14 to continue main quest,I pulled two times I got baizhi cons and a 4* weapon What's your current lvl?
+i got 3 4* weapons 8,Woah from gacha?
+yeah,I got to 4 or 5 I think
+and 4 4* characters,U have a 5*? Or you are pulling on event banner too?
+not yet yaa,I see Well I am just going for the 50 pull banner rn
+ya me too but im not using any astride on that,Hopefully I get those 30wishes Yaa
+mine 20 re remaining,We can buy in shop tho 6 of them
+yeah we can buy cons,"6 standard, weapon, character banner currency For 60"
+yeah waveforms in this game,Constilation?
+yaa im doing lingyang companion quest,Not gonna explore?
+maybe later,I think the lag is on my part and not server Cant believe it. My laptop could handle genshin tho
+WW is more graphics intensive than GI medium settings on WW is better than medium settings on GI,I mean my laptop is struggling on very low
+i deleted star rail because of that,😂😂
+yeah i know ill play star rail on laptop only,i will have to transfer hsr to mobile to try and see if i can play on laptop or else the lag is really bad maybe it will be stable in few days
+😂😂😂 do that it was giving me connecting issue,i get a ping of 90-600
+im getting 999,yaa the serves are stable since a lot of ppl are playing and it has just launch today and i am the one with lag
+yaaaaa 😂😂,thik he thekta hu me kal padke hua?
+sums baki hai aur thoda theory,sai he mejhe subhe jalde uthana padega
+haa mai sone hi nahi wala,game ghelega rath bhar?
+nhi padhunga,acha sai he
+haa,chal phir he continue karta hu
+haaa,true true
+yaaa This message was deleted,You know what to do?
+That's error ? It's downloading isn't it,More like yaa not downloading because no net But I have perfect net It downloads to certain extends and then gives up
+It's not happening with me,I think it is mostly server issue since launch day U r on phone na
+Yaaa,Launcher are for laptop
+Mostly Ha I know,It's launcher update
+Ohh,Yaa will try in night once then after exam
+Close and start again?,"I try restarting pc, wifi, changing dns and switching to hotspot"
+Waaah,It's server issue
+Haaa Try tomorrow again,Yaa
+Haa WW has severe problem on pc App vanishing Lagging Poor graphics compared to mobile,See I told yah
+I saw on twitter someone said that it ran better on a phone with 6 gen 1 compared to laptop,I seriously thought my laptop is done for
+😂😂,They will fix it hopefully
+Yeah,The only onces who can play it well are the onces who have reallygood pc
+Haaa Once it is solved normal pcs should run it,And like it's first day so alot of PPL so server is overtiming
+Yaa,Let's give them some days to fix stuff Alot of PPL can't even playing the game <This message was edited> Because of issues
+Yaaa It will get better with time,I heard genshin was the same on launch day
+Was it ?,Yaa It takes time since it is their first open world game 31Million PPL playing so yaa
+Ya ofcourse Soooo I got her,Cool She is a healer+ buffer right?
+Yeah,U r alive rn? I just woke up
+Ya I've been awake since yesterday morning Unfortunately yes,You wish to come to exam sleep deprived?
+Yeah,Devansh kya bata rah tha bata Wuthering waves ka?
+It needs improvement,That's all? I heard they giving free 5* selector Standard banner 5*
+yeah I know i chose jianxin,We already got it?
+naaa,Then?
+you have to choose before hand,??
+ehen you get a 5 star from your 50 banner the choise will come,No no I meant we are getting a 5* selector Like 5* weapon selector You select a 5*
+ya,Cuz of so many bugs and glitches it's compensation So u know
+at union level 45 as compensation ?,Let me rephrase it cuz I am thinking you didn't get it Kuro games are giving a 5* standard banner character selector for free as a compensation for all the bugs and glitches
+what ? when did thid happen ?,For cn they announced So we might be getting it too
+China ?,Yaa
+Waah We also want,They have not yet announced for us
+We also want,Yaa Let me see my first 5* Will let u know
+Yaaa,I got the one I didn't want xD
+Whoa,Yaa I will keep using my rover
+😂😂,Yaa I am sad now Anyone else except him would be nice
+So who won you choose now for 5*,Not sure I will wait for now
+You can wait ?,Maybe verina or jianxin
+I already chose,I mean I don't pull I am waiting And we can change our choice
+Verina is good healer We can ?,Yaa Tho the game is really laggy rn Well there goes my first 5*
+Atleast I got better I got through my first boss fight because of her Crowless,Yaa Btw I send you a request
+Okk I'll accept when I play,Alright
+Yss,Ah btw what are the codes? And where do I use them?
+WUTHERING2024 WUTHERINGGIFT WUTHERINGWAVESGIFT,Thanks
+Yepp,Only this works?
+Yaaa Did you see the natlan teaser,No i didn't Is it good?
+There are dinosaurs Literal dinosaurs,🙂 Can we ride them?
+Well I don't know,I hope we do
+They are called saurians or something,I se That's cool
+It was their teaser No characters,Ah well we will see them soon then
+Yeah See the traveller animation too That's a good one,And still they willbe useless Will check them later
+Ya maybe They have good mechanics Maybe we can make them pets,😅 Too high expectation
+Yeah That'd be cool though,Yae will say in your dreams
+Well wuthering waves has come out,Naa
+We don't know what genshin will do,They gave 200 resin cap That's good enough for them And a end game
+Today was the livestream,Oh I didn't knew
+Oh I didn't know*,That's wrong
+New dain quest,How can you use didn't (past tense) with know( present tense) I mean he comes onces a year
+Yeah You use both past tense?,My bad you were right My apologies
+Yeah,"Dear Rovers, After yesterday's post, we have some new updates to share with you regarding our future plans for game improvements. - We plan to make every type of story content skippable in future updates, giving you more control over your gameplay. Most of the story content will become skippable in an upcoming update. - The Companion Story for Resonator Yinlin will be available in-game soon. - We will further enhance the in-game combat experience for more satisfying gameplay. We will be giving out Radiant Tides*10 and a free custom 5-Star Standard Resonator voucher as a token of gratitude for your support. For more details on our future improvement plans, please see: https://wutheringwaves.kurogames.com/en/main/news/detail/790"
+Hmmm,See free 5* resonator
+Genshin could never When though ?,Not sure I wish I had got someone else really I will go for the healer or save everything
+You have a x Choice now,I am thinking of going only rover fighting bosses Meaning?
+But a free 5 star ? That will be expensive for kuro,I mean it is better for them in long run
+You have a choice to pick a character now True,Since there is so much lag and freezing some players might not play and that dreded fatal error
+And if the game gets optimization then even better,True I am just doing mild playing rn since it is so much freezing Not even lag it's good But freezing and ping is really bad
+Ohhh Mine is better,Yaa when it's fixed it will be much more fun
+Just some lag here and there,That's fine really if I showed you mine you won't be tell what's happening in battle And I am not even wellwose so basically death when a strong opponent is there
+Ohkk,Though I am considering playing only rover Or some kidda challenge
+Like solo rover ?,Tho it might be really hard considering freezing Yaa and maybe only 4*
+Havoc rover has arlecchino like gameplay Okk,No spoiler
+I haven't gotten her yet,Tho I am considering some kidda challenge playthough rather than normal one Still spoiler na?
+Yaaaaaa Haha On 20 pity Bug That's a html line I think,Woah lucky 😂
+Ya on standard,Cool
+Yeah Guaranteed one,Guaranteed one?
+Haa Tomorrow one more free,What's guarented in standard banner? Isn't it random?
+Are choice one,You choose him? I thought you had the monk girl
+Yeah I'll get her from the free one I heard he's a good dps,Ah I see I eillget the healer from free
+And we'll need upto 3 teams in the game at some point,Woah that's gonna be tough for me
+Yeah,You are pretty good rn
+I can build upto 2 teams,Try getting the limited or wait for the red girl
+Naa Waiting,Yaa that guy and rover
+Yaa,You got healers too
+Ya Baichi is also a healer,Tho I am pretty sure healer would be dps loss in future <This message was edited> Yaa the white animal lady right?
+Yaa Dos loss ? Ohh Yeah I know,Since it's better to dodge to fill the intro/outro meter
+That's why I'm planning on rover jianxin and verina,Jianxin?
+Monk lady,Who? Ahh
+Haa,I got that stupid kid Not even gonna touch him
+She's a healer shielded buffer and dps,Sub-dps na?
+Yaa that,Yaa that's nice
+She heals after putting up her a shield But it takes more than 4 seconds to put up the shield,I still can't fight smoothly so i still die to bosses
+Ohh,Woah is shield good?
+I did 4 to 5 bosses It depends on the qi bar There are levels to the shield,That's nice. I die since I can't see atks and counters Is the shield reasonable for 4sec?
+I am at union 21 and  bank level 9,That's alot considering its a fast game where you swap alot Wha-
+It takes more than that for full power shield It scales of her atk I think,I see How did you got to 21?
+Bosses They give 500 exp for first clear,They give that much xp? Woah
+Yeah,I am at 6 xD
+Then when we use resin 450 😂,450?
+Exp,Ahh
+And I'm hunting echos like crazy,I thought 450 resin
+I unlocked 4*,Nice I just roam around randomly
+And it's annoying,Why?
+Most of them don't drop anything,Atleast you get drops They will be used for lvling characters
+Yeah Level up characters?,Yaa You can do lvl40 na?
+50,Cool You can lvl up talents too right?
+Though I only have rover AT 50 Ya,Nice
+But I doubt have the mats,I will just play slowly due to lag and freezing Hopefully in a week it willbe good
+Yeah It should Did you study anything?,Btw I got the danjin girl from limited banner to c1
+Ohh She is a berserker,Na it's my mother's birthday. Will start tomorrow
+Ohhh Wish her for me Happy birthday,Yaa she hurts herself to boost atk
+Yeah,Tho I use her rover and baizhi Yaa will do that
+Ohkkk Anime on tv And wuwa,What's that anime?
+Lbx It's my favorite one,Which is it?
+I'm watching it for the 4th time It has 3 parts Lbx Lbx w Lbx wars,Robot anime? That's cool
+W wala is the best Yeah,😲
+Right now I'm watching the final battle And that white lbx is my favorite one,They have different powers?
+They have different abilities Depending on their model And different attack functions Their most powerful attack,It seems interesting And I am guessing they fight to protect the world?
+Yeah it is Yeah,The villain is a robot too?
+Naa They're humans,Robots are killing humans?
+Well the first one is a android A human turned android,Isn't that one sided? Or Android are really powerfull?
+The robots are controlled by humans And they're the size of out palm A bit bigger maybe Only a little,I see
+Yeah,If you are into robots try code geass It's not entirely on robots but they have cool robots
+An old man wants to overthrow the world and wants to control it so he captures all the best scientist of the world and the creator of lbx And the son of the creator is the Mc who tries to save his dad then the world I see,Nice
+Ya Watch it it's cool,Alight I will give it a try
+Yeah I'll try code geass,Yaa one thing tho Don't get spoiled
+Alright,It will really ruin it for you
+Okk,Is it in sequence?
+Yaa,Alright
+You'll find it on animesuge and gogoanime.fi You won't find it anywhere else,Alright thanks
+Yepp 123 isme hai?,Those are only two pdf I have not check it
+Okk,"Everything important for mod 1,2,3 ahe"
+Everything?,"Important points of mod1,2,3 Not everything"
+Oh,This is alternative. But this is fine too ma'am said Add address lines and data lines
+Address lines and data lines ? Alright,Data lines - D0-D7 & D8-D15 Address lines - A0-A9 & A10-A19
+Ok,Me likal gaya
+Kaisa gaya ?,Ehh. Thek tha Sirf bara he paper
+Okkk Pass na ?,Itna bhe bura nahi tha. Pass hu me Tera kese tha? Outoff? <This message was edited>
+Thikk tha,Okkk Pass na ? <This message was edited>
+Haa,Sai he Baki ke loggonka?
+Haa Pass sab Rishabh ka Pata nhi,Acha he Acha Koi na ho jayega pass vo bhe
+Haa Haa ho jayega Kal cricket khelne aayega ?,Ha kabhe ana he? Ek bar puchake bolta hu
+9 baje Haa,Bhai akela hoga isleye Confirm karke batata hu
+Dupher ko dhup hogi Okk,Ha subhe he acha he
+Haa,Chal phir
+Ha chal Zenless zone sero launching on 4th july,Yaa The game is hard for me due to lag I have to react to really small queues since it lags so much during fights Or keep spamming
+Oh alright,Did you saw trailer or sth?
+Naa Twitter announcement,Then?
+.,Ahh Idt I will be playing 2 new games at the same time Yaa late reply Did you unlocked the simulated universe thing? And abyss thing in WuW?
+Ya me too Ya I did I only did the first level though,Yaa me too How is your shifting going? Are you changing home again?
+Yeah It was tiring,I mean ofc
+Yeah,"https://www.facebook.com/share/r/R3eFhMwxSSCt3Bu6/?mibextid=xCPwDs We can switch cancel skills, bursts and echos"
+Yeah I know I can use two dreamless at a time,What's dreamless? Echo?
+Yeah You'll know when you go ahead,I see I got to union21 Tho I stopped doing main quest I am completing my pokedex
+Ohh Same Gotta catch em all,Yaa I will first find them all then find the purple/elite type of them
+I have every echo except for 1,Woah what's your lvl?
+13 And union 27,Nice I am 10 rn Woah you are too far ahead I think 15 is when we get gold ones
+Yeah,It requires lvl30 union tho
+Yaa I'll have to reach there,I mean there are quests You can do them
+It's boring,And exploring
+They barely give 100 150 exp And they are long as heck,Well you can't be picky if you wanna lvl up fast Or else daily and resin xp only
+Yeah,Quests are like you do after your daily things
+Ya Well the character level up domain gives 300 exp,That's nice
+And we can do 6 in a day Given 240 resin So that's 1800,You can do bosses
+But going from 27 to 28 requires 2900 exp,So two days is enough
+Ya they give 450 But they take 60 resin,Tho 20 more resin Yaa
+Ya but then 29 and 30 too It'll take a week,Its same amount of xp per resin
+The ratio is the same,For boss and domain Yaa
+Both give 1800 I'll start doing bosses though,Tho I hope they optimize the game more. I still lag during fights
+I have to ascend verina and jianxin,I mean u can beat lvl120 boss with lvl1 character <This message was edited> By doing dodge atk
+Those are red mists Yeah,It does true dmg depending on enemy lvl Yaa
+They range from 40 to 120,U just have to dodge then atk once
+And guarantee 5* echos,5*?
+Yeah I got one like that,I didn't got 5* tho. Scam
+Some give some don't I got 3 4*s and 1 5*,Maybe rng
+Yeah,Or humanoid ones maybe don't drop echos
+They should make an app like hoyolab,I will do simulated universe tho along with abyss
+To check characters and all We won't have to open the game again and again,Yaa but first they gotto fix the game
+It's gotten better I can play on max settings now,Yaa it has but I still lag 🤟
+Though I keep fps on 45,That's nice
+And it feels like I'm playing it on 2x,2×?
+2 times the speep Speed,Why
+I don't know It feels faster,I don't think I can play now My launcher won't update
+Why ? What do you want to do about internship,not sure will have to find one
+Yaaa Tell me too If you find any,it just doesnt go any further
+It happened again ?,if I restart same thing yaa
+It got solved last time right,i give up i did the same thing same issue
+It will get solved,it is getting blocked somehow
+Wait for a few hours Or tomorrow,first time it happened at 5PM today the download is getting blocked somehow
+Download it all again and try,tried
+Alright,let me delete the whole game
+Ya then try,I just don't wanna try again now It does the same thing
+Then stop playing,Yaa The download happened 🎉🎉
+Good good 😂 They're gonna take the star rail path,That's better Tho rover's personality isn't the same as stela so it might not be that guffy <This message was edited>
+Yeah She speaks robot like But you just wait for havoc Mc,Yaa that's why i am trying JP va Alright
+Ohhhh,Yaa it seems better
+How is jp ? Ohkk,Not total robotic
+I'll also try it then,Yep For now I will do main quest
+Yeah Do that And ha I am bank level 15 And union 30,Woah You been grinding
+Yeah It was a headache,I am still bank lvl12 and union 25
+Those mushrooms don't drop any echos,😂
+I barely got one after killing like 15,I got elite of them just farming randomly
+Don't farm randomly,The lazer one or big one?
+Go to your data bank and see which you have the lowest rarity ones Start from them Big ones,Yaa those are hard Alright
+Lazer ones are just as annoying You have to time your dodge correctly when multiple are shooting at you,Ya tho and I lag so I get hit then I see red lights
+😂😂 And don't use the bank merge till bank level 15,Yaa I did it once then realised it's a waste so stoped
+I got 4 to 5 5* echos from that,Woah that's nice
+Yeah accumulate all the echos,Tho I hope they keep such grindy stuff more in future It's fun
+Then use all below 4* on data merge once you're 15 Yeah The new event is also good,I haven't done that Maybe later
+Ohkk,Tho the game has optimizated alot
+Yeah it has,I get only alittle lag during fights and in city It's good to know what's happening
+Yeah😂 A little scam happened with jo players,jo?
+Jp,Why what happened?
+You know jiyans weapon na,YA
+In the jp translation it said the 24% dmg boost will be given when skill is used But in English translation it said when liberation is used,😂😂
+So many players r5ed it because of this,Woah were they compensated?
+Then they saw no dmg increase after skill 160 astrite,😂😂
+Well jp ww account posted some kind of compensation recently,That's sad how that happened Atleast give them a good compensation who spend money
+Yeah It was around 500000 yen or 3000 dollars For r5ing,Woah that's alot People sure are rich
+Yeah We are just studenta,Still it's alot of money to use on game
+We might be able to by welkin when we start earning By that time gi will be over,How much is wellin? *welkin?
+450 500 rupees,I see
+Yeah,Not bad Well I will go play the story Later
+Yeah,The general is cool I don't think my account has good rng in pulling
+Why?,Well I got characters I didn't needed mostly Tho maybe it will change in future
+You have danji?,Yep I do I got c1.or sth
+Ohhh I want danjin but I'm not getting her,Oh she is currently my main dps Along with havoc rover
+Oh That's why I want her,I just got to data bank lvl13
+I heard she goes along well with rover Ohh nice She's good right,It's more like both are dps with same type
+My burst dmg went upto 8k on crit,Mine is not even build it's just auto equip And I can't see what dmg I do I just assume I do good dmg Tho the story was fun General is really cool I wish I got him but I got verina c1
+Ohh But verinas dmg isn't good,Yaa now I wish I had gotten the dps dude from selector She is a healer 😂
+Well 3 slots makes It a big dps loss,Idt it will be a loss when there are only 3 slots
+Since most games have 4 slots,If it go to 4 somehow then it will be loss Honkai impart 3rd? Pgr?
+3,Yaa
+Genshin and star rail have 4,I mean yaa And we have 3 teams to build
+Yeah,So it evens out
+So not even,But if your one team sucks your rewards are doom Yaa
+We have to build 1 extra character,Yaa
+4 slots 2 teams 3 slots 3 teams,And 3 dps 2 support
+Yeah,It's gonna be really creative on dev part The characters will be mostly dps then sub then support in meta teams And the sub will maybe have healing And since they already used hp draining mechanism they will have to be more creative
+Most teams hai 2 dps and healer Yeah,Idt healer
+No more Xiao,You get hit and dps loss Since counter and dodge atk does alot of dmg
+Yeah It does But I'm bad at dodging,And they will add characters who does massive dmg on counter or dodge atk And supports who inc those dmg I am getting good since lag is getting less. Tho I just go in like a barbaric. Genshin habits If I wait and focus I can do better
+Ya true Especially when there are multiple enemies it's a headache to doge Boss fights are east to doge,True
+Yeah,I just got to union lvl30 and woah it's too hard now
+Yeah I know If you're farming the dreamless just for the echo and not for the rewards then choose the lowest difficulty,I lag too much to even dodge I got her I wanna farm crowless for drops
+5*?,Not yet db15 I am on 14
+Ohh,That's why it is so hard Are you strong enough to fight crowless? Help me 😅
+Yeah,Nice Let me know when u r playing and I will join
+I just started the game,Nice Join my world then
+Yepp,Or do I join yours?
+I'll join yours,I will lag So be prepared
+Wait,Alright
+Start You lag this much ?,Yep I told yah it's not at all optimised on laptop
+It's not even starting,I haven't started yet
+Oh then start,Will start now
+I died,Yaa It's good I didn't Ready?
+Come here,You died again?
+So the problem is I've gotten too used to jianxin,Monk lady?
+Her skill counter attacks Yeah,Then use her na She does no dmg?
+But her dmg isn't that good,Ah I see Well I have her under lvled
+Yeah I swap into her to parry or counter attack or shield,Woah I am still skill issue compared then
+Yeah her shield is good And her shield heals too,That's nice So less dmg and healing
+Yeah,Ready?
+Yeah,Ah I got no resin
+Now then ?,Wanna farm echo? Tho it will be purple.only I got some boss echos left
+Yeah Let's go,Let's go inferno rider
+Alright,Btw I lag alot so it's on you mostly
+Yeah I know,Tho I will heal When weakness broken will switch and atk Damn you are lucky I have been facing him for.so.lokg *long You came and I got him
+Ohhhh I literally fought dreamless like 10 times then got her,I got first try  purple
+Yeah I have tons or purple,Ohh you meant golden?
+I barely got 1 golden Yeah,Yaa golden would be hard for lvl15 That's why I kept boss echos to last so ihave higher chance for them So like do bosses on lvl19 So you have higher chance And do common and elite before them to reach lvl19
+Ohh Do the book ones too They too give bank xp,Oh those yaa I can't clear holograms Since I can't comprehend atks xD
+I haven't tried them yet,Or else I would be alittle ahead
+Yeah,Yaa the tutorial Book missions have db xp too Come here
+Yaa,You load so fast
+Yeah No echo,No echo yaa Let's change boss then come here again Let's do the big turtle
+Next ? Okk,I feel bad making you wait so long Since I load like a turtle It stops at 10% Then continues after a minute Still loading Till now you might as well have killed the boss
+Ya I killed it,😂😂
+No echo,This is me
+😂😂 Waah,You can kill the tempest maybe if he has respawn Yaa it takes alittle long in coop Maybe I will disconnect now 😂😂
+I'll just go around killing bosses and then tell you if it drops echo,I am here
+Where ?,Turtle
+I'm at tempest,This are the ones I need And mourning aix
+Echo at tempest,Coming Is it epic?
+I gotta go now,I hope it doesn't despawn
+I got purple,Yaa alright No problem
+Ya battery is at 15,Maybe later I will do crowless Ah yaa it will die
+Yeah,Tho can u wait till I get there
+Will join later,Hopefully I get the echo
+Yeppp,Alright thanks
+So it respawned and killed me,I think I missed it yaa I saw him then got disconnected Yaa didn't got it Well I will log off too Later
+Yeah,My lvl30 was so unexpected or else I would have prepared I am so under preparated
+Yeah you are I'll charge my phone,Yaa I will do some Android
+Next time we'll go together for every enemy Yeah,Yaa tho u will have to wait 5min for each teleport Or we have to map a way for less tp
+Yeah it's fine Yeah,Let's see
+Yaaa Aa raha hai na Kal?,Confirm karke batata hu
+okk Now what the Do they have too much money ?,😂😂 Who knows It's publicity man They have to grab attention someway or other Atleast I can try getting the general once more
+Yeah I have 80 pulls 10 more now,Yaa Me araha hu ajj ghelne
+Okk aaja Playing ww ?,Yaa Just completing db
+Alright I'm at 17 50 needed for 18,Nice
+Yeah You must have reached 15 na,Na still some remaining
+Okk You're coming tomorrow?,Yaa Are you?
+Yeah,Alright
+Yepp,how has been your standard banner luck? I got in like 30pulls
+500 lines of css yeah im on 30 didn't get anything I have about 100 limited pulls,So you just saving huh
+yeah im saving for changli,Why is it so big? You don't arrange it in different files? That's just bad coding at this point.
+it maybe,Or is it normal for css code?
+i have to design it for 3 diff devices,Woah
+like it will appear different for 3 different screen sizes,That sounds like a Hassel
+ill have to clean it up though ill turn it down around 400,Yaa ofc no one will search 500 lines of code just to change a color
+ya true,You should ask your sir if there is a way to arrange the code in a way it is easy to read Or if it is even possible
+he did tell us ill do it after completing this,You don't follow it? Atleast for now put comment so u will know
+yeah what is composition writing ?,I have done like around 130 pulls and have 850 currently I now only do 10pulls
+on limited ?,Yep Since it is more interesting than getting only 3*
+yeah im bored of single pulls,Ya Now I am thinking of saving all standard banner pulls for  when I need a weapon
+the standard stays ?,I mean yaa standard banner is permanent Even the weapon one
+ohh we didn't have standard weapon banner in gi,And it's better to go for weapon banner since we get characters from lossing 5050 and weapon more better Yaa it's nice since we can have all the 5* ones we want
+ya true https://dev-assign-8-blog.netlify.app/homepage done,Nice The text are out of container
+where are you viewing it ? its because of the screen size,😅
+I tried making it fit in every way possible,Make the font size change according to screen size So in a ratio
+but it gets out in some screens,Even if it's in ratio?
+i made all conainers using percentages,I meant text font size in percentage
+but i cant use % for texts the text become tiny even if i give it 100% or 200%,Hmm how about ternary operator?
+i didn't try yet check on laptop and reduce the screen size in inspect and check,it looks good on laptop
+yeah,tho  half the things are gone from phone
+reduce the screen size to 800px and then 400 px,how?
+inspect and move the screen from one side,?? Where do u change resolution? yaa got it that's good too
+what is ?,tho your subdata is lost in phone mode
+oh yaa,yaa
+there was one thing i forgot to add,Hey I just realised the meaning of 'she knows'.
+She knows ?,Yaa
+What's that,I think someone was saying that I don't remember who I think it is used as a meme
+Like she knows she knows she knows,Yaa
+That meme ?,Yaa
+Oh,Yaa
+What is the meaning?,She already knows you cheated
+There are many memes on that,There are? Any example?
+Like some girl hugs your boyfriend with her hands above shoulders Then it goes There are many,Ah so it's basically the same context na
+Yeah Like the gf knows what the friend is upto,Tho what does that mean? Aaa <This message was edited> I see
+The friend is trying to get her hands on him,Yaa
+Yeah,That's interesting how just 2 words can be made entertaining
+Yeah it is There are many more ways,Did you attended the intership thing? Yaa I got the basic idea
+Naaa You?,So your project? I am not in any team
+Project ?,Yaa there is a message on group Activity or sth
+Is my name in there ? My name isn't there,Oh I thought they took you
+Maybe I'm sure they have too much money,What's the reason?
+Didn't mention it,From what I have heard it is normal for them to give such rewards. It goes back to pgr. Tho now since genshin players are playing WuW they are making big deal of every little things which is normal for pgr players
+Ya everyone is going wuwa is better than gi,Not necessarily. The lag and shader issue is still really bad
+Yeah I know,It doesn't clear cache as you leave the area so it keeps getting piled up
+Turn the ingame brightness down to 1/4,Basically the longer you play more lag
+Ya it happened with me,That might help will try that And the difficulty for game is refreshing
+Ya I did that and graphics became better and it didn't lag that much later on,You have to dodge and counter or else you die or low dps
+Yeah Counter gives good dmg,Yaa tho if you just wait for a bit after teleporting lag is less since shaders already downloaded Yaa it's true dmg based on lvl
+Yaa Is it,Yes since there is lag and freezing due to it taking too long for shaders
+Ohkk,Tho if you wait for them to load it is smoother
+Ohkk,Like if you don't tp and play for a while you will hardly get lag and freezing
+Well I got to know that shaders are just programs for the gpu,What's GPU?
+Graphical processing unit,Ahh yaa
+Yaa,It really hurts memory and processor too So I am limiting my playing xD
+😂,Try holograms tho My dps is too low for lvl2.
+Ya I tried the impermanence heron I almost died,For the book reward na?
+Naa,I cleared lvl1 tho not enough dps for lvl2
+It was in my dailies,To do hologram?
+To do one so I did Yeah,That's end game
+What ? Then why did I do it?,Why would your daily have end game content?
+Ya then I don't even remember why I did it,It's for book xp you get for completing certain tasks The first page in guidebook
+Ohhhh,It gives alot of db xp too.
+Yeah 60 on level 5 And 100 on level 6,It's 100 for next Yaa
+Yaa,I am on that 100 but can't defeat lvl2 hologram
+Have to get to pioneer level 2 to get to level 6 Ohh,Pioneer lvl?
+Yeah,What's that?
+The exploration rewards that you get,Ohh
+Like reputation rewards in genshin,I don't remember mine
+You must be higher than 2,Tho I am on db lvl19. You need world lvl 5 for that
+Yeah,I am still at wl 4
+Damn you're already on 19 I'm on 18,I just make my wl3 and farm echo Then next day reset do stamina then quests.
+You still get Goldens?,Then next day daily stamina then lower wl and farm echo Echo drops based on db lvl not world pvl Tho u miss some drops
+Ya you can change only once in 24 hours na,It's like 12 hr wait tho I am not playing at 8AM in morning
+Ya I know that,Not waiting till 1AM in night
+Oh you sleep early ?,Yaa so lower wl means easy kills 😅
+Yeah,12 to 7
+I stay awake nowadays,What u do?
+I sleep 2 to 10 Timepass,Yaa I would like to sleep more but then I don't do SKY if I wake up too late so I wake up early
+Ohkk,I got to 19 just today. Sadly can't lvl up more. Maybe I will grind till 20 then wait for lvl40
+Okk,Tho it's 100% guarented to be golden on 20 That's so nice
+I'm satisfied with 19 It's not,And around 70 or 90 on 19
+It's 80 20 On 20,That's still fine I guess Since we can rerool *reroll
+100 is for boss drops,I am saving for when I get to db 19
+Reroll means ?,That's nice
+That too we only get 15 turns,You use the 5 echo exchange thing?
+Ohkk Ya that depends on dB level,What for? Yaa that's reroll
+The 100 percent Oh 90 right now,After 15 tries it's guarented?
+Naa,Then? 15 times guarented?
+It's like 90 percent only for 15 tries After that it goes down to 20 percent And it resets every week,Oh
+Yeah,I thought it was permanent So basically you farm a boss for echo for 15 times <This message was edited>
+Haven't you noticed boss drops getting less frequent at the end of the week,I haven't done boss runs yet. Told yah right? Do small ones first then do boss for better chance as per db lvl
+Boss in the sense overworked bosses and the weekly bosses,Tho now I started doing bosses Maybe I will do weekly onces first
+Just tap on the 90% when you go to db,I got crowless on 2nd try
+Golden ?,Which is the female boss? Crowless or mindless? What was her name?
+Dreamless,Yaa 😂😂 Her I got her golden on 2 nd try
+Mindless 😂😂,😂😂
+Waaah I had to do like 15 tries,Yaa I was farming for rover
+I'm saving for changli She's a main and sub dps,Yaa her animations look good
+Yeah,Pheonix
+She has so many animations Like so many skills,😅 Maybe I will save for her too And her weapon
+It's gonna be a headache to use her You are guarantee na,I think what kuro wants is that we save for character and their weapon together
+They get more money,Yep at 60 currently
+You'll get her I have 100 pulls And no pity,No i mean you might loss on character but if u have enough weapon is guaranteed
+I haven't even used a single pull on the limited banner,U used 30? I thought u had 130
+I used 30 ? I don't even remember,U didn't had 130 before?
+I guess I'll have to check,Yaa
+I have 40 pulls And 8000 astrites That makes 90 If I do exploring then it may go upto 10000,Do quest <This message was edited>
+And more rewards means 12000,They give so much xp and astrite
+Yeah I know,I am on side quests now
+I dint pkay today,Yaa
+I was playing genshin,I see Well I don't have place to play genshin Maybe u do chloride pulls for me <This message was edited>
+Yaaa You have saved up ?,On my account then send me picture if u have her Don't remember
+Yeah,Maybe I will have enough maybe not
+I can do it,Yaa will send me email and password later
+Yeah,Then change password
+Okk,Then never player her
+😂😂,Since I got no place 😂😂 Well anyways later Have to stilleat
+Yeah Okk,We had lecture today
+Ohhhh Android ?,Yaa they taught us management of states
+What's that,More like revision lecture
+Okk We started Javascript,If u click on button something changes right? Like alert pop up or color change or sth
+Yaaaaa,That's what we call state. There are 2 types. Stateless and statefull.
+You can make many random apps just from that,Stateless don't change statefull changes
+Ohhh,So we learned how to change state of only required things and not whole screen
+Niceee,So making app less heavy
+Ohkk,Tho th concept is little heavy
+Is it,Considering we are sleepy at 9PM And haven't eaten for like 4 hrs
+Waah,Yaa Have to revise tomorrow
+Good good Keep it up,Well later
+Yeah,U too
+Yeppp,Don't make 500 lines css. It's nightmare for someone reading <This message was edited>
+Yeah 😂,😂😂 Atleast put comments
+I'm gonna redo it tomorrow,Yaa gl
+Yeah,Devansh kar raha he kya mere account PE roll? For chloride?
+haa karta hu,Abhe?
+haaaaaa,Rukh ja phir.
+okk,Gmail : hakiyagn02@gmail.com Password : Devanshpullkar Thek ho Raha he kya?
+haa,Tell me how much primogens I have 😂😂 Imagine if I don't even have enough for 1
+there should be a security code teko aaya hoga,511853 Woah very respectful.
+ha ha 249 primogems,😂😂 And pity?
+and 3745,??
+starglitter,Ah So basically 6 pulls What's pity?
+71 pity,Yaa Maybe maybe not
+guaranteed,Yaa I think it was kequing
+u got jean last time,Oh
+should I try ? pulling,Yaa go for chloride I am pretty sure I am spelling hername wrong and writing the chemical  name <This message was edited>
+chlorinde,Yaa Chlorinde
+yep got her,Woah Screenshot?
+last pull,Lucky
+77 pity,Woah
+yeah,Yaa ? No screenshot? Nice
+lucky bastard,I thought you didn't took it and just searched for image on Google. Then by mistake send an constilation ss I mean I lost to arleccheno I have paid the price And I heard her skill discription and cons discription are essays
+you don't have any sword for her,😂😂
+yeah,Is there an event sword for her? From current event?
+u have to farm the artifact set that ive been farming since ive gotten arlecchino current event gives bow,Yaa it's the same mechanism right? Why? For whome?
+mojarly it has em substat,What sword you use on her? I wish I get her sword too Then no issue
+well atk or if youre going with overload of quicken team then em,Her kit is overload? Electro right?
+she can do that yeah electro X pyro with chevruse,Both? Oh I thought dual element
+signora is dead,Yaa And kazuha don't have other vision
+yeah,Tho it's delusion she used really
+well arlecchino has 3 powers,Same as childe
+but all are fucking pyro,Did you know childe has mastered all the weapons except for bow. That's why he uses it to practice 3? Vision curse delusion?
+well we cant use his electro yeah,Yaa maybe cuz we can't use delusion
+I didn't know that,What does curse do? Yaa his strongest one is dual blade spear which he uses in final phase of weekly boss
+her curse is the form in which we fight her in,Ohh and what is that black hole?
+that might be her vision i also don't exzctly know,Wha- Ablack hole has vision is too op
+which part of her kit is which power,Yaa true
+well welt has a black hole in his cane,Tho maybe I guess I will have to play genshin somehow
+cant really complain now,It's a divine weapon from hi3rd
+and arlecchino is a descendent oh khanriah,It's the same welt has hi3rd's story. Tho idk how he got to the train
+yeah i know,Yaa I heard she was made or sth right? P Out of the world?
+ya something like that,She has cool lore
+her name boss name is cinder of 2 worlds na,Oh I didn't paid attention to that
+its like when children are born,I see
+they are suppose to walk on hot rocks or lava or something,Tho all the holoverse game are connected so maybe hsr will come to genshin hopefully
+yeah,?? What why?
+its some kind of ritual,Ohh
+to invite otherworldly soul or something,Interesting
+that's why cinder of two worlds,And we just stumble upon tevat <This message was edited>
+yeah god n god knows whats gonna happen the twins met they talked,Oh so time travel huh
+and then they forgot about it,Or more like it exists on every time plane Yaa you told me that one
+yeah,Interesting Tho it took them 3 years to meet
+yeah in 5.0 characters can go upto 100 lvl more grinding,The traveler was like na I will just keep farming random stuff and not search for my sibling That's confirmed?
+and hang out with other peoples sisters,Is 5.0 natlan?
+ya mostly now yeah,Yaa
+nat lan is coming in 2 months,Tho it would be mostly useless if no new talents And I don't think they will make new talent for all characters Or maybe only selected characters can be lvl100
+they have to yaar,Like only traveler
+ya like the ones with most significane in the story,Year? Isn't 5.0 natlan? Or region after that? So basically traveler since we don't have companies
+they can do archons high ranked harbingers and members of hexenzirkle 5.0 is natlan,So how come a year? Won't it be realised this year?
+no year re itll be released in 2 months,I hope it's not like desert
+its gonna be hot,And better than that So basically dragonspine but for hot
+yeah dragonspine was a headache to complete a fontain craftable sword is her 4* best,Nice Now have to find that
+yeah,Btw if u want you can play with characters. If u wanna try out characters that is
+you have nahida na,No I don't on this account
+ohh,Is she needed for her? Yaa I lost that account
+nahida fischl furina and chlorinde thats a good comp for quicken,Isn't that quickbloom?
+ya that only im not that good with dendro,What's better? Quicken or other varient? Yaa I mean u haven't tried it right?
+ya i havent,Yaa U can try yaoyao I think Tho I don't have any dendro builds
+can be hyper carry or with dendro,What's hyper carry team?
+ive also seen some overload teams chlorind is the only dps rest are supports,I mean yaa overload is good for electro due to the 4* girl
+like raiden kazuha kujou sara and bennet,What supports? Furina kazuha bennet? Tho furina and kazuha in same team is just waste
+they should work why?,Both do same thing Dmg % buff
+then sara bennet and kaxuha,Yaa don't have kazuha 😅 Go with furina And give bennet healing goblet
+alright,And Sara not build
+you have to build her first,😂😂 Yaa How much dmg on lvl1? The mhcet results are out we have to do the excels in 2-3 days now
+why the hell do you have only 4 comps at a time,😂😂
+they are ?,That's all I need
+i can set upto 10 i have 10 teams set,"I mean I haven't made more comps so it only shows the ones I have U can add comps I think, I got notification <This message was edited>"
+got more 300 primos mail,Woah Check weapon pity If it's close pull or else leave it
+no record,Yaa then forget it
+its just 2 pulls,Not worth
+alright,Just keep them be.
+oh you have 2 standard pulls,😂😂
+thats nice,Yaa
+should i ......................,I only do 10 pulls since more interesting I mean sure. It's just standard banner pulls U will get more 5 from shop Since it's been shop reset
+alright Your sara is lvl 20,😂😂 Yep not build The only PPL build are the ones I use
+not even leveled,Maybe I should atleast lvl up all characters with 1-6-6 I mean free standard pull
+chlorinde died,😅 I mean still lvl1 Well anyways I will go sleep
+alright,If u want have fun in abyss.
+ill give her some unused artifacts and try,U will see how easy it is to use neuvilate
+alright,Abyss? That's some confidence
+i wont get past floor 9,Try it out Let me know I will sleep
+yepp,You can reach 12-3 if u are good
+alright,Or atleast 11-3 -> 27 stars 11-3 is fix
+alright,Ghost of teushima is Rs.4000? Woah
+Yeah it's expensive send me the fees ka link na,https://ay24-25.mahafraportal.org/ssi_prp_23/outer.php?q=fee_search_report
+thanks fees open wali dalni haina full fees,Fee ka pata nahi mujhe
+to bharu ki nahi,Abhe ke liye rehene de. Group PE ek bar puch le
+okkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk,ooooooooooooooooooooooooooooooooooooooooooooook
+ooooooooooooookkkkkkkkkkkkkkk,okokokokokokokokokokok
+okokokokokokokok https://667045b2df01632b35f7a4eb--dev-assign-8-blog.netlify.app/homepage How's it now ? I cant let chlorinde sit like that either you take the account away from me or ill build her,😂😂 Go ahead build her then use her I don't have place on my laptop not mobile for genshin
+Alright I will do so,You removed subtitle?
+Subtitle ? Show,You had something written below the title right?
+Why is it opening that way on your phone,Window view
+Ohhh,Yaa
+Yeah I removed it for smaller views,Laptop is currently busy
+It's still there on laptop view,I see and what are other changes?
+There aren't any major changes Just small ones Like the shadows are subtler And I did it mobile first and then pc I redid the entire css and it's 400 lines now,Nice
+Yeah,What does search category do?
+Nothing It's there to look pretty,Ok
+Yeah,Subscribe part should be at top
+Now I have to create a calculator using js,It's a e-commerce website na?
+Yeah I know Naa Blob website Blog,Still subscribe should be at top. Since it's most important
+Haaa It was given like that in the figma design,Isn't it a bottom drawer?
+Bottom drawer ?,It will stay on bottom part of screen even if u scroll
+Naa,Alright
+It's not sticky,Sticky?
+Yeah it will vanish if you scroll up,That's a weird name for component
+Yeah it's a position type in css Sticky,I see
+Yeah,Yeaaaaaaa I made my own repository yesterday It felt nice
+On git ? I also want to but I don't know how,Yaa and push it on github You can learn from YouTube I did that too
+Alright,Even you can see my repository of flutter Tho you need an account on github I think
+I have a git account,Git or GitHub? <This message was edited>
+Github,Wanna see my repository?
+You know the expense tracker is very common now Yeah,Git and GitHub are different.
+This one,Yaa I have seen it in basic projects
+Yeah gotta change now,Yaa wait let me send you the link https://github.com/AmeyPacharkar1896/Flutter_Projects It's public
+Alright Is there an mobile app for it ?,Tho you might get lost finding the code 😂😅 For GitHub? I think yes There is a app for GitHub
+Yeah I downloaded,Ahh I see You can check the repository on website too
+I forgot password,😂😂 Reset it
+Yeah I did So What do I do I just see files and files and files,Go to any folder -> lib -> now you arein code area to That's just different projects
+Yeah Many,Yaa . Then you can explore in code area Tho there might be folders which contain files of code
+Yeah I did How do I play the game,You don't it doesn't run the program. You have to pull the project then run with flutter in your laptop It's for showing program and making codes together
+Yeah Alright My lecture ended now I'll build chlorinde,You had a lecture?
+Yeah,I thought you were free 😂
+Sir was just solving kshitijs doubt,Go ahead send me the SS when you are done building her Oh nice
+Yepp https://6671a2fabb98b6188192f7ca--assignment-9-dev-calc-bank.netlify.app/ try this It's an alert We can't change anything Just the question,You can't change the keyboard type?
+Naa That can be done in html This is js,Don't just do what is told Make it better
+Well We can't make any changes to an alert,Make a decent UI atleast
+It's not possible It can't be changed!,Weakling
+It depends on the browser,Is it compulsory to use alert?
+Alert is an js function Well sir told us to make it completely in js,Why so many restrictions?
+Will make a proper Calc using html css and js later When more functions are thought Cause this is pure js No use of html or css Well we need html page to run a js file but that's it,I see null
+Kya hua ?,null
+??,Sorry Mera recharge nahi he aur net Gaya tha
+Achaa,Ha to cut ho gaya null
+Haa now check it out the same link I changed it so that it works if you put operation or the number of the operation,It doesn't work
+what doesn't work ?,If I put 1 it says invalid
+wait https://assignment-9-dev-calc-bank.netlify.app/ try this,It works
+and the previous problem ?,Btw the only way to get out of alert is to put 0 Cancel doesn't work
+yeah I know,It takes me to next alert
+yeah,😅
+that's because that 0 ends the do while loop,Just let the man go. You don't have to trap him
+naaa you have to go to the end,You can't put action on cancel?
+nope I told you right,Then what's the use of it?
+nothing cant be changed like on websites,Does it change due to html css?
+when you delete a file or something it asks for confirmation or gives you a warning for something,Ya but their cancel works <This message was edited>
+ives used 3 js funcs that's because its made to work that way,I see
+in this program it wont go to the beginning until the loop ends or one operation is performed,I see
+yeah,Well I will go sleep. Have to wake up before 6 I hope I wake up
+yeah I  know call me when you wake up,At 5AM?
+ill call you if I wake up yeah,Yaa good idea If I wake up for water. I will call you
+wake the entire house up yeah,Well saiyonara Gn
+gn,null graph ka photo he to bhej na
+Nahi nikala,thanks 2nd ka options he?
+Nhi Ek ka hi ss hai Question bhejna 2nd Thanks,Did you build chlorinde?
+I started But I literally need to farm everything I got the sword though,The craftable one?
+Yeah,Yaa my bad I don't think I had any resources
+The boss is really annoying The electric seahorse,Oh that guy. He is easy if you run navia neuvilate furina and Bennet You just have to time alittle
+Ohkk And her ascension mats are headache to collect,Navia is instant dmg whereas neuvi do E then CA then Q then CA Yaa I can see that
+Okk The starfish,Search for a guide maybe and mark them Ah the starfish huh. I think I had collected a few
+Well if you have chlorinde they just show up on the map,For someone
+Neuvi,Yaa tho you can mark the spots
+Yeah,Oh I see
+I collected some,Nice
+But I forgot to mark,😂
+She is 40 And sword is 60,You can just follow a YT guide tho
+Yeah I just did that yesterday,Nice Woah that's alot of progress for one day
+I'll do it when they're re spawned,So 3 days later
+You had most of the sword mats,Around 2-3 days That's nice
+Just one thing is missing The domain wala mat The highest level wala,Well it will take few runs to get it
+Yeah https://www.instagram.com/reel/C8CaKpqyS_A/?igsh=YW1iNHFzcW1ic2ww,😅
+😂,Test Dena he. Reminder lagake rakh
+Kabhi ? Konsa test?,Group PE thek 11 to 5 1 hr ka test he
+Ye to 6 hrs hue,Time slot he
+Okk Kal haina,Ajj 21june
+Aaj ? To Kitne baje Dena Hai?,Kabhe bhe chalega in time slot
+5 doc ke baad ?,Ha around 2 ya 3 Tu copy nahi sakta lekin
+Kaise ?,Likha he padh le
+Acha thikke Log fir bhi copy karneka tareeka nikalenge Kuch Matlab nahi hai ye test ka,Saihe
+Haa Mera test hi Pura nahi hua Submit ho gaya,Mujhe Dena he
+5 baje tak hi time hai,Ha
+Gaya,Thekta hu
+Haa,Kiske bareme he?
+Aptitude aur programs Maine 10 12 aptitude aur 25 26 programs solve kiye Total 60 questions hai 32 aptitude ke 28 programs ke,Full time hoga mujhe Ok
+Full time ?,1hr
+12 minutes bache hai Mera 20 minutes baki tha jab Mera band hua,Are it is for start of test I hope
+3 baar tab switch karega to test auto submit Hota hai Yaa,Negative marking he?
+Nhi,Yaai can give exam for the next hour It was just start of exam
+Ohokk,Ye kya he? Karna he kya?
+Pata nhi Aise hi dala your glad artifacts are shit,😂😂
+none rolled into crit,I don't keep glad sadly
+i have to farm domain now,Wait you are not in meeting?
+im not im not a coordinator,Sir was talking There are PPL who are not coordinators
+oh i didn't know,I didn't realised you weren't there
+i was there at first then sir said sab coordinators kahape hai then i left,Yaa now it's over
+6.30 apti ?,Web ka kabhe he?
+4.30,To? Chalega ha sir bolle
+def,def?
+it always rolls def,😂😂 yaa that's artifact life
+my all luck got finished in getting chlorinde,You will get it There was no luck it was on soft pity with guarented
+19.4 cd 3.1 cr,Decent piece
+flower yeah,Lower decent piece
+hp is 13.4 % hp good ?,Idk regarding chlorinde
+21.8 cd 3.9 cr plume do you not have any cd circlets,I think I have some
+All useless I farmed that domain and only got 2 decent pieces The ones I told you about I don't even have pieces like those for my arlecchino <This message was edited>,how bad is your aartifact luck?
+damn bad ive been farming for arkecchinos artifact since her release and ive gotten only 2 ok pieces i still need a circlet and a plume,Artifact are real pain to farm Tho the only way is to keep farming Did you max her ascension and weapon lvl?
+Na She's at 60 And weapon at 80,Isn't it waste then to farm artifact?
+I already created condensed resin And there is 2x bonus for returning player going on 2 days ago I used rest of the resin on the boss,Yaa then go for talents no artifact
+alright,Artifact are last thing to farm resin wise Since you might never get good artifact
+Ya you don't have any talent mats The talents are all 2,But talent lvl is always dmg increase
+Her current is 50 179,Yaa Cd circlet?
+At lvl 90 it'll be 59 179 Cr cd ratio,??
+. 50 cr Oh ya,What is her circlet? The last artifact piece? <This message was edited> Cr or cd?
+Her ascension stat is cr Cd,Cr sub?
+6.6 cr,Yaa change to Cr circlet 59 is bad
+Ya but with cr its 80 130,80:130 is better
+Is it,More consistent crt hits
+Alright,Yep What is the sub on sword?
+Atk,Fontaine craftable na?
+Yeah,That's a good sword
+Yeah,Free 25% BoL
+It has bol Yeah,And she works with skills
+Yeah,Is it her best 4*?
+Skill 3xna and skill Yeah,Nice
+We can give her iron sting if it's an em based tram,E 6[N3E] Yaa the whole atk combo So dendro
+Yeah,Nice
+Her most teams are with dendro Fischl clorinde kazuha nahida,Nice I don't have nahida nor kazuha <This message was edited>
+Yeah,Maybe will go for nahida when she comes back
+And fischl not built Yeah,Yaa I mean she does her job
+Yeah just for the buff Apply and swirl,Yep
+Sucrose should work inplace of kazuha,Tho when furina even that is not needed I mean just use furina
+Yeah your furina is 90,Oh tho you need healer Does chlorinde heal?
+Yeah Only herself When we use skill in her skill state,Yaa that might be not enough to be worth over kazuha Will have to see
+Yeah,Oh well I can just run her in other team How is the new theater thing? Good?
+Not yet tried I've been playing Minecraft,😅 You have lecture na?
+Yeah,Later
+Yepp,really? then how do you start java
+Gotta try,sure let me know
+I'll have to update my java,true me too
+Yeah,Kya bataya sir ne?
+Wohi sab Aptitude access dangerous coordinators ko Aur extra kuch baccho ko,Kya? <This message was edited>
+Aptitude ke notes ka,samjha nahi. coordinators ko dangerous kya he?
+Coordinators ko aptitude ke notes ka access dengr Denge,ah acha to galti mat karo ase?
+Haa,samja samja
+Haa Try crtl alt shift windows and L on your laptop keyboard It should open linkedin,oh nice follow up ko aja
+Haa,abhe
+Bahar hu mai,chalega join kar esa vahapehe tent banake follow up ko aja
+Ha karta hu,aja
+Nahi,😂😂
+Abhi 5doc ?,nahi re
+To ? 11.30 na,ha
+Okk,vo message confusing he kya?
+Ha lag raha hai ki abhi call karne nol raha hai tu,I said sessions tho...
+Change mat Kar Rehene de,abhe?
+Ha abhi thikke,chalega
+Ha,thanku
+Haaa,https://pokerogue.net/ ye try kar bohot hard game he
+Gba ?,me floor 30 ya 40 tak he ja paya web game
+Acha Karta hu,ha
+Khelta hu,ha simulated universe jesa he
+Acha,Tu konse kele khata he?
+Normal wale 22,22?
+Level,Saire you are good at it My first run I died on 6
+Oh,Yaa
+I thought it was easy till 20,Yaa
+I got killed by a dracozolt,Btw power up moves are broken
+1 shot all my pokemon Are they I didn't get any,The power up is there for the 10 lvl thingy
+And I didn't catch any just zoom through with 3 starters Ohhh,So from 1-10 you will have that power up if you used it on floor1
+Ohok,After 10floor it will be reset and u will be healed
+Yaa Every 10th floor heals,So now I just spam torch flame and get sp atk buff then do flamethrower Yaa with either boss battle or gym leader I am at 40+ now
+Damn I didn't  getany gym leaderd,Ya it like on 20th or 30th Then after every 20 floor one gym leader
+ohhh,Yaa and catch Pokemon they are helpful while piviting And there are some good mons too you can get
+ohkk,Yaa
+I chose Charmander sprigato and froakie in the start,And a little hint. Catch atleast one fairy type. It's a must
+yeah I got busted by a dragon type,"Yaa I got the grass type from sihno, froakie and the fire type from sprigato region"
+ohh fire type of spirigato region is good,Yaa and i got his signature move which boosts sp atk
+his final form is ghost and fire,Yaa
+hes super good in competitive battles,He is good due to set up move been atk move as well Yaa
+yeah I got a favonious sword,after how long? 3 years?
+Yeah https://assign-10-bankapp.netlify.app/ any ui idea ?,Dribble pe search kar ui
+Does it work ?,I had put 1100 first then 1234 it appended instead of adding i cant deposite twice it removes my previous deposite and puts my new deposite in balance
+Alright I'll change that My xingqui broken,Vap
+yeah he did more dmg than my arlecchino even my raiden got good she does 120k now,Thats the power of xingyui
+yeah and in her burst state raiden does 20k to 30k I have to upgrade that her talent is only 6,It will be around 35k ig
+Yeah Gotta upgrade,Yep
+I heard that ascending to level 100 will require mats from spiral abyss saw somewhere,well that's something hopefully it is good
+yeah it should be Dhundh 2 aur logo ko,Ha
+ha tu dhundh Rizvi ko puch sakte hai 4th ? kartikey ko nahi puchna,Thekte he
+okk So I heard the game is more optimized now How is it ?,Idk I haven't played for week
+Yeah same I saw somewhere that the difference is noticeable on low end devices,Will try then
+Yeah,I lagged alot for me so I stopped playing
+Ohh Try now,Downloading the update 1.1
+Yeah It's 9 gb on the phone,21 on laptop The game became too big on 1.1
+Turn off the fsr in graphics settings if you still have issues Damn It's 13 gb overall Your brother made this ?,😂😂 He won't even understand what that is
+Then who ?,Idk a random kid on internet
+Oh,Tho it's good humor Tho it's dark
+Mass genocide what was the game you were telling me,which game
+The one you were telling me to play,This one?
+Noo Some oc game Pc,Web game? Or sekiro?
+Yeah this,Yep Sekiro
+Yeah,Why you are buying it?
+I wanted to try it Na I'll see it it's for free somewhere,How are you gonna try it? Alright
+Yeah,Wuthering waves is alot smoother tho loading takes alittle while <This message was edited> Still gameplay is little bit smoother
+Oh is it My phone still gets too hot,Yaa heating is there For me as well
+Yeah,Mela kya free?
+Nhi Ek bhi nahi chala,tu ek try kar sathe he make a stream account
+Haa,you can play for 2 hr and then return the game
+Ohkk I'll try that,total refund
+Okk,complete tho it should be less than 2hrs on that stream account ek  bar check kar if it is stream or epic games I am 99% sure its stream tho just in case
+Haaa I'll check I cant take honors the google form only has permission to college ids and I don't know my college id ka password,Mentor ke sir ko call karke puch
+Puchu ?,Honors lens he kya?
+Kantala aa raha hai Extra padhna padega,To puch Varma rehene de
+Extra lecture Sab extra Tu le raha hai ?,Chod Jane de. Nahi le Raha
+Nahi Lena na fir Thikke 👍,Ha Me bhe ajj bhar deta hu
+Haa I got my college id back,Nice
+Yaa mera ho gaya i didn't submit any new documents,Chalega me dekta hu
+haa tell me we can go together then,Where?
+to college,Kyu?
+we have to go to college to pay fees to account section,We can't do it online?
+ya,Or for receipt?
+it didn't show me an option,Ok Thikhe
+haa,Jate he
+haa,now?
+"#include <iostream> using namespace std; class Login{ public: int admin(){ int count = 0; string password; cout<<""Welcome Dealer \nPlease Enter your password""<<endl; cin>>password; if(password == ""password""){ return 1; } else{ while(count != 2){ cout<<""Enter password again""<<endl; cin>>password; if(password==""password"") return 1; else{ count++; } } if(count == 2) return 0; } return 0; } }; class dataSet{ public: string model; string brand; int top_speed; int model_no; int price; void inputData(){ int count =0; cout<<""Car no.""<<(count+1)<<endl; cout << ""enter Car model""<<endl; cin >> model; cout << ""enter Car brand""<<endl; cin >> brand; cout << ""enter Car top speed""<<endl; cin >> top_speed; cout << ""enter Car model no""<<endl; cin >> model_no; cout << ""enter Car Price""<<endl; cin >> price; } void getData(){ cout << ""Model:""<<model <<""\nBrand: ""<<brand<<""\nTop Speed: ""<<top_speed<<""\nModel No:""<<model_no<<""\nPrice:""<<price<<""\n""<<endl; } int findCar(int index,string find_model){ if(model == find_model) return index; else return 0; } }; class User:public dataSet{ public: int n=0,no_of_cars=0,option; dataSet cars[10]; int admin(){ do{ cout<<""Welcome to Janta Car dealers\nWhat would you like to do ?""<<endl; cout<<"".1)Enter car details \n.2)Show car details \n.3)Exit""<<endl; cin>>option; switch(option){ case 1: cout<< ""You can enter upto ""<< (10-no_of_cars)<<"" cars.\nHow many cars do you want to enter ?""<<endl; cin >> n; no_of_cars +=n; for(int i = 0;i<n;i++){ cars[i].inputData(); } break; case 2: cout<<""The car details are\n""<<endl; for(int i = 0;i <n;i++){ cout<<""Car ""<<(i+1)<<""\n""<<endl; cars[i].getData(); } break; case 3: return 0; } }while(n!=3); } int client(){ int index; string find_model; do{ cout<<""Welcome to Janta Car client\nWhat would you like to do ?""<<endl; cout<<"".1)Show car details \n.2)Find a car \n.3)Exit""<<endl; cin>>option; switch(option){ case 1: cout<<""The car details are\n""<<endl; for(int i = 0;i <n;i++){ cout<<""Car ""<<(i+1)<<""\n""<<endl; cars[i].getData(); } break; case 2: cout<<""Enter the model of the car you want to find :""<<endl; cin>>find_model; for(int i = 0;i <n;i++){ index = cars[i].findCar(i,find_model); } if(index!=0){ cout<<""Car available""<<endl; cout << ""Model:""<<cars[index].model <<""\nBrand: ""<<cars[index].brand<<""\nTop Speed: ""<<cars[index].top_speed<<""\nModel No:""<<cars[index].model_no<<""\nPrice:""<<cars[index].price<<""\n""<<endl; } else cout<<""Car not available""<<endl; break; case 3: return 0; } }while(option != 3); } }; int main(){ int choice=0,user; Login login; User userEntry; do{ cout<<""Welcome to Janta Garage\nAre you the Dearler or the client ? ""<<endl; cout<<"".1)Dealer \n.2)Client \n.3)Exit""<<endl; cin>>choice; switch(choice){ case 1: user = login.admin(); break; case 2: user = 2; break; } if(user == 0){ cout<<""Sorry unauthorized user""<<endl; continue; } else if(user == 1) user = userEntry.admin(); else if(user == 2) user = userEntry.client(); else continue; }while(choice!=3); return 0; } try this out hua ye tera ?",saihe
+yall can take this as the first mini project only used classes and objects and inheritance just for name sake,Tera semister details me kya he? Anything after sem1?
+nothing tera ? sem 1 ke niche parents details hai,Mujhe sem ka dalna he pada
+Dalna pada ? Mujhe kuch nahi pucha isne,Ha abhe?
+Final submit ho gaya na Thodi Der me print form ka option aayega,chalega thik he
+Haa,kal jatehe college
+Haa Subhe jaldi hi jaate hai,chalega
+Mujhe saare result bhejna Print leke aata hu just incase,chalega aur fee kese barna he?
+Kal accounts section me jaake puchna padega,thikhe
+Haa Send me the results na Of all 3 senms Sems 👍 https://www.antiragging.in/affidavit_affiliated_form.php https://antiragging.in/undertaking_request.php,You deleted this message
+👍,aur kuch?
+Admission form?,👍
+Okk,👍
+👍,🌅🤷‍♂
+9.00,🕘
+🕘,🥱
+🕶,🛌💤
+💤 😴,🌅
+??,👍
+👍,null
+124680 She's riding a damn shark !!,who is she??
+Natlan character New See the trailer,cool maybe later I am tired
+Yeah,i came just nw
+Ohkk,yaa
+Yaa Take rest,i thought it was WuW
+Naaa It's genshin,chiranjive bhaiya mile the wo bhe the
+Ohhh Nicee,jai ko web ka bata rahe the me bhe sun raha tha
+Achaa,tumara ui bada detailed he
+Haaa,kitna kuch change kar racte ho
+Ha karna padhta hai,har ek detail sai  he
+Ha copy karna hoga to aur bhi seer dard,jai unke project ke bareme puch raha tha
+Achaa Habit tracker ?,aur phir uska assignment ka ha
+Okk,sabko same he kya?
+Haaa,tu difference kya ho ga?
+Sab apne hisaab se banayenge na Kisika kuch alag Ho sakta hai,acha tera pair kon he/
+Vaishnavi karke hai na Java me bhi thi,acha vo vunse baat kiya? kese karne wale ho?
+Nahi kiya Maine thoda ui pr kaam chalu kiya par,baat karle
+Haa Karna padega,late me gadbad mat karna
+Haaa,me abhe Naruto thekta hu chal phir
+Haa Chal,10tail final form
+Ohhh Almost end,mujhe college ke pehele khatam karna tha lekin me nerul gaya na to nahi hua
+Ho jaayega the newnfirst year syllabus https://bank-app-v2-assign.netlify.app/,saihe coding sab first year me after canceling buy in credit card
+Okk Haa re https://bank-app-v3.netlify.app/ any changes I can make ? except for the conditions for varions functions anything else ?,Nicely done
+Is it ?,Not really but better than last time The addition of current balance is good UX
+Yeah Everything is on screen now Not done through prompts Js is fun as long as you know what you're doing I was getting happy when my buttons were working,Yaa I know the feeling Yaa that's true for everything
+Yeah I updated it Is sir gonna join today's lecture ? ek college me 3 computer science and engineering kaise ????,Batches kese he? Kuch pdf nahi aya he batchales ke liye? Ki same he?
+Jo pehele ke batches the waise hi jana hai Jabtak wo kuch bhejte nahi,Chalega Hamara konsa batch he?
+"C https://qa.sih.gov.in/sih2022PS?technology_bucket=QWxs&category=U29mdHdhcmU=&organization=QWxs&organization_type=QWxs https://vedas.sac.gov.in/en/sih2022.html Portal to know about various National and International scholarships Online integrated platform for projects taken up by the students of various universities/colleges. 5 6 E-commerce for Artisans 8 https://rapid.imd.gov.in/r2v/ no To find the possibility of imaging a particular object/place (lat-long) on Earth by an Earth observing satellite with given sensor specifications, orbit, attitude definitions. For datasets and additional information, please visit https://vedas.sac.gov.in/en/sih2022.html for Amey Controlling Screen time for Children 17 There is a need to create an engaging, supportive alumni network which is crucial to an institutions /organizations success. Currently, there is no mechanism for the Directorate to keep a track of the trainees passing out year by year."" 18 Development of an app/software for tracking dual use chemicals (chemicals that have legit uses and when diverted become precursors to major drugs)from their manufacture to end use. Need to have proper app and software to collate and maintain this data with proper data mining facilities. We should also have utilities in generating crucial report. 20 1)	Portal to know about various National and International scholarships – 5 2)	Online integrated platform for projects taken up by the students of various universities/colleges.- 6 3)	E-commerce for Artisans – 8 4)	Controlling Screen time for Children – 17 5)	There is a need to create an engaging, supportive alumni network which is crucial to an institutions /organizations success. Currently, there is no mechanism for the Directorate to keep a track of the trainees passing out year by year."" – 18 6)	Development of an app/software for tracking dual use chemicals (chemicals that have legit uses and when diverted become precursors to major drugs)from their manufacture to end use. Need to have proper app and software to collate and maintain this data with proper data mining facilities. We should also have utilities in generating crucial report. – 20 I've sent you an email Check",Pata he 😂😂 Change nahi kar sathe
+I used my phone ka photo ha nahi kar sakte check out the entire site once all the rounds and opportunities details are given there and lets also talk to sir later about this,Chalega
+Haa,coding club ka bhe bharte he
+Haa,Bhar de form
+Tune bhara ?,Ha Basic info he
+Organizing committee nahi na ?,Lena he to le Mene nahi liya
+Na myjhe nahi Lena Okk,Thikhe
+Haa Isnt this too small for a resume,Idk maybe
+I'm submitting this only Not gonna change again Oh ya I made a linked in account,nice I will try later
+yeah This message was deleted Se ka prerequisite test,😅
+Kya hua ? Call Kiya?,Ha kal kya kya Lana he?
+3rd sem ke mark sheet ka xerox Mera bhi leke aa,Ah mene le liya he Xerox kabhe ham admission form ke Xerox la rahe the
+Extra ?,Ha
+Okk Mai Kal college me le lunga,chalega ye kiska he? link?
+Group pe dala hoga mam be Ne Abhi deactivate kar diya hoga,acha ma'am ko kal bolla padega
+Haa Questions ache the,ye tera he?
+Haa,sai he
+Ah so yesterday I was making a search bar right i explored some string functions today and tried it again guess how many lines it became,How many?
+12,That reduced quite a lot
+Yeah it did There's an includes function,Thought so
+Which checks wether a substring is present or not So check the lower or upper case And it's accurate,That would be better way I think to do searching
+Yeah it is And we can add new options too,Ya I found out about search for myself as well. It got more better
+Yeah That's good Cv ?,karna he
+Konsa link use karega bata Iske liye konsa use Kiya?,livecareer then i took ss
+Okk,"*Login Process* 1. Visit the link: https://lms.vppcoe.getflytechnologies.com 2. Enter your credentials i. e. username and password. Username is your Student ID (ex. VU1S2123456) Password is Vpp_12345 After putting above password you will forced to change password. 3. Login Ensure you have your correct login credentials. And confirm that you are enrolled in the relevant courses on Moodle. If you notice any discrepancies, fill the form here https://forms.gle/fCYjuXrUVBCx7dEx5 *Wishing you a successful and enriching semester ahead!* Jo Nevillete ka nerf tha na vo ek check tha. If player base will mind if they nerf characters for PPL to pull more strong characters (more money). If cn had not done anything it would have been done for every character"
+Thanks,Rs.50
+Paid Rs. 50 to Amey Vpp,PESA Mila nahi Gadbad ho gaya
+Wo Maine bhej diya Abh tu dekh le,Tera PESA geya lekin
+Gaya,...
+Aa jaayega and 300 css https://bank-app-v4.netlify.app/ admin 123456,is that bad UX it just looks like submit doesnt work give a alert for wrong password atleast
+Yeah I got fed up so I left it at that,pay bill don't work
+The limit does not go up right That's how it is,Let the user know what is happening I thought it doesn't work
+I mean If you pay the credit card bill the limit does not increase It gets reset by the end of the month,I see I thought it doesn't work since it didn't showed any changes
+Ya but I reset ot once all money is over And you've paid all the bill Everything works it's not 260 lines of js just like that I was up till 2 doing this I need to improve the ui and change some small things though,You can let the user know tho
+Yeah I will I GOT QIQI,You deleted this message https://youtu.be/HwTR4gTEwzw?si=QZeCwvP_j_oDPaHo
+i have c5 qiqi now,*6
+whoa the song touched my heart,ikr it shows your pain really well
+yeah it does i would have preferred jean or nilou,why niluo? u don't use dendro right?
+yeah vaporize,vaup? vapu?
+yeah,nice\
+i did that binary search ascending and descending,saihe kese kiya?
+ek operator badal diya par recursion me nahi ho raha abhi,acha saihe
+Make your resume like this,kese kiya?
+Word me,ye convert kar sathe he kya?
+Format bhejta hu Word ne Pura type kiya maine Copy paste kardena Wo format me,photo he mujhe type karna padega
+karde fir sab same hai koi bhi lele,typed kiya hua kahase liya he?
+google pe Microsoft word resume template search kiya to mil gaya,acha saihe
+Haa,karta hu me
+Ha chalega,isRight ? color.white : color.red
+Call utha Abe null,Ground floor
+null,null
+hi,Hello
+soja,Ok
+OK now try the website its finally done now,I will send this to all 3rd year PPL who are doing Android Ke rehene do?
+alright karde mai web walo ko bhejta hu,Abhe ke liye matt dal
+Hum Bana late hai pehele,Ha You deleted this message Rizvi ko bhejnahe ki group pe?
+Rizi ko bhejde Pdf banake bhej Thoda to change karta,Change Kiya nahi he?
+Sab sentences same hai,Change Kiya he. App ke bare me likha he First line same he change kar deta hu
+Language to change karta,Languages? Coding ke to same rahengena
+Nhi re Grammer,Ha chat gpt karta hu
+Haa,Chalega
+Ha chalega,usme sirf reference link dal diye GitHub aur linkin ke
+Haa,Cool. Let's go
+Yeah I know right,Wait you got the weapon too Lucky?
+Yeah 40 pity for weapon And 70 something for changli 50/50 won,Cool Have fun You are gonna go for cons? Or save for future character? <This message was edited>
+Naaa Empty or astrite,Ok
+bada ho gaya na,ha
+edit karu ?,It’s should be less than 60 secs Keep your frame at the beginning for 10-15 secs then share screen sir ka message
+okk see its still bigger,kam kar time ko
+abhi dekh,explain mat kar
+wapis banau ?,code thikha aur phir ye uska output he karke website theka
+now see,jandu code aur output kon dikha yega?
+are shit,tune important part nikalke dusara rakh diya
+abhi dekh,kispe video bana raha he?
+laptop camo use karke,bohot sara 'so'
+chod re baki sab thik hai na,ha sir ko message dal de
+tune kiya ?,ha mera 3min ka he abhe android kar raha hu
+"aur tu mujhe chota karne bo, raha hai tu karega na chota",ha re mene thekga bhe nahi mera avaj mujhese nahi saha tu thekle aur bata
+ha acha hai par bohot bada hai,pura thekha?
+aadha,mera esa avag he kya? tumare liye?
+thoda alag hai alag hai thoda final ?,Ha last me devansh bhe agaya
+chod wo sir cut karwadenge sach sabko kadwa kyu lagta hai ? iska contact us better hai ye website me itna animation hai na load hone bhi time le raha hai,tu kiske bareme complain kar raha he?
+haa itna sara animation bhi nahi chahiye,? ye kya bol raha he
+basically fir hum sab components udher se hi le rahe hai ye maine dala group pe uske bare me uske baad kisika reply hi nahi aaya,chodde. sab khudke duniya me he ham bhe
+ha wohi ha 😂 koi systematically kam hi nahi karega,kohibhe soch nahi raha he. all are in their own world of egos. cant help it since no one has worked in team nor in actual work environment
+yeah true,nor do teachers have any idea how to run a consultance\
+yeah sir se baat karte hai meeting ke baad aur tpo ke bare me bhi,ha
+haa,me abhe ui karta hu badme video banata hu
+Haa,chal phir
+Chalse Chal never tell ai to create a video like that,ok
+https://www.instagram.com/reel/C8XBBRZuyOz/?igsh=MW00YXpiYmMzaTdoOA== https://jsonplaceholder.typicode.com/posts/ http://www.linkedin.com/premium/redeem/gift?_ed=reXgwRZI7t5QC-pB3pXblIwOwq&mcid=7185883047605547008 https://twitter-mobile-clone-v1.netlify.app/ ive only made it for mobile ill update it later boll ??,kya bollu?
+Kaisa hai,ekdam badeya tu kyasa he?
+"Mast create table Sales_Fact_Table(time_key varchar(20) foreign key references Time(time_key), branch_id varchar(20) foreign key references Branch(branch_id), item_key varchar(20) foreign key references Item(item_key),location_id varchar(20) foreign key references Location(location_id));","CREATE TABLE Sales_Fact_Table ( time_key VARCHAR(20), branch_id VARCHAR(20), item_key VARCHAR(20), location_id VARCHAR(20), FOREIGN KEY (time_key) REFERENCES Time(time_key), FOREIGN KEY (branch_id) REFERENCES Branch(branch_id), FOREIGN KEY (item_key) REFERENCES Item(item_key), FOREIGN KEY (location_id) REFERENCES Location(location_id) ); https://dummyjson.com/recipes"
+I have touched 500 lines in css,🤟
+https://twitter-ripoff-mobile-v1.netlify.app/ try,Acha he Lekin ekbar side bar open Kiya to close nahi ho raha he
+Hota hai Side me click kar,Nahi ho raha he
+Mera ho raha hai,pata nahi phir acha he tera cover letter bhej na
+Ha ruk,itna bada likhana he?
+Pata nhi,harshit ka thek alag he
+Jayada bada bhi nahi chahiye Abhi wo Kaine Bana diya Mujhe change nahi karna Pages leke aana,mere pas nahi he
+Thikke,khatam ho gaye kal
+Haa 750 lines js 330 lines and html 120 lines,Might as well reach 1k
+the total count is 1200,Na reach 1k on css Your first 1k milestone
+well if I add more features i can reach it,Go for it Btw we have to take print out of cn practice 1 and study it as well don't forget
+Yeah Ask balkhande sir if we have to do it tomorrow ? The presentation null null and if we have to give the presentation all 6 of us will give or in groups of 3 https://drive.google.com/file/d/1CixjFjJaHrZaVEXpxQL6_g2Y6kJpwFTJ/view?usp=drivesdk Free apis to use,Thanks
+Yeah,Kal kitne bhaje araha he?
+9 baje na,Me sune ja raha hu abhe. Message aya he kya?
+haa 9 baje ka,Kaha pe?
+college,Mene balkhande sir ko puche. Vo bole 9 ko ajao Pata nahi kaha pe he college ke group PE Me abhe sone ja raha hu.
+haaa,Chal gn
+"ha chal gn #include <iostream> using namespace std; class Login{ public: int admin(){ int count = 0; string password; cout<<""Welcome Dealer \nPlease Enter your password""<<endl; cin>>password; if(password == ""password""){ return 1; } else{ while(count != 2){ cout<<""Enter password again""<<endl; cin>>password; if(password==""password"") return 1; else{ count++; } } if(count == 2) return 0; } return 0; } }; class dataSet{ public: string model; string brand; int top_speed; int model_no; int price; void inputData(){ int count =0; cout<<""Car no.""<<(count+1)<<endl; cout << ""enter Car model""<<endl; cin >> model; cout << ""enter Car brand""<<endl; cin >> brand; cout << ""enter Car top speed""<<endl; cin >> top_speed; cout << ""enter Car model no""<<endl; cin >> model_no; cout << ""enter Car Price""<<endl; cin >> price; } void getData(){ cout << ""Model:""<<model <<""\nBrand: ""<<brand<<""\nTop Speed: ""<<top_speed<<""\nModel No:""<<model_no<<""\nPrice:""<<price<<""\n""<<endl; } int findCar(int index,string find_model){ if(model == find_model) return index; else return 0; } }; class User:public dataSet{ public: int n=0,no_of_cars=0,option; dataSet cars[10]; int admin(){ do{ cout<<""Welcome to Janta Car dealers\nWhat would you like to do ?""<<endl; cout<<"".1)Enter car details \n.2)Show car details \n.3)Exit""<<endl; cin>>option; switch(option){ case 1: cout<< ""You can enter upto ""<< (10-no_of_cars)<<"" cars.\nHow many cars do you want to enter ?""<<endl; cin >> n; no_of_cars +=n; for(int i = 0;i<n;i++){ cars[i].inputData(); } break; case 2: cout<<""The car details are\n""<<endl; for(int i = 0;i <n;i++){ cout<<""Car ""<<(i+1)<<""\n""<<endl; cars[i].getData(); } break; case 3: return 0; } }while(n!=3); } int client(){ int index; string find_model; do{ cout<<""Welcome to Janta Car client\nWhat would you like to do ?""<<endl; cout<<"".1)Show car details \n.2)Find a car \n.3)Exit""<<endl; cin>>option; switch(option){ case 1: cout<<""The car details are\n""<<endl; for(int i = 0;i <n;i++){ cout<<""Car ""<<(i+1)<<""\n""<<endl; cars[i].getData(); } break; case 2: cout<<""Enter the model of the car you want to find :""<<endl; cin>>find_model; for(int i = 0;i <n;i++){ index = cars[i].findCar(i,find_model); } if(index!=0){ cout<<""Car available""<<endl; cout << ""Model:""<<cars[index].model <<""\nBrand: ""<<cars[index].brand<<""\nTop Speed: ""<<cars[index].top_speed<<""\nModel No:""<<cars[index].model_no<<""\nPrice:""<<cars[index].price<<""\n""<<endl; } else cout<<""Car not available""<<endl; break; case 3: return 0; } }while(option != 3); } }; int main(){ int choice=0,user; Login login; User userEntry; do{ cout<<""Welcome to Janta Garage\nAre you the Dearler or the client ? ""<<endl; cout<<"".1)Dealer \n.2)Client \n.3)Exit""<<endl; cin>>choice; switch(choice){ case 1: user = login.admin(); break; case 2: user = 2; break; } if(user == 0){ cout<<""Sorry unauthorized user""<<endl; continue; } else if(user == 1) user = userEntry.admin(); else if(user == 2) user = userEntry.client(); else continue; }while(choice!=3); return 0; }",Call kar abhe
+Pranav ma class hai Kal 10.30 ko Ka* https://onlinecourses.nptel.ac.in/noc24_cs94/preview https://github.com/devanshmayatra/L3PP https://pokedex-ripoff-v1.netlify.app/ Password?,123456 it has both
+Ohhh Nucee,I cant show you input since I have made it so that user cant log out traped
+Totally,😂😂
+Make the project now,yehe project tha 😂😂 last time itnahe liya sir ne me add karne wala hu <This message was edited>
+Ha kya,ha
+Still haven't finished mine,me abhe thekta hu host karke
+Haa,agar hua to majane life
+Haaaa,it needs money
+Paisa?,ha
+Bharde,😂😂
+Karde,thik he are it requires PowerShell permissions I don't think I wanna do that just yet without asking sir
+ohhhh ya rather than messing up waiting is better https://pokedex-ripoff-v1.netlify.app/ Try now,Yaa Woah nice
+You can scroll on the stats There are abilities underneath,Ha theka
+haaa  I have to design it better though,DWM ke printout ka word file bana dega kya mera bhe? Me bhul gaya.
+maine bhi nahi banaya,Ha commands ka screenshot aur vo draw.io ka banana he banale devansh
+diagram bhi banana padega wo banake bhej,mera lecture he isleye tujhe bola
+uske baad bana,12 baje?
+haa dekhta hu mera jaldi bana to tera bhi bana dunga,me nindmehu
+ok,chalega. hamara same tha na? db?
+haa,tu same he hoga na diagram?
+haa thoda idher udher kar dunga,chalega aur screenshot ka bhe karna he invert karke dalde word pe
+db ka bhej tu mujhe ss pokedex-ripoff-v1.netlify.app,lecture ke bad bheju>
+haa,chal thik he tu  tujhe bhe kyu bheju? me he na bana deta? ratk ko banake bhejta hu

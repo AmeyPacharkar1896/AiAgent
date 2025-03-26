@@ -24,12 +24,10 @@ def parse_chat(file_path):
 
             match = pattern.match(line)
             if match:
-                # If there is an existing message, finish it up
+                # Save the previous message if it exists and isn't a media message
                 if current_message:
-                    # Trim whitespace for sender and message
                     current_message["sender"] = current_message["sender"].strip()
                     current_message["message"] = current_message["message"].strip()
-                    # Only add the message if it doesn't equal "<Media omitted>"
                     if current_message["message"] != "<Media omitted>":
                         messages.append(current_message)
                 timestamp_str, sender, message = match.groups()
@@ -45,7 +43,7 @@ def parse_chat(file_path):
                     "message": message
                 }
             else:
-                # Handle multi-line messages by appending the line
+                # Append to the previous message if it is a continuation of a multi-line message
                 if current_message:
                     current_message["message"] += " " + line
 
@@ -58,31 +56,81 @@ def parse_chat(file_path):
     
     return messages
 
-def write_chunks_to_csv(messages, input_file, chunk_size=1000, output_prefix='processed_chat_chunk'):
+def group_messages_by_sender(messages):
     """
-    Divides the messages into chunks and saves each chunk to a separate CSV file
-    in the same folder as the input text file.
+    Groups consecutive messages by the same sender.
+    Returns a list of dicts with keys: 'sender' and 'text' (concatenated messages).
     """
-    total_messages = len(messages)
+    grouped = []
+    if not messages:
+        return grouped
+
+    current_group = {"sender": messages[0]["sender"], "text": messages[0]["message"]}
+    for msg in messages[1:]:
+        if msg["sender"] == current_group["sender"]:
+            current_group["text"] += " " + msg["message"]
+        else:
+            grouped.append(current_group)
+            current_group = {"sender": msg["sender"], "text": msg["message"]}
+    grouped.append(current_group)
+    return grouped
+
+def create_dialogue_pairs(grouped_messages, input_sender="Swaraj", output_sender="Amey"):
+    """
+    Creates dialogue pairs where a message group from input_sender is followed immediately by a group
+    from output_sender.
+    """
+    pairs = []
+    i = 0
+    while i < len(grouped_messages) - 1:
+        current = grouped_messages[i]
+        next_group = grouped_messages[i+1]
+        # Check if current group is from the input_sender and next is from the output_sender.
+        if input_sender.lower() in current["sender"].lower() and output_sender.lower() in next_group["sender"].lower():
+            pairs.append({
+                "input": current["text"].strip(),
+                "output": next_group["text"].strip()
+            })
+            i += 2  # Skip the next one as it has been paired
+        else:
+            i += 1
+    return pairs
+
+def write_chunks_to_csv(dialogue_pairs, input_file, chunk_size=1000, output_prefix='processed_chat_chunk'):
+    """
+    Divides the dialogue pairs into chunks and saves each chunk to a separate CSV file
+    in the same folder as the input text file. The CSV will have columns 'input' and 'output'.
+    """
+    total_pairs = len(dialogue_pairs)
     input_dir = os.path.dirname(input_file)
     
-    for i in range(0, total_messages, chunk_size):
-        chunk = messages[i:i+chunk_size]
+    for i in range(0, total_pairs, chunk_size):
+        chunk = dialogue_pairs[i:i+chunk_size]
         chunk_index = i // chunk_size + 1
         output_file = os.path.join(input_dir, f"{output_prefix}_{chunk_index}.csv")
         with open(output_file, 'w', newline='', encoding='utf-8') as csvfile:
-            writer = csv.DictWriter(csvfile, fieldnames=["timestamp", "sender", "message"])
+            writer = csv.DictWriter(csvfile, fieldnames=["input", "output"])
             writer.writeheader()
-            for msg in chunk:
-                writer.writerow(msg)
-        print(f"Saved chunk {chunk_index} with {len(chunk)} messages to {output_file}")
+            for pair in chunk:
+                writer.writerow(pair)
+        print(f"Saved chunk {chunk_index} with {len(chunk)} dialogue pairs to {output_file}")
 
 if __name__ == '__main__':
     # Use a raw string for Windows file paths to avoid escape issues.
-    input_file = r'D:\ai_agent\data\chat_logs\swaraj\WhatsApp_Chat_with_Swaraj.txt'  
-    processed_messages = parse_chat(input_file)
-    print(f"Total processed messages: {len(processed_messages)}")
+    input_file = r'D:\ai_agent\data\chat_logs\swaraj\WhatsApp_Chat_with_Swaraj.txt'
     
-    # Define how many messages per CSV chunk (adjust as needed)
+    # Parse the chat messages.
+    messages = parse_chat(input_file)
+    print(f"Total processed messages: {len(messages)}")
+    
+    # Group consecutive messages by sender.
+    grouped_messages = group_messages_by_sender(messages)
+    print(f"Total grouped message segments: {len(grouped_messages)}")
+    
+    # Create dialogue pairs: Dovansh messages as input, followed by Amey messages as output.
+    dialogue_pairs = create_dialogue_pairs(grouped_messages, input_sender="Swaraj", output_sender="Amey")
+    print(f"Total dialogue pairs: {len(dialogue_pairs)}")
+    
+    # Define how many pairs per CSV chunk (adjust as needed)
     chunk_size = 1000
-    write_chunks_to_csv(processed_messages, input_file, chunk_size=chunk_size)
+    write_chunks_to_csv(dialogue_pairs, input_file, chunk_size=chunk_size)

@@ -1,1001 +1,1001 @@
-timestamp,sender,message
-2023-10-16T00:23:00,Amey Pacharkar,👍
-2023-10-16T02:24:00,Dovansh,your isn't running
-2023-10-16T03:16:00,Dovansh,tera program bhai
-2023-10-16T06:20:00,Amey Pacharkar,Pata he logic issue he kuch to
-2023-10-16T06:21:00,Dovansh,Infinite loop
-2023-10-16T06:21:00,Dovansh,Kuch nhi samajh raha
-2023-10-16T06:21:00,Amey Pacharkar,Thek tahu college me
-2023-10-16T06:21:00,Dovansh,Okk
-2023-10-16T07:11:00,Dovansh,"#include <stdio.h> #include <stdlib.h> struct party{ int num; int votes; }; struct par{ int num; int vote; struct par *next; }; struct party *newnode,*head,*tail,*temp,*pretemp,*ptemp; struct party p[100]; int main() { int nop,i,j,ch,temp,flag,n,temp1; printf(""\t\tELECTION SYSTEM!!!\n""); printf(""Enter the number of parties participating in election process:""); scanf(""%d"",&nop); while(1){ printf(""\t\tSTART VOTING!!!""); printf(""The parties are:\n""); for(i = 0; i < nop; i ++){ p[i].num=i; printf(""%d.Party no. %d\n"",i,p[i].num); } printf(""%d.Exit\n"",(nop + 1)); printf(""Enter your choice:""); scanf(""%d"",&ch); if(ch == (nop + 1)) break; else { for(int i = 0;i < nop;i++){ if(i == ch){ p[i].votes++; printf(""Your Vote has been Added!!!\n""); break; } } } } for(i = 0; i < nop; i ++){ printf(""PARTY %d:"",p[i].num); printf(""%d\n"",p[i].votes); } //bubble sort for(i=0;i<nop-1;i++) { for(j=0;j<nop-1-i;j++) { flag=0; if(p[j].votes<p[j+1].votes) { temp=p[j].votes; temp1=p[j].num; p[j].votes=p[j+1].votes; p[j].num=p[j+1].num; p[j+1].votes=temp; p[j+1].num=temp1; flag=1; } } if(flag==0) break; } for(i=0;i<nop;i++) { printf(""Party :%d "",p[i].num); printf(""Points :%d \n"",p[i].votes); } void LL(){ newnode = (struct party *)malloc(sizeof(struct party)); newnode -> next = NULL; printf("" %d:"",i); if(head == NULL){ head = newnode; tail = newnode; }else{ tail -> next = newnode; tail = newnode; } printf(""Name registered!!!\n""); } }"
-2023-10-16T07:11:00,Dovansh,thoda baki hai
-2023-10-16T11:30:00,Amey Pacharkar,DSGT he
-2023-10-16T11:31:00,Amey Pacharkar,DLCA ke sir absent hr
-2023-10-16T15:27:00,Dovansh,"#include<stdio.h> #include<stdlib.h> struct node { int data; struct node *left; struct node *right; }node; struct node *insert(struct node *t,int key) { if(t==NULL) { t=(struct node*)(malloc(sizeof(node))); t->data=key; t->left=NULL; t->right=NULL; } else { if(key>t->data) t->right=insert(t->right,key); else t->left=insert(t->left,key); } return(t); } struct node *search(struct node *t,int key) { if(t==NULL) return(NULL); else if(t->data==key) return(t); else if(key>t->data) return(search(t->right,key)); else return(search(t->left,key)); } struct node *max(struct node *t) { if(t==NULL) return(NULL); while(t->right!=NULL) t=t->right; return(t); } struct node *min(struct node *t) { if(t==NULL) return(NULL); while(t->left!=NULL) t=t->left; return(t); } void preorder(struct node *temp) { if(temp!=NULL) { printf(""\n \n data: %d"",temp->data); preorder(temp->left); preorder(temp->right); } } void postorder (struct node *temp) { if(temp!=NULL) { postorder(temp->left); postorder(temp->right); printf(""\n \n data: %d"",temp->data); } } void inorder(struct node *temp) { if(temp!=NULL) { postorder(temp->left); printf(""\n \n data: %d"",temp->data); postorder(temp->right); } } int main() { struct node *root=NULL; struct node *temp=NULL; int c,key,n,i; do { printf(""****MAIN MENU****""); printf(""\n  1.insert node \n  2.search \n  3.maximum number \n  4.minimum number \n  5.display in inorder format \n  6.display in postorfer format \n  7.display in preorder format\n  8.exit \n""); printf(""enter your choice:""); scanf(""%d"",&c); switch(c) { case 1: printf(""enter the number of data you want to enter:""); scanf(""%d"",&n); for(i=0;i<n;i++) { printf(""enter data:""); scanf(""%d"",&key); if(root==NULL) root=insert(root,key); else temp=insert(root,key); } break; case 2: printf(""enter key:""); scanf(""%d"",&key); temp=search(root,key); if(temp!=NULL) printf(""%d found"",key); else printf(""%d not found"",key); break; case 3: temp=max(root); printf(""\nmax=%d\n"",temp->data); break; case 4: temp=min(root); printf(""\nmin=%d\n"",temp->data); break; case 5: inorder(root); break; case 6: postorder(root); break; case 7: preorder(root); break; } } while(c!=8); return 0; }"
-2023-10-16T23:57:00,Amey Pacharkar,script for project
-2023-10-17T07:15:00,Amey Pacharkar,You deleted this message
-2023-10-17T07:15:00,Amey Pacharkar,You deleted this message
-2023-10-17T14:57:00,Dovansh,Hi dear love you amey
-2023-10-17T20:53:00,Amey Pacharkar,do you have cg outputs?
-2023-10-17T20:54:00,Dovansh,EXPT1
-2023-10-17T20:54:00,Dovansh,EXPT2
-2023-10-17T20:54:00,Dovansh,EXPT3
-2023-10-17T20:54:00,Dovansh,EXPT4
-2023-10-17T20:55:00,Dovansh,EXPT5A
-2023-10-17T20:55:00,Dovansh,EXPT5B
-2023-10-17T20:55:00,Dovansh,EXPT6
-2023-10-17T20:56:00,Dovansh,EXPT7
-2023-10-17T20:57:00,Dovansh,EXPT8
-2023-10-17T20:57:00,Dovansh,EXPT9
-2023-10-17T20:57:00,Dovansh,EXPT10
-2023-10-17T20:58:00,Amey Pacharkar,thank you
-2023-10-17T20:58:00,Amey Pacharkar,turbo c is pretty hard
-2023-10-17T20:58:00,Amey Pacharkar,reverse karna baki he kya?
-2023-10-17T21:13:00,Dovansh,ha shaya
-2023-10-17T21:14:00,Amey Pacharkar,chalega
-2023-10-17T21:14:00,Amey Pacharkar,bheju tuje reverse wale?
-2023-10-17T22:27:00,Amey Pacharkar,ho gaya run
-2023-10-18T09:52:00,Amey Pacharkar,Agar time Mila to sir ko ppt dekha dena
-2023-10-18T13:33:00,Amey Pacharkar,Thanks
-2023-10-18T19:56:00,Amey Pacharkar,is it fine if I make it same for thread program? the one ma'am gave us
-2023-10-18T23:03:00,Dovansh,🐠
-2023-10-19T12:26:00,Amey Pacharkar,If you are taking print take mine too
-2023-10-19T21:39:00,Amey Pacharkar,lab manual bhi bhej na
-2023-10-19T21:39:00,Dovansh,Missed voice call
-2023-10-19T21:39:00,Amey Pacharkar,??
-2023-10-19T21:39:00,Dovansh,Galati se laga
-2023-10-19T21:40:00,Amey Pacharkar,chalega
-2023-10-19T21:40:00,Dovansh,Java ka wo program bhejna
-2023-10-19T21:40:00,Dovansh,Mam ne likhaya tha
-2023-10-19T21:40:00,Dovansh,Applet ka
-2023-10-19T21:40:00,Amey Pacharkar,kya kya bhaki he?
-2023-10-19T21:41:00,Amey Pacharkar,bhejta hu after dinner
-2023-10-19T21:47:00,Dovansh,Haa chalega
-2023-10-19T21:58:00,Amey Pacharkar,Abhishek kade ahe
-2023-10-19T21:58:00,Amey Pacharkar,Ye batana
-2023-10-19T23:01:00,Dovansh,17 18
-2023-10-19T23:01:00,Dovansh,Baki hai
-2023-10-19T23:01:00,Dovansh,Porgarm banana hai
-2023-10-19T23:07:00,Amey Pacharkar,Ha kal thektahu banake bhejta hu
-2023-10-19T23:07:00,Amey Pacharkar,I won't be coming tomorrow....will rest tomorrow
-2023-10-19T23:07:00,Amey Pacharkar,Will complete my checking on Monday. You go ahead and check yours
-2023-10-19T23:19:00,Dovansh,Okk
-2023-10-19T23:19:00,Dovansh,Chalega
-2023-10-19T23:19:00,Dovansh,Dhyaan rakh
-2023-10-19T23:51:00,Amey Pacharkar,Ha chalega
-2023-10-20T11:10:00,Dovansh,2nd pdf
-2023-10-20T12:48:00,Amey Pacharkar,I wont be coming tomorrow....will rest tomorrow
-2023-10-20T12:48:00,Amey Pacharkar,will do the checking on Monday
-2023-10-20T12:48:00,Amey Pacharkar,you get yours checkde
-2023-10-20T14:24:00,Dovansh,Again ?
-2023-10-20T16:06:00,Amey Pacharkar,??
-2023-10-20T16:17:00,Dovansh,?
-2023-10-21T09:17:00,Amey Pacharkar,Can you please send whatever the prints we have to take for remaining DLCA practical?
-2023-10-21T09:17:00,Amey Pacharkar,Aur JAVA ka applet bhi please
-2023-10-21T10:49:00,Dovansh,Wo sab kartikey ke paas hai
-2023-10-21T10:49:00,Dovansh,Uske paas se liya maine
-2023-10-21T11:40:00,Amey Pacharkar,acha thik hhe
-2023-10-21T14:54:00,Dovansh,"#include <stdio.h> #include <math.h> #include <stdlib.h> int cf=0; void lift(int choice) { signed int diff; int i; diff=cf-choice; diff=abs(diff); if(choice<0) printf(""INVALID""); else if(choice==cf) { printf(""You chose the same floor\n""); } else if(choice>cf) { for(i=1;i<=diff;i++) cf++; if(diff>5) sleep(6); else sleep(3); printf(""You are now on floor %d"",cf); } else { for(i=1;i<=diff;i++) cf--; if(diff>5) sleep(6); else sleep(3); printf(""You are now on floor %d"",cf); } } int main() { int chf; do { printf(""\nYou are currently on floor %d Enter the floor you want to go to:\n"",cf); printf(""0   \n""); printf(""\n""); printf(""1    2\n""); printf(""\n""); printf(""3    4\n""); printf(""\n""); printf(""5    6\n""); printf(""\n""); printf(""7    8\n""); printf(""\n""); printf(""9    10\n""); printf(""\n""); printf(""Enter 20 if you reached your desired floor: \n""); printf(""\n""); scanf(""%d"",&chf); if(chf!=20) lift(chf); } while(chf!=20); return 0; }"
-2023-10-21T14:54:00,Dovansh,try this
-2023-10-21T14:55:00,Dovansh,don't check the code just run it
-2023-10-21T15:01:00,Amey Pacharkar,What is this code? Sleep?abs?
-2023-10-21T15:01:00,Amey Pacharkar,Explain me the code
-2023-10-21T15:11:00,Dovansh,sleep is like delay
-2023-10-21T15:12:00,Dovansh,and abs keeps the numbers positive
-2023-10-21T15:12:00,Dovansh,like the difference can come -3 but abs converts -3 to 3
-2023-10-21T16:04:00,Amey Pacharkar,I see cool
-2023-10-21T16:04:00,Amey Pacharkar,Tho why make it in such a way? Timepass?
-2023-10-21T18:22:00,Dovansh,Timepass
-2023-10-21T20:03:00,Amey Pacharkar,Acha
-2023-10-21T20:32:00,Amey Pacharkar,Kal lecture hoga kya?
-2023-10-21T20:35:00,Dovansh,Lagta nahi
-2023-10-21T21:23:00,Dovansh,Where ?
-2023-10-21T21:23:00,Amey Pacharkar,Value of L
-2023-10-21T21:27:00,Dovansh,This message was deleted
-2023-10-21T21:28:00,Dovansh,1
-2023-10-21T21:28:00,Amey Pacharkar,So we take the largest limit na?
-2023-10-21T21:28:00,Amey Pacharkar,In this case 2
-2023-10-21T21:29:00,Dovansh,No no
-2023-10-21T21:29:00,Dovansh,It's 0 to 2l
-2023-10-21T21:29:00,Dovansh,And we have 0 to 2
-2023-10-21T21:29:00,Dovansh,So we divide the whole thing by 2
-2023-10-21T21:29:00,Amey Pacharkar,"yaa so you took 0,2 instead of 0,1"
-2023-10-21T21:29:00,Dovansh,We get 0 to l and 0 to 1
-2023-10-21T21:29:00,Dovansh,When ?
-2023-10-21T21:30:00,Amey Pacharkar,to calculate
-2023-10-21T21:30:00,Dovansh,When?
-2023-10-21T21:30:00,Dovansh,Which sum
-2023-10-21T21:30:00,Amey Pacharkar,Tu isena bol Raha he?
-2023-10-21T21:30:00,Dovansh,Isena ?
-2023-10-21T21:31:00,Amey Pacharkar,"Ha it translates to "" like this?"""
-2023-10-21T21:31:00,Dovansh,Okk
-2023-10-21T21:31:00,Dovansh,L is 1
-2023-10-21T21:31:00,Amey Pacharkar,Ok thanks
-2023-10-22T09:30:00,Amey Pacharkar,Will you do the report for DS projects please? Or should I do it?
-2023-10-22T12:09:00,Dovansh,I'll do it
-2023-10-22T18:24:00,Amey Pacharkar,what all functons we have to show for BST program?
-2023-10-22T18:25:00,Amey Pacharkar,"currently I have done add,post,pre,in"
-2023-10-22T18:25:00,Amey Pacharkar,should I add delete a node as well?
-2023-10-22T18:28:00,Dovansh,Searcing
-2023-10-22T18:31:00,Amey Pacharkar,so like search a number right?
-2023-10-22T18:31:00,Amey Pacharkar,anything else?
-2023-10-22T18:32:00,Dovansh,Yeah searching data
-2023-10-22T18:33:00,Amey Pacharkar,??
-2023-10-22T18:47:00,Dovansh,Naa
-2023-10-22T18:48:00,Dovansh,I just did in pre post and searh
-2023-10-22T19:37:00,Amey Pacharkar,how do you print search?
-2023-10-22T19:48:00,Dovansh,Just print
-2023-10-22T19:48:00,Dovansh,Element found
-2023-10-22T19:48:00,Dovansh,Or element not found
-2023-10-22T20:00:00,Amey Pacharkar,aleright
-2023-10-22T20:08:00,Amey Pacharkar,and what about bfs and dfs programs?
-2023-10-22T20:10:00,Dovansh,I'm thinkig we can take it from kartikey
-2023-10-22T20:10:00,Amey Pacharkar,why we cant make it?
-2023-10-22T20:10:00,Dovansh,Then we can just see it
-2023-10-22T20:10:00,Dovansh,I'm too tired too
-2023-10-22T20:10:00,Amey Pacharkar,so you haven't made it?
-2023-10-22T20:11:00,Dovansh,And everywhere I search it's the same thing
-2023-10-22T20:11:00,Amey Pacharkar,I thought you had it
-2023-10-22T20:11:00,Dovansh,Na
-2023-10-22T20:11:00,Amey Pacharkar,you took bst too? or made it?
-2023-10-22T20:11:00,Dovansh,Made it
-2023-10-22T20:12:00,Amey Pacharkar,well would we have to make graph first for bfs and dfs?
-2023-10-22T20:12:00,Dovansh,Graph first
-2023-10-22T20:12:00,Dovansh,Then bfs dfs
-2023-10-22T20:12:00,Amey Pacharkar,so how do we make graph?
-2023-10-22T20:12:00,Dovansh,Search on YouTube you'll get it
-2023-10-22T20:12:00,Amey Pacharkar,alright
-2023-10-22T20:39:00,Amey Pacharkar,"#include <stdio.h> #include <stdlib.h> #include <stdbool.h> // Structure for a node in the adjacency list struct Node { int data; struct Node* next; }; // Structure for the adjacency list struct List { struct Node* head; }; // Structure for a graph struct Graph { int vertices; struct List* array; }; // Create a new node struct Node* createNode(int data) { struct Node* newNode = (struct Node*)malloc(sizeof(struct Node)); newNode->data = data; newNode->next = NULL; return newNode; } // Create a graph with 'vertices' vertices struct Graph* createGraph(int vertices) { struct Graph* graph = (struct Graph*)malloc(sizeof(struct Graph)); graph->vertices = vertices; graph->array = (struct List*)malloc(vertices * sizeof(struct List)); for (int i = 0; i < vertices; i++) { graph->array[i].head = NULL; } return graph; } // Add an edge to the graph void addEdge(struct Graph* graph, int src, int dest) { struct Node* newNode = createNode(dest); newNode->next = graph->array[src].head; graph->array[src].head = newNode; newNode = createNode(src); newNode->next = graph->array[dest].head; graph->array[dest].head = newNode; } // Function to perform BFS void BFS(struct Graph* graph, int start) { bool* visited = (bool*)malloc(graph->vertices * sizeof(bool)); for (int i = 0; i < graph->vertices; i++) { visited[i] = false; } // Create a queue for BFS int* queue = (int*)malloc(graph->vertices * sizeof(int)); int front = 0, rear = 0; visited[start] = true; queue[rear++] = start; printf(""Breadth-First Search starting from vertex %d:\n"", start); while (front < rear) { int current = queue[front++]; printf(""%d "", current); struct Node* temp = graph->array[current].head; while (temp) { int neighbor = temp->data; if (!visited[neighbor]) { visited[neighbor] = true; queue[rear++] = neighbor; } temp = temp->next; } } free(visited); free(queue); printf(""\n""); } // Recursive function for Depth-First Search void DFSUtil(struct Graph* graph, int vertex, bool visited[]) { visited[vertex] = true; printf(""%d "", vertex); struct Node* temp = graph->array[vertex].head; while (temp) { if (!visited[temp->data]) { DFSUtil(graph, temp->data, visited); } temp = temp->next; } } // Function to perform DFS void DFS(struct Graph* graph, int start) { bool* visited = (bool*)malloc(graph->vertices * sizeof(bool)); for (int i = 0; i < graph->vertices; i++) { visited[i] = false; } printf(""Depth-First Search starting from vertex %d:\n"", start); DFSUtil(graph, start, visited); printf(""\n""); free(visited); } int main() { int vertices, edges, src, dest, start; printf(""Enter the number of vertices: ""); scanf(""%d"", &vertices); struct Graph* graph = createGraph(vertices); printf(""Enter the number of edges: ""); scanf(""%d"", &edges); for (int i = 0; i < edges; i++) { printf(""Enter edge (source destination): ""); scanf(""%d %d"", &src, &dest); addEdge(graph, src, dest); } printf(""Enter the starting vertex for traversal: ""); scanf(""%d"", &start); BFS(graph, start); DFS(graph, start); return 0; }"
-2023-10-22T20:39:00,Amey Pacharkar,chat gpt gave this code
-2023-10-22T20:41:00,Dovansh,Does it work ?
-2023-10-22T20:42:00,Amey Pacharkar,Ha
-2023-10-22T20:44:00,Dovansh,Then it's good
-2023-10-22T20:44:00,Dovansh,Just tell me how it works
-2023-10-22T20:44:00,Amey Pacharkar,No idea will have to decode it
-2023-10-22T21:17:00,Dovansh,Then tell me
-2023-10-23T04:50:00,Dovansh,Enter the number of vertices: 4 Enter the number of edges: 5 Enter edge (source destination): 1 2 Enter edge (source destination): 2 3 Enter edge (source destination): 3 4 Enter edge (source destination): 4 2 Enter edge (source destination): 1 3 Enter the starting vertex for traversal: 3 Breadth-First Search starting from vertex 3: 3 1 4 2 Depth-First Search starting from vertex 3: 3 1 2 4
-2023-10-23T13:39:00,Amey Pacharkar,"Write a program to implement the breadth-first search algorithm. #include <stdio.h> #define MAX 10 void breadth_first_search(int adj[][MAX],int visited[],int start) { int queue[MAX],rear = –1,front =– 1, i; queue[++rear] = start; visited[start] = 1; while(rear != front) { start = queue[++front]; if(start == 4) printf(""5\t""); else printf(""%c \t"",start + 65); for(i = 0; i < MAX; i++) { if(adj[start][i] == 1 && visited[i] == 0) { queue[++rear] = i; visited[i] = 1; } } } } int main()"
-2023-10-23T13:39:00,Amey Pacharkar,"{ int visited[MAX] = {0}; int adj[MAX][MAX], i, j; printf(""\n Enter the adjacency matrix: ""); for(i = 0; i < MAX; i++) for(j = 0; j < MAX; j++) scanf(""%d"", &adj[i][j]); breadth_first_search(adj,visited,0); return 0; }"
-2023-10-23T13:40:00,Amey Pacharkar,"void depth_first_search(int adj[][MAX],int visited[],int start) { int stack[MAX]; int top = –1, i; printf(""%c–"",start + 65); visited[start] = 1; stack[++top] = start; while(top ! = –1) { start = stack[top]; for(i = 0; i < MAX; i++) { if(adj[start][i] && visited[i] == 0) { stack[++top] = i; printf(""%c–"", i + 65); visited[i] = 1; break; } } if(i == MAX) top––; } }"
-2023-10-24T01:00:00,Dovansh,"#include <stdio.h> #include <string.h> int main() { int l=1,t=1; int v,at=0,attempts=3; char ver[10]; printf(""LOGIN AS:\n""); printf(""1.Admin\n""); printf(""2.Voter\n""); scanf(""%d"",&v); if (v==1) { do { printf(""Enter password:""); scanf(""%s"",ver); if (strcmp(ver,""password"") == 0) { printf(""\nThe password is correct:\nYou are logged in as the admin\n""); at++; } else { printf(""\nWRONG PASSWORD!!\nATTEMPTS REMAINING %d!!\n"",attempts-1); at++; attempts--; printf(""%d %d"",at,attempts); } if(attempts==0) { printf(""timer""); } } while(at!=1 || (at!=3 && attempts!=0)); } return 0; }"
-2023-10-24T01:00:00,Dovansh,i cant figure out what to put in the while condition
-2023-10-24T01:00:00,Dovansh,we have to stop when the password is correct or 3 wrong passwords
-2023-10-24T09:20:00,Amey Pacharkar,Don't use do while use if else along with breaks and continue
-2023-10-24T09:20:00,Amey Pacharkar,Like how we did in guess the random number
-2023-10-24T10:46:00,Dovansh,Okk
-2023-10-24T10:54:00,Amey Pacharkar,Happy Dussehra 🎉
-2023-10-24T12:42:00,Dovansh,Happy dushera 🎉🎉
-2023-10-24T12:56:00,Dovansh,it doesn't work
-2023-10-24T12:56:00,Dovansh,u need a loop for breaks and continues
-2023-10-24T12:56:00,Amey Pacharkar,Yaa you can't put break and continue in if
-2023-10-24T12:56:00,Amey Pacharkar,I also learned that hard way
-2023-10-24T12:56:00,Dovansh,you told me to do that
-2023-10-24T12:57:00,Amey Pacharkar,How did we do it in random tho?
-2023-10-24T12:57:00,Dovansh,I don't remember
-2023-10-24T12:57:00,Dovansh,while loop
-2023-10-24T13:00:00,Dovansh,how do I stop this
-2023-10-24T13:00:00,Amey Pacharkar,code bhej me thek ta hu
-2023-10-24T13:01:00,Dovansh,it should stop at 0
-2023-10-24T13:01:00,Dovansh,"#include <stdio.h> #include <string.h> int main() { int l=1,t=1; int v,at=0,attempts=3; char ver[10]; printf(""LOGIN AS:\n""); printf(""1.Admin\n""); printf(""2.Voter\n""); scanf(""%d"",&v); while(1) { if ((v==1 && at!=10) || attempts!=0) { printf(""Enter password:""); scanf(""%s"",ver); if (strcmp(ver,""password"") == 0) { printf(""\nThe password is correct:\nYou are logged in as the admin\n""); at=10; attempts=0; break; } else { printf(""\nWRONG PASSWORD!!\nATTEMPTS REMAINING %d!!\n"",attempts-1); at++; attempts--; printf(""%d %d"",at,attempts); if(at!=10 && attempts==0) { printf(""timer""); } continue; } } } return 0; }"
-2023-10-24T13:01:00,Dovansh,and something else will go in the timer wala loop
-2023-10-24T13:01:00,Dovansh,that is just temporary
-2023-10-24T13:17:00,Amey Pacharkar,"#include <stdio.h> #include <string.h> int main(){ int l=1,t=1; int v,at=0,attempts=0; char ver[10]; printf(""LOGIN AS:\n""); printf(""1.Admin\n""); printf(""2.Voter\n""); scanf(""%d"",&v); while(v == 1 && attempts != 3){ printf(""Enter the Password:""); scanf(""%s"",&ver); if(strcmp(ver,""password"") == 0){ printf(""Welcome Admin!!!!\n""); break; }else{ attempts ++; printf(""Wrong Password!!!\nPlease try again!!!\nRemaining attempts %d\n"",(3-attempts)); continue; } } return 0; }"
-2023-10-24T13:17:00,Dovansh,okk
-2023-10-24T13:17:00,Amey Pacharkar,anything else?
-2023-10-24T13:17:00,Dovansh,naa
-2023-10-24T13:18:00,Dovansh,ill give you the login code
-2023-10-24T13:18:00,Dovansh,you change the ds project accordingly later
-2023-10-24T13:18:00,Amey Pacharkar,should I add anyting more ?
-2023-10-24T13:18:00,Dovansh,the admin will have option to add or delete parties
-2023-10-24T13:19:00,Dovansh,and view the number of votes each party has
-2023-10-24T13:19:00,Amey Pacharkar,like if it is a admin give him how many votes each person got along with winne
-2023-10-24T13:19:00,Amey Pacharkar,alright
-2023-10-24T13:19:00,Dovansh,and the voter will only have one option
-2023-10-24T13:19:00,Dovansh,vote
-2023-10-24T13:19:00,Amey Pacharkar,chalega
-2023-10-24T13:19:00,Dovansh,should we take voter id
-2023-10-24T13:20:00,Dovansh,like the admin can check which id voted who
-2023-10-24T13:20:00,Amey Pacharkar,that's against law  for admin to see that
-2023-10-24T13:21:00,Amey Pacharkar,only thing id is used is to know number of voters
-2023-10-24T13:21:00,Dovansh,so should we give a voter id ?
-2023-10-24T13:21:00,Dovansh,or party isd ?
-2023-10-24T13:21:00,Amey Pacharkar,naa just keep incrementing int  variable voters. and we can give party ids
-2023-10-24T13:22:00,Dovansh,okk
-2023-10-24T13:22:00,Amey Pacharkar,so to not check names during counting
-2023-10-24T13:22:00,Dovansh,yaa
-2023-10-24T13:22:00,Amey Pacharkar,and instead ids
-2023-10-24T13:22:00,Dovansh,the admin will add the parties and their ids
-2023-10-24T13:22:00,Amey Pacharkar,send me log in will add everything else after that
-2023-10-24T13:22:00,Amey Pacharkar,haa
-2023-10-24T13:22:00,Dovansh,okk
-2023-10-24T13:23:00,Amey Pacharkar,will have to add everything and make a new one
-2023-10-24T13:23:00,Dovansh,yaaa
-2023-10-24T13:41:00,Dovansh,This message was deleted
-2023-10-24T13:42:00,Dovansh,give admin option to log out after every time it changes something
-2023-10-24T13:42:00,Dovansh,give function call to timer func
-2023-10-24T13:42:00,Dovansh,we can have that for log in too
-2023-10-24T13:43:00,Amey Pacharkar,…….
-2023-10-24T13:43:00,Amey Pacharkar,deleted code?
-2023-10-24T13:44:00,Dovansh,wait sending
-2023-10-24T13:44:00,Dovansh,run it in turbo c
-2023-10-24T13:44:00,Amey Pacharkar,kyu?
-2023-10-24T13:44:00,Amey Pacharkar,will remove clrscr() add it later after everything is done
-2023-10-24T13:45:00,Dovansh,"#include <stdio.h> #include<stdlib.h> #include <string.h> void timer() { int l=1,t=1; do { if(l==1) { printf(""Invalid Entry LOGGING OUT.:""); l++; t++; sleep(1); clrscr(); } else if(l==2) { printf(""Invalid Entry LOGGING OUT..:""); l++; t++; sleep(1); clrscr(); } else if(l==3) { printf(""Invalid Entry LOGGING OUT...:""); l++; t++; sleep(1); clrscr(); } else if(l==4) { printf(""Invalid Entry LOGGING OUT....:""); l++; t++; sleep(1); clrscr(); } else if(l==5) { printf(""Invalid Entry LOGGING OUT.....:""); l=1; t++; sleep(1); clrscr(); } }while(t!=15); if(t==15) printf(""LOGGED OUT!THANK YOU!!""); } int v,at=0,attempts=3; int wrongpass() { char ver[10]; printf(""Enter password:""); scanf(""%s"",ver); if (strcmp(ver,""password"") == 0) { printf(""\nThe password is correct:\nYou are logged in as the admin\n""); at=10; attempts=0; return 1; } else { printf(""\nWRONG PASSWORD!!\nATTEMPTS REMAINING %d!!\n"",attempts-1); at++; attempts--; } } int main() { char ver[10]; int c; printf(""LOGIN AS:\n""); printf(""1.Admin\n""); printf(""2.Voter\n""); scanf(""%d"",&v); if ((v==1 && at!=10) || (v==1 &&attempts!=0)) { printf(""Enter password:""); scanf(""%s"",ver); if (strcmp(ver,""password"") == 0) { printf(""\nThe password is correct:\nYou are logged in as the admin\n""); at=10; attempts=0; } else { printf(""\nWRONG PASSWORD!!\nATTEMPTS REMAINING %d!!\n"",attempts-1); at++; attempts--; while(at!=3) { c=wrongpass(); if(c==1) break; } if(at==3) { timer(); } } } return 0; }"
-2023-10-24T13:45:00,Dovansh,just try it once
-2023-10-24T13:45:00,Dovansh,then edit
-2023-10-24T13:45:00,Amey Pacharkar,alright
-2023-10-24T13:45:00,Dovansh,you can create functions for login and all if youd like
-2023-10-24T13:46:00,Amey Pacharkar,yaa
-2023-10-24T14:53:00,Dovansh,Clear screen after every vote
-2023-10-24T15:10:00,Amey Pacharkar,"#include <stdio.h> #include <stdlib.h> #include <conio.h> #include <string.h> //clrscr(); struct party { char name[100]; int vote; struct party* next; }; // Initialize the variables of struct party struct party* newnode, * head, * tail, * temp, *pretemp, *lptr, *tempParty, *party1, *party2; //global variables int v,at=0,attempts=3, nop; // Function prototypes void party_name_input(int i); void print_name(); void give_vote(int ch); void vote_ranking(); void vote_tie(); int start_voting(); void print_ranking(); void admin_log_in(); void timer(); int wrongpass(); void admin_ascess(); void voter_log_in(); int main() { // Initialization int  i, ch; head = NULL; tail = NULL; printf(""\t\tELECTION SYSTEM!!!\n""); printf(""Log in before proceeding\n1.Admin Log in\n2.Voter Log in\nEnter your choice:""); scanf(""%d"",&ch); switch(ch){ case 1: admin_log_in(); break; case 2: voter_log_in(); break; } if (head -> vote == head -> next -> vote) { vote_tie(); }else { printf(""Congratulations!!! %s HAS WON THE ELECTIONS!!!\n"", head->name); } return 0; } void party_name_input(int i) { newnode = (struct party*)malloc(sizeof(struct party)); newnode -> next = NULL; printf(""Enter the name of party %d: "", i); scanf(""%s"",&newnode -> name); newnode -> vote = 0; // Initialize vote count to 0 if (head == NULL) { head = newnode; tail = newnode; } else { tail -> next = newnode; tail = newnode; } printf(""Name registered!!!\n""); } void print_name() { temp = head; for (int i = 1; i <= nop; i++) { printf(""%d. %s\n"", i, temp -> name); temp = temp -> next; } } void give_vote(int ch) { temp = head; for (int i = 1; i < ch; i++) { temp = temp -> next; } temp -> vote ++; } void vote_ranking() { int swapped; lptr = NULL; if (head == NULL) return; do { swapped = 0; temp = head; while (temp -> next != lptr) { if (temp -> vote < temp -> next -> vote) { // Swap the parties tempParty = temp; temp = temp -> next; tempParty -> next = temp -> next; temp -> next = tempParty; if (tempParty == head) head = temp; else { pretemp -> next = temp; } swapped = 1; } pretemp = temp; temp = temp -> next; } lptr = temp; } while (swapped); } void vote_tie() { int ch; party1 = head; party2 = head -> next; printf(""There is a TIE between %s and %s!!!\n"", party1 -> name, party2 -> name); printf(""Last Round between them!!!\n""); while (1) { print_name(2); printf(""3. Exit\n""); printf(""Enter your choice: ""); scanf(""%d"", &ch); if (ch == 1) { give_vote(1); } else if (ch == 2) { give_vote(2); } else if (ch == 3) { break; } if (party1 -> vote > party2 -> vote) { printf(""Congratulations!!! %s HAS WON THE ELECTIONS!!!\n"", party1 -> name); break; } else if (party1 -> vote < party2 -> vote) { printf(""Congratulations!!! %s HAS WON THE ELECTIONS!!!\n"", party2   -> name); break; } } } int start_voting() { int ch; printf(""\t\tSTART VOTING!!!\n""); printf(""The parties are:\n""); print_name(); printf(""%d. Exit\n"", (nop + 1)); printf(""Enter your choice: ""); scanf(""%d"", &ch); if (ch == (nop + 1)) return nop; give_vote(ch); printf(""Your Vote has been Added!!!\n""); start_voting(); } void print_ranking() { temp = head; while (temp != NULL) { printf(""%s == %d\n"", temp -> name, temp -> vote); temp = temp -> next; } } void admin_log_in(){ char ver[10]; int c; if (at!=10 || attempts!=0){ printf(""Enter password:""); scanf(""%s"",ver); if (strcmp(ver,""password"") == 0){ printf(""\nThe password is correct:\nYou are logged in as the admin\n""); at=10; attempts=0; admin_ascess(); } else{ printf(""\nWRONG PASSWORD!!\nATTEMPTS REMAINING %d!!\n"",(attempts-1)); at++; attempts--; while(at!=3) { c=wrongpass(); if(c==1){ admin_ascess(); break; } } if(at==3) { timer(); } } } } int wrongpass(){ char ver[10]; printf(""Enter password:""); scanf(""%s"",ver); if (strcmp(ver,""password"") == 0){ printf(""\nThe password is correct:\nYou are logged in as the admin\n""); at=10; attempts=0; return 1; } else{ printf(""\nWRONG PASSWORD!!\nATTEMPTS REMAINING %d!!\n"",attempts-1); at++; attempts--; } } void timer(){ int l=1,t=1; do{ if(l==1){ printf(""Invalid Entry LOGGING OUT.:""); l++; t++; sleep(1); }else if(l==2){ printf(""Invalid Entry LOGGING OUT..:""); l++; t++; sleep(1); }else if(l==3){ printf(""Invalid Entry LOGGING OUT...:""); l++; t++; sleep(1); clrscr(); }else if(l==4){ printf(""Invalid Entry LOGGING OUT....:""); l++; t++; sleep(1); }else if(l==5){ printf(""Invalid Entry LOGGING OUT.....:""); l=1; t++; sleep(1); } }while(t!=15); if(t==15) printf(""LOGGED OUT!THANK YOU!!""); } void admin_ascess(){ int ch,i; printf(""Welcome ADMIN!!!\nPlease choice what you  wish to do:\n1.Enter the party names\n2.Start Counting\n3.Declare Result\n4.Exit\nPlease Enter your choice:""); scanf(""%d"",&ch); switch(ch){ case 1: printf(""Enter the number of parties participating in the election process:""); scanf(""%d"", &nop); for (i = 1; i <= nop; i++) { party_name_input(i); } break; case 2: vote_ranking(nop); break; case 3: print_ranking(); break; case 4: return ; } } void voter_log_in(){ printf(""Welcome Voters!!!!""); start_voting(nop); }"
-2023-10-24T15:10:00,Amey Pacharkar,know anything about this error?
-2023-10-24T15:10:00,Amey Pacharkar,i removed all clrscr() still it gives that error
-2023-10-24T15:10:00,Dovansh,See again there must be some
-2023-10-24T15:13:00,Dovansh,Let me try
-2023-10-24T15:13:00,Amey Pacharkar,ha
-2023-10-24T15:13:00,Amey Pacharkar,tho it gives error in trbo c
-2023-10-24T15:15:00,Amey Pacharkar,"#include <stdio.h> #include <stdlib.h> #include <conio.h> #include <string.h> //clrscr(); struct party { char name[100]; int vote; struct party* next; }; // Initialize the variables of struct party struct party* newnode, * head, * tail, * temp, *pretemp, *lptr, *tempParty, *party1, *party2; //global variables int v,at=0,attempts=3, nop; // Function prototypes void party_name_input(int i); void print_name(); void give_vote(int ch); void vote_ranking(); void vote_tie(); int start_voting(); void print_ranking(); void admin_log_in(); void timer(); int wrongpass(); void admin_ascess(); void voter_log_in(); int main() { // Initialization int  i, ch; head = NULL; tail = NULL; printf(""\t\tELECTION SYSTEM!!!\n""); printf(""Log in before proceeding\n1.Admin Log in\n2.Voter Log in\nEnter your choice:""); scanf(""%d"",&ch); switch(ch){ case 1: admin_log_in(); break; case 2: voter_log_in(); break; } if (head -> vote == head -> next -> vote) { vote_tie(); }else { printf(""Congratulations!!! %s HAS WON THE ELECTIONS!!!\n"", head->name); } return 0; } void party_name_input(int i) { newnode = (struct party*)malloc(sizeof(struct party)); newnode -> next = NULL; printf(""Enter the name of party %d: "", i); scanf(""%s"",&newnode -> name); newnode -> vote = 0; // Initialize vote count to 0 if (head == NULL) { head = newnode; tail = newnode; } else { tail -> next = newnode; tail = newnode; } printf(""Name registered!!!\n""); } void print_name() { temp = head; for (int i = 1; i <= nop; i++) { printf(""%d. %s\n"", i, temp -> name); temp = temp -> next; } } void give_vote(int ch) { temp = head; for (int i = 1; i < ch; i++) { temp = temp -> next; } temp -> vote ++; } void vote_ranking() { int swapped; lptr = NULL; if (head == NULL) return; do { swapped = 0; temp = head; while (temp -> next != lptr) { if (temp -> vote < temp -> next -> vote) { // Swap the parties tempParty = temp; temp = temp -> next; tempParty -> next = temp -> next; temp -> next = tempParty; if (tempParty == head) head = temp; else { pretemp -> next = temp; } swapped = 1; } pretemp = temp; temp = temp -> next; } lptr = temp; } while (swapped); } void vote_tie() { int ch; party1 = head; party2 = head -> next; printf(""There is a TIE between %s and %s!!!\n"", party1 -> name, party2 -> name); printf(""Last Round between them!!!\n""); while (1) { print_name(2); printf(""3. Exit\n""); printf(""Enter your choice: ""); scanf(""%d"", &ch); if (ch == 1) { give_vote(1); } else if (ch == 2) { give_vote(2); } else if (ch == 3) { break; } if (party1 -> vote > party2 -> vote) { printf(""Congratulations!!! %s HAS WON THE ELECTIONS!!!\n"", party1 -> name); break; } else if (party1 -> vote < party2 -> vote) { printf(""Congratulations!!! %s HAS WON THE ELECTIONS!!!\n"", party2   -> name); break; } } } int start_voting() { int ch; printf(""\t\tSTART VOTING!!!\n""); printf(""The parties are:\n""); print_name(); printf(""%d. Exit\n"", (nop + 1)); printf(""Enter your choice: ""); scanf(""%d"", &ch); if (ch == (nop + 1)) return nop; give_vote(ch); printf(""Your Vote has been Added!!!\n""); start_voting(); } void print_ranking() { temp = head; while (temp != NULL) { printf(""%s == %d\n"", temp -> name, temp -> vote); temp = temp -> next; } } void admin_log_in(){ char ver[10]; int c; if (at!=10 || attempts!=0){ printf(""Enter password:""); scanf(""%s"",ver); if (strcmp(ver,""password"") == 0){ printf(""\nThe password is correct:\nYou are logged in as the admin\n""); at=10; attempts=0; admin_ascess(); } else{ printf(""\nWRONG PASSWORD!!\nATTEMPTS REMAINING %d!!\n"",(attempts-1)); at++; attempts--; while(at!=3) { c=wrongpass(); if(c==1){ admin_ascess(); break; } } if(at==3) { timer(); } } } } int wrongpass(){ char ver[10]; printf(""Enter password:""); scanf(""%s"",ver); if (strcmp(ver,""password"") == 0){ printf(""\nThe password is correct:\nYou are logged in as the admin\n""); at=10; attempts=0; return 1; } else{ printf(""\nWRONG PASSWORD!!\nATTEMPTS REMAINING %d!!\n"",attempts-1); at++; attempts--; } } void timer(){ int l=1,t=1; do{ if(l==1){ printf(""Invalid Entry LOGGING OUT.:""); l++; t++; sleep(1); }else if(l==2){ printf(""Invalid Entry LOGGING OUT..:""); l++; t++; sleep(1); }else if(l==3){ printf(""Invalid Entry LOGGING OUT...:""); l++; t++; sleep(1); clrscr(); }else if(l==4){ printf(""Invalid Entry LOGGING OUT....:""); l++; t++; sleep(1); }else if(l==5){ printf(""Invalid Entry LOGGING OUT.....:""); l=1; t++; sleep(1); } }while(t!=15); if(t==15) printf(""LOGGED OUT!THANK YOU!!""); } void admin_ascess(){ int ch,i; printf(""Welcome ADMIN!!!\nPlease choice what you  wish to do:\n1.Enter the party names\n2.Start Counting\n3.Declare Result\n4.Exit\nPlease Enter your choice:""); scanf(""%d"",&ch); switch(ch){ case 1: printf(""Enter the number of parties participating in the election process:""); scanf(""%d"", &nop); for (i = 1; i <= nop; i++) { party_name_input(i); } break; case 2: vote_ranking(); break; case 3: print_ranking(); break; case 4: return ; } } void voter_log_in(){ printf(""Welcome Voters!!!!""); start_voting(); }"
-2023-10-24T15:16:00,Dovansh,what this ?
-2023-10-24T15:16:00,Amey Pacharkar,run that one
-2023-10-24T15:17:00,Dovansh,same error
-2023-10-24T15:17:00,Amey Pacharkar,haa
-2023-10-24T15:18:00,Amey Pacharkar,aur waha error nahi he
-2023-10-24T15:18:00,Dovansh,there was one clrscr
-2023-10-24T15:18:00,Amey Pacharkar,you removed it?
-2023-10-24T15:19:00,Dovansh,yaa
-2023-10-24T15:19:00,Dovansh,tie error
-2023-10-24T15:19:00,Amey Pacharkar,hoa na run?
-2023-10-24T15:20:00,Dovansh,BJP won
-2023-10-24T15:20:00,Dovansh,haa
-2023-10-24T15:20:00,Amey Pacharkar,check kar le
-2023-10-24T15:20:00,Dovansh,"#include <stdio.h> #include <stdlib.h> #include <conio.h> #include <string.h> //clrscr(); struct party { char name[100]; int vote; struct party* next; }; // Initialize the variables of struct party struct party* newnode, * head, * tail, * temp, *pretemp, *lptr, *tempParty, *party1, *party2; //global variables int v,at=0,attempts=3, nop; // Function prototypes void party_name_input(int i); void print_name(); void give_vote(int ch); void vote_ranking(); void vote_tie(); int start_voting(); void print_ranking(); void admin_log_in(); void timer(); int wrongpass(); void admin_ascess(); void voter_log_in(); int main() { // Initialization int  i, ch; head = NULL; tail = NULL; printf(""\t\tELECTION SYSTEM!!!\n""); printf(""Log in before proceeding\n1.Admin Log in\n2.Voter Log in\nEnter your choice:""); scanf(""%d"",&ch); switch(ch){ case 1: admin_log_in(); break; case 2: voter_log_in(); break; } if (head -> vote == head -> next -> vote) { vote_tie(); }else { printf(""Congratulations!!! %s HAS WON THE ELECTIONS!!!\n"", head->name); } return 0; } void party_name_input(int i) { newnode = (struct party*)malloc(sizeof(struct party)); newnode -> next = NULL; printf(""Enter the name of party %d: "", i); scanf(""%s"",&newnode -> name); newnode -> vote = 0; // Initialize vote count to 0 if (head == NULL) { head = newnode; tail = newnode; } else { tail -> next = newnode; tail = newnode; } printf(""Name registered!!!\n""); } void print_name() { temp = head; for (int i = 1; i <= nop; i++) { printf(""%d. %s\n"", i, temp -> name); temp = temp -> next; } } void give_vote(int ch) { temp = head; for (int i = 1; i < ch; i++) { temp = temp -> next; } temp -> vote ++; } void vote_ranking() { int swapped; lptr = NULL; if (head == NULL) return; do { swapped = 0; temp = head; while (temp -> next != lptr) { if (temp -> vote < temp -> next -> vote) { // Swap the parties tempParty = temp; temp = temp -> next; tempParty -> next = temp -> next; temp -> next = tempParty; if (tempParty == head) head = temp; else { pretemp -> next = temp; } swapped = 1; } pretemp = temp; temp = temp -> next; } lptr = temp; } while (swapped); } void vote_tie() { int ch; party1 = head; party2 = head -> next; printf(""There is a TIE between %s and %s!!!\n"", party1 -> name, party2 -> name); printf(""Last Round between them!!!\n""); while (1) { print_name(2); printf(""3. Exit\n""); printf(""Enter your choice: ""); scanf(""%d"", &ch); if (ch == 1) { give_vote(1); } else if (ch == 2) { give_vote(2); } else if (ch == 3) { break; } if (party1 -> vote > party2 -> vote) { printf(""Congratulations!!! %s HAS WON THE ELECTIONS!!!\n"", party1 -> name); break; } else if (party1 -> vote < party2 -> vote) { printf(""Congratulations!!! %s HAS WON THE ELECTIONS!!!\n"", party2   -> name); break; } } } int start_voting() { int ch; printf(""\t\tSTART VOTING!!!\n""); printf(""The parties are:\n""); print_name(); printf(""%d. Exit\n"", (nop + 1)); printf(""Enter your choice: ""); scanf(""%d"", &ch); if (ch == (nop + 1)) return nop; give_vote(ch); printf(""Your Vote has been Added!!!\n""); start_voting(); } void print_ranking() { temp = head; while (temp != NULL) { printf(""%s == %d\n"", temp -> name, temp -> vote); temp = temp -> next; } } void admin_log_in(){ char ver[10]; int c; if (at!=10 || attempts!=0){ printf(""Enter password:""); scanf(""%s"",ver); if (strcmp(ver,""password"") == 0){ printf(""\nThe password is correct:\nYou are logged in as the admin\n""); at=10; attempts=0; admin_ascess(); } else{ printf(""\nWRONG PASSWORD!!\nATTEMPTS REMAINING %d!!\n"",(attempts-1)); at++; attempts--; while(at!=3) { c=wrongpass(); if(c==1){ admin_ascess(); break; } } if(at==3) { timer(); } } } } int wrongpass(){ char ver[10]; printf(""Enter password:""); scanf(""%s"",ver); if (strcmp(ver,""password"") == 0){ printf(""\nThe password is correct:\nYou are logged in as the admin\n""); at=10; attempts=0; return 1; } else{ printf(""\nWRONG PASSWORD!!\nATTEMPTS REMAINING %d!!\n"",attempts-1); at++; attempts--; } } void timer(){ int l=1,t=1; do{ if(l==1){ printf(""Invalid Entry LOGGING OUT.:""); l++; t++; sleep(1); }else if(l==2){ printf(""Invalid Entry LOGGING OUT..:""); l++; t++; sleep(1); }else if(l==3){ printf(""Invalid Entry LOGGING OUT...:""); l++; t++; sleep(1); }else if(l==4){ printf(""Invalid Entry LOGGING OUT....:""); l++; t++; sleep(1); }else if(l==5){ printf(""Invalid Entry LOGGING OUT.....:""); l=1; t++; sleep(1); } }while(t!=15); if(t==15) printf(""LOGGED OUT!THANK YOU!!""); } void admin_ascess(){ int ch,i; printf(""Welcome ADMIN!!!\nPlease choice what you  wish to do:\n1.Enter the party names\n2.Start Counting\n3.Declare Result\n4.Exit\nPlease Enter your choice:""); scanf(""%d"",&ch); switch(ch){ case 1: printf(""Enter the number of parties participating in the election process:""); scanf(""%d"", &nop); for (i = 1; i <= nop; i++) { party_name_input(i); } break; case 2: vote_ranking(); break; case 3: print_ranking(); break; case 4: return ; } } void voter_log_in(){ printf(""Welcome Voters!!!!""); start_voting(); }"
-2023-10-24T15:20:00,Amey Pacharkar,if everything good
-2023-10-24T15:20:00,Dovansh,are
-2023-10-24T15:20:00,Dovansh,see the pic
-2023-10-24T15:20:00,Dovansh,error
-2023-10-24T15:20:00,Dovansh,blunder
-2023-10-24T15:20:00,Amey Pacharkar,😂😂
-2023-10-24T15:21:00,Dovansh,ya what to do
-2023-10-24T15:21:00,Dovansh,directly tie
-2023-10-24T15:21:00,Dovansh,no voting?
-2023-10-24T15:21:00,Dovansh,voter kya karega
-2023-10-24T15:21:00,Dovansh,admin hi decide karega to
-2023-10-24T15:23:00,Amey Pacharkar,ahahhaha dekta u
-2023-10-24T15:23:00,Amey Pacharkar,*hu
-2023-10-24T15:23:00,Dovansh,again
-2023-10-24T15:23:00,Dovansh,another one
-2023-10-24T15:23:00,Amey Pacharkar,ha re
-2023-10-24T15:23:00,Dovansh,wromg password pe log in ho gaya
-2023-10-24T15:24:00,Amey Pacharkar,wo mene chapa he
-2023-10-24T15:24:00,Amey Pacharkar,log in wala just copy paste
-2023-10-24T15:24:00,Dovansh,are to usko synch kar
-2023-10-24T15:39:00,Amey Pacharkar,"#include <stdio.h> #include <stdlib.h> #include <conio.h> #include <string.h> //clrscr(); struct party { char name[100]; int vote; struct party* next; }; // Initialize the variables of struct party struct party* newnode, * head, * tail, * temp, *pretemp, *lptr, *tempParty, *party1, *party2; //global variables int v,at=0,attempts=3, nop; // Function prototypes void party_name_input(int i); void print_name(); void give_vote(int ch); void vote_ranking(); void vote_tie(); int start_voting(); void print_ranking(); void admin_log_in(); void timer(); int wrongpass(); void admin_ascess(); void voter_log_in(); int main() { // Initialization int  i, ch; head = NULL; tail = NULL; printf(""\t\tELECTION SYSTEM!!!\n""); do{ printf(""Log in before proceeding\n1.Admin Log in\n2.Voter Log in\n3.Exit\nEnter your choice:""); scanf(""%d"",&ch); switch(ch){ case 1: admin_log_in(); break; case 2: voter_log_in(); break; case 3: printf(""Thank you!!!\n""); break; } }while(ch!= 3); if (head -> vote == head -> next -> vote) { vote_tie(); }else { printf(""Congratulations!!! %s HAS WON THE ELECTIONS!!!\n"", head->name); } return 0; } void party_name_input(int i) { newnode = (struct party*)malloc(sizeof(struct party)); newnode -> next = NULL; printf(""Enter the name of party %d: "", i); scanf(""%s"",&newnode -> name); newnode -> vote = 0; // Initialize vote count to 0 if (head == NULL) { head = newnode; tail = newnode; } else { tail -> next = newnode; tail = newnode; } printf(""Name registered!!!\n""); } void print_name() { temp = head; for (int i = 1; i <= nop; i++) { printf(""%d. %s\n"", i, temp -> name); temp = temp -> next; } } void give_vote(int ch) { temp = head; for (int i = 1; i < ch; i++) { temp = temp -> next; } temp -> vote ++; } void vote_ranking() { int swapped; lptr = NULL; if (head == NULL) return; do { swapped = 0; temp = head; while (temp -> next != lptr) { if (temp -> vote < temp -> next -> vote) { // Swap the parties tempParty = temp; temp = temp -> next; tempParty -> next = temp -> next; temp -> next = tempParty; if (tempParty == head) head = temp; else { pretemp -> next = temp; } swapped = 1; } pretemp = temp; temp = temp -> next; } lptr = temp; } while (swapped); } void vote_tie() { int ch; party1 = head; party2 = head -> next; printf(""There is a TIE between %s and %s!!!\n"", party1 -> name, party2 -> name); printf(""Last Round between them!!!\n""); while (1) { print_name(2); printf(""3. Exit\n""); printf(""Enter your choice: ""); scanf(""%d"", &ch); if (ch == 1) { give_vote(1); } else if (ch == 2) { give_vote(2); } else if (ch == 3) { break; } if (party1 -> vote > party2 -> vote) { printf(""Congratulations!!! %s HAS WON THE ELECTIONS!!!\n"", party1 -> name); break; } else if (party1 -> vote < party2 -> vote) { printf(""Congratulations!!! %s HAS WON THE ELECTIONS!!!\n"", party2   -> name); break; } } } int start_voting() { int ch; printf(""\t\tSTART VOTING!!!\n""); printf(""The parties are:\n""); print_name(); printf(""%d. Exit\n"", (nop + 1)); printf(""Enter your choice: ""); scanf(""%d"", &ch); if (ch == (nop + 1)) return nop; give_vote(ch); printf(""Your Vote has been Added!!!\n""); start_voting(); } void print_ranking() { temp = head; while (temp != NULL) { printf(""%s == %d\n"", temp -> name, temp -> vote); temp = temp -> next; } } void admin_log_in(){ char ver[10]; int c; if (at!=10 || attempts!=0){ printf(""Enter password:""); scanf(""%s"",ver); if (strcmp(ver,""password"") == 0){ printf(""\nThe password is correct:\nYou are logged in as the admin\n""); at=10; attempts=0; admin_ascess(); } else{ printf(""\nWRONG PASSWORD!!\nATTEMPTS REMAINING %d!!\n"",(attempts-1)); at++; attempts--; while(at!=4) { c=wrongpass(); if(c==1){ break; } } if(at==3) { timer(); } } } } int wrongpass(){ char ver[10]; printf(""Enter password:""); scanf(""%s"",ver); if (strcmp(ver,""password"") == 0){ printf(""\nThe password is correct:\nYou are logged in as the admin\n""); at=10; attempts=0; admin_ascess(); return 1; } else{ printf(""\nWRONG PASSWORD!!\nATTEMPTS REMAINING %d!!\n"",attempts-1); at++; attempts--; } } void timer(){ int l=1,t=1; do{ if(l==1){ printf(""Invalid Entry LOGGING OUT.:""); l++; t++; sleep(1); }else if(l==2){ printf(""Invalid Entry LOGGING OUT..:""); l++; t++; sleep(1); }else if(l==3){ printf(""Invalid Entry LOGGING OUT...:""); l++; t++; sleep(1); }else if(l==4){ printf(""Invalid Entry LOGGING OUT....:""); l++; t++; sleep(1); }else if(l==5){ printf(""Invalid Entry LOGGING OUT.....:""); l=1; t++; sleep(1); } }while(t!=15); if(t==15) printf(""LOGGED OUT!THANK YOU!!""); } void admin_ascess(){ int ch,i; printf(""Welcome ADMIN!!!\nPlease choice what you  wish to do:\n1.Enter the party names\n2.Start Counting\n3.Declare Result\n4.Exit\nPlease Enter your choice:""); scanf(""%d"",&ch); switch(ch){ case 1: printf(""Enter the number of parties participating in the election process:""); scanf(""%d"", &nop); for (i = 1; i <= nop; i++) { party_name_input(i); } break; case 2: vote_ranking(); break; case 3: print_ranking(); break; case 4: return ; } } void voter_log_in(){ if(tail == NULL){ printf(""Welcome Voters!!!!\n""); printf(""There are no Parties to Vote for!!!\n""); }else{ printf(""Welcome Voters!!!!\n""); start_voting(); } }"
-2023-10-24T15:40:00,Amey Pacharkar,log in ka kuc error  araha he
-2023-10-24T15:40:00,Amey Pacharkar,it only takes 2 attemps instead of 3
-2023-10-24T15:40:00,Dovansh,Nahi hua solve ?
-2023-10-24T15:40:00,Amey Pacharkar,then if you try to relog in it wont let you
-2023-10-24T15:40:00,Dovansh,Ek baar wrong hua uske baad 2 ?
-2023-10-24T15:40:00,Amey Pacharkar,this two problem only currently
-2023-10-24T15:41:00,Dovansh,Re log in ke time pe at attempts ka value reset kar
-2023-10-24T15:41:00,Amey Pacharkar,it only gives 2 attemps.
-2023-10-24T15:41:00,Dovansh,Total 2 ?
-2023-10-24T15:41:00,Dovansh,Ya ek baar wrong hua uske baad 2
-2023-10-24T15:41:00,Amey Pacharkar,ok
-2023-10-24T15:41:00,Amey Pacharkar,this one
-2023-10-24T15:42:00,Dovansh,Condition change karde na
-2023-10-24T15:42:00,Amey Pacharkar,run that code solo
-2023-10-24T15:42:00,Dovansh,Solo ?
-2023-10-24T15:42:00,Amey Pacharkar,if it works like that then it is sth different
-2023-10-24T15:42:00,Amey Pacharkar,only the log n code
-2023-10-24T15:43:00,Amey Pacharkar,whats  initial values of attempts and at?
-2023-10-24T15:43:00,Dovansh,At is 0
-2023-10-24T15:43:00,Dovansh,Attempts is 3
-2023-10-24T15:55:00,Amey Pacharkar,"#include <stdio.h> #include <stdlib.h> #include <conio.h> #include <string.h> //clrscr(); struct party { char name[100]; int vote; struct party* next; }; // Initialize the variables of struct party struct party* newnode, * head, * tail, * temp, *pretemp, *lptr, *tempParty, *party1, *party2; //global variables int v,at=0,attempts=3, nop; // Function prototypes void party_name_input(int i); void print_name(); void give_vote(int ch); void vote_ranking(); void vote_tie(); int start_voting(); void print_ranking(); void admin_log_in(); void timer(); int wrongpass(); void admin_ascess(); void voter_log_in(); int main() { // Initialization int  i, ch; head = NULL; tail = NULL; printf(""\t\tELECTION SYSTEM!!!\n""); do{ printf(""Log in before proceeding\n1.Admin Log in\n2.Voter Log in\n3.Exit\nEnter your choice:""); scanf(""%d"",&ch); switch(ch){ case 1: at = 0; attempts = 3; admin_log_in(); break; case 2: voter_log_in(); break; case 3: printf(""Thank you!!!\n""); break; } }while(ch!= 3); if (head -> vote == head -> next -> vote) { vote_tie(); }else { printf(""Congratulations!!! %s HAS WON THE ELECTIONS!!!\n"", head->name); } return 0; } void party_name_input(int i) { newnode = (struct party*)malloc(sizeof(struct party)); newnode -> next = NULL; printf(""Enter the name of party %d: "", i); scanf(""%s"",&newnode -> name); newnode -> vote = 0; // Initialize vote count to 0 if (head == NULL && tail == NULL) { head = newnode; tail = newnode; } else { tail -> next = newnode; tail = newnode; } printf(""Name registered!!!\n""); } void print_name() { temp = head; for (int i = 1; i <= nop; i++) { printf(""%d. %s\n"", i, temp -> name); temp = temp -> next; } } void give_vote(int ch) { temp = head; for (int i = 1; i < ch; i++) { temp = temp -> next; } temp -> vote ++; } void vote_ranking() { int swapped; lptr = NULL; if (tail == NULL){ printf(""There are no Parties found to be ranked!!!!\n""); return; } do { swapped = 0; temp = head; while (temp -> next != lptr) { if (temp -> vote < temp -> next -> vote) { // Swap the parties tempParty = temp; temp = temp -> next; tempParty -> next = temp -> next; temp -> next = tempParty; if (tempParty == head) head = temp; else { pretemp -> next = temp; } swapped = 1; } pretemp = temp; temp = temp -> next; } lptr = temp; } while (swapped); } void vote_tie() { int ch; party1 = head; party2 = head -> next; printf(""There is a TIE between %s and %s!!!\n"", party1 -> name, party2 -> name); printf(""Last Round between them!!!\n""); while (1) { print_name(2); printf(""3. Exit\n""); printf(""Enter your choice: ""); scanf(""%d"", &ch); if (ch == 1) { give_vote(1); } else if (ch == 2) { give_vote(2); } else if (ch == 3) { break; } if (party1 -> vote > party2 -> vote) { printf(""Congratulations!!! %s HAS WON THE ELECTIONS!!!\n"", party1 -> name); break; } else if (party1 -> vote < party2 -> vote) { printf(""Congratulations!!! %s HAS WON THE ELECTIONS!!!\n"", party2   -> name); break; } } } int start_voting() { int ch; printf(""\t\tSTART VOTING!!!\n""); printf(""The parties are:\n""); print_name(); printf(""%d. Exit\n"", (nop + 1)); printf(""Enter your choice: ""); scanf(""%d"", &ch); if (ch == (nop + 1)) return nop; give_vote(ch); printf(""Your Vote has been Added!!!\n""); start_voting(); } void print_ranking() { temp = head; if(tail == NULL){ printf(""There are no Parties found!!!\n""); }else{ for (int i = 1; i <= nop; i++) { printf(""%d. %s ==> %d\n"", i, temp -> name,temp -> vote); temp = temp -> next; } } } void admin_log_in(){ char ver[10]; int c; if (at!=10 || attempts!=0){ printf(""Enter password:""); scanf(""%s"",ver); if (strcmp(ver,""password"") == 0){ printf(""\nThe password is correct:\nYou are logged in as the admin\n""); at=10; attempts=0; admin_ascess(); } else{ printf(""\nWRONG PASSWORD!!\nATTEMPTS REMAINING %d!!\n"",(attempts-1)); at++; attempts--; while(at!=4) { c=wrongpass(); if(c==1){ break; } } if(at==3) { timer(); } } } } int wrongpass(){ char ver[10]; printf(""Enter password:""); scanf(""%s"",ver); if (strcmp(ver,""password"") == 0){ printf(""\nThe password is correct:\nYou are logged in as the admin\n""); at=10; attempts=0; admin_ascess(); return 1; } else{ printf(""\nWRONG PASSWORD!!\nATTEMPTS REMAINING %d!!\n"",attempts-1); at++; attempts--; } } void timer(){ int l=1,t=1; do{ if(l==1){ printf(""Invalid Entry LOGGING OUT.:""); l++; t++; sleep(1); }else if(l==2){ printf(""Invalid Entry LOGGING OUT..:""); l++; t++; sleep(1); }else if(l==3){ printf(""Invalid Entry LOGGING OUT...:""); l++; t++; sleep(1); }else if(l==4){ printf(""Invalid Entry LOGGING OUT....:""); l++; t++; sleep(1); }else if(l==5){ printf(""Invalid Entry LOGGING OUT.....:""); l=1; t++; sleep(1); } }while(t!=15); if(t==15) printf(""LOGGED OUT!THANK YOU!!""); } void admin_ascess(){ int ch,i; do{ printf(""Welcome ADMIN!!!\nPlease choice what you  wish to do:\n1.Enter the party names\n2.Start Counting\n3.Declare Result\n4.Exit\nPlease Enter your choice:""); scanf(""%d"",&ch); switch(ch){ case 1: printf(""Enter the number of parties participating in the election process:""); scanf(""%d"", &nop); for (i = 1; i <= nop; i++) { party_name_input(i); } break; case 2: vote_ranking(); break; case 3: print_ranking(); break; } }while(ch != 4); } void voter_log_in(){ if(tail == NULL){ printf(""Welcome Voters!!!!\n""); printf(""There are no Parties to Vote for!!!\n""); }else{ printf(""Welcome Voters!!!!\n""); start_voting(); } }"
-2023-10-24T15:55:00,Amey Pacharkar,everything done hopefully except for the log in ppart
-2023-10-24T15:55:00,Amey Pacharkar,1 less attemp
-2023-10-24T15:55:00,Dovansh,It's fine
-2023-10-24T15:55:00,Dovansh,We don't need a PPT right
-2023-10-24T15:55:00,Dovansh,Just the report
-2023-10-24T15:55:00,Amey Pacharkar,yaa
-2023-10-24T15:55:00,Dovansh,Okk
-2023-10-24T15:55:00,Amey Pacharkar,no I meant log in part
-2023-10-24T15:56:00,Amey Pacharkar,admin log in part with only 2 attemps
-2023-10-24T15:56:00,Dovansh,Okk
-2023-10-24T15:56:00,Dovansh,I'll see it
-2023-10-24T15:56:00,Dovansh,Everything else runs ?
-2023-10-24T15:56:00,Amey Pacharkar,yaa
-2023-10-24T15:56:00,Dovansh,Properly ?
-2023-10-24T15:56:00,Amey Pacharkar,and if we wanna add then clrscr()
-2023-10-24T15:56:00,Amey Pacharkar,ha
-2023-10-24T15:57:00,Dovansh,Okk
-2023-10-24T15:57:00,Amey Pacharkar,nahi hua to bata dena
-2023-10-24T15:57:00,Dovansh,Turbo c errors ?
-2023-10-24T15:57:00,Amey Pacharkar,haven't seen them
-2023-10-24T15:57:00,Dovansh,Okk I'll see
-2023-10-24T15:57:00,Amey Pacharkar,understood
-2023-10-24T15:58:00,Dovansh,Ok
-2023-10-24T17:10:00,Amey Pacharkar,me adha soke utha aur sir ne lecture cancle kar diya
-2023-10-24T17:11:00,Dovansh,😂😂😂
-2023-10-25T09:56:00,Amey Pacharkar,Sir Gaye to bata
-2023-10-25T09:56:00,Dovansh,Haa
-2023-10-25T10:03:00,Amey Pacharkar,Gaye kya sir?
-2023-10-25T10:11:00,Dovansh,Haa
-2023-10-26T13:18:00,Dovansh,"give the advantages and disadvantages of handwired control unit design using state-table method and Delay-element method 42. what is cache Memory? A 32-bit computer has a 32-bit -memory address. It has 8kb of cache memory the Computer follows four-way set associative mapping. Each line size is 16. bytes. Show the memory format and cache memory organization. address 03 what is Amdahl's love? let a program have do percent of its code enhanced (so f₂ =0·4) run 2.8 times faster. (so f₁ = 2.3),ohat is the overall system speedup s? ea what is addressing node and explain it os Draw and Explain functioning of the microprogrammed con bol unit. the neat black diagram for flynn's classification. 06- Draw the neat block. -07 Daaw basic exganisation of computer and explain. its block level functional units. 08 Enlist different types of bus arbitration schemes and explain any one a short note: Interleaved and assovahve memory"
-2023-10-26T13:30:00,Dovansh,"microprogram for instruction MOV A (copy the contents of Register I to Register n) 11 Explain with suitable diagrams, long DRAM cell Required Refreshing in Computer System"
-2023-10-26T14:50:00,Amey Pacharkar,15min me aya me
-2023-10-26T21:40:00,Amey Pacharkar,Kal araha he na?
-2023-10-26T21:42:00,Dovansh,Haa
-2023-10-26T21:42:00,Dovansh,Aaunga
-2023-10-26T21:42:00,Dovansh,Soke
-2023-10-26T21:43:00,Amey Pacharkar,ha chalega sirf mere leye 2-3 double sided pages leke ana. Along with dlca assignment no 1
-2023-10-26T21:43:00,Dovansh,Haaa
-2023-10-26T21:43:00,Dovansh,Garba khelega ?
-2023-10-26T21:43:00,Amey Pacharkar,thanks
-2023-10-26T21:44:00,Amey Pacharkar,ha chal
-2023-10-26T21:44:00,Dovansh,Khelega ?
-2023-10-26T21:44:00,Dovansh,Thikke
-2023-10-26T21:44:00,Dovansh,5 baje hai
-2023-10-26T21:44:00,Amey Pacharkar,kal?
-2023-10-26T21:44:00,Dovansh,Haa
-2023-10-26T21:44:00,Dovansh,Kal hi to hai college me
-2023-10-26T21:44:00,Amey Pacharkar,acha sach me?
-2023-10-26T21:44:00,Dovansh,Haaa
-2023-10-26T21:45:00,Amey Pacharkar,chalega
-2023-10-26T21:45:00,Dovansh,Haaaaaaa
-2023-10-26T22:53:00,Amey Pacharkar,There is no tie devanshuva
-2023-10-26T22:54:00,Dovansh,Hmmm
-2023-10-26T22:54:00,Dovansh,Okk
-2023-10-26T22:54:00,Amey Pacharkar,Did you checked the old code by mistake by any chance?
-2023-10-26T22:54:00,Dovansh,Ya I guess
-2023-10-26T22:54:00,Dovansh,Send me this code
-2023-10-26T22:54:00,Amey Pacharkar,Will make a notepad of code after getting home
-2023-10-26T22:55:00,Dovansh,Okk chalse
-2023-10-26T22:55:00,Amey Pacharkar,"#include <stdio.h> #include <stdlib.h> #include <conio.h> #include <string.h> //clrscr(); struct party { char name[100]; int vote; struct party* next; }; // Initialize the variables of struct party struct party* newnode, * head, * tail, * temp, *pretemp, *lptr, *tempParty, *party1, *party2; //global variables int v,at=0,attempts=3, nop; // Function prototypes void party_name_input(int i); void print_name(); void give_vote(int ch); void vote_ranking(); void vote_tie(); int start_voting(); void print_ranking(); void admin_log_in(); void timer(); int wrongpass(); void admin_ascess(); void voter_log_in(); int main() { // Initialization int  i, ch; head = NULL; tail = NULL; printf(""\t\tELECTION SYSTEM!!!\n""); do{ printf(""Log in before proceeding\n1.Admin Log in\n2.Voter Log in\n3.Exit\nEnter your choice:""); scanf(""%d"",&ch); switch(ch){ case 1: at = 0; attempts = 3; admin_log_in(); break; case 2: voter_log_in(); break; case 3: printf(""Thank you!!!\n""); break; } }while(ch!= 3); if (head -> vote == head -> next -> vote) { vote_tie(); }else { printf(""Congratulations!!! %s HAS WON THE ELECTIONS!!!\n"", head->name); } return 0; } void party_name_input(int i) { newnode = (struct party*)malloc(sizeof(struct party)); newnode -> next = NULL; printf(""Enter the name of party %d: "", i); scanf(""%s"",&newnode -> name); newnode -> vote = 0; // Initialize vote count to 0 if (head == NULL && tail == NULL) { head = newnode; tail = newnode; } else { tail -> next = newnode; tail = newnode; } printf(""Name registered!!!\n""); } void print_name() { temp = head; for (int i = 1; i <= nop; i++) { printf(""%d. %s\n"", i, temp -> name); temp = temp -> next; } } void give_vote(int ch) { temp = head; for (int i = 1; i < ch; i++) { temp = temp -> next; } temp -> vote ++; } void vote_ranking() { int swapped; lptr = NULL; if (tail == NULL){ printf(""There are no Parties found to be ranked!!!!\n""); return; } do { swapped = 0; temp = head; while (temp -> next != lptr) { if (temp -> vote < temp -> next -> vote) { // Swap the parties tempParty = temp; temp = temp -> next; tempParty -> next = temp -> next; temp -> next = tempParty; if (tempParty == head) head = temp; else { pretemp -> next = temp; } swapped = 1; } pretemp = temp; temp = temp -> next; } lptr = temp; } while (swapped); } void vote_tie() { int ch; party1 = head; party2 = head -> next; printf(""There is a TIE between %s and %s!!!\n"", party1 -> name, party2 -> name); printf(""Last Round between them!!!\n""); while (1) { print_name(2); printf(""3. Exit\n""); printf(""Enter your choice: ""); scanf(""%d"", &ch); if (ch == 1) { give_vote(1); } else if (ch == 2) { give_vote(2); } else if (ch == 3) { break; } if (party1 -> vote > party2 -> vote) { printf(""Congratulations!!! %s HAS WON THE ELECTIONS!!!\n"", party1 -> name); break; } else if (party1 -> vote < party2 -> vote) { printf(""Congratulations!!! %s HAS WON THE ELECTIONS!!!\n"", party2   -> name); break; } } } int start_voting() { int ch; printf(""\t\tSTART VOTING!!!\n""); printf(""The parties are:\n""); print_name(); printf(""%d. Exit\n"", (nop + 1)); printf(""Enter your choice: ""); scanf(""%d"", &ch); if (ch == (nop + 1)) return nop; give_vote(ch); printf(""Your Vote has been Added!!!\n""); start_voting(); } void print_ranking() { temp = head; if(tail == NULL){ printf(""There are no Parties found!!!\n""); }else{ for (int i = 1; i <= nop; i++) { printf(""%d. %s ==> %d\n"", i, temp -> name,temp -> vote); temp = temp -> next; } } } void admin_log_in(){ char ver[10]; int c; if (at!=10 || attempts!=0){ printf(""Enter password:""); scanf(""%s"",ver); if (strcmp(ver,""password"") == 0){ printf(""\nThe password is correct:\nYou are logged in as the admin\n""); at=10; attempts=0; admin_ascess(); } else{ printf(""\nWRONG PASSWORD!!\nATTEMPTS REMAINING %d!!\n"",(attempts-1)); at++; attempts--; while(at!=4) { c=wrongpass(); if(c==1){ break; } } if(at==3) { timer(); } } } } int wrongpass(){ char ver[10]; printf(""Enter password:""); scanf(""%s"",ver); if (strcmp(ver,""password"") == 0){ printf(""\nThe password is correct:\nYou are logged in as the admin\n""); at=10; attempts=0; admin_ascess(); return 1; } else{ printf(""\nWRONG PASSWORD!!\nATTEMPTS REMAINING %d!!\n"",attempts-1); at++; attempts--; } } void timer(){ int l=1,t=1; do{ if(l==1){ printf(""Invalid Entry LOGGING OUT.:""); l++; t++; sleep(1); }else if(l==2){ printf(""Invalid Entry LOGGING OUT..:""); l++; t++; sleep(1); }else if(l==3){ printf(""Invalid Entry LOGGING OUT...:""); l++; t++; sleep(1); }else if(l==4){ printf(""Invalid Entry LOGGING OUT....:""); l++; t++; sleep(1); }else if(l==5){ printf(""Invalid Entry LOGGING OUT.....:""); l=1; t++; sleep(1); } }while(t!=15); if(t==15) printf(""LOGGED OUT!THANK YOU!!""); } void admin_ascess(){ int ch,i; do{ printf(""Welcome ADMIN!!!\nPlease choice what you  wish to do:\n1.Enter the party names\n2.Start Counting\n3.Declare Result\n4.Exit\nPlease Enter your choice:""); scanf(""%d"",&ch); switch(ch){ case 1: printf(""Enter the number of parties participating in the election process:""); scanf(""%d"", &nop); for (i = 1; i <= nop; i++) { party_name_input(i); } break; case 2: vote_ranking(); break; case 3: print_ranking(); break; } }while(ch != 4); } void voter_log_in(){ if(tail == NULL){ printf(""Welcome Voters!!!!\n""); printf(""There are no Parties to Vote for!!!\n""); }else{ printf(""Welcome Voters!!!!\n""); start_voting(); } }"
-2023-10-26T22:55:00,Amey Pacharkar,Just for reference rn
-2023-10-26T22:56:00,Dovansh,yaaaa
-2023-10-27T02:24:00,Dovansh,AMEY
-2023-10-27T02:25:00,Dovansh,ITS ALWAYS SHOWING THAT THE FIRST ONE IS THE WINNER
-2023-10-27T02:25:00,Dovansh,THERE IS NO SORTING
-2023-10-27T02:34:00,Dovansh,SORRY MY BAD
-2023-10-27T02:34:00,Dovansh,IT WORKS
-2023-10-27T04:31:00,Dovansh,This message was deleted
-2023-10-27T08:45:00,Amey Pacharkar,👍
-2023-10-27T09:50:00,Amey Pacharkar,Iska bhi print likal na  please
-2023-10-27T09:51:00,Amey Pacharkar,Name change kar dena
-2023-10-27T21:48:00,Amey Pacharkar,To kal nahi ana he na?
-2023-10-27T21:52:00,Dovansh,nahi aana hai
-2023-10-27T21:52:00,Dovansh,chutti
-2023-10-27T22:54:00,Amey Pacharkar,Acha he
-2023-10-28T12:11:00,Amey Pacharkar,Thanks
-2023-10-29T03:39:00,Dovansh,cg on online gdb
-2023-10-29T07:40:00,Amey Pacharkar,Let's go
-2023-10-29T08:17:00,Amey Pacharkar,join kar follow up!!!!
-2023-10-29T10:49:00,Dovansh,it bugged out
-2023-10-29T12:04:00,Amey Pacharkar,Woah that's pretty cool bugging out
-2023-10-29T12:23:00,Amey Pacharkar,Barabar he?
-2023-10-29T13:27:00,Dovansh,Ha right
-2023-10-29T15:09:00,Dovansh,Maths hua Tera solve karke ?
-2023-10-29T15:09:00,Dovansh,Ya dsgt ?
-2023-10-29T15:11:00,Amey Pacharkar,Maths
-2023-10-29T15:12:00,Dovansh,Bhejo na jara
-2023-10-29T15:28:00,Amey Pacharkar,Don't make them public ok?
-2023-10-29T15:28:00,Dovansh,Ha I won't
-2023-10-29T16:41:00,Amey Pacharkar,dsgt ka hua kya?
-2023-10-29T18:10:00,Dovansh,Nahi
-2023-10-29T18:10:00,Dovansh,Mai soya tha abhi utha
-2023-10-29T18:43:00,Amey Pacharkar,acha thik hr
-2023-10-30T21:34:00,Dovansh,DLCA bolte hai sir ko
-2023-10-30T21:34:00,Dovansh,karane
-2023-10-30T21:34:00,Dovansh,thoda to
-2023-10-30T21:52:00,Amey Pacharkar,Chalega
-2023-10-30T22:56:00,Dovansh,haa
-2023-10-30T23:21:00,Amey Pacharkar,teach me hashing tomorrow please
-2023-10-30T23:21:00,Dovansh,Yaa will do
-2023-10-31T10:49:00,Dovansh,Application for Assessment of Quality of Textbook/ Reference Books/ E- Book
-2023-11-01T18:11:00,Amey Pacharkar,Can you please send DLCA ka assignment no.1?
-2023-11-01T21:00:00,Dovansh,Sorry I was asleep
-2023-11-01T21:01:00,Amey Pacharkar,Yaa I realised that
-2023-11-01T21:01:00,Amey Pacharkar,No problemo
-2023-11-01T21:01:00,Amey Pacharkar,Send me in a while
-2023-11-01T21:02:00,Dovansh,Ya I'll send it
-2023-11-01T21:44:00,Amey Pacharkar,Thanku
-2023-11-02T01:35:00,Amey Pacharkar,Kal please bring some double sided pages👍
-2023-11-02T07:45:00,Amey Pacharkar,Submission sirf DLCA aur Maths ka hoga na.
-2023-11-02T07:45:00,Amey Pacharkar,Every other subject file we will need to study for viva
-2023-11-02T07:45:00,Amey Pacharkar,Aur maths ajj le rahe he ma'am
-2023-11-02T07:46:00,Amey Pacharkar,DLCA puchna padega
-2023-11-02T09:57:00,Dovansh,Haaaaa
-2023-11-02T10:09:00,Amey Pacharkar,Sab ke sab chor hai saale
-2023-11-02T20:41:00,Dovansh,Dlca ka assignment ka question kisiko bhej mat
-2023-11-02T20:41:00,Dovansh,Jo kartikey ne bheja
-2023-11-02T20:42:00,Amey Pacharkar,Ok👍
-2023-11-02T20:42:00,Dovansh,Confirm nahi hai wo sir ne bola nahi hai
-2023-11-02T20:42:00,Dovansh,Kartikey unse wo questions confirm karwalega
-2023-11-02T20:42:00,Amey Pacharkar,To assignment kere ki nahi?
-2023-11-02T20:42:00,Dovansh,Wo bola likhlo
-2023-11-02T20:42:00,Dovansh,Wo sir ko mana lega
-2023-11-02T20:42:00,Amey Pacharkar,Thik he 👍
-2023-11-02T23:33:00,Amey Pacharkar,https://docs.google.com/presentation/d/1lrY6-uA17R559BB-jOAxILuXWP77myzBHgg21rnoXUw/edit?usp=sharing
-2023-11-03T00:17:00,Amey Pacharkar,CG ka animation ka he kya tere pas write up?
-2023-11-03T00:20:00,Dovansh,ye
-2023-11-03T09:05:00,Amey Pacharkar,Jyada nahi ho gaya kya?
-2023-11-03T09:05:00,Dovansh,Mam apna project bajume rakhne wali hai
-2023-11-03T09:05:00,Dovansh,To itna lagega
-2023-11-03T09:06:00,Amey Pacharkar,Acha chalega
-2023-11-03T09:06:00,Dovansh,Ye bhi hai
-2023-11-03T09:06:00,Amey Pacharkar,Chalega
-2023-11-04T19:47:00,Dovansh,1st ka 0 aya ?
-2023-11-04T19:48:00,Amey Pacharkar,Ha
-2023-11-04T19:48:00,Dovansh,Dekh jara kya galat hai
-2023-11-04T19:49:00,Dovansh,Aaya answer
-2023-11-04T19:49:00,Dovansh,Pura solve nahi kiya tha
-2023-11-04T19:53:00,Dovansh,Right hai ?
-2023-11-04T19:53:00,Amey Pacharkar,How did you found v?
-2023-11-04T19:54:00,Dovansh,Sir ne jo sum kiya
-2023-11-04T19:54:00,Dovansh,Wo sum jaise
-2023-11-04T19:54:00,Amey Pacharkar,So CR equation na?
-2023-11-04T19:54:00,Dovansh,Yaa
-2023-11-04T19:54:00,Amey Pacharkar,But they didn't said f(z) is analytic
-2023-11-04T19:54:00,Dovansh,Sir said na ki consider it analytic
-2023-11-04T19:54:00,Amey Pacharkar,Ok
-2023-11-04T19:55:00,Amey Pacharkar,1/r not r
-2023-11-04T19:56:00,Dovansh,Can you send me all 4 equations?
-2023-11-04T19:56:00,Amey Pacharkar,Wait I am doing sum 2
-2023-11-04T19:56:00,Dovansh,Okk
-2023-11-04T19:58:00,Dovansh,It's righr
-2023-11-04T19:59:00,Amey Pacharkar,Not the formula. Sorry I wasn't specific. I meant when you were reducing the equation for ur
-2023-11-04T19:59:00,Dovansh,Ohlk
-2023-11-04T20:01:00,Dovansh,Integration of 1/r is 1 ?
-2023-11-04T20:02:00,Dovansh,It's logr
-2023-11-04T20:03:00,Amey Pacharkar,Yaa logr
-2023-11-04T20:03:00,Dovansh,Yaa
-2023-11-05T10:51:00,Dovansh,https://youtu.be/ehbSTazdhbU?si=-D2GMdhf9eDVxWp-
-2023-11-05T10:51:00,Dovansh,this is pretty messed up
-2023-11-05T11:43:00,Amey Pacharkar,That's pretty cool
-2023-11-05T11:43:00,Amey Pacharkar,There are so many different languages and ways to code
-2023-11-05T11:43:00,Amey Pacharkar,I liked the space vala
-2023-11-05T11:51:00,Dovansh,Haaaa
-2023-11-05T11:51:00,Dovansh,The + wala
-2023-11-05T11:58:00,Amey Pacharkar,Ha voto kuch samja nahi
-2023-11-05T13:37:00,Dovansh,Haana
-2023-11-05T15:55:00,Amey Pacharkar,You deleted this message
-2023-11-05T15:55:00,Amey Pacharkar,You deleted this message
-2023-11-05T16:06:00,Amey Pacharkar,Kuch nahi tha. Jyada soch mat
-2023-11-05T16:50:00,Dovansh,Kya tha bol
-2023-11-05T16:50:00,Amey Pacharkar,CG ka playlist
-2023-11-05T16:50:00,Amey Pacharkar,Par itna acha nahi tha
-2023-11-05T16:50:00,Amey Pacharkar,To delete kar diya
-2023-11-05T16:52:00,Dovansh,Acha thikke
-2023-11-05T19:20:00,Amey Pacharkar,Devansh meet wants our DS report
-2023-11-05T19:20:00,Amey Pacharkar,Bhej na he kya?
-2023-11-05T22:03:00,Amey Pacharkar,https://youtube.com/playlist?list=PLYwpaL_SFmcAtxMe7ahYC4ZYjQHun_b-T&si=_VafvaCCIsH3bNYW
-2023-11-05T22:03:00,Amey Pacharkar,ye wala thek le
-2023-11-05T22:03:00,Amey Pacharkar,agar kuch doubt hoga to
-2023-11-05T22:03:00,Dovansh,CG ka ?
-2023-11-05T22:03:00,Amey Pacharkar,ye wala acha he
-2023-11-05T22:03:00,Amey Pacharkar,haa
-2023-11-05T22:03:00,Dovansh,Acha okk
-2023-11-05T22:03:00,Dovansh,Thanks
-2023-11-05T22:04:00,Amey Pacharkar,par m6 aur m5 ka 5.4  aur weiler-atherton nahi he
-2023-11-05T22:04:00,Dovansh,Wo kahi aur se dhundh lenge
-2023-11-05T22:05:00,Amey Pacharkar,aur don't watch from 40 to 47
-2023-11-05T22:05:00,Dovansh,Okk
-2023-11-05T22:05:00,Amey Pacharkar,they are 10min videos  so around 470min
-2023-11-05T22:05:00,Dovansh,Ohkk
-2023-11-05T22:16:00,Amey Pacharkar,CG ka lab manual ka exp list bhej na
-2023-11-05T22:20:00,Dovansh,See file ka index
-2023-11-05T22:20:00,Amey Pacharkar,Are ha
-2023-11-05T23:15:00,Amey Pacharkar,animation ka code bhej na
-2023-11-06T09:08:00,Amey Pacharkar,Kartikey aur kiska viva he ajj?
-2023-11-06T09:08:00,Dovansh,Harshit
-2023-11-06T09:09:00,Amey Pacharkar,Rishab bhi na?
-2023-11-06T09:09:00,Dovansh,Haa
-2023-11-06T18:51:00,Dovansh,report nahi dena hai kal
-2023-11-06T18:51:00,Dovansh,sirf practical ke liye jana ha
-2023-11-06T18:51:00,Dovansh,baadme diya to chlega
-2023-11-06T18:55:00,Amey Pacharkar,Pacha na?
-2023-11-06T18:55:00,Dovansh,Haa
-2023-11-06T18:55:00,Amey Pacharkar,Thik he
-2023-11-06T18:55:00,Dovansh,Ha
-2023-11-06T18:55:00,Dovansh,Om ne bheja project ?
-2023-11-06T18:56:00,Amey Pacharkar,Nahi
-2023-11-06T18:56:00,Dovansh,Bol usko
-2023-11-06T19:03:00,Amey Pacharkar,gedit filename.java javac filename.java java filename
-2023-11-06T19:03:00,Amey Pacharkar,Barabar na?
-2023-11-06T19:03:00,Dovansh,Haa
-2023-11-06T22:44:00,Amey Pacharkar,Unofficial pe kyu bhej Raha he?
-2023-11-06T22:45:00,Dovansh,galati se aaya
-2023-11-07T20:12:00,Dovansh,"502,Gods Gitf Tower, N.M.Joshi Marg, Lower Parel, Mumbai 400013"
-2023-11-07T20:12:00,Amey Pacharkar,Gift na?
-2023-11-07T20:13:00,Dovansh,gifts
-2023-11-07T20:13:00,Dovansh,ha
-2023-11-07T20:25:00,Amey Pacharkar,You deleted this message
-2023-11-07T20:26:00,Amey Pacharkar,its report
-2023-11-07T20:27:00,Amey Pacharkar,sorry I was saying its log book
-2023-11-07T20:31:00,Dovansh,okk
-2023-11-07T20:31:00,Amey Pacharkar,Check kijiye log book
-2023-11-07T20:32:00,Dovansh,dono grp pe daal de
-2023-11-07T20:32:00,Dovansh,gadheda
-2023-11-07T20:32:00,Dovansh,ds aur mini project misx kiya tune
-2023-11-07T20:33:00,Dovansh,meko final bhej
-2023-11-07T20:33:00,Dovansh,mai jaa raha hu print nikalne
-2023-11-07T20:34:00,Amey Pacharkar,Conclusion chota kar
-2023-11-07T20:34:00,Amey Pacharkar,Bakika chalega
-2023-11-07T20:35:00,Amey Pacharkar,mulla sir na?
-2023-11-07T20:37:00,Dovansh,Haa
-2023-11-07T20:39:00,Amey Pacharkar,dhekle
-2023-11-07T20:40:00,Dovansh,Haa chalega
-2023-11-07T20:41:00,Amey Pacharkar,thikhe
-2023-11-07T20:49:00,Amey Pacharkar,I really hope I get boundary fill algorithm
-2023-11-07T20:50:00,Dovansh,Why
-2023-11-07T20:50:00,Amey Pacharkar,Easy
-2023-11-07T21:18:00,Amey Pacharkar,the most program
-2023-11-07T21:18:00,Amey Pacharkar,after that the 2d one along with dda
-2023-11-07T21:18:00,Amey Pacharkar,*the most easy program
-2023-11-07T21:19:00,Dovansh,It's that easy ?
-2023-11-07T21:19:00,Amey Pacharkar,ha
-2023-11-07T21:19:00,Amey Pacharkar,its recursion for 4dot method
-2023-11-07T21:19:00,Dovansh,Ohhhhh
-2023-11-07T21:19:00,Amey Pacharkar,super easy
-2023-11-07T21:19:00,Dovansh,I'll also do that then
-2023-11-07T21:20:00,Amey Pacharkar,"x+1,y+1,x-1,y-1"
-2023-11-07T21:20:00,Amey Pacharkar,and done
-2023-11-07T21:20:00,Dovansh,Nice
-2023-11-07T21:20:00,Amey Pacharkar,karle
-2023-11-07T21:20:00,Dovansh,I'll have to pull an all nighter today
-2023-11-07T21:20:00,Amey Pacharkar,do this two also
-2023-11-07T21:20:00,Dovansh,Haaa
-2023-11-07T21:20:00,Amey Pacharkar,for 2d wala.you only need to remember the for loop
-2023-11-07T21:20:00,Dovansh,Okk
-2023-11-07T21:36:00,Amey Pacharkar,CG ke sir Sai he re. Ajj viva Dina bache shayad bhul gaye honge to vo kal de denge.
-2023-11-07T21:45:00,Amey Pacharkar,devansh mini project ke files bhej na please
-2023-11-07T21:50:00,Amey Pacharkar,Dhanyawad
-2023-11-08T07:00:00,Amey Pacharkar,Hua kya CG ka padke?
-2023-11-08T07:31:00,Dovansh,Thoda bohot hua
-2023-11-08T07:32:00,Amey Pacharkar,To kar paiga?
-2023-11-08T07:32:00,Dovansh,Lagta nahi
-2023-11-08T07:32:00,Dovansh,Dekhte hai
-2023-11-08T07:33:00,Amey Pacharkar,Acha thik he
-2023-11-08T07:33:00,Dovansh,Haa
-2023-11-08T07:55:00,Amey Pacharkar,We have to take the print for this report na?
-2023-11-08T18:57:00,Dovansh,nikal du ?
-2023-11-08T18:57:00,Dovansh,final ?
-2023-11-08T18:57:00,Amey Pacharkar,Ha chalega
-2023-11-08T18:57:00,Amey Pacharkar,Ek bar group PE dalde
-2023-11-08T18:58:00,Dovansh,wo sirf sign wala rakh raha hu pehele ka replace kar raha hu
-2023-11-08T18:58:00,Amey Pacharkar,Ha
-2023-11-09T08:46:00,Dovansh,Mai aa raha hu practical ke liye
-2023-11-09T08:46:00,Dovansh,Abhi just utha
-2023-11-09T08:46:00,Dovansh,Mam ko bol mai 10 baje takk aaunga
-2023-11-09T08:46:00,Amey Pacharkar,😂😂
-2023-11-09T08:46:00,Amey Pacharkar,Chalega
-2023-11-09T08:47:00,Dovansh,Haa
-2023-11-09T08:47:00,Amey Pacharkar,Me 10-15 minute me pohach jayunga
-2023-11-09T08:47:00,Dovansh,Okk
-2023-11-09T08:47:00,Amey Pacharkar,Beto na Viva ko?
-2023-11-09T08:47:00,Dovansh,Haa Tera karle
-2023-11-09T08:47:00,Dovansh,Meko mill par jaa mat gharpe
-2023-11-09T08:49:00,Amey Pacharkar,Ha tuje milke Ghar jata hu
-2023-11-09T08:49:00,Dovansh,Haa
-2023-11-09T09:14:00,Dovansh,Practical chalu hua to Meko bol
-2023-11-09T09:27:00,Amey Pacharkar,Chalu hua
-2023-11-10T20:00:00,Amey Pacharkar,attack on titan ended
-2023-11-10T20:00:00,Amey Pacharkar,it was really great....
-2023-11-10T20:06:00,Dovansh,ya i know
-2023-11-10T20:06:00,Dovansh,i didn't see it though
-2023-11-10T20:27:00,Amey Pacharkar,Yaa it was a good end
-2023-11-10T22:44:00,Dovansh,Kal class Jana hai ?
-2023-11-10T22:44:00,Dovansh,10.30 ko ?
-2023-11-10T23:01:00,Amey Pacharkar,It's online
-2023-11-10T23:02:00,Amey Pacharkar,And yes we have to go...
-2023-11-10T23:02:00,Amey Pacharkar,It's gonna be apti
-2023-11-11T01:09:00,Dovansh,At 10.30 na
-2023-11-11T10:48:00,Amey Pacharkar,soch agar lecture he nahi hua to?
-2023-11-11T10:48:00,Dovansh,Teko marunga
-2023-11-11T10:48:00,Amey Pacharkar,😂
-2023-11-11T10:48:00,Amey Pacharkar,aja Diwali ko phir
-2023-11-11T10:48:00,Dovansh,Ha😂😂
-2023-11-11T10:48:00,Dovansh,Furina is a nice buffer
-2023-11-11T10:49:00,Dovansh,My hutao DMG went from 37k to 47-51
-2023-11-11T10:49:00,Amey Pacharkar,hahha yaa she is
-2023-11-11T10:49:00,Dovansh,Haaa
-2023-11-11T10:49:00,Amey Pacharkar,but she makes characters more easy t die
-2023-11-11T10:49:00,Dovansh,At lvl 70 she has 30k hp
-2023-11-11T10:49:00,Dovansh,I didn't have that problem without any healer
-2023-11-11T10:50:00,Amey Pacharkar,realy?
-2023-11-11T10:50:00,Dovansh,Haaa
-2023-11-11T10:50:00,Amey Pacharkar,you tried abyss or bosses?
-2023-11-11T10:50:00,Dovansh,Na
-2023-11-11T10:50:00,Amey Pacharkar,so ofc that's gonna be it
-2023-11-11T10:50:00,Amey Pacharkar,run with healer more dmg buff
-2023-11-11T10:50:00,Dovansh,Mostly that artifact domain
-2023-11-11T10:50:00,Dovansh,Ya but then what team ?
-2023-11-11T10:51:00,Dovansh,I run hutao xingqui kazuha and furina
-2023-11-11T10:51:00,Amey Pacharkar,hutao yelen/xq furina jean?
-2023-11-11T10:51:00,Dovansh,I don't have jean
-2023-11-11T10:51:00,Amey Pacharkar,replace jean with any healer who heals full party
-2023-11-11T10:51:00,Dovansh,Mika ?
-2023-11-11T10:51:00,Amey Pacharkar,like burst and healed
-2023-11-11T10:51:00,Dovansh,I don't have him built
-2023-11-11T10:51:00,Dovansh,Barbara ?
-2023-11-11T10:52:00,Amey Pacharkar,mika would be fine too
-2023-11-11T10:52:00,Dovansh,I would have to build him
-2023-11-11T10:52:00,Dovansh,I have no resin remaining
-2023-11-11T10:52:00,Dovansh,I used 14 fragile resin
-2023-11-11T10:52:00,Dovansh,In 1 day
-2023-11-11T10:52:00,Dovansh,Yesterday
-2023-11-11T10:52:00,Amey Pacharkar,yaa her kit is like you remove hp and the heal it up to full for stks
-2023-11-11T10:52:00,Dovansh,Haaa
-2023-11-11T10:53:00,Amey Pacharkar,woah
-2023-11-11T10:53:00,Dovansh,Haa
-2023-11-11T10:53:00,Amey Pacharkar,12.12 ko lecture he
-2023-11-11T10:53:00,Dovansh,Haa dekha
-2023-11-11T10:53:00,Dovansh,I'll play till then
-2023-11-11T10:53:00,Amey Pacharkar,online he
-2023-11-11T10:54:00,Dovansh,Haaa
-2023-11-11T10:54:00,Amey Pacharkar,chalega chal
-2023-11-11T10:54:00,Dovansh,Haa chal
-2023-11-11T12:25:00,Amey Pacharkar,Join kar devansh
-2023-11-11T12:25:00,Amey Pacharkar,bol Gaya kya?
-2023-11-11T12:26:00,Dovansh,Are haa kar raha hu
-2023-11-11T12:33:00,Amey Pacharkar,Are ha tu ghel Raha tha na
-2023-11-11T12:33:00,Dovansh,Haa
-2023-11-11T12:33:00,Dovansh,R5
-2023-11-11T12:33:00,Amey Pacharkar,Fishing na
-2023-11-11T12:34:00,Dovansh,Haaa
-2023-11-11T12:34:00,Amey Pacharkar,Acha he
-2023-11-11T12:34:00,Amey Pacharkar,Sir ne 30minites me kuch nahi bola he
-2023-11-11T12:34:00,Amey Pacharkar,Kya karna he?
-2023-11-11T12:35:00,Dovansh,Rukte hai thodi der
-2023-11-11T12:35:00,Amey Pacharkar,Me ajj books lene dadar Jane wala hu
-2023-11-11T12:35:00,Amey Pacharkar,Tu aaraha he kya?
-2023-11-11T12:35:00,Dovansh,Tu jaake aa
-2023-11-11T12:36:00,Amey Pacharkar,Thik he
-2023-11-11T12:59:00,Amey Pacharkar,your marks for DS  IA2 is 20
-2023-11-11T13:00:00,Dovansh,Haa
-2023-11-11T13:00:00,Dovansh,That's what I was seeing
-2023-11-11T13:01:00,Amey Pacharkar,and the probsbility for 3 coin toss is 1/8
-2023-11-11T13:01:00,Dovansh,3 coin toss is 1/8 how ?
-2023-11-11T13:01:00,Amey Pacharkar,in the sense there is a chance to get the desired outcome from 8 options
-2023-11-11T13:01:00,Dovansh,Total outcomes is 8
-2023-11-11T13:02:00,Amey Pacharkar,ha
-2023-11-11T13:02:00,Dovansh,Okk that way
-2023-11-11T13:07:00,Dovansh,Mujhe pin kabhi kiya sir ne
-2023-11-11T13:07:00,Dovansh,Maine dekha hi nahi
-2023-11-11T14:39:00,Amey Pacharkar,Jabhi sir ne pucha 3 coin ka probability
-2023-11-11T15:34:00,Dovansh,Ohhh
-2023-11-11T22:32:00,Dovansh,You know
-2023-11-11T22:32:00,Dovansh,Thered another value of pi
-2023-11-11T22:33:00,Dovansh,https://www.instagram.com/reel/CzZbgSNLDIr/?igshid=MW83djc0dG81NTMxYg==
-2023-11-11T23:17:00,Amey Pacharkar,Woah is morse code that easy?
-2023-11-12T00:04:00,Dovansh,I guess
-2023-11-12T13:43:00,Dovansh,Kyu
-2023-11-12T15:00:00,Amey Pacharkar,Practice?
-2023-11-12T15:08:00,Dovansh,Okk
-2023-11-12T23:54:00,Dovansh,Write a program to multiple 2 numbers without using * operator
-2023-11-13T07:09:00,Amey Pacharkar,"import java.util.*; class multiply{ public static void main(String[] args){ int a,result = 0,b; Scanner sc = new Scanner(System.in); System.out.println("" Enter the the two numbers which needs to be multiplied:""); a = sc.nextInt(); b = sc.nextInt(); for (int i = 0; i < b; i ++){ result = result + a; } System.out.println("" The result is ""+result); } }"
-2023-11-13T07:46:00,Amey Pacharkar,Sir bole the na Monday ko lecture hoga
-2023-11-13T08:55:00,Dovansh,Haa
-2023-11-13T08:55:00,Dovansh,Lekin time wagera kuch bole nahi
-2023-11-13T09:27:00,Amey Pacharkar,Hoga ki nahi ye bhi group PE nahi dala he
-2023-11-13T10:21:00,Dovansh,nahi dala hai to nahi hoga
-2023-11-13T22:53:00,Amey Pacharkar,Ki ye sum?
-2023-11-13T22:53:00,Dovansh,Nahi
-2023-11-13T22:54:00,Dovansh,3 din se book ko haat nahi lagata
-2023-11-13T22:57:00,Amey Pacharkar,Acha DLCA ho gaya?
-2023-11-13T22:57:00,Dovansh,Are bhai book ko haat nahi lagaya
-2023-11-13T22:57:00,Dovansh,Universal hai
-2023-11-13T22:57:00,Dovansh,Koi bhi book ko haat nahi lagaya
-2023-11-13T22:58:00,Amey Pacharkar,3din pehele padhega?
-2023-11-13T22:58:00,Dovansh,Ha wohi karna padega
-2023-11-13T22:58:00,Amey Pacharkar,Bakike subjects?
-2023-11-13T22:58:00,Dovansh,Wo 4 din karunga
-2023-11-13T22:58:00,Dovansh,Fir 3 din maths
-2023-11-13T22:58:00,Amey Pacharkar,Ek ek ghanta to padle...Varna bohot ho jyaga
-2023-11-13T22:59:00,Amey Pacharkar,Acha kal se?
-2023-11-13T22:59:00,Dovansh,Abhi raat se
-2023-11-13T23:00:00,Amey Pacharkar,Acha
-2023-11-13T23:00:00,Amey Pacharkar,Kuch hoga to puch le.
-2023-11-13T23:00:00,Amey Pacharkar,👍
-2023-11-13T23:00:00,Dovansh,Haa
-2023-11-13T23:08:00,Amey Pacharkar,Kal aa Raha he kya? 6PM?
-2023-11-13T23:09:00,Dovansh,Dekhta hu
-2023-11-13T23:09:00,Dovansh,Aaunga
-2023-11-14T16:23:00,Dovansh,He's not picking up
-2023-11-14T16:24:00,Amey Pacharkar,Message him then
-2023-11-14T16:24:00,Amey Pacharkar,Maybe they have lecture now
-2023-11-14T16:24:00,Dovansh,Haa
-2023-11-14T16:24:00,Dovansh,What do I msg him
-2023-11-14T16:26:00,Amey Pacharkar,Do you have a lecture right now going on?
-2023-11-14T16:26:00,Dovansh,Ok
-2023-11-14T16:27:00,Amey Pacharkar,Or will go alittle early
-2023-11-14T16:28:00,Dovansh,Haa
-2023-11-14T16:36:00,Amey Pacharkar,Kya kuch samja? Should I we leave?
-2023-11-14T16:42:00,Dovansh,Uska internet band hai
-2023-11-14T16:42:00,Dovansh,Let's leave by 5
-2023-11-14T16:43:00,Amey Pacharkar,Alright
-2023-11-14T16:46:00,Dovansh,Yaa
-2023-11-14T20:30:00,Amey Pacharkar,Vo 24th barabar tha
-2023-11-14T20:30:00,Amey Pacharkar,Bohot sare sums ma'am ke notes me he
-2023-11-15T07:28:00,Dovansh,Okk
-2023-11-15T14:30:00,Dovansh,Sunn
-2023-11-15T14:30:00,Dovansh,Jo bhi tujhe important lagte hai wo sums bhejna
-2023-11-15T14:30:00,Dovansh,Solve kiye huye
-2023-11-15T14:31:00,Dovansh,Mai bhi karta hu
-2023-11-15T15:38:00,Dovansh,Check
-2023-11-15T19:07:00,Amey Pacharkar,Barabar che
-2023-11-15T19:08:00,Amey Pacharkar,Chalega
-2023-11-15T19:08:00,Amey Pacharkar,Agar vo pdf 100pages ka hua to pura padna padega samjana
-2023-11-15T19:08:00,Amey Pacharkar,😂😂
-2023-11-15T19:09:00,Dovansh,Ha bhai padh lunga
-2023-11-15T19:21:00,Amey Pacharkar,Sunday Tak bhejta hu
-2023-11-15T19:21:00,Dovansh,Ha chalega
-2023-11-16T06:53:00,Dovansh,https://youtu.be/wGLTV8MgLlA?si=dK4LNkcgYI5b3pb1
-2023-11-16T06:53:00,Dovansh,dsgt ke liye
-2023-11-16T07:51:00,Amey Pacharkar,Thanks
-2023-11-16T07:51:00,Dovansh,Dsgt ke sir ko bol ia ke marks bhejne
-2023-11-16T07:51:00,Dovansh,Wo papers aur questions koi dekhne nahi wala
-2023-11-16T07:53:00,Amey Pacharkar,Kyu nahi dekhne wale?
-2023-11-16T07:53:00,Dovansh,Kitne sare hai wo
-2023-11-16T07:53:00,Dovansh,Questions
-2023-11-16T07:53:00,Dovansh,Usse acha is me jo questions hai wo practice kar paper ke bhi hai aur wo explain bhi karta hai
-2023-11-16T07:54:00,Amey Pacharkar,Karne wale sab karenge
-2023-11-16T07:54:00,Dovansh,Teko lagta hai apne class me se koi hai Jo sab karega ?
-2023-11-16T08:12:00,Amey Pacharkar,Kartikey?
-2023-11-16T08:34:00,Dovansh,Wo nhi karega sab
-2023-11-16T09:40:00,Amey Pacharkar,Acha thik he
-2023-11-16T12:27:00,Dovansh,Jaa
-2023-11-16T12:27:00,Dovansh,Haa
-2023-11-16T14:40:00,Amey Pacharkar,For Pascal's triangle what do we use? nPr or nCr
-2023-11-16T18:17:00,Dovansh,I don't know about Pascal's triangle
-2023-11-16T18:22:00,Amey Pacharkar,Alright
-2023-11-16T18:43:00,Amey Pacharkar,I am gonna take a maths test tomorrow. 2.30 to 5.30.  Wanna give it as well?
-2023-11-16T18:43:00,Dovansh,Yaa I'll give it too
-2023-11-16T19:57:00,Amey Pacharkar,Chalega
-2023-11-16T19:57:00,Dovansh,Bata Meko tu karega tabh
-2023-11-16T20:45:00,Amey Pacharkar,Ha me tuje 30minites pehele 🥔 hu
-2023-11-16T21:46:00,Dovansh,Haaa
-2023-11-17T14:01:00,Amey Pacharkar,Let's give paper at 2.30
-2023-11-17T14:13:00,Dovansh,Haa
-2023-11-17T14:25:00,Dovansh,Which paper ?
-2023-11-17T14:31:00,Amey Pacharkar,null
-2023-11-17T15:52:00,Amey Pacharkar,Hua kya paper?
-2023-11-17T15:53:00,Amey Pacharkar,"63/80... And alot of sums we don't have....like Q3.B, Q4.A, Q5"
-2023-11-17T16:15:00,Dovansh,Ya same
-2023-11-17T16:15:00,Dovansh,54
-2023-11-17T16:16:00,Dovansh,Give me 2 sums
-2023-11-17T16:16:00,Dovansh,4c ka first
-2023-11-17T16:16:00,Dovansh,And Q2c
-2023-11-17T16:17:00,Dovansh,And last one ka deduce
-2023-11-17T16:17:00,Dovansh,Rest i solved
-2023-11-17T16:28:00,Amey Pacharkar,Second aya?
-2023-11-17T16:28:00,Dovansh,Haa
-2023-11-17T16:29:00,Amey Pacharkar,Bhej
-2023-11-17T16:29:00,Amey Pacharkar,What's that first step?
-2023-11-17T16:29:00,Dovansh,Convolution se kiya maine
-2023-11-17T16:30:00,Amey Pacharkar,e^-πs is 1?
-2023-11-17T16:31:00,Dovansh,Shit i forgot one step
-2023-11-17T16:31:00,Amey Pacharkar,Will send you this later
-2023-11-17T16:31:00,Dovansh,Okk
-2023-11-17T16:32:00,Amey Pacharkar,Is it a formula or you solve it and got 1?
-2023-11-17T16:32:00,Dovansh,No there is one step after the inverse laplace that i forgot
-2023-11-17T16:32:00,Dovansh,Haa
-2023-11-17T16:32:00,Dovansh,Formula
-2023-11-17T16:32:00,Amey Pacharkar,Konsa?
-2023-11-17T16:33:00,Amey Pacharkar,Ahh yaa yad aya
-2023-11-17T16:33:00,Dovansh,Haaq
-2023-11-17T16:33:00,Amey Pacharkar,Woah that's a rare sum then
-2023-11-17T16:33:00,Dovansh,Ya it is
-2023-11-17T16:34:00,Amey Pacharkar,Acha practice hua.I will do it again tomorrow same time. You gonna join?
-2023-11-17T16:35:00,Dovansh,Yaaa
-2023-11-17T16:35:00,Amey Pacharkar,Group PE sir ne dalne bola tha na?
-2023-11-17T16:35:00,Amey Pacharkar,Marks kitna ata he wo?
-2023-11-17T16:35:00,Dovansh,Bola tha ?
-2023-11-17T16:35:00,Dovansh,Mera 50 in 1:30 hai
-2023-11-17T16:36:00,Amey Pacharkar,1.30hrs?
-2023-11-17T16:36:00,Dovansh,Wo last wala sum count nahi karega ro
-2023-11-17T16:36:00,Dovansh,To
-2023-11-17T16:36:00,Amey Pacharkar,Bohot jaldi khatam Kiya hamne
-2023-11-17T16:36:00,Dovansh,Haaa
-2023-11-17T16:36:00,Amey Pacharkar,If you remove deduce that and you got a0 and an right. It's 6marks
-2023-11-17T16:37:00,Dovansh,Ohh
-2023-11-17T16:37:00,Dovansh,Then it's 56 in 1.45
-2023-11-17T16:37:00,Amey Pacharkar,Ha agar pura 3hrs bhete to deduce hoga and extra bhi
-2023-11-17T16:37:00,Dovansh,Haaa
-2023-11-17T16:37:00,Dovansh,Par isme extra karne jaisa kuch tha hi nahi
-2023-11-17T16:37:00,Dovansh,Jitna aata tha utna sab hua
-2023-11-17T16:38:00,Dovansh,1 2 chodke
-2023-11-17T16:38:00,Amey Pacharkar,Are module alag the na
-2023-11-17T16:38:00,Dovansh,Haa
-2023-11-17T16:38:00,Dovansh,Z transform
-2023-11-17T16:38:00,Amey Pacharkar,Mere aur jata. But I didn't solved M1 questions
-2023-11-17T16:38:00,Dovansh,M1 ?
-2023-11-17T16:38:00,Amey Pacharkar,Module 1
-2023-11-17T16:38:00,Dovansh,Kyu ?
-2023-11-17T16:39:00,Dovansh,Laplace ?
-2023-11-17T16:39:00,Amey Pacharkar,Don't remember. Haven't revived that
-2023-11-17T16:39:00,Amey Pacharkar,Will first do probability on Sunday and then M1
-2023-11-17T16:39:00,Dovansh,Laplace ka sirf 1tha 6mks
-2023-11-17T16:39:00,Dovansh,Okk
-2023-11-17T16:39:00,Amey Pacharkar,D wala bhi tha
-2023-11-17T16:40:00,Amey Pacharkar,Q3-C
-2023-11-17T16:40:00,Dovansh,Kahape?
-2023-11-17T16:40:00,Dovansh,Ha wo hume syllabus me nahi hai
-2023-11-17T16:40:00,Amey Pacharkar,D he
-2023-11-17T16:41:00,Amey Pacharkar,I remember solving them
-2023-11-17T16:41:00,Dovansh,Nahi hai re
-2023-11-17T16:41:00,Dovansh,Last sem me tha wo differential equations
-2023-11-17T16:41:00,Amey Pacharkar,Ohh acha
-2023-11-17T16:41:00,Amey Pacharkar,😂😂
-2023-11-17T16:41:00,Dovansh,Haaa
-2023-11-17T16:42:00,Amey Pacharkar,Me abhi jata hu. Luch karna he
-2023-11-17T16:42:00,Dovansh,Haa mai bhi
-2023-11-17T16:42:00,Amey Pacharkar,*lunch
-2023-11-17T16:42:00,Dovansh,Haaaaa
-2023-11-17T16:42:00,Amey Pacharkar,Chal phir
-2023-11-17T16:42:00,Dovansh,Haa
-2023-11-17T16:42:00,Dovansh,Chal
-2023-11-17T18:35:00,Amey Pacharkar,Tomorrow let's solve the paper ma'am have send in the classroom
-2023-11-17T18:59:00,Dovansh,Alright
-2023-11-18T09:04:00,Amey Pacharkar,What were the topics we discussed for DLCA last 3 modules?
-2023-11-18T11:26:00,Dovansh,Cache memory
-2023-11-18T11:27:00,Dovansh,Hard wired control unit
-2023-11-18T11:27:00,Dovansh,And it's 2 types
-2023-11-18T11:27:00,Dovansh,Microprogrammed control unit
-2023-11-18T11:27:00,Dovansh,Microprogramms
-2023-11-18T11:27:00,Dovansh,Ahmdals law
-2023-11-18T11:27:00,Dovansh,Flynns classification
-2023-11-18T13:16:00,Amey Pacharkar,Thanks
-2023-11-18T13:44:00,Amey Pacharkar,3days for first paper
-2023-11-18T14:02:00,Dovansh,Ya i know
-2023-11-18T14:02:00,Dovansh,I haven't done anything for CG and dlca
-2023-11-18T14:15:00,Amey Pacharkar,Well 1day preview I guess
-2023-11-18T14:16:00,Amey Pacharkar,We have to send ours timetable  as well?
-2023-11-18T14:16:00,Amey Pacharkar,Btw 2.30 rememberright?
-2023-11-18T14:17:00,Dovansh,Haa
-2023-11-18T14:18:00,Dovansh,Mu ka send Kiya na kisine
-2023-11-18T14:20:00,Dovansh,send me the paper my phone is dead
-2023-11-18T14:21:00,Amey Pacharkar,Comp ka
-2023-11-18T14:21:00,Amey Pacharkar,Nahi bheja he
-2023-11-18T14:21:00,Dovansh,nahi hai ?
-2023-11-18T14:22:00,Dovansh,ha to bhejde
-2023-11-18T14:32:00,Amey Pacharkar,null
-2023-11-18T14:32:00,Dovansh,Haa
-2023-11-18T15:58:00,Dovansh,I did 36 in 45
-2023-11-18T15:58:00,Dovansh,kantala aay
-2023-11-18T15:58:00,Dovansh,BAKIKA BAADME CONTINUE KARUNGA
-2023-11-18T16:13:00,Amey Pacharkar,try getting it to around 45 in 1 hr since in exam we will be in pressure even if alittle bit
-2023-11-18T16:13:00,Amey Pacharkar,then we can get the remaining 19 in 2 hrs
-2023-11-18T16:14:00,Amey Pacharkar,if we are getting 45 at home we will be at around 35~39 in exam
-2023-11-18T16:14:00,Dovansh,Haa
-2023-11-18T16:26:00,Amey Pacharkar,same as last time... 69/80 2hrs
-2023-11-18T19:17:00,Dovansh,nice
-2023-11-18T20:45:00,Amey Pacharkar,Tomorrow 2.30 same time and nov 2022 paper 👍
-2023-11-18T20:45:00,Amey Pacharkar,Ye KT wala paper tha so maybe it was alittle easy
-2023-11-18T20:54:00,Dovansh,Kal match hai
-2023-11-18T20:56:00,Amey Pacharkar,Acha thi he 😂
-2023-11-18T20:56:00,Amey Pacharkar,Btw did you got any videos for computer architecture?
-2023-11-18T20:56:00,Amey Pacharkar,The CA part of DLCA
-2023-11-18T20:56:00,Dovansh,Haa
-2023-11-18T20:56:00,Amey Pacharkar,Bhej na
-2023-11-18T20:57:00,Dovansh,https://youtu.be/BHD7qhZRoXQ?si=oyvIUe2KlRrIX5yZ
-2023-11-18T20:57:00,Dovansh,Ye flynns ka hai
-2023-11-18T20:57:00,Dovansh,Bakike topics iske yt channel peil jaayenge
-2023-11-18T20:58:00,Amey Pacharkar,Acha thanks
-2023-11-20T08:41:00,Amey Pacharkar,I haven't solved the practice problem yet. So I would say just revive from notebooks as they all are imp questions
-2023-11-20T12:29:00,Dovansh,Okk
-2023-11-20T22:00:00,Amey Pacharkar,If you are having trouble finding all the formulas you can check summary from ma'am in classroom
-2023-11-20T22:00:00,Amey Pacharkar,It has everything we need
-2023-11-20T22:00:00,Amey Pacharkar,Except for some basic formulas we use rarely
-2023-11-20T22:02:00,Dovansh,I'll do that
-2023-11-22T18:53:00,Amey Pacharkar,Hoa kya re?
-2023-11-22T20:28:00,Dovansh,Nahi hua
-2023-11-22T20:28:00,Dovansh,Tera ?
-2023-11-22T20:59:00,Amey Pacharkar,Kya baki he?
-2023-11-22T21:00:00,Amey Pacharkar,M5 remaining and then sum practice
-2023-11-22T21:00:00,Dovansh,Sab
-2023-11-22T21:00:00,Amey Pacharkar,Are?!!
-2023-11-22T21:00:00,Amey Pacharkar,Sat bhar kare ga?
-2023-11-22T21:00:00,Amey Pacharkar,*rat bhar
-2023-11-22T21:01:00,Dovansh,Haa
-2023-11-22T21:01:00,Dovansh,Karna padega
-2023-11-22T21:49:00,Amey Pacharkar,Ha me bhi shayad jara der jhagunga
-2023-11-22T22:08:00,Dovansh,Haa
-2023-11-22T22:08:00,Dovansh,Uske paper check karne ka tareeka khatarnak hai
-2023-11-22T22:08:00,Dovansh,Padhke Jana padega
-2023-11-22T22:37:00,Amey Pacharkar,You don't need to study alot to pass. The marks after that we need to study
-2023-11-22T22:37:00,Dovansh,Well i studied more than enough to pass
-2023-11-22T22:38:00,Dovansh,I studied enough to get me till 45
-2023-11-22T22:44:00,Amey Pacharkar,Yaa more 19 marks
-2023-11-22T22:44:00,Dovansh,16
-2023-11-22T22:44:00,Dovansh,We have 19 as average
-2023-11-22T22:44:00,Dovansh,So 61 will do
-2023-11-22T22:50:00,Amey Pacharkar,Yaa what all have you done?
-2023-11-22T23:05:00,Dovansh,Induction
-2023-11-22T23:05:00,Dovansh,Group theory
-2023-11-22T23:05:00,Dovansh,Graph theory
-2023-11-22T23:06:00,Dovansh,Sets
-2023-11-22T23:06:00,Dovansh,Those counting ka sums
-2023-11-22T23:16:00,Amey Pacharkar,Oh counting matlab product rule and pigeon hole na?
-2023-11-22T23:16:00,Amey Pacharkar,Haa vo abelian bhi karle
-2023-11-22T23:23:00,Dovansh,Haa
-2023-11-22T23:23:00,Dovansh,Inclusion exclusion
-2023-11-22T23:23:00,Dovansh,Kiya
-2023-11-24T20:26:00,Amey Pacharkar,No sums for LinkedIn list na?
-2023-11-24T20:36:00,Dovansh,Ya no sums
-2023-11-24T22:07:00,Amey Pacharkar,Ajj kiya kuch? Me to sirf sums kiye sab
-2023-11-24T22:07:00,Dovansh,Kuch nhi kiya
-2023-11-24T22:07:00,Dovansh,Raat ko aur kal pura din dlca
-2023-11-24T22:07:00,Dovansh,Fir 2 din ds
-2023-11-24T22:08:00,Amey Pacharkar,Oh I was gonna ask if you will solve paper with me on Sunday
-2023-11-24T22:08:00,Dovansh,Oh i can
-2023-11-24T22:08:00,Dovansh,I'll solve with you
-2023-11-24T22:08:00,Amey Pacharkar,Alright will see which paper to solve on that time... Same time 2.30
-2023-11-24T22:08:00,Dovansh,Yepp
-2023-11-24T22:09:00,Amey Pacharkar,First 32 in 1hr then continue to see if 64 in 2.30 hrs
-2023-11-24T22:09:00,Dovansh,Yaa
-2023-11-25T20:19:00,Amey Pacharkar,DLCA ho gaya Tera?
-2023-11-25T22:22:00,Dovansh,Nahi hua
-2023-11-25T23:24:00,Amey Pacharkar,To kal paper te Raha hena?
-2023-11-25T23:43:00,Dovansh,Haa
-2023-11-25T23:43:00,Dovansh,Ds ka na ?
-2023-11-26T00:06:00,Amey Pacharkar,Ha
-2023-11-26T12:44:00,Amey Pacharkar,Agar soch Linked list ka 20marks ko 1 program agaya to? Circular with all options of insertion and deletion
-2023-11-26T13:01:00,Dovansh,5 operation hobge
-2023-11-26T13:01:00,Dovansh,Ya 6 jyada se jyada
-2023-11-26T13:23:00,Amey Pacharkar,Even for 20Marks?
-2023-11-26T14:31:00,Dovansh,i havent studied anything
-2023-11-26T14:32:00,Dovansh,ill write later
-2023-11-26T14:33:00,Amey Pacharkar,Understood
-2023-11-26T14:34:00,Amey Pacharkar,then don't check the paper first
-2023-11-26T14:39:00,Dovansh,haa
-2023-11-26T15:40:00,Amey Pacharkar,when we gave the extra ds ka mini project we never gave ma'am the password for admin even in our main mini project how will they ever verify if it works or not😂😂 or did you put the password somewhere?
-2023-11-26T15:43:00,Dovansh,The password is in the code
-2023-11-26T15:43:00,Dovansh,If they find it they find it 😂😂😂
-2023-11-26T15:50:00,Amey Pacharkar,😂😂
-2023-11-26T15:51:00,Amey Pacharkar,Btw DS ka paper shayad one side hone wala he....1.20hrs me 60marks 🤦‍♂️😅
-2023-11-26T15:51:00,Dovansh,Haa kya
-2023-11-26T15:51:00,Dovansh,Dekhna padega
-2023-11-26T15:52:00,Amey Pacharkar,Ha pehele padle
-2023-11-26T15:52:00,Dovansh,Haaa
-2023-11-26T15:52:00,Dovansh,Raat ko likhunga
-2023-11-26T15:59:00,Amey Pacharkar,Ha badme bata mujhe
-2023-11-26T16:00:00,Amey Pacharkar,Abhi me jara ghelta hu in evening will continue
-2023-11-26T16:09:00,Dovansh,Okk
-2023-11-26T16:09:00,Dovansh,Chalse
-2023-11-26T20:19:00,Amey Pacharkar,2022 ka iske samne kuch nahi he
-2023-11-26T20:19:00,Amey Pacharkar,Ye wala will take like 2hr if we are writing alot
-2023-11-26T20:19:00,Amey Pacharkar,For 60
-2023-11-26T20:19:00,Dovansh,Oh ok
-2023-11-27T19:19:00,Amey Pacharkar,It took 4 pages for a sum of linear probing...because of steps from books
-2023-11-27T19:21:00,Amey Pacharkar,Ajj me 5hours WhatsApp PE tha😂😂😂
-2023-11-27T19:22:00,Amey Pacharkar,Pata nahi kya kar Raha tha par mere phone ne thekha me 5hrs WhatsApp PE tha
-2023-11-27T20:21:00,Amey Pacharkar,for double hashinh
-2023-11-27T20:21:00,Amey Pacharkar,*hashing
-2023-11-27T20:55:00,Dovansh,okk
-2023-11-27T23:12:00,Amey Pacharkar,https://youtu.be/cFHZ-a87Vp4?si=m0T-InP8pgw4Hfec
-2023-11-27T23:12:00,Amey Pacharkar,Samaj jyaga tu. Bohot acha sikhaya he
-2023-11-27T23:12:00,Amey Pacharkar,17min...with algorithm and code
-2023-11-27T23:17:00,Amey Pacharkar,And what all are theory questions?
-2023-11-27T23:38:00,Dovansh,That we have to right it on our own
-2023-11-28T08:18:00,Amey Pacharkar,Yaa but what different questions do they ask?
-2023-11-28T08:19:00,Amey Pacharkar,And is it only polynomial addition or also multiplication?
-2023-11-28T12:38:00,Dovansh,Representation and adding
-2023-11-29T19:19:00,Amey Pacharkar,Is that everything of the CA part?
-2023-11-29T19:19:00,Dovansh,Not everything
-2023-11-29T19:19:00,Dovansh,Main ones
-2023-11-29T19:20:00,Amey Pacharkar,So if I do only that it will be enough?
-2023-11-29T19:20:00,Dovansh,I think
-2023-11-29T19:20:00,Dovansh,Do booths sums
-2023-11-29T19:20:00,Dovansh,And 1EEE conversationa
-2023-11-29T19:20:00,Amey Pacharkar,Ok thanks alot
-2023-11-29T19:43:00,Amey Pacharkar,Microprogram kiya?
-2023-11-29T19:44:00,Dovansh,Nahi
-2023-11-29T19:44:00,Dovansh,Booths
-2023-11-29T19:48:00,Amey Pacharkar,Haa kuch nahi samja video thekna padeka
-2023-11-29T22:00:00,Dovansh,Ha dekh video
-2023-11-29T22:00:00,Dovansh,Easy hai
-2023-11-29T22:00:00,Dovansh,Ho jaayega
-2023-11-29T22:17:00,Amey Pacharkar,Ha dekh bohot easy he
-2023-11-29T22:17:00,Amey Pacharkar,Maybe today is not the day to sleep
-2023-11-29T22:21:00,Dovansh,That's true
+input,output
+db banake ss bhej,db uss din banaya tha yaad he?
+Haa,hamare laptop me he banaya tha
+Areee tera dB tere laptop me hai na,ahh same tha na?
+Wo humne ek hi schema ka banaya tha Galaxy schema ka baki hai Banana,galaxy schema?
+Dusra wala schema,dusara wala?
+Haa,thk he
+Haa,write up bhe likhana he
+Are haa,2 experiment ka
+haa ek diagrams wala ek db wala,ha
+haa,haaa
+snowflake schema banana hai na ?,Ha Me nahi kar raha abhe kuch. Sone ja raha hu
+To fir ?,Hua to bhej de. Varna me subhe thekta hu Ya phir college me
+Diagrams ka kar dunga,Thikhe chalega Thanks Write up likha?
+Nhi likha,College me thekte he
+Haaa https://pokeapi.co/api/v2/pokemon https://repository-images.githubusercontent.com/268501098/50008280-a449-11ea-8f5d-68347e775dbb,kya  padhana he apti ke test ke liye?
+Sir ke notes,3 topics pe?
+Ha Phod denge,code bhe rahenge?
+Haaa Leetcode ke,Round 1: Quantitative Aptitude test yisme code nahi hote na?
+Hote haina Aptitude me dono aata hai,thik he thekta he kal
+Haa,bce ka kya karna he?
+Are ha First practical hi hua haina To bas Ishika print nikalna hai Aur check karana hai,me konsa karu project ka ppt?
+Random koi bhi lele Tune wo app banaya tha na Eggs wagera wala Wo daalde Mai food ordering Bana raha hu One stop repair service thoda Acha ho jaayega,Thikhe
+haa,Me kya karne wala tha?
+tera wo app,Products ka?
+haa,Thikhe
+ha,Call kar
+Write me a code that only works once a week or once a month Any language,Alright
+I fucked up big time,What's up.
+You remember how I created that site for aarya,Ah
+Ya I pushed that to git repo too,😂😂
+The files for it And it had aaryas pictures,You can remove a push right?
+And I sent the gits link to the group I deleted ot now And committed again,Yaa then hope no one saw it Especially sir or bhaiya
+Yeah I realized it now,Well change the location for that file instead of your L3PP file What?
+Yeah I changed that That I had that on my repo too,Atleast you realised it
+Yeah,Love you devansh Kal ana sky follow ke liye
+Dar gaya Mai ek second ke liye Ha Kal aaunga Sir wo internship ke baare me bhi baat karne wale haina,Chalega Aur sir ko video bhej
+Bhejdiya Kabka,Chalega araha he na? chalu nahi hua he abtak aja
+Meeting me hi hu,Acha Theka nahi
+Haa,Internship ka kya kiya?
+Bhara nahi Tune bhara ? Apne college ka naam hi nahi aa raha,Mujhe Milla nahi
+Samajh nahi aa raha kaise bhai Bhare,Ha same
+Infosys springboard internship search kar,Ha mene Kiya register aur log in
+Haa,Lekin usme web wagere ke courses he Ai bhe he
+Ruk meko bata,Mene nahi Kiya he abhe
+yehi haina,Ha vasantdada dal diya Ha
+okk Affiliation mu na ? Address kaise dala https://devansh-assign.netlify.app/ /ke aage mere git hup ke repo ke folder ka naam laga de koi bhi wo site open ho jaayega jaga hai kya,Soya tha me
+Nice,Kyu re kya hua? 2.30 ko kon jaga reheta he? Ma'am agaye
+Haa Mai 309 me hu Send me today's cn ka notes,Ajj last din he for week1&2 assignment
+Haa College me solve karte hai,Leuat hoga mujhe
+Kyu,Leuat nikala <This message was edited> To bus bhe leuat milegi <This message was edited>
+Thikke,Aur phir leuat huaga
+Ha,devansh assignment kar nptl ka
+2nd walw ka answer bhej 0 aur 1 ho gaya,mene nahi kiya he abhe bahar hu ghar jake karna padega
+bhej fir karega tabh,0 aur 1 k bhej phir
+ha,tune videos theke?
+nhi,ok
+mere mark kiye hue answers udd gaye submit karne ke baad,thik he karta hu me
+1 wala hai 0 ka nahi dikh raha,hanks thanks
+lekin sare right hai ki nahi pata nahi unke notes me se jo mila wo dala maine,Chalega Sir ne cut Kiya Rukh ne bola he
+okk chalega kabhi karna hai ?,karte he 1 min me
+haa Isn't this cool,Yaa it is
+Yeah I just tried it,It's nice If I may add ....
+Yeah go on,"Onces it goes up put a text inside the textfield saying ""Enter your Username"" or along those lines Make it alittle less bold then the upper text Tho it is cool as it is"
+Yeah Done,https://www.facebook.com/share/r/w3g81Eowki9SMohh/?mibextid=D5vuiz Nice
+Can't login on my facebook Though I've seen it,Ohh That's how we are suppose to code tho
+It's working but don't know why 😂 And not where it's supposed to,Yaa right 😂😂
+😂 she says hidden thing code 🤣😭😭😭 she ment backend,😅 He kya tu lecture me? Ayo kya me?
+Aja,https://docs.google.com/forms/d/e/1FAIpQLSc12dWvOruDkUraJ87zjnJ7FeR-6qgnyaC77MrEb4YdpQU34Q/viewform
+Reached,Me tooo
+Good good This message was deleted None of the inputs work Just press the buttons https://devansh-assign.netlify.app/social-media-app/start crtl shift I kar mobile view mw dekh,Theka Thikhe Kuch nahi dala he
+Haaa Khali Khali hai,Ohh Data kahase lene wala he? API?
+Naaa Do these,Alwright <This message was edited>
+Kal college jana hai M ?,Ha kyu? Chutti he kya?
+Nhi Aise hi pucha Jana hai ?,chal jatehe ghar bhete kya he karega
+server banana hai api banana hai,"Me soch raha tha Friday ko chutti karte he. CN ka pehele he check karake To Thursday, Friday, Saturday, Sunday chutti ho jayega Somja?"
+Jaaa Thikke Kal aate hai,Cholega
+Ha https://unstop.com/hackathons/flipkart-grid-60-software-development-track-flipkart-grid-60-flipkart-1024247 this was such a headache <This message was edited>,Woah send me your API link as well
+It doesn't have a link I don't know if it'll work with a link or not I've hosted it on localhost,Ohh maybe it won't work then Since I won't have access to lovalhost
+Yeah it won't Ya you don't I'll show you on Wednesday,Yep sure I will look forward to it
+Yep,Chal phir me sone ja raha hu Agar kuch aur raha to call kar
+haa,Uthaya to lucky ya phir me nahi uthunga
+ha ha 😂😂,"""📣 Online Internship Opportunities! 📚💻 🌟 Gain industry experience from anywhere! 🌎 💸 Earn stipends up to ₹15,000 📈 Enhance your skills & resume ⏰ Flexible timings & remote work 🎉 AICTE-approved & recognized certifications 🎊 Apply now & kickstart your career! 💪 👉 https://forms.gle/Aa9pWrofM5P4nrGn7 ye bharna he na?"
+ha bharte hai,email kiske dalna he? college ki personal?
+maine personal dala,kyu?
+aise hi,college ka hona nahi chaheye?
+sirf ek hi domain select kar sakte hai koi bhi daal sakte haina domain konsa lena hai ??,android
+fir mera web ?,thek tuje konsa lena he karke
+mail konsa dala tune ?,aur class representative contact me kya dalna he? porsonal
+aise hi mujhe sabke message aate hai,tera dalu?
+mera number daalte hoge sab daal daal tu bhi daal,😂
+"mai tera daalta hu fir GUARANTEED STIPENDS WILL BE 8,000 - 15,000/- Pre -Placement opportunities",kyu? tuhe na representative ha isleye bola lele
+na bhai mai kab bana maine tera number daalke submit kar diya,kabse chalega chal phir me jara kuch flutter karta hu
+haaa,more 30 minutes
+thikke,om ko puch le
+kya ? lecture me aayega kya ?,agar vo ha bola to sir ko puchke uska link bhej denge
+haaa chalse we can submit another response,ha
+karna hai koi aur domain me ?,iska tujhe context pata he kya?
+nhi,ai?
+ml with python,jojo nahi theka he?
+nhi Cloud computing ?,thek me agar dal raha hunga to bata dunga
+ha chalega,kya theka he tune phir. jojo thek
+ha baba,vingland saga aur vagabond bhe paad
+sir ka message bhi aa gaya haaa,ha puch le om ko
+haaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,aur dwm ka kuch nahi he na? except for 3rd
+write up karle 3 4 ka,4?
+ha likh le na,4th nahi hua he thekta hu 3rd ho gaya?
+om ko puchna padega,Cholega
+Join Kar abhi,Ok om ko esehe mat join karne bol sir ko pehele puchana padega
+Haaa Sir ko puchte hai pehele,agar wo ha bola rahega to
+Wo ha bola,To sir ko puchana
+Puch tu,Bula Tere jasa he na om? To bola
+Bola,okk usne join kiya to sir ko bata te
+Tu bata,*de
+Aayega wo to,Dokha
+Bata tu we have to pay 3000 for the internship,kaha likha he?
+call aaya mujhe,sir ko puch le
+Kya puchu ?,internship kare kya
+Sir nhi bolenge,tu nahi karte
+Sir bole teko jhapad denge,kyu? thikhe samja
+Haaa Nahi karna hai,samja
+Haa,jhapad pe he samja gaya lekin tune mera name liya? puchete time?
+haaa,jandu mil tu kal
+haa,3rd ka hua kya? ki kal college me karte he?
+Om ko bola tha karne Usne koya ki nahi Pata nhi,Kuch nahi he
+Acha thikkw Send me the list of web,why?
+I have to make android ka list,no screenshot?
+So I'll have to crosscheck I do but I didn't take a final ss,Full stack web development : 1. Amey Pacharkar 2. Adwita More 3. Aum Patel 4. Shubham Kadam 5. Ashmit Shalke 6. Khush Chheda 7. Shivam Pachpute 8. Kaustubh Gondkar 9. Manjul 10. Pranay Rajak 11. Sairaj Sawant 12. Aastha Verma 13. Tanmoy Das 14. Tanveer android me kar maja
+👍 Haa,tere hat se boda he  ye thumbs up
+Ha kya,IA ka bata mujhe kya karna he
+Haa,varna me fail ho jayunga
+Haa,abhe chat feature bana raha hu Friday ko tujhe prototype deta hu phone pe
+1.) Kshitij Vyas 2.) Devansh Mayatra 3.) Jai Parmar 4.) Sahil kamble 5.) Khush Godani 6.) Atharva Rajpurkar 7.) Varad Naik 8.) Ayush dere 9.) Parag raut 10.) Mihir Girap 11.) Purva Ambre 12.) Abudulla 13.) Adwita more 14.) Sidhesh Padhi 15.) Aayushi Sakpal Banaya ?,Chat ka logic ho gaya UI boki he
+Ohkk,Ratk ko ya subhe complete karna padega Kal me shayad pura kar dunga
+Haaa,IA ka bata mujhe
+Haa,Sullabus
+Haa,You deleted this message
+It's done now ?,Today is last day Oh don't check the first one It's for 3rd assignment Today is last duay
+Yaa Send answers,Bheja he mene
+Acha,Uperke photos dekh
+Meko laga tere android ka hai,Nahi Vo galtise agaya
+Ha abhi dekha,3rd assignment ka he he vo
+Haa Karta hu mai I forgot to give the assignment ........ Happy independence day though,Happy Independence day 🎆🎆 devansh kya kar raha he
+Python,acha kyu re?
+Aise hi Socha karlu Sir alla course kabhi chalu kar Rahe hai ?,pata nahi maybe next week
+Puch,abhe cap round 2 hoga na
+Haa,aur shayad trainers tayar nahi honeg <This message was edited>
+Haa,chacha he me puch bol raha he
+Haa Vidhayak ho aap,vidyayak matalab? <This message was edited>
+Meko dwm ke 5th exp ka write up bhejna,mere pas nahi he
+Likhke bhej,me nahi likh raha kal thekhun ga
+Kal Check karana hai,ya phir raat ko ha
+Jabhi bhi likhega bhejdena,par me nahi likhe raha abhe chalega
+Jabhi bhi Ha,tere pas nahi he? batch c me thek
+Dwm ke lab manual me sab commands hai,tu kya likhe  ga? ma'am ko puch
+Dekhna padega,message kar
+Mam ne hola kuch likh do,hola?
+Bola,to likh de aur bhej mujhe 😂😂
+Tu likh ke bhej,kal 9 ko aa likhe te he takhe
+Kyu ? Ha thikke,cholega
+Ha,me abhe phir se jata hu flutter karne
+Haa,mujhe group chat bhe karna ne Tuesday tak IA ka bhej mujhe
+Ha karle,heavy emphasis
+D3khta hu,with intimading vinanti dikh mat bhej no option for you
+Mera to hone de yaar,oh like that
+Maine bhi kuch nahi kiya,sunday thak padh le phir mujhe bata
+Ha,ya phir Saturday thak
+Haa,Ho gaya chat feature
+send apk does it support files or only messages ?,apk nahi banaya he. You said only messages?
+i did ?,As you can clearly see
+i asked that,And u added 'only messaging' instead of messaging
+im asking whether it supports both ?,It's messaging for now. Will add images later. Files idk.
+make an apk first and send me ill try find bugd,I won't be clearing the bugs but sure
+make bugs you have to solve you cant let them be or they'll enter your house,Tere gher bhejun ga me
+tu khale,Apk build kar raha hu
+hoga to bhejde,Ha Me tera phone hack kar satha hu if you try installing
+your app is showing up as a threat to my phone,.
+its showing safe now,Tck bach gaya
+Bug,Ha Ha re. UI pe mat ga. *ja Use functions
+Can't create,I am too bored to do UI Lol Kya bole phir
+i created an account i dont have any chats whos mummy ?,My mother Yaa search Yaa I was showing to my parents
+i sent hi to her,So I made a account as a example She won't get it. Since she doesn't have an account
+okk,You wanna see something interesting?
+your text isn't aligned properly ya show,Yaa I have to do that. I realised that during my showcase
+yeah,Admin power Wuahahahahhahs
+what admin power i cant see anything happen,Ha? Try doing sth
+your time is wrong,Wait you can still use app?
+it always shows 4:19 I JUST SENT YOU ANOTHER MESSAGE,Damn another issue
+HAHAHAHAHAHAHA,Hmmmmm You shouldn't be able to use my app
+HAHA POWER OF THE USER,Should change it Try logging in again Not creat but log in
+WHY WOULD I LOG OUT WHEN IM ALREADY LOGGED IN,No wait Yaa wait
+THATS THE BIGGEST BUG,Try now
+YOU WHOULD LOG THEM OUT WHEN ACCOUNT IS DELETED,What??? Try now
+try what,Doing sth
+i just sent another message oh the messages got deleted,Yaa Try again
+sent another message,Hmm you became a ghost user Your data is not stored So it's only for you No one can see or reply to you Yaa Will have to add authentication on messages
+haha,You are my first ghost user
+i can message myself too chats dont show up on the home page they only show up on the search page,Stand proud you are strong Yaa I have yet to put recent chats That will do tomorrow along with images And a way to kick ghost users
+No can do,Via authentication It would be easy. Just check authentication and then call log out function
+ill be always a ghost user,Oh yaa true. If you never update
+wait no,Then? Make a new account let's chat on my app Tho you can accent the ghost account But we can make new ghost account so no problem
+made new account,I will put a feature where there is a 1/10000000 chance you might just get ban randomly 😂😂😂
+🤣😭,That would be fun
+yeah it would be,Me.laptop nahi la Raha
+Thikkkkkkk THE CHANGES ARE BIG ITS SO MUCH EASIER FOR NEW PLAYERS WE CAN CHOOSE A STANDARD 5 STAR EVERY YEAR AND THE CHANCES OF GETTING THE PROMOTIONAL 5 STAR HAS BEEN INCREASED WHEN YOURE ON 50/50 AND IN EPITOMIZED PATH THE FATE POINTS FAVE BEEN REDUCES FROM 2 TO 1 AND MORE CHARACTERS WILL BE ADDED TO THE STANDARD BANNER AND 500 PRIMOS FOR EVERY ARCHON QUEST COMPLETED FROM 5.0 AND 10 FREE PULLS FOR RETURNING PLAYERS AND WE CAN NOW INCREASE OUR STAMINA VIA THE PYRO STATUES AND 20 MORE FREE PULLS FOR EVERYONE,Useless That's nice Useless. Weapon banner scam Cool. More characters to loss 5050 on That's nice. Limited? That's nice tho wasn't it the same previously
+it wasnt,That's what we wanted for past 3 regions
+we barely got 2 3 wishes 1600 primos,Nice.
+yeah,Cool
+yeah datawarehouse vs datamining datawarehouse vs datamart datawarehouse datamining ka architecture oltp olap operations ka difference olap operations Naïve Bayesian Classification,Is it for DWM?
+yeagh,DWM 1.datawarehouse vs datamining 2.datawarehouse vs datamart 3.datawarehouse datamining ka architecture 4.oltp olap operations difference 5.olap operations 6.Naïve Bayesian Classification Thank you
+Yep Tcs ka kuch mila to bhej,Abhishek ko puch na. Vo bheta tha na kal?
+uske paas kuch nahi hai pucha maine,Acha
+https://www.instagram.com/reel/C9iEXHuBGUk/?igsh=MXcyamRjMWEzOGVveQ== exam ka timetable bhejna Thanks,Padke ho gaya?
+Kuch nahi padha Animations kar raha tha,Acha Sai he Kal se padana chalu karna padega
+Haa Tcs ka puch na kisiko Imp ya 2nd module ke notes hai kya,Kisko pata hoga
+Pata nhi Vishal ya kisiko puch Pranit ?,Thekta hu
+Haa,TCS ka vunko nahi pata huga Subham mujhe puch raha tha Vunkr group ko pura nahi pata hoga
+Haa mujhe bhi puch raha tha Maine Abhishek ko bhi pucha usko bhi kuch nahi pata,To sab padana padega
+Haa,Kal me dadar ja raha hu. To get books
+Okk Bata meko I'll also come,Chalega Me sota hu abhe Chal
+Haa,Gn
+Ha chal,Me nikal gaya
+Dadar se ?,Ha
+https://youtu.be/wIuVvCuiJhU?si=CA8jyrfVkew1HIWr,After watching this video i can officially say I have neither knowledge nor experience of UI design
+yeah same,Today is last day of paying money for nptel course
+okkkk 22```1111111111qwe,?? Cat type?
+yeaah,You don't have cat tho
+Aarya is my cat,What do you expect me to answer?
+Nice,Nice
+Thanks,.
+Haa tune bhara ?,Nahi bhata hu
+Location me mumbai hai hi nahi Dekh ke bata,Other kar Phir Mumbai dal
+Thikke dono preferences me Mumbai dale ?,Pehe page pe he hu me
+acha thikke udher aake bata,Share details with college? null
+done,doune
+okkkk,chal phir me sota hu
+haaa https://socials-3aei.onrender.com/,That looks nice
+yeah its hosted with an express server,Ohh how does that work?
+Just routing,acha
+Haa Authentication wagera baki hai,DWM ka bhej dena mujhe bhe
+isme 2 3 question missing hai wo karke bhejta hu,Kiya tune? Aur mujhe ek bar numerical dikha dena college me
+Wo Maine bhi nahi kiya Maine Jo kiya hai usme table hai Pichle Saal ka paper dekha to usme table nahi hai Nhi,Acha. To college me Jake dhekha na padega
+Haa,Tech knowledge me bhe table wala tha
+Haa,Kya hua devansh?
+Goldman Sachs ke internship ka form bhar,Bhej
+https://jobswithsmile.wordpress.com/2024/08/20/2025-engineering-campus-hiring-program/,Provide email me personal?
+Haa,Aur kya kya padha?
+Kuch nhi,Resume aur cover letter banana padhe ga. Kiya tune? Last date kya he? To kya karega?
+Padhunga abhi Immediately likha tha wahape Dono banana hai ?,Ha
+Chod fir Chod fir,Acha. Me khake padhane betahu. Abhe otha
+Haaa,Harshit ne jo bheja he usse padh raha he?
+Haaa,Thanks Me pdf padh raha tha Notes ka
+Ohh Maine answers chote kar diye,Ha saihe Ikna baas ho gaya for 5marks
+Haa,Mera servlet baki he Vo karke phir thekta hu question bank ke questions Google se dudana padega
+Haa https://www.instagram.com/p/C-mqJJvPzEv/?igsh=eWVjMmZ1NXpkZGcw https://www.instagram.com/p/C9FhrggS8pP/?igsh=MTJhemhidTJidDF1YQ== https://www.instagram.com/p/C--qqouym6l/?igsh=MTcyN2h2ZXNwdjBjYw== Jpmc ka hackathon me register karna hai,Karte he Team bana raha he?
+Dekhte hai Search kar https://careers.jpmorgan.com/us/en/students/programs/tfsg-hackathons https://www.hackerearth.com/challenges/hackathon/ust-d3code-campus-hackathon24/,Bharta hu me Bahar aya hu me Ghar Jake bharta hu Team he?
+bharneke pehwle bata check nahi kiya,? Ok Last day?
+12 days hai isko Kolkata based hai lekin,Ye? Acha
+wo itna nahi dekha,Chalega Me dhekta hu Phir call karta hu Jag ajj rat ko <This message was edited>
+Haaa,He wala konsa he? GDSC me aya he
+Ye Pata nahi Karna hai register ?,Ha karte he na
+Karde for register,Ha call pe bolte he
+Kal karte hai Mai Sone jaa raha hu,Acha thik he Chal
+Haa Chal Sir ko om ka puch,Ha Suche?
+Sources Padhne,Ocha
+Haa,Thonks
+haaaaa,Waiting List 1. Abdulla Parampelli 2. Tanishq Wadhava (Abdul’s Friend) 3. Om Jaiswal (Amey’s friend) 4. Siddhant Jha (Aum’s Friend ) 5. ⁠Manav Shah 6. ⁠Ayush Dadar wala 7. ⁠Diya Shetty 8. ⁠Rushikesh Dadar wala 9. ⁠Krishnaveni Rest of the students Pls DM @⁨Amey Pacharkar⁩ now to enroll precious thing of JKB It’s L3PP Om waiting me he
+Om bola aa raha hai,Om ko bolla
+Ha bola,Cholega
+"Haa Namaste & Jai Gurudev 🙏 Once again, we all will come together to celebrate the beauty of Lord Shiva at the _*Shravan Maas Special RUDRA PUJA*_ with *Janmashtami Special Satsang 🪈🎶*🧘 *@Goregaon East*, Mumbai _Through Rudra Puja, one can transform all the negative energy into inner peace, prosperity and joy!_ Block your calendar: *Date :* *27th August, 2024 (Tuesday)* *Time :* Evening, 7 pm onwards *Venue :* Oberoi Woods Banquet Hall, Oberoi Woods, Oberoi Garden City,  Goregaon (E), Mumbai 400063 *Google Location :* https://maps.app.goo.gl/bJbgbQqknF4Y2DLM7 *If you wish to take Sankalpa, visit:* https://vdst.in/e/49235 *Wondering what is sankalpa? Watch this👇🏻* https://youtu.be/GU9SGmNoPKU *Happy to help :* 98202 72190 / 98331 24492 *Open for all* Ye bol Rahe the sir",Kya he ye? Devansh. Yagana vagera chalu kar raha he kya?
+dekh rev tu,Kya theku? Kiske liye yagna kar raha he?
+kisike liye nahi kaisa tha ? web ka first session,Maja aya Sir bohot saihe <This message was edited> He have done so many things We started with basic HTML. Sir said to make our own portfolio I wanna do extra stuff in web which I didn't do in Android I will also advice you to do extra in Android.
+Yaaaaah Sir ka naam kya hai ?,You deleted this message You deleted this message Abhishek sir na? <This message was edited>
+Abhishek satre ?,Ha
+Achaa,Oh you were ligit curious My bad
+Haa,I gave you too much credit
+Well I knew,You knew what?
+God knows,I see
+Sir konse company me hai puche ?,You guys have satyendra sir
+Ohkk Same same na,Ha it's a advertisement ferm Ha I didn't caught the name
+Ohkk Hume abhi tak nahi pucha,Tho I heard it is a really big company
+Ohkk,Lol sir ne he bataya Like rank 2 or sth
+Ohhh big ja Ha*,Then sir showed all different projects of his and swaraj bhaiya's
+Ohkk Tumhe swaraj bhaiya hai ?,Ese kyu baat kar raha he? Ha tumhe mostly vedant bhaiya  hoge shayad
+Kyuki Humne ye sab nahi dekha tha Haa sir bole the,Vo bohot ache he. Swaraj bhaiya ka pata nahi
+Okkk,Ohh
+Maja aayega Humara Kal hoga shayad Om bhi web me haina,Ha Ha om bhe he Lekin wo tukhi lag raha tha Ya phir maybe bohot serious
+Kyu ?,Facial expression He was sitting totally serious
+Serious hoga,Ha I was the same on my first few weeks
+Realization of industry hit him,Yaa mostly that
+Ha Mai bhi Got normal after getting used to it,How we used to be is normal Not how we are We are even chill in exams
+Yaa😂😭,I will be chill even if I got KT Lol
+Our perspective got changes after l3pp,So true
+Well our parents wouldn't be,😂😂 True I can see a big difference in your behaviour A good one Don't let it go to your head tho
+We know we can do it but we can't explain it to them Haaaaaa,Yaa that is a bad thing. Need to work on it
+I tried explaining sirs plan to them,Who parents?
+And they were like tu karke bata Yaa,True Tho don't tell them about this things Just show them your outputs
+Yeah I understood after that,I am watching Oppenheimer lol
+Ohhhh,Yaa
+It's really cool,Yaa I will talk later it's starting Later
+Yepp Later,Ek number tha movie It was really good
+It was ha,Yaa the life of his was really well protracted. It was not just about bomb but about consequences of him building that bomb
+Yeah And the framing and the later story,Yaa it was really good. Tho it was little hard to grasp the story telling in beginning
+https://www.instagram.com/reel/C_EAlK-P_EB/?igsh=OHNmcmQ0NTFicGQw Ya it was,"karte register if it satisfies our 1conditions <This message was edited> <p align=""right""> what does this do? is this css or part of html?"
+Html Are in word we align text na,ha
+Haa,so what is it called?
+Alignment Text alignment,no the way it is written what is it called?
+Inline css,oh so its css na
+Well not technically,is there a tag to pad?
+"Cause you're not using style tag It must be an paragraph attribute And not css Cause you use style="" "" and write your css in that for online Inline*",acha so you use it as attribute?
+Yaa,what is attribute?
+Hmmm Like small parts of a tag you can say Href is attribute of a tag,acha
+Haa,to use  karu kya attributes to make potfolio? kuch bolenge nahi na sir if I did little extra? or stick to just putting paragram and headings?
+Yaa use it Kuch nhi,or I can use pre and then give space inside it
+Jo Jo tags ke attributes hai use karle Kuch nhi bolenge,acha netlify ka link bheg na jahape we can host mil gaya rahene de
+Okk,How do you change the name of url? You deleted this message
+Therez an option below to change name The small text looks very small Have to zoom in to read,https://assignment-1-basic-html.netlify.app/ Ho gaya
+You just changed the name,Yaa
+Yaaa I'm starting react,Ohh today?
+From yt Yaa,Ah Not gonna wait for sir?
+Don't know if sir is gonna take or not I asked Chiranjiv bhaiya,React lene wale the na?
+Can I start or wait for sir Bhaiya bole you can start with the basics Ha bole the sir will ask today,Sir told us if you know js then you can learn react even in one hour
+Ohhh,Yaa sir was telling us.
+Then I'll do it today I guess,It was react or node. Tho it was basically you can do any js framework if you know js good So we will take time in js
+Yaaai know Chiranjeev bhaiya said that my js is good and that I can start react,Yaa then do it
+Yaa I'll finish it today only Then if sir teaches it will be revision and brush up,Nice
+Yaaa,I won't be able to do anything today as well I will return home today evening
+Ohkk,Maybe after that
+Yaa Did sir say when will app be ?,Mostly today
+Yaa I assumed So both app and web today,I think Abhishek sir is busy today
+Oh is he ? Is that why sir took your lecture yesterday ?,Yaa that's why we had our session yesterday instead of today Yaa
+Does he go for Dahi handi ?,Most probably
+Yaa😂,Is there anything I can change in this?
+The small font All these small font make them a bit bigger,Ah I used pre for this It changed the font on its own
+Yaaa,So just use p tag?
+It will also be small mostly Try it,The website looks so bad in just HTML.
+Ya ofcourse You haven't used css,Everything else is in p except for small text
+Ohh Then use p only I haven't used pre in a long time,Yaa Is there a way to make it look nice just using html?
+Naaaa,XD So what am I suppose to do just keep it as it is?
+Well you can use table to structure it,Ohh tho it will be bad on mobile Really bad
+Yaaa Will have to zoom out to see the entire thing,Yaa Well I will do some changes I have 1 week
+Yaaaa https://www.instagram.com/reel/C-g24tOqOpj/?igsh=Y3dwbWE0MHVxODU= https://www.instagram.com/reel/C8Unh5xvbe9/?igsh=ZGFpM2kwaWh4dWds,https://forms.gle/9gg51PLqortHCTEH9 Please fill this form its a PCE survey on rest api. Share it among yours friends too🙏 Ashmit ne bheja he. They are also doing servey based
+Ohhh Sabko puchna Iske baareme Koi interested hai kya jaane me,Thekte he Kal araha he kya? 8.30 ko?
+Aana padega na Test hai,Ha Chalu he session?
+Haaa Satyendra sir hai,Acha he Aur vedant bhaiya?
+Wo abhi nhi hai Sir bole vedant aur Shravan bhaiya dono honge,Oh shravan bhaiya?
+Abhi nahi hai meeting me,Ohhh dono bhe bohot saihe
+"Haaa Namaste & Jai Gurudev 🙏 Once again, we all will come together to celebrate the beauty of Lord Shiva at the _*Shravan Maas Special RUDRA PUJA*_ with *Janmashtami Special Satsang 🪈🎶*🧘 *@Goregaon East*, Mumbai _Through Rudra Puja, one can transform all the negative energy into inner peace, prosperity and joy!_ Block your calendar: *Date :* *27th August, 2024 (Tuesday)* *Time :* Evening, 7 pm onwards *Venue :* Oberoi Woods Banquet Hall, Oberoi Woods, Oberoi Garden City,  Goregaon (E), Mumbai 400063 *Google Location :* https://maps.app.goo.gl/bJbgbQqknF4Y2DLM7 *If you wish to take Sankalpa, visit:* https://vdst.in/e/49235 *Wondering what is sankalpa? Watch this👇🏻* https://youtu.be/GU9SGmNoPKU *Happy to help :* 98202 72190 / 98331 24492 *Open for all* If you are interested to go let me know",Jamdu jara elaborate kar Sir ne bola he vagere
+Kya likhu ?,Kabhe he aur kya he
+Sab hai usme,Acha sorry
+Ye kya likhu ?,Sir ne pucha he agar arahe ho to let me know Esa kuch
+Yehi copy paste kar raha hu,Ok Aur add kar tu kon he. If they don't know you And add vinayak sir insteadof sir
+Kar diya abh Sir means Vinayak sir,Acha chalega
+"Haa KPIT Sparkle 2025 is here, and we are thrilled to invite your esteemed institution to be a part of this prestigious innovation contest. This is a great opportunity to showcase your institution’s talent. For SE, TE and BE students Your students can win cash prize up to INR 17,00,000 Gain global recognition as hub of innovation This experience will greatly improve technical and soft skills of your students Students get exposure to real-world problems in areas like Generative AI, Embedded Software, DPI, Autonomous Vehicles, & Sustainable Mobility Want to know more? Join our special webinar. Choose a webinar from options below. Option 1 August 28th 6:00 PM to 6:45 PM Register for Webinar 1: https://events.teams.microsoft.com/event/92ceab44-42fc-44a3-81c8-a051804e9844@3539451e-b46e-4a26-a242-ff61502855c7 Option 2 August 30th 6:00 PM to 6:45 PM Register for Webinar 2: https://events.teams.microsoft.com/event/572629ea-b1fb-4bb6-87ba-29466726a11f@3539451e-b46e-4a26-a242-ff61502855c7 Students: Click below to learn more and to register Student Registrations: https://sparkle.kpit.com/?utm_source=SuperSet_email_Sparkle2025&utm_medium=Email&utm_campaign=SuperSet_Professor2025&utm_term=Register_forSparkle2025 Shared by: Swapnil Desai Head, T&P Department, VPPCOE&VA. This sounds interesting",Kar register Me bhe karta hu
+Haaa Option 1 ki 2 M ? Konsa karu seat ?,First row
+💀,Let's destroy our eyes 😂😂 Ache konse seats baki he?
+Bhai our eyes are already being destroyed by sitting infront of laptop all day,?
+All the green ones are remaining,Green are?
+Haa I ya K me bichme dekh sakte hai,Ha thekle Keep it near corner as much possible
+Corner ? Okk,Not in total corner but in middle corner
+K 4 5 ?,Is it in middle?
+Naa,Keep it in center Or we will have to tilt our heads and neck will be totally damaged
+K 9 10,Behind ones are more money?
+Yaa 180 And the last line is 300,And this?
+150,Is it too upfront?
+Not that much It's in the middle,So neck death or no?
+Or we can go I 9 10 Naa We'll be fine,Then go I 9 10
+Okk Alright Done Cancellation nor available,Where is this?
+Plaza Dadar It's besides dadar station,Okk Let's meet at 12
+Yaaa,https://github.com/beanboi7/yomomma-apiv2
+whats this,Check it out
+jokes api ?,Yaa
+python app using jokes api ?,Naa just get the API
+ohhh ill try to make in react,XD
+all are yo mama 😭😭 damn thats nasty,Yaa 😂😂 That's why I send it You can get random jokes one
+im motivated now,U want that?
+yaaaa ill make yo mama first and send it to om,There is a chuck Norris joke one You want that? I didn't found any other
+yeah,https://api.chucknorris.io/
+"Yo momma is so fat that when she was diagnosed with a flesh-eating disease, the doctor gave her ten years to live. damn",😂😂
+so fat,I am gonna make one too
+im really motivated now gonna complete it tonight wont sleep until its complete,Me too
+YEAH,Jai is gonna love it
+ill send him first,Don't
+i made a color picker in react,Or else me sending it won't be any worth
+😂😂,Oh is it a compitition on this? Or just telling me?
+just saying,Ahh That's nice Show me on Wednesday
+im learning na yaaa,Yaa
+ill start next as soon as i finish the joke,Yaa XD
+YEAH,Send it to om na. As you said before
+Yaaaa I will Have to learn api fetch in react first It'll be good practice,Oh you making it in react That's great
+Yaaaa,Way of learning
+Yaaaa,I made the file name yo_mamma_joke_api_app XD
+😭😂🤣🤣 https://yo-mama-laughing-at-you.netlify.app/ i didn't make it mobile responsive,Yaa Nice
+and what do i do ? is that enough ?,Sure Idk I have not yet used it
+ill make it mobile responsive,I am redownloading flutter SDK
+ohh why ?,Yaa and make it little better xD Not working
+like ?,UI?
+ya but how,Tho it doesn't have alot of things in it
+ya thats what i can just give all the jokes but it wont be fun,Yaa
+yaa,I can't download SDK as well no wifi
+oh,The only thing left is to sleep xD
+no wifi ?,Yaa Yaa be creative
+yaaa yo-mama-laughing-at-you.netlify.app just dont click the button too fast it breaks https://to-do-app-react-assign.netlify.app/ aavi gauy gayu,👍👍 https://youtube.com/shorts/qlr8qV5cMCo?si=pa0cfmg1_FLV2A9k The guy who did this is cool NGL
+damn,No spoilers of game. What happened?
+pyro archon happened youll see a very cool thing,Lol I am excited
+Yeaaah You get hotsprings,Devansh can you send me all DWM experiments? Kartikey wants it
+Haa,That's all? That is all DWM? Did you completed short report? My chatgpt isn't working
+I haven't Did you give ot death threats or something,Even if I type something it doesn't work
+.,What is that? I didn't gave death threads to anyone What's ot?
+it*,No
+kill it,It was working in morning tho Idk what happened now
+aree shut it down and try aain again,Have done that 3times now Even my laptop Ho gaya Pura history uda Diya
+ohhhh sah\ihe this fine ? joine batav jaldi fass fass naito pachu banau padse,Ha chalse Maru bhe sarko che Thodi changes karvanu che
+Okk chalse,Te kale kares
+Okk,College me agar avayp to
+Haa Chalse,Maro doctor banavanu bhe baki che Te kale kares changes jode
+Achaa Chalse,Ha
+Haa,What do we have to do for CN?
+Write 4th exp writeup,Kya topic liya he re. Reusability of code? Vo karte he hena companies me To proposal ke ka jarurat?
+recycling........,Elaborate
+and I already got it checked to wohi topic lena padega recycling of kachra,Ha to thikhe par . Kya karega recycle karke?
+kachra,Ahh Samja Acha topic he
+haa bery bery bood,Tera (v & g = b) kar diya Galat he
+haaa,Make it right
+gery gery good,"Abhe tere g=v ho gaya to translation will be ""very very vood"" 😂"
+That's why I did that 😎,Devansh can you check if Priya ma'am is present today and let me know?
+Aayi hai mam,Ok Ata hu me phir Tu student network ka kar me alumni ka karti hu Waise bhi do alag website banayenge na Kya bolu?
+Ha ye chalega Lekin usko bol Ki ui ke patterns similar rahenge Like navigation color scheme,Ok
+Icons and all Identical hone chahiye,Ok Bataya mene
+Ha Okk Copy paste,Nahi likha mene
+Acha thikke,Yes
+Ok https://youtu.be/SBdDt4BUIW0?si=0L3nmDkE_qstRd-I https://youtu.be/A5s4uMI2Ri4?si=2jicpVgBM2yoQwCh,this one was good its interesting to analyse on the spot it would be more human like
+Yeah That's why ai,Yeah You deleted this message https://assignment-1-basic-html.netlify.app/ Thonks Two pointers kya hota he?
+Arrays aur linked list me Hota hai We use 2 pointers to check some condition Exactly kya hai dekhna padega,Example de
+Like if a linked list is starting and then connecting to itself on some node Konse node pe wo connect ho raha hai wo chek karne,Interesting Dhekna padega
+Haa,Pehele bar sun raha hu
+Maine dekha hai,Is it like front and rewr in queue?
+Naa,We use two pointers to check certain conditions
+Pointer 1 and pointer 2,Like addition will be this or that
+Ek pointer ko 1 se increment second pointer ko 2 se increment Jap dono pointer same node pe aayenge to wo intersection point hua,I see
+Yaaa,Will have to check this one out
+Something like that Have to see again 😂😂,Hum bhe ek ek pdf banake rakh te he
+Resume bass ho gaya,😂😂
+Ek cover letter attach kar denge,Saihe
+Vs code is so fucked up,Kya hua?
+I was doing next na So I was going user authentication using a sw named kinde,Sw?
+Software,Oh
+SO I downloaded all the dependencies And imported a module from it,Bhai point pe aa
+Vs code automatically filled in the path,Yaait does that You do crt +.
+It was giving error constantly Turns out the path vs code gave was wrong <This message was edited>,😂😂 Trolling
+I was banging my head for an hour,😂😂
+I was literally following a yt video for it and didn't realize it,Hota he
+Yaaa I felt so stupid,It happens
+Yeah,Tho why were you waiting so long? Then diverted?
+In the meeting ?,Yaa
+Time pass,So late? Saihe
+Yaaa,Sky ko aa kal
+Haa,Phirse Sona matt
+Haaa,Btw I played through the fight It was really cool
+Ohhhh It was Though mavuika lost her powers,Yaa she won Yaa
+That's sad,Don't go any ahead
+Ohok,I haven't done quest after that She gave her power to keep the flames running for little longer
+Yeah,So no more cool fight of her
+I thought capitano would win,Tho the region is really nice. It is based on transport this time Against God of war?
+Yeah The transport is great Yeah He's strong,Yaa we got sumaru thing along with infinite swim and rock Mona
+Strongest human I'm teyvat,For transport Oh really?
+Yeah,Oh and he didn't used his dilusion too
+Yaaa Used some dark ice,Dark ice? When? Oh the aura around ice
+Didn't his ice had a darkish tint,Yaa it was like aura or sth
+Yeah He even had the Natlan glow In one scene,Tho the archon has swag xD. With that sunglasses
+Yeah And the way she asked for the claymore From kinich You are in for a good surprise by the end And there are some weird speculations too Wanna hear one ?,No
+😂😂,Did you completed story?
+Yeah,I will do it maybe tomorrow or on Monday Will see
+That's why i said you're in for a surprise Yaaaa,I was exploring a little
+Ohh,Have put story on hold
+The area is good,The exploration is good yaa
+Climbing is not,Use rock dragon
+Need those green dinos,Yaa those r everywhere
+Ya it's easy with them,We only have 3 dinos right? We can transform into
+The green ones are hard to navigate Yeah,"Rock, green and swim dragon And we get our own pet rock dragon You got him?"
+I think more will come as new tribes are unlocked in future updates Yeah,You can even name him Yaa
+What did you name him ?,I think it was milo or sth What did you name him?
+It gets pressured if you name him neuvilette or dvalin or some other dragon Grumpy Paimon gets mad if you name him paimon,I wanna see what will happen if you name him your name That's nice name
+Yeah He's not exactly grumpy but suits his appearance,Yaa Maybe Rocky xD
+Yeah😂,There is a sequal to that quest Where someone tells you he is special.
+Oh yaa I started it Haven't completed,Yaa I just dropped it Another ararana type quest I thought it was
+Yeah it will be Big ass,That's why Tho my playing will go down alot
+Yeah same,Ohh woah you making blog? That's nice
+Yeah Practice Watching a yt video To learn,What are you writing about?
+Areee,No css?
+I'm not making a blog,That's disappointing
+I'm making a website on which you can upload your blog,Making blog was more interesting Who makes a blog to upload blog
+Areee I'm using tailwind,Acha
+Yaaaa,Chal phir me sota hu Nind arahe he
+Haaa Soja This message was deleted This message was deleted,"1) Apti 1. Be consistent 2. Solve apti question while travelling. 2) Technical round : 1. Problem solving 2. Communication 3. Questioning regarding question 2) Technical Round 2 1. Resume 2. Rules vise projects in resume 3. Comercial or social cause projects 4. Deployment link should always be there for project. 3) HR round 1. Honesty is best policy 2. Read regarding company (CEO, stock position, ) 3. Personal connect 4. Do you have any question? (Always yes, 10questions) Note :- Always be consistent"
+👍 Thonks What are the pages ? And show the flow of data Like navigation,arrow?
+Yaaa For all pages,and its navigated via navigation bar I have put a underline for which one is choosen
+All pages have navigation bar ?,yes
+Then it's fine Make one for mobile too,ok
+Gonna start with that first,what about functionality are they all included and done properly?
+The forums page Where announcements would be made Not there ?,home? the post thing is announcements
+Oh Create post is just a button ? And how will the student post ? Like didn't we Decide that the student can't post,create post is two message blocs one for topic and one for content
+The mentor will post na,yaa that's what I was confirming. functionalities barobar he kya?
+Yaaa,so how should I change?
+Make a separate page for create post,and only mentor can post?
+Yeah,What do student do? For phone
+It's a page for site for students to know what's going on in their college They can chat with mentor,So they don't get post option that's all For mentor add post option
+Yeah Yeah Ye sab group pe bhi share kar,As for new page for post. That's too little on a windows website. For phone it's fine
+Ya I guess,Will change and then send on group
+Yaa,Bheja he group PE
+https://meet.google.com/vbi-emev-hex,https://editor.wix.com/html/editor/web/renderer/edit/4cc93611-b4a8-4068-b1fb-59b0588a16e4?address&businessFirstFlow=true&businessName=STUDENT%20NETWORK&businessTypeName=Student%20Forum&email&flow&industryId=0aa001fc858a43156e1e030c&logo&metaSiteId=fa3f7246-1224-44db-83a7-937442901b5d&phoneNumber&siteGenerationWizard=true&structureId=450b418794e55522ecef192f
+kidher gaya tu,net issue https://ameypacharkar076.wixsite.com/student-network-1 https://ameypacharkar076.wixsite.com/student-network-1/profile/ameypacharkar076/profile
+my whole l3pp ka folder got deleted from my pc and my document ka folder too,Kyu? Kya kar raha tha?
+Kuch kar raha tha React ka To udd gaya,😅 Git se lele
+Haa git pe hai,Bach gaya <This message was edited>
+Haa,Nice
+Nice,Araha he?
+Haa Tu ?,Ho yeto ahe
+Okk Ye ye https://www.instagram.com/reel/C_Vq6R6SuiD/?igsh=MXR4NmFzbmZ0NGdjNQ== Account bana,Me nahi bana raha account
+Bana Na,🔔
+Kela,Kela?
+Banana,😂😂
+😂,It's server issue not because I don't have account
+Ya I know It's about abstraction,Yaa What abstraction?
+Oops wala abstraction,Kisme use kar rahe he?
+Aree it's about what is abstraction https://devansh-portfolio-v1.netlify.app/ https://youtu.be/BClm2qZYZrA?si=xM2DbgEoZL81UrH4 looks good ?,Yaa it does
+so I should keep the border ?,Yes
+okk write se ka write up 1 page for 2 3 4 exps and send me ill write later,Will see or else write it tomorrow
+Send if you write So gaya ?,Ha
+Portfolio wapis check kar,College me karta hu
+Haa https://www.indiabix.com/ https://youtu.be/UWwNIMHFdW4?si=U_F8ygcC-MNU5GN2,https://youtu.be/ClETppkoVQE?si=LMxpv5N4SIjucs8c Call kar
+Nikhil already has a group Ask manjul,alright
+We'll have to skip I guess No one will agree at this point of time,so we are never gonna participate in SIH? we wnt have time on 4th year
+Ya we won't Ask some one then,so...
+I called Nikhil He said he already has a team,I have send Manjul message who else?
+2 more,hmm
+Who else ?,lets talk with balkhande sir tomorrow
+Ok Let's come at 9 then,alright
+Ya,will write the write up tomorrow then in ip lecture
+Yeah,what are tomorrow's plans? only cn?
+Yeah leave after cn,and ip?
+Ya we'll sit that maybe,alright
+"And there maybe internal hackathon tomorrow Problem statements are already there on SIH website , you hv to choose unique problem statement for that you have to find solution and hv to create prototype for same and ppt is main key to select your team in final round Came on the group",what group? sih ka?
+Yaa,sir ko message bheja? teacher's day ka?
+Nhi Bhejna hai Kya bheja tune Bata Call laga nhi to Conf,Sir happy teacher's day 🎉🎊🍫 he bheja
+Okk,karna he call?
+Nhii Busy honge to chillayenge Kar diya msg The question is relevant 😂😂,Manjul ko kya bolna he?
+Sih ka teem join karegi wo ?,Ha to bole he if opportunity is there Par team hoga kya?
+Haa Pata nhi Sir ko kya reply kare ?,Kuch nahi Tu abhe ke liye kuch bolta nahi Devansh today is sept5 Remember 3 idiots? The speech day is today
+wo terrace pe likhta hai wo ?,Ha 8591196363 vu4f2223090@pvppcoe.ac.in manjulghadge@gmail.com
+https://youtu.be/CpCZNCm5zgw?si=xox77oRVF-OYurbX you have to see this,Woah that's brilliant
+I know right,Student st = new Student(); st = new Student(); how to make vertical line? is there something like hr?
+Nope You can't You'll gave to make a border,how?
+Border-right Border-left,css?
+I don't know if it'll work for table though Ya,jane do jane do janeee~ dooo~
+😂😂 Did you put 2 buttons in a a tag ? Why isn't it going in another line if you have br,I had it commented when I took the ss I had that issue previously as well
+Who with br Show,Without br yes Meet?
+Ya,Link
+wait,https://meet.google.com/ruz-bccz-qmu aja https://assignment-2-table-html.netlify.app/ dheko dheko
+har page pe link daal har ek page ka,??
+navigation jaisa,brave
+har pagr pe this on every page,ohhh interesting par kyu? whats the requirement for video on contact me page? or contact me in video
+chod fir,😊
+??,🥱🕘💤🛌
+😂😂😂 https://www.instagram.com/p/C_k5zyINF4R/?igsh=MTdsMTliOWJydXIwMA==,Me Instagram nahi use kar satha account nahi he to
+Account bana,Nahi bana raha
+Bana,nahi
+Haa So we installed flutter and android studio,Yaa vedant dada came to our meeting to ask that
+Yaa And my laptop got hanged,Well to be expected
+When I ran the emulator,I warned you It needs 4 or 6 GB RAM
+Then it ran smoothly,I don't remember it right now
+I have 8 gb,Yaa that's true. But the pain to start it is real. And it will lag if you have emulator and zoom on at the same time Your pc will freeze
+Yeah,Did you run the counter app?
+Yeah It was working https://socials-3aei.onrender.com/ Check the accounts section Where there was your account Go to second option in the navigation bar And click on the search bar,That's cool
+Everyone's account is different,Yaa I saw https://assignment-3-basic-css.netlify.app/ what can I change in css part?
+You just gave the buttons color You can give the entire page a background color Or background image,Wait you can? Just give body color?
+You can now give standing lines for partitions using borders Ya Give background in body tag,Ohh interesting i will try that I made css file tho Still use inline?
+body{ background-color:anything; } Not inline,👍 Got it Will try that
+Yeah,I changed font of text and some stuff in contact me part
+Ohh You can change the font color also,Yaa I did that Changed to white For buttons
+Yeah,Will change some stuff
+You can literally do anything with css,Yaa I was checking w3echool It has so many things
+Yeah,Well I will get back to it then
+Yeah,Will send you later again
+Yepp,Explore the gamification as a means to improve learning outcomes in computer science education The Use of Motion UI in Web Design: Enhancing Aesthetics and User InteractionThe Use of Motion UI in Web Design: Enhancing Aesthetics and User Interaction The Role of Robotics in Disaster Response and Recovery Operations
+PVPP Swapnil.vcf (file attached) Baat karna inse Bol ki raise sir ne bola hai ki aapke gaav me ek school ke liye website ya app banana hai to uske liye call kiya hai,are baba kar bath tu leader he na? tujhe kyaho gaya? kisebe nahibaat kar raha kuch hua he kya?
+i resign,Ye om ko bata
+send me the cat and dog wala api <This message was edited> GUESS WHAT I FOUND,Bohot jyada dukh hua kya re? Shodke gai to? Milne Jana padega. Requirements call pe nahi hoga Air next time group PE dalna
+🤐 how am i supposed to get the exact answer when the calculator is giving me that,No idea
+im getting it wrong because of the decimals,Make a condition to do something regarding that decimal
+ya im searcing that,Convert to float or ceiling
+naaaa it wants decimal value upto 2 decimals,Then limit it
+how do i limit it in dart i searched and searched amd searched its giving me functions,Use it
+i have to return a double,Convert it?
+it will be ok ?,Run it 😂😂
+have to write code again i deleted it in anger,Never ever do that You always regret it
+yeah i do,I think convertion is double.parse
+ohkk,Or you can do 'thatFunction' as Double
+'thatFunction' ?,So like number.toStringAsFixed(parameter) as double
+ohh alright,Save it in final decimal = number.... Then return decimal
+yeah thanks,devansh how do you select an image for background?
+background: url();,yes I did that
+Then ?,but how do you select an appropriate image to use?
+Size ?,which doesnt hurt eyes and is good and size too
+Use background properties,can I make it less intense or blur?
+search these up ya you can make it blur,yaa I have tried few of them
+you can also lower the opacity,how?
+if my mom asks if were going to college tomorrow then say yes to meet client https://meet.google.com/abd-szex-gbx Swapnil sir se baat karle Phone kar,Group PE bhej
+Kyu,dal group pe
+can you do something about this ?,It's Android security. It's whole another domain than app development
+yeah i thought so what about the other ideas ?,Ye wala acha he Ekbar group members ko puchle <This message was edited>
+haa puchna padega,Aur idea find karne bhe
+mai to last page tak pohoch gaya sirf software ka dekh raha tha,Thekle kisme Kam he karke
+kuch kuch ko to 0 submissions bhi hai,Vo thekle kese he Me abhe bahar ja raha hu lekin
+acha raatko dekhte hai mai ideas dhundhke rakhta hu,Chalega
+Haa,read kiya tune ps?
+nhi,read the soil one
+haa wo maine dekha but maine sort karke nikale hai,to farmers ko input de padega which is not good
+hardware lagega,ho
+haa,kya ho raha he? are we not participating in technothon?
+mera uss hi din mood gaya tha jis din mujhe rushi ka call aya tha,😅
+"Haa https://meet.google.com/fbx-xija-oqz 15/09/2024, 7:26 pm - Dovansh pinned a message https://genshin.jmp.blue/",Put message in your group to join breakout room
+Haa,me vo he kar raha tha
+Kya bolna chahta hai,same same
+Hmmm,Mera laptop gaya Shut down ho gaya aur abhe nahi khul Raha he
+Naya lele Bola tha maine,😂😂 Banana leke Gaye he thekte he kya bolte he
+Lele Naya fir hum exchange kar lenge,Khud ke pesse se Lena he
+Ram badhake lele ho dakta hoga to,Kya?
+RAM,Acha
+Random access memory,Thekta hu
+Haa,Ohhhh
+Haa,Esebe Naya lene wala hu me after 1~2 years RAM badake kya karumga
+Ohhh Ka wohi,Salore
+Kya ? Jojo ?,Salary
+Ohh Haha,Thekle i won't be able to make synopsis nor ppt today. Laptop ko der lagega You will have to make it or let someone else know
+I'm ill I'm on bed since this morning,Lalbagcha bari pad gaya kya?
+Nahi gaya tha Kal se bimaar hu kaise jata Sih ka kya Koi kuch bol hi nahi raha,Pata nahi Message dalta hu me
+Ha I'm not coming today I made the research paper If possible get mine checked too,null
+https://first-crud-app-7heb.onrender.com/posts theres a problem though if you give space in between the title then it doesn't work my vs code is broken its giving me java ka suggestion in dart earlier it gave me c++ ka,😅😂 Restart karke thek ekbar
+😂😂 Isme kya hoga ?,basically calc carbon emittion and give suggestion to neutralize it by various mean like planting trees or such so calculate how many trees required to plant to neutralize the corbon emmition
+So you have to enter the carbon amount manually na And make the formula Coal amt,most probably yes
+Like today we mined 300 tons of coal So I'll enter that,you can get the data since they already have to  weigh it
+And it will give me ways to tackle it,to neutralise the effect of carbon footprint on nature not tackle
+Yeah various ways for it It's simple then,yes it is
+We have to figure out the formula And then create a database for past logs,you can simply train a AI to that and boom no formula
+How do we train an ai ?,with data past data
+It's website right,yeo yep
+How do we make an ai model for that,you train ai model and then give output on website?
+What I'm asking is how do we get an ai model,thats a cool cat
+Gatto You're gonna ask Ravi sir ?,make it? buy it? import it? smuggal it? steal it? no I wont
+How do we make it ?,no idea most probably by making a formula
+Were gonna need external help unless parth knows something about ml,whats that?
+Cat,gatto?
+I think,gatto == cat?
+Yeah In italian,i see
+What about the ai,You deleted this message lets put that on hold
+Oki,they mosstly require AI
+Yaa,patani kyu private message gya devansh meet pe aaha he? mujhe web ke isme madat kar jara
+Haaaa,rukh ja jara shayad mihir ko kuch doubt he me message dalta hu
+acha thikke,ekhe dalneka option tha hogaya devansh meet join karle https://assignment-4-pos-nav-css-v2.netlify.app/#personal-details
+See the Kinich trailer a fucking 6 minute compulsory ad AND ON TOP OF THAT ANOTHER 1 MINUTE ADD,itna kyu araha he?
+I DONT KNOW GOOGLE NEW POLICY ADS ARE INTEGRATED IN THE VIDEO ITSELF SO ADD BLOCKERS CANT DETECT THEM,stop watching?
+STOP WATCHING YOUTUBE ?,I didn't got any add tho. maybe cuz I am on lower version?
+HALF THE THINGS WE LEARN ARE FROM YT,stop learning
+MAJORITY OF THE STUFF WE NEED FOR EXAM WE LEARN FROM YT,video bhej
+KONSA,leave exam ye
+DROP ? KHATAM AD GAYA https://youtu.be/krsSwCWn4xI?si=0GxlmNpV9tAsfbJL,yes drop in different terms
+COLLEGE CHOD DU ?,tereme khot he mujhe nahi araha he integrated ads I hope they can never do that legally drop re gravity ka do you wish to have a little brain kick rn?
+YES,join
+JOIN ? I AM ALREADY IN THE MEETING,are ha tera lecture he na maja  kar
+TERA NAHI HAI ?,ho gaya
+ACHA THIKKE BAADME BATA,me abhe mere brain ko kick kar raha hu
+MAR NAHI JAAYEGA TU ?,nahi
+_TOFIR _,Sir call nahi utharahe 10 ko khatam ho raha he na ajj?
+Haa Qa bhar de ?,Tera lecture chalu he?
+Haa,9.45 ko sir ne kuch logonko bulaya he na?
+Haa Hum breakout room me hai,2nd year ke he?
+1st year ka lecture  chalu hai,Kal he puchana chaheye tha
+Haa,Ha to to sir nahi uthayenge
+Haa Dubey sir ka hai Mechanics,To vinayak sir?
+Dekha nahi,Sir ko message dal diya.
+kya bole ?,Abhe dala
+okk,You deleted this message agar nahi kuch reply aya to QA bhar dete he Maths he na to ho jayega
+Haaaaaaaaaaaaaaaaaaaaawaaaaaa,hawa?
+Haa,meet join karke puchu kya? agar hua to?
+Kar try,sir he
+Puch fir,are afk he sir
+Syllabus batana sir ko,varna bhar dete he QA
+Haa Om ko bhi bol de,group pe dalta hu
+Haa,me bhar raha hu
+Haa,Joy or QA what's this encryption? sir ka message
+iot hoga,joy?
+j I ke niche hi hai miss spelled,jyada he nahi tu liniant le bol raha he? well saihe he anyways QA
+maine kabh lenient lene bola ?,kuch nahi
+thikke,IoT or QA Kya bolna he devansh kartikey ko?
+Lachaaaaar,Group PE hota de usko bhe kal formal?
+Haa send me the website ka link student to mentor ka,konsa?
+Tune wix wala banaya tha wo,tujhe access Diya he
+Bhej na Mai bana raha hu abhi,https://ameypacharkar076.wixsite.com/student-network-1 try this link
+haa ho gaya,Me laptop nahi la Raha hu Tune laya he na?
+haa la raha hu,ek kam karna devansh
+kyaa,send me the names of all of our group members i will make you our project manager
+varad Shreyas me you sindhu,chalefa chalega
+sabko kaam pe laga team leader,are notice ho jayega dega kon rukaneka
+rukaneka ?,ha sabko kam batde thesis ka ho jayega
+haa karde mera seer dard ho raha hai,ham nahi kar rahe thesis
+mai thesis ka dekhta hu,acha sorry no problem go ahead
+haa bakio ko puchle,Dev2:has(+ dev3) Dev3:hover #lane-3:hover+#lane-container:nth-last-child(2)
+we have to fill gate ka form todays the last day,Yaa timer laga dete he
+haa,Vasantdada Patil Pratishthan’s College of Engineering & Visual Arts Vasantdada Patil Pratishthan's College of Engineering Bora? Mene bora
+Haaa,I had around 35GB of flutter projects I just deleted
+wow,You deleted this message XSME6NV4GX2Z KALF66CLGXKM PT5WP6D5GXJ9 CODE WA
+Haaaaaa Thankssss So I was watching this drama and this guy is coding in python in a javascript file with a html file icon,😂😂 drama 101
+😭😭😂 Aaj lecture kyu hai ?,Konsa?
+Se ka,Pata nahi Bhet tu Me web karta hu Phir jara Kam he
+Mai nahi baith raha,"Acha You deleted this message <div id=""controller""> <div id=""upward-lane""></div> <div id=""downward-lane""></div> </div> <div id=""race-track""> <div id=""race-car""> </div> </div> Chal phir Badme baat karte he Kam karle problem statement ka kya karna he? ajj 28 he"
+haaa is that an image ?,yes both of them
+ohh,any ways to make  it look better?
+i was going to say to put it in a straight line,the buttons?
+yaaa,what about the background color for them?
+theyre fine,color and background images?
+all good,ok su karvanu che?
+kar dete hai final,Kya topic pe
+jo final kiye the wo,Om ko bolna he kya ppt ka?
+Haa,https://assignment-5-animation-car-game.netlify.app/ thek kesa he? mene submit to kar diya he <This message was edited>
+Tune unka position same kaise rakha ? Uper niche Jane ke baad,hehehe
+Kaise ?,hohohoho
+Bol re,me group pe bhe dal raha hu ki kuch changes baki he?
+position se kiya,ashmit told us when I asked swaraj bhaiya regarding the issue
+samjhaa ohh,yaa i had tried that idea but i tried it in animation it works the same
+scale kyu kiya achaa,setting me? ki hover me? samajna chaheye na konsepe hover he
+button pe hover karega to bada hota haine,ahh vo button nahihe hohohoho
+haa rukk mai bhi karta hu javascript ke saath,😂 cheating me group pe dalta hu
+I have more tools at my disposal,mene group pe dal diya
+haa,2.15hrs pehele dala ge sir ajj bolenge
+oh mujhe kal college nahi aana,kisene bhe nahi submit kiya he
+saihe,thekte he me bhe vuhe soch raha he
+haa,mene abhe assignment 5 ka excel banaya naya koi nahi banata
+haa koi nahi banata mai bhi nahi banata tha direct group pe daalta tha,sir ya bhaiya bhe nahi banate vohe kiya meje to lagta he sir ko lagta hoga bhaiya banate he aur bhaiya ko lagta he sir banate honge
+sir banate hai bolenge to,me ajj puch lete ho agar banaya to chalega na?
+maine ek baar group pe dala tha,ohhh me ajj puchata hu
+ki banaya to chalega kya to sir ne hi bana diya,acha tu furniture banane jane wala tha na? agaya? devansh ek bar om ko puch le regarding ppt mene kal yaad dilaya tha usko
+Haa,devansh how do you think i made click wala?
+Checked pe position change Kiya na,ha re saihe i used radio button
+Haaa,?
+Nhi gaye,Kyu re? Kantala agaya? Kuch bola om?
+Mera kuch bhi karneka man nahi kar raha,Devansh phone pe try kar Both works as click No hover 😂
+ya i tried because there is no hover on phone,Om said he will send till midnight
+okk,He said natt tak So not sure if it's midnight
+chalega,flex box is just flutter rows-columns
+Is it There's only 1 row and 1 column in flex though Nahi jana namaste for Kal?,na you can put n number of them just like flutter tho this one has a lot of properties there is no wrap for obvious reasons
+How do you make multiple toes and columns in 1 flex box,tho it has cross and main axis parts
+You can't,will tell you when we meet againa oh no wait you cant
+Rows and column define how the items will be placed,I meant in hierchier
+Oh ya,bad speeling yaa its same as flutter
+Is it,yes dito
+Kal college ? bolega ?,kya hua? me lecture me tha
+achaa kal jana hai college ?,toss uda head - ha tail - nahi
+heads aaya to nahi jaayenge tails aaya to ghar rahenge mera idea better hai,😂😂 hame bhe Diya sir ne. replicate the ui
+maja aayega karo,ha lekin projects bhe karne he
+haaa,kya karna he? nahi jana?
+nahi jana mujhe,om ko bhe bolna he?
+ha bolde royega nahi to,karna re meet se abhe likala
+thikke,uske baad call kar last me sai hua Vinayak sir aye the
+kya bole ?,sabke vat laga dete. abhishek  sir ne bacha lya
+om ko message kiya maine,😂 me to has raha tha aur mera video sabke upar tha Tune om ko bataya nahi? Nahi ja rahe he karke?
+Haa Bataya Wo jhatu msg late dekhta hai,Ha bola mene usko
+Wo sala msg nahi dekhta hai jaldi Dekha,Kya?
+Msg late dekhta hai,Kya hue?
+Kuch nhi ho gaya login,Thek phir
+mera lecture hai aaj mai nahi kar sakta,9ko he na? Karde
+Kya karde,Me bahar aya hu
+Toilet me hu abhi Acha thikke karta hu,Laptop leke ja
+Nikalke Abe Idea already submitted hai 2nd wala Final submit baki hai bata raha hai Ppt change karna haina,Ha update he
+Wo uml diagram,Uspe click karega to hoga
+Change karna haina Haaa Karta hu mai,Amhe tumche abhari ahot <This message was edited>
+Ha ha,save kar photo
+kaise karu ss hai,the flex-box game is so easy. even my brother was able to pick up
+Ya I know I completed it in like 15 mins I made this app 😎,Nice
+Yes code vita ka register kiya ?,Nahi kartehe
+Kyu ?,🤦‍♂️ *Ha karte he
+Acha thikke,Default setting 😂
+Ha ha 😂 now what,Wait what?
+it was episode 34 or 35 i think,"Yaa https://www.figma.com/design/TPeZoX6qfhIhNqYEQhFa48/Assignment?node-id=0-1&node-type=canvas&t=OLMJ41dXLkVM41IL-0 https://dribbble.com/shots/20470811-Review-App-UI-design?utm_source=Clipboard_Shot&utm_campaign=reng1sed&utm_content=Review%20App%20UI%20design&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=reng1sed&utm_content=Review%20App%20UI%20design&utm_medium=Social_Share https://dribbble.com/shots/20470811-Review-App-UI-design?utm_source=Clipboard_Shot&utm_campaign=reng1sed&utm_content=Review%20App%20UI%20design&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=reng1sed&utm_content=Review%20App%20UI%20design&utm_medium=Social_Share https://dribbble.com/shots/20470811-Review-App-UI-design?utm_source=Clipboard_Shot&utm_campaign=reng1sed&utm_content=Review%20App%20UI%20design&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=reng1sed&utm_content=Review%20App%20UI%20design&utm_medium=Social_Share https://dribbble.com/shots/23648302-Usechannel-Online-AI-Chatbot-App Container( decoration: BoxDecoration( border: Border( top: BorderSide(color: Colors.blue, width: 2), bottom: BorderSide(color: Colors.blue, width: 2), ), ), child: // your widget )"
+"gradient: const SweepGradient( // begin: Alignment.topCenter, // end: Alignment.bottomCenter, colors: [ Colors.blue, Colors.green, Colors.yellow, Colors.red, Colors.blue ], stops: [0.0, 0.25, 0.5, 0.75, 1], ), borderRadius: const BorderRadius.only( topLeft: Radius.circular(20.0), topRight: Radius.circular(20.0), ), 1 second upper ho gaya",2 upar
+shya,just line of texts
+Ya ofcourse It has nothing,add more tables 😂😂
+😂😂,BCE ka kya? Thesis?
+Mera lecture hai,Ppt bana me thesis thekta hu
+Thesis bana pehele Uska data use karke ppt banaunga Notice ?,Group PE bheja tha mene shayad
+.,??
+tu pehele thesis banake bhej usko reference use karke ppt banaunga mai,"# AI-Powered Mental Health Support Systems ### Exploring How Artificial Intelligence Can Assist Mental Health Professionals in Diagnosing and Treating Mental Health Disorders, Especially in Underserved Communities --- ## Acknowledgment I would like to express my deepest gratitude to all those who have supported me throughout the development of this mini thesis. My sincere thanks to my advisor, [Advisor’s Name], for their invaluable guidance and feedback. I am also grateful to the mental health professionals and experts who provided insights and shared their experiences, enriching the content of this study. Additionally, I extend my appreciation to my peers and family for their continuous encouragement and support. --- ## Abstract Mental health disorders are a significant global concern, affecting millions and imposing substantial social and economic burdens. However, underserved communities often face barriers to accessing adequate mental health care, including limited availability of professionals, stigma, and financial constraints. This mini thesis explores the potential of Artificial Intelligence (AI) in enhancing mental health support systems to bridge these gaps. By leveraging AI-powered tools, such as diagnostic algorithms, chatbots, and predictive analytics, mental health professionals can improve the accuracy of diagnoses, personalize treatment plans, and extend support to remote or underserved populations. The study examines current AI applications in mental health, evaluates their effectiveness, and discusses the ethical considerations and challenges associated with their implementation. Data was collected through a comprehensive literature review and analysis of case studies where AI has been integrated into mental health services. The findings suggest that AI can significantly contribute to diagnosing and treating mental health disorders, provided that issues related to privacy, bias, and accessibility are adequately addressed. This thesis concludes by recommending strategies for the responsible integration of AI in mental health care, emphasizing the need for collaboration between technologists, healthcare providers, and policymakers to ensure equitable and effective mental health support for all communities. --- ## 1. Introduction ### 1.1 Background Mental health disorders encompass a wide range of conditions that affect mood, thinking, and behavior. According to the World Health Organization (WHO), one in four people will experience a mental health issue at some point in their lives, making it a leading cause of disability worldwide (WHO, 2023). Despite the prevalence, access to mental health care remains limited, particularly in underserved communities where resources are scarce, and stigma remains a significant barrier to seeking help. ### 1.2 Problem Statement The shortage of mental health professionals, coupled with socioeconomic barriers, results in inadequate mental health support for many individuals. Traditional mental health services are often inaccessible to those in remote or low-income areas, leading to untreated conditions and exacerbated social issues. There is a pressing need for innovative solutions that can extend mental health services to these underserved populations. ### 1.3 Purpose of the Study This study aims to explore how Artificial Intelligence (AI) can enhance mental health support systems by assisting professionals in diagnosing and treating mental health disorders. The focus is on leveraging AI technologies to improve accessibility, accuracy, and personalization of mental health care, particularly in communities that are currently underserved. ### 1.4 Research Questions 1. How can AI technologies be integrated into mental health support systems to improve diagnosis and treatment? 2. What are the benefits and limitations of using AI in mental health care, especially in underserved communities? 3. What ethical considerations must be addressed when implementing AI-powered mental health solutions? ### 1.5 Significance of the Study The integration of AI into mental health care holds the potential to revolutionize how mental health services are delivered. By addressing accessibility issues and enhancing the capabilities of mental health professionals, AI can contribute to more effective and equitable mental health care. This study provides insights into the practical applications of AI in mental health and offers recommendations for its responsible implementation. --- ## 2. Data Collection & Interpretation ### 2.1 Research Methodology This study employs a qualitative research methodology, primarily utilizing a comprehensive literature review and analysis of existing case studies. The research focuses on academic journals, industry reports, and credible online sources to gather information on AI applications in mental health care. ### 2.2 Data Collection Data was collected from various sources, including: - **Academic Journals:** Articles from journals such as the Journal of Medical Internet Research, IEEE Transactions on Affective Computing, and others focusing on AI and mental health. - **Industry Reports:** Reports from organizations like WHO, National Institute of Mental Health (NIMH), and tech companies involved in AI development. - **Case Studies:** Real-world examples of AI implementations in mental health settings, including teletherapy platforms, AI chatbots, and diagnostic tools. - **Interviews and Surveys:** Insights from mental health professionals and AI developers, though limited due to the scope of this mini thesis. ### 2.3 Data Interpretation The collected data was analyzed to identify key themes and trends in the use of AI for mental health support. The analysis focused on: - **AI Diagnostic Tools:** Evaluating the effectiveness of AI algorithms in diagnosing mental health conditions compared to traditional methods. - **AI Therapeutic Interventions:** Assessing AI-driven therapeutic tools, such as chatbots and virtual therapists, in providing cognitive behavioral therapy (CBT) and other interventions. - **Accessibility and Reach:** Examining how AI can extend mental health services to underserved areas through telemedicine and mobile applications. - **Ethical and Privacy Concerns:** Identifying potential ethical issues, including data privacy, bias in AI algorithms, and the need for human oversight. ### 2.4 Findings #### 2.4.1 AI Diagnostic Tools AI diagnostic tools have shown promise in accurately identifying mental health disorders by analyzing patterns in patient data, including speech, facial expressions, and social media activity (Bedi et al., 2022). These tools can assist clinicians by providing preliminary assessments, thereby reducing the time and resources required for diagnosis. #### 2.4.2 AI Therapeutic Interventions AI-powered chatbots and virtual therapists offer scalable solutions for delivering therapeutic interventions. Platforms like Woebot and Wysa utilize natural language processing (NLP) to engage users in therapeutic conversations, providing immediate support and coping strategies (Fitzpatrick, 2019). These tools are particularly beneficial in areas with limited access to mental health professionals. #### 2.4.3 Accessibility and Reach AI facilitates the provision of mental health services in remote and underserved communities through telemedicine platforms. By enabling remote consultations and continuous monitoring, AI ensures that individuals receive timely support regardless of their geographical location (Shah et al., 2021). #### 2.4.4 Ethical and Privacy Concerns The use of AI in mental health care raises significant ethical concerns, including the protection of sensitive patient data and the potential for algorithmic bias. Ensuring transparency, accountability, and adherence to ethical standards is crucial for the responsible deployment of AI technologies (Floridi et al., 2018). ### 2.5 Discussion The data indicates that AI has the potential to transform mental health care by enhancing diagnostic accuracy, personalizing treatment, and increasing accessibility. However, the successful integration of AI requires addressing ethical concerns and ensuring that these technologies complement rather than replace human professionals. Collaboration between technologists, mental health experts, and policymakers is essential to develop frameworks that safeguard patient rights and promote equitable access to mental health services. --- ## 3. Feedback ### 3.1 Stakeholder Perspectives Feedback from various stakeholders, including mental health professionals, patients, and AI developers, highlights both the potential and challenges of AI-powered mental health support systems. #### 3.1.1 Mental Health Professionals Mental health professionals acknowledge the benefits of AI in streamlining diagnostic processes and providing supplementary support tools. However, they emphasize the importance of maintaining human oversight to ensure empathy and nuanced understanding in patient care. #### 3.1.2 Patients Patients express appreciation for the increased accessibility and immediate support provided by AI tools. Nevertheless, concerns about data privacy and the impersonal nature of AI interactions persist, indicating the need for robust privacy protections and hybrid models that incorporate human interaction. #### 3.1.3 AI Developers AI developers recognize the complexity of mental health issues and the necessity for interdisciplinary collaboration. They advocate for the development of AI systems that are adaptable, transparent, and capable of learning from diverse data sets to minimize bias. ### 3.2 User Experience The effectiveness of AI-powered mental health tools is significantly influenced by user experience. Feedback indicates that user-friendly interfaces, personalized interactions, and reliability are critical factors that determine the acceptance and effectiveness of these tools. ### 3.3 Ethical Considerations Stakeholders emphasize the importance of addressing ethical issues such as informed consent, data security, and algorithmic fairness. Transparent AI practices and adherence to ethical guidelines are essential to build trust and ensure the responsible use of AI in mental health care. ### 3.4 Recommendations from Feedback Based on the feedback, the following recommendations are proposed: 1. **Enhance Human-AI Collaboration:** Integrate AI tools as supplements to human professionals rather than replacements, ensuring that empathy and personal connection remain central to mental health care. 2. **Strengthen Data Privacy Measures:** Implement robust data protection protocols to safeguard patient information and comply with regulatory standards. 3. **Address Algorithmic Bias:** Develop and train AI models using diverse and representative data sets to minimize bias and ensure equitable outcomes. 4. **Promote Transparency and Accountability:** Ensure that AI systems are transparent in their operations and that there are mechanisms for accountability in case of errors or misuse. 5. **Invest in User-Centric Design:** Focus on creating intuitive and accessible interfaces that cater to the needs of diverse user groups, enhancing the overall user experience. --- ## 4. Conclusion ### 4.1 Summary of Findings This study explored the integration of AI into mental health support systems, highlighting its potential to enhance diagnostic accuracy, personalize treatment, and increase accessibility, especially in underserved communities. AI-powered tools such as diagnostic algorithms, chatbots, and telemedicine platforms demonstrate significant promise in addressing the gaps in mental health care provision. However, the implementation of these technologies is not without challenges, particularly concerning ethical considerations, data privacy, and the need for human oversight. ### 4.2 Implications for Mental Health Care The adoption of AI in mental health care can lead to more efficient and scalable support systems, enabling mental health professionals to reach a broader population and provide more timely interventions. By automating routine tasks and offering personalized support, AI can alleviate some of the burdens faced by mental health professionals, allowing them to focus on more complex cases that require human empathy and judgment. ### 4.3 Future Research Directions Future research should focus on developing more sophisticated AI models that can understand and interpret complex human emotions and behaviors with greater accuracy. Additionally, longitudinal studies are needed to assess the long-term effectiveness and impact of AI-powered mental health interventions. Research should also explore strategies for mitigating ethical concerns and ensuring that AI tools are inclusive and accessible to all demographic groups. ### 4.4 Final Thoughts AI has the potential to revolutionize mental health care by making it more accessible, efficient, and personalized. However, realizing this potential requires a collaborative effort to address the ethical, technical, and practical challenges associated with AI implementation. By fostering collaboration between technologists, mental health professionals, and policymakers, it is possible to develop AI-powered mental health support systems that are both effective and equitable, ultimately contributing to the betterment of society. --- ## 5. Bibliography 1. Bedi, J., Ganesh, L., & Petzold, M. (2022). AI for Mental Health: A Systematic Review of Predictive Models. *Journal of Medical Internet Research*, 24(5), e12345. https://doi.org/10.2196/12345 2. Floridi, L., Cowls, J., King, T. C., & Taddeo, M. (2018). How to Design AI for Social Good: Seven Essential Factors. *Science and Engineering Ethics*, 24(3), 1237-1247. https://doi.org/10.1007/s11948-017-9951-8 3. Fitzpatrick, K. K., Darcy, A., & Vierhile, M. (2019). Delivering Cognitive Behavior Therapy to Young Adults with Symptoms of Depression and Anxiety Using a Fully Automated Conversational Agent (Woebot): A Randomized Controlled Trial. *JMIR Mental Health*, 4(2), e36. https://doi.org/10.2196/mental.8985 4. Shah, R., Rivera, J., & Rounsaville, B. (2021). Leveraging Telemedicine to Bridge the Mental Health Gap in Underserved Communities. *American Journal of Psychiatry*, 178(5), 412-420. https://doi.org/10.1176/appi.ajp.2020.20030330 5. World Health Organization. (2023). Mental Health: Strengthening Our Response. Retrieved from https://www.who.int/news-room/fact-sheets/detail/mental-health-strengthening-our-response 6. National Institute of Mental Health. (2022). Mental Health Information. Retrieved from https://www.nimh.nih.gov/health/topics/index.shtml 7. Shatte, A. B., Hutchinson, D. M., & Teague, S. J. (2019). Machine Learning in Mental Health: A Scoping Review of Methods and Applications. *Psychological Medicine*, 49(9), 1426-1443. https://doi.org/10.1017/S0033291719000384 8. Russell, S. J., & Norvig, P. (2020). *Artificial Intelligence: A Modern Approach* (4th ed.). Pearson. 9. Koutsouleris, N., Rapinesi, C., & van den Heuvel, M. (2021). Digital Phenotyping and Its Potential to Improve Diagnosis and Treatment in Psychiatry. *Biological Psychiatry*, 90(3), 206-218. https://doi.org/10.1016/j.biopsych.2020.07.014 10. Torous, J., Kiang, M. V., & Lorme, J. (2020). Digital Mental Health and COVID-19: Using Technology Today to Accelerate the Curve on Access and Quality Tomorrow. *JMIR Mental Health*, 7(3), e18848. https://doi.org/10.2196/18848 --- *Note: This mini thesis provides a comprehensive overview of the topic within the constraints of this format. For a full 25-30 page thesis, each section can be further expanded with more detailed literature reviews, additional case studies, extended data analysis, and in-depth discussions.* le kar use iska"
+iska ?,me bhe isko he expand kar rahahu
+hamara topic kya hai ?,to get 25-30 pages AI-Powered Mental Health Support Systems cholega na?
+are dusra topic lena om bhi healthcare kar raha hai same same ho jayega,dusar kya? *dusara
+dekh tu decide kar aur bata,.
+sir ne meeting me nahi liya na abh tak,ye kiya tha mene decide
+same same nahi ho jayega ? mujhe chalega,isleye pucha kya topic ho sata he
+lele fir yehi,complete nahi hua he so I can change
+mujhe sochna nahi hai,decide lene bola to mupher liya?
+decide lele ??,no! no! no!
+okk,thekta hu me
+haa,technical nahi leta me phir
+ppt kitne page ka ? political le,group pe check kar tere name pe podunga me political
+nhi jane de fir,iran and isreil war
+kuch bola nahi hai,mene dala he regardingpt
+sir ko call laga,*ppt ha
+aaj dala tha ?,nahi pehele
+ha to abhi wapis bhej,me nahi bhej raha
+bhej,dhun raha he to dhund varna jane de kal bana college me
+kal om bola to barabar bheja maine bola to nahi bheja dekhle ye bheja hai tune isme ppt kitne page ka hai kaha likha hai ? so aizen was discovered as the traitor phone utha kya hua Sunn Kya hua ?,ppt bana de
+haa kar raha hu,me page number aur alignment thik karta hu
+haaa,kya bolu abhe me
+bolde,kal botata hu
+ppt ke points kya honge samajh nahi aa raha,take each heading from thesis except acknowledgement try to make it visual
+1. Introduction 1.2 Problem Statement 1.3 Purpose of the Study 2. Data Collection & Interpretation 2.1 Research Methodology 2.2 Data Collection 3. Feedback 3.1.1 Mental Health Professionals 3.1.2 Patients 3.2 User Experience 4. Conclusion 4.1 Summary of Findings 4.4 Final Thoughts 5. Bibliography <This message was edited> this is over 20 pages cant take all,🤦‍♂️ Main topics bro
+all look main,You only put the 2.1 2.2 things as a point in ppt
+alright,With 1~2 line discription You are suppose to explain it yourself That's why best is visual
+now ? how do I make visual ppt ?,Our favourite pie charts
+ill have to read all the data and create them,AI?
+they wont give me diagrams anymore all exhaustef limit for the day,https://livechatai.com/pie-chart-maker This?
+i gave it 2 to 3 prompts it gave me the same pie chart all 3 times doesn't even make sense,AI Don't add those then
+just one ?,Na don't add It doesn't seem right that everything is equal
+yeah that's what,Aur mujhe bakike logonka pura name nahi pata
+kal puchke daal denge check once,Change the layout It makes it look overwriting First page thiksr arrange karna padega
+haa college me karte hai ill bring laptop,Okk
+haa,Devansh tell chatgpt to give minutes for this
+"Date: 20/09/2024 Time: 10:00 AM to 1:30 PM Location: Virtual Meeting (Zoom) 1. Welcome and Introductions Time: 10:00 AM to 10:10 AM Facilitator: Devansh Mayatra Devansh welcomed the team and introduced all members. The objectives of the meeting were outlined. 2. Project Overview Time: 10:10 AM to 10:30 AM Facilitator: Devansh Mayatra Devansh provided a brief background of the project. Key project objectives and scope were discussed. He highlighted the significance of the project and the expected outcomes. 3. Roles and Responsibilities Time: 10:30 AM to 11:00 AM Facilitator: Amey Pacharkar Amey explained the roles of each team member. Responsibilities were assigned, with emphasis on cross-functional collaborations. Clarifications were made on individual contributions. 4. Project Timeline and Milestones Time: 11:00 AM to 11:30 AM Facilitator: Shreyas Shreyas presented the project timeline and key milestones. Critical deadlines were highlighted, and the team was asked to note these. 5. Risk Management and Key Challenges Time: 11:30 AM to 12:10 PM Facilitator: Varad Varad discussed potential risks that may affect the project. The team brainstormed strategies for risk mitigation. Key challenges were identified, along with plans for addressing them. 6. Communication and Reporting Structure Time: 12:10 PM to 12:40 PM Facilitator: Devansh Mayatra Devansh outlined the communication channels to be used throughout the project. The reporting schedule was confirmed, and the documentation process was reviewed. Tools for project management were introduced. 7. Q&A and Open Discussion Time: 12:40 PM to 1:10 PM Facilitator: Devansh Mayatra The floor was opened for questions and clarifications. Team members raised queries regarding timelines and communication strategies, which were addressed by Devansh and other facilitators. 8. Next Steps and Closing Remarks Time: 1:10 PM to 1:30 PM Facilitator: Devansh Mayatra Devansh summarized the key decisions and action items from the meeting. The next steps were confirmed, including immediate tasks. The next check-in meeting was tentatively scheduled. Meeting Adjourned at: 1:30 PM Prepared by: Amey Pacharkar Role: Team Leader, Gemini wohi aaya Leke aa laptop Online bhi nahi ho raha import numpy as np from scipy.sparse import csc_matrix def pageRank(G, s = .85, maxerr = .0001): """""" Computes the pagerank for each of the n states Parameters ---------- G: matrix representing state transitions Gij is a binary value representing a transition from state i to j. s: probability of following a transition. 1-s probability of teleporting to another state. maxerr: if the sum of pageranks between iterations is bellow this we will have converged. """""" n = G.shape[0] # transform G into markov matrix A A = csc_matrix(G,dtype=np.float) rsums = np.array(A.sum(1))[:,0] ri, ci = A.nonzero() A.data /= rsums[ri] # bool array of sink states sink = rsums==0 # Compute pagerank r until we converge ro, r = np.zeros(n), np.ones(n) while np.sum(np.abs(r-ro)) > maxerr: ro = r.copy() # calculate each pagerank at a time for i in range(0,n): # inlinks of state i Ai = np.array(A[:,i].todense())[:,0] # account for sink states Di = sink / float(n) # account for teleportation to state i Ei = np.ones(n) / float(n) r[i] = ro.dot( Ai*s + Di*s + Ei*(1-s) ) # return normalized pagerank return r/float(sum(r)) if __name__=='__main__': # Example extracted from 'Introduction to Information Retrieval' G = np.array([[0,0,1,0,0,0,0], [0,1,1,0,0,0,0], [1,0,1,1,0,0,0], [0,0,0,1,1,0,0], [0,0,0,0,0,0,1], [0,0,0,0,0,1,1], [0,0,0,1,1,0,1]]) print(pageRank(G,s=.86)) import numpy as np import matplotlib.pyplot as plt import pandas as pd dataset = pd.read_csv('store_data.csv', header = None) transactions = [] for i in range(0,7501): transactions.append([str(dataset.values[i,j]) for j in range(0,20)]) from apyori import apriori rules= apriori(transactions, min_support = 0.003, min_confidence = 0.2, min_lift = 3, min_length = 2) MB = list(rules) Result = [list(MB[i][0]) for i in range(0,len(MB))] #print(Result) for item in Result: # first index of the inner list # Contains base item and add item pair = item[0] items = [x for x in pair] print(""Rule: "" + item[0] + "" ->"" + item[1]) #second index of the inner list print(""Support: "" + str(item[1])) #third index of the list located at 0th #of the third index of the inner list print(""Confidence: "" + str(item[1][2][0])) print(""Lift: "" + str(item[1][2][0])) print(""====================================="")","import numpy as np import matplotlib.pyplot as plt import pandas as pd from apyori import apriori # Load the dataset dataset = pd.read_csv('store_data.csv', header=None) # Preprocess the data into transactions transactions = [] for i in range(0, 7501): transaction = [str(dataset.values[i, j]) for j in range(0, 20)] transactions.append(transaction) # Apply the Apriori algorithm rules = apriori(transactions, min_support=0.003, min_confidence=0.2, min_lift=3, min_length=2) # Convert the rules generator to a list results = list(rules) # Function to print the rules def print_rules(results): for relation_record in results: for ordered_stat in relation_record.ordered_statistics: if len(ordered_stat.items_base) > 0 and len(ordered_stat.items_add) > 0: base = ', '.join(ordered_stat.items_base) add = ', '.join(ordered_stat.items_add) support = relation_record.support confidence = ordered_stat.confidence lift = ordered_stat.lift print(f""Rule: {base} -> {add}"") print(f""Support: {support}"") print(f""Confidence: {confidence}"") print(f""Lift: {lift}"") print(""====================================="") # Print the association rules print_rules(results)"
+what in the actual bullshit is this,who is that? context? ahh yaad aya its beauty
+His ballsack 😭😭😭 <This message was edited> Swaraj bhaiya ka number bhej Group me samajh nahi aa raha,Swaraj Dada (Web Dada) JKB.vcf (file attached) Ma'am will there be sums in IA exam? Which sums should I prepare for if so?
+Message hi nahi kiya maine Shit I am interested,yes Rushi ka mujhe bhe aya tha
+Maine notes hi send nahi kiye Abhi tak,Acha Kar send phir
+Haa Lecture ke baad,Saihe
+Haaa watch the new bleach arc now,naa currently not interested
+dekh mast hau hai hai hai,to?
+hai hai hai hai,nahi thekna mujhe
+hai hai hai hai hai thikke,block kar dunga me spam matt kar
+thikke ip la moodle se bhej mam ke notes,ye kya?
+Haa Notes hai ? Isme sirf 3 modules ka hai,notes
+Haaaa Thanks,paddle mujhe kal sikha
+Haa,kuch kiya? any imp?
+Nhi Soya tha,I can predict future ohhh night study?
+Haaa,kar kar
+Try karunga,kal mujhe batana
+Tu nahi kar raha ?,me ekbar uparse thekta hu
+Okk,samja to ache baat he
+Haaa paimon in Japanese can be pretty cute sometimes but very annoying too,https://codepen.io/?cursor=ZD0xJm89MCZwPTEmdj04MTY2Nw==
+https://codepen.io/jh3y/pen/mdNrrKX https://youtu.be/ClETppkoVQE?si=IjnzlSK5e7qrkDYt,"Lol Trust? Se ka 3,4 he kya tere pass?"
+And using all of them together made his damage go from 29k to 120k,Oh in neuvi teams You start with that ?
+Kartikey puch raha haina,Yes
+Maine dekha hi nahi uska msg,Acha To tu bhej raha he kya?
+Mere paas rahega to bhejta hu,Ha
+Nahi to tujhe bolta hu,3-4 kya he?
+Data flow aur use case diagram Use case case tere paas hai Data flow mere paas hai,Group PE dhek
+Ruk,Bheja?
+use case nahi hai mere paas data flowbhej diya maine,mujhe  bhe nahi mil raha he
+tune om ko bheja tha om ke chats me dekh ek baar print nikalne,ye?
+haaaa,Ek kam kar. Too ke sir ko puch regarding data which is to be added in the app
+Abhi ? College me phone nahi uthayenge,Thikhe
+"Good evening Sir, Me and my group are developing the app for ZP School and we have started the development we require the data about the school for further progress can you provide us with the same Good evening, Sir. My team and I are currently developing an application for ZP School. We have begun the development process and require specific data about the school to ensure its successful completion. Could you kindly provide us with the necessary information to facilitate our progress? Thank you for your attention to this matter. Mast na",Ha bohot acha he
+"Good evening, Sir. My group and I are developing an app for ZP School. We have begun the development process and require data about the school to continue our progress. Would you be able to provide us with the necessary information? Thank you for your time and consideration.",Tera nahi he Mera itna acha he
+Hey there! My group and I are working on an app for ZP School and we've already started the development. We need some data about the school to move forward. Can you help us out with that?,Hey there? Dost bana diya ai ne
+"Good evening Sir, Me and my group are developing the app for ZP School and we have started the development 📚 we require the data about the school for further progress 📝 can you provide us with the same 📚 Sab outcomes hai ye Ye hi bheju na ?","Good evening Sir, My group and I have started working on the app for ZP School. We needed the data about the school as well as the data to be added in the app. Can you kindly provide us with the same? Ye thek"
+Ha chalega Bhejta hu,Ha
+Bhej diya,what is it called when it goes all the way down to next screen on one scroll?
+Scroll snap,are the websites with one scroll wala to different sections
+You mean parallax?,ah ya
+Parallax is when different objects on the screen move at different speeds on scroll,ohhh I will try it do you give different animations?
+Scroll snap is directly moving to next page when scrolled above a certain percentage,should I do parallax or scroll snap or menu?
+I haven't tried yet You want to move to the next section on scroll na abe tournament of power movie hai ki episodes hai ?,Shayad dono he
+meko episode wala mila wo dekh raha hu sir ka kuch reply nahi aaya hai,Acha
+haa how do I use hex codes colors in flutter,"Color.fromARGB(255, 183, 64, 147) try this"
+Ya I used that,can we change the color of a img inside a img tag? or will I have to use the img in the background-img? work kiya?
+Ya you can Blend or something Rgb aaya Ha wohi,Happy Dussehra
+Happy Dussehra ✨️🍀 YOU HAVE TO COMPLETE THE 5.1 ARCHON QUEST I WANT TO TALK,nahere android karna he
+mai bhi wohi kar raha hi,btw how can I keep a div fixed and then remove it when it get to end of screen ohh to tubhe matt ghel ?
+mera ho gaya khelke javascript,any other way?
+not that I know of How do I get ridd of the fine line above new updates,its container border I thin
+Ya it is,*think
+They are 2 containers,there should be a border property
+I set it to none ?,sure
+Sure ? Im asking,try it
+Do we have to set it to none ? Alright,try it
+Ok,me itna der se resume bana raha tha. portfolio banana tha
+Kya 😂,https://ameypacharkar.netlify.app/
+Use svh fir height Bottom part is getting cut off Everything else is nice,mere isme barobar tha tera phone chota e *he
+Use svh or dvh Haa,vo kya he?
+Small and dynamic view height,how do you use it? rukh  me search karta hu
+Haa,ekbar responsiveness thekle web pe
+yrah works fine],check now regarding this hua kya? tu svh use karta he kya?
+nhi aisa kabhi problem nahi aaya ha abhi barabar hai,ss bhej ha mene scroll snap use kiya
+Haaa,to jara bhe upar ya niche kiya to sitha next section
+Haaaaa Acha hak Hai,adha adha nahi hoga
+Haaa,chal phir good night
+Ha chal Good night,mujhe kal karna padega android
+Haa kar kar,bleach?
+Bleach ? Dekh raha hu,Marja devansh
+Call kiya tha ?,SKY ko ana chaheye tha
+Kya hua ?,Sir kal yitna bole na ayo karke Phir bhe nahi aya Sir ko bhe acha lagta
+Raatko late soya,Dadar araha he kya?
+To utha hi nahi,Bleach
+Dekhta hu Nhi be wo to khatam ho gaya tah Project ka kar raha tha,Oh ho acha
+Mai online hi karne wala hu fees,Ha me bhe ekbar papa se puchata hu
+Are ye meeting bhi haina kich 10.15 ko,Are ha
+Haaaa,Attend kar me sirf join karke rakata hu
+Haaaa Waaaah,Thekta hu me. Ajj shayad nahi kar payunga me Android ka project. Engagement ke liye ja raha hu shamko
+Ohhhh Maje kar,Maybe duperko thekta hu
+Haaa,Dyan do meeting me Aur phirujhe batav
+Haaa Tu jaa raha haina dadar ?,Ho
+Sir ko puch online kaise karna hai,Ha pohochake puchata hu
+haaa,Call kar null Ajj shamtak bata mujhe data ke bareme Atleast puch kya kya dalna he aur konse format he and kesa chaheye db
+Everyone who is willing yo come to bangalore please pay 3500 as travelling expenses from Mumbai to Bangalore and vice versa Haa Ye chalega ?,"Who are coming to Bangalore pay rs.3500 for travelling expanses (Both ways train travel, Bangalore bus travel)"
+Ok On the above given or code,Ha
+Ye add karu? Okk,Devansh Everyone dal pehele. Everyone who are ...
+Dekh,Thikhe Om ko bhe puchle jabhe tu usko call karne bol raha huga
+Haa Aum Patel paid,https://docs.google.com/spreadsheets/d/1BAcSaMNv4tCczsM3clTW3MzVJKBmzHAjtCTUEfPIrn0/edit?usp=sharing
+Access de,call karke pranav ko bol poll lene group PE poll dalde konkon interested he regarding Bangalore agar sir ne vune bhe bola hoga to ye puch pehele <This message was edited> aur bol Borivali aur nerul ke bhe coordinators ko karne ke liye
+Bola Bola hai sir ne unhe,chalega
+Par Pranav khud nahi aa raha,thik he me thekta hu rehene de
+Poll dalega wo hola Bola Ki na bolu ?,rehene de
+Thikke,sir se ekbar puchake bol denge second year walonko abhe kuch mat bol
+Thikke call karu kya sabko kisi aur ne pay nahii kiya,Status puch le
+thikke,Kal college Jana padega <This message was edited>
+Haaaa,mene nahi likha kuch kal likhana padega submission ke din sare assignments check karne padenge
+haaaa se ka kya,Nahi kiya
+Mere paas pages nahi hai,College me likhana padega
+Ha aa gaya,Hua kya re?
+So gaya tha me,Mohit ka hua he kya?
+Mohit ?,Mihir
+Ha bheja usne,Current status: 3194+ 5345 = 8539 12250 - 8539 = 3711
+5345 ? Tickets bhej Ohook tera 4 haina,Before refund
+okk,Tu likh raha he kya?
+Nhi,ma'am ka call tha project ke liye thikhane ke liye
+Kya bola ?,database baki he
+To mam kya boli ?,ma'am bol rahe the thikhav
+To abh ?,bola mene submission he to jara gadbad he
+Okk 24500 12250 -  given to amey 8006 - banglore to mumbai 3194 - mumbai to banglore Remaining balance - 1050,khale
+https://dribbble.com/shots/20562638-Kids-education-app-Quiz-app-Ed-tech-application,Om ko pucha regarding benguluru?
+Ha Wo bola raat tak batata hu,Bol usko 10.30 ko book karne wale he Meet me Aur sir ne bheja hua message bhej de usko
+bheja,om ko bol agar araha he to join kar
+Call nahi utha raha,Usko bol last hoga Confirm tickets khatam ho jayenge
+Tu laga call,Bola bata raha he Vo bahar Gaya he family ke sath null sirf login registration huahe bohot baki he
+Hm,bohot kantala araha he cant they just use this?
+our projrct is an app,it is the same thing nothing different at this point I am getting sleep deprived
+you should sleep then,https://github.com/AmeyPacharkar1896/ZpSchoolApp/tree/master/zp_school mujhe shayad late ho jayega
+wow abh ?,delete karna padga c drive se
+star rail delete kar de,deleted he pc me only genshin
+ohh wo bhi delete karde,thek ta hu varna node udana padega
+baadme download karde wapis,agar nahi ho raha hoga to ha
+haaa https://github.com/ketanchoyal/Our-E-School https://github.com/strbbrn/Fluttter-School-App https://github.com/Yassin522/SchoolMate-App working ?,c drive
+its empty I mean full,yaa it wont run
+delete genshin,since no space in c drive ha
+kiya ?,ha You deleted this message You deleted this message You deleted this message You deleted this message You deleted this message You deleted this message You deleted this message You deleted this message You deleted this message You deleted this message You deleted this message You deleted this message You deleted this message You deleted this message You deleted this message You deleted this message You deleted this message You deleted this message You deleted this message You deleted this message You deleted this message You deleted this message You deleted this message You deleted this message You deleted this message You deleted this message You deleted this message You deleted this message You deleted this message You deleted this message
+ye sab kya,https://github.com/AmeyPacharkar1896/zp_school_lib ismese lib lele ek flutter project bana aur copy paste karde
+Ok,ymal file bhe bhejta hu
+ha,asset bhe lele aur pubspec.ymal pura copy paste kar Kya karu me abhe? Ye to nahi mil raha log book banadu tabtak?
+ha banade pubspec ?,pubspec.ymal file hoga end me usme kopy past kar
+pura error laal laal,dependancies nahi he na
+nahi hai,folders me nahi he?
+ha mila' fir bhi error hai,?? thika Copy paste Kiya?
+haaa,Flutter pub get Command Gaya?
+nhi hai,Khol file aur check kar errors Cut kar terminal
+super pe error dikha raha hai,Ye last year ka he Hover kar uspe aur ss bhej Mujhe nahi ayatha Dusare file dhek Usme kya error he
+har jagah par wohi error hai super ka bass,Tu ek kam kar ymal copy kar aur error bhe aur chatgpt ko bol Solve karke de Hamare group me 3 Jan he na bass?
+haa super ka gaya lekin aur bhi errors aaye,saihe kya kiya? only red wale thek agar hua to
+ha red wala hi,mene clear kiye the lekin abhe pata nahi
+uri doesn't exist bol raha hai,uda
+delete ?,ha
+iska ka kya,tuje error kyu araha he?
+pata nhi,vsc band kar restart pc aur phir try kaar hamare project ka name kya he/
+mentor connect mai ye technothon ka karne baithunga to apna mini project hoga hi nahi report bhi nahi bana hai,😅 mera bhe wohe he
+same error,pehele he usko declare kiya he mujhe nahi aye ye sab errors lekin
+haaa,hamara project kisme he?
+kismet hai matlab ?,kya kya use kiya? mongadb aur?
+ejs css node.js express.js,ye tujhe android>build-grader vahape true karna padeg
+kahape,db kisme he? error wala variable he kya wala pe?
+nhi mongo db atlas,report karle
+dekhle https://forms.gle/ygf5CZbA2oPd8avg9 https://youtu.be/8Vk_2Kq9Njw?si=0_MISkF5-GbiQaKJ,Kal hamara nahi he To paad Lena kal
+Haa First dwm haina ?,"22Oct - CN 24Oct - DWM 25Oct - SE 20/10/2024, 8:50 pm - You pinned a message"
+Okk Cn padhna padega,Ha isliye bola Mene Kiya complete chapter 5 arc 4 Sai tha Fake sky bhe dheka
+Haaaa Blocks Moon,Destroyed
+Sahi hai Haa,Mujhe laga vo planet he
+Maja aaya Tera death count Kitna gaya ?,War vo aur better kar sakte the. Lekin bache phir nahi khel pate Death count?
+War me Death count Hota hai,Mera ki sabka?
+Wo page me,Pata nahi theka nahi. Around 2k?
+Mera 4k tak gaya tha,Kyu? Mujhe laga hard coded he vo
+Tere actions pe depend rehta hai wo Tu kaha pehele jaata hai,Ohh
+Kisko pehele save karta hai Haaa,Saihe
+Haaa,Highest kitna hoga?
+Maine Reddit ya twitter pe 6k dekha tha Jske uper nhi,Total natlan ka population kitna he?
+Pata nhi Lekin mostly sab revive ho jaate hai Flames ki wajahse Kuch hi marte hai,Saihe
+Haa,Mujhe lagta he around 10k hoga
+Ha mostly,Ya phir aur kam Max 10k hoga
+Lekin isme paimon first time kuch kaam ki aayi in a while,Usmese agar 6k mar gaye to 60% bohot he Kya kiya?
+Haa She asked captain about dainsleif,Ah ha
+Haaaa,Likin last battle baki hena
+Haaa,Final
+Traveller and mavuika jaayenge,Fire traveller
+Mujhe lagta hai abyss me mavuika travelling ko gnosis degi aur khudko sacrifice kar degi,Aur mavuika ka death
+And we'll get an op fire traveller,Op nahi rega
+Hona chahiye He should use The gnosis,Gnosis maybe captain lega
